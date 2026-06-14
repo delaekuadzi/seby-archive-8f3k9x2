@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<!DOCTYPE states SYSTEM "game_states.dtd">
+
+<states>
+	<state name='global'>
+		<event name='onMessage'>
+			<actions>
+				<action name='handleMessage' />
+			</actions>
+		</event>
+	</state>
+	<state name='init'>
+		<event name='onEnter'>
+			<actions>
+				<action name='Initialize' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions />
+			<transitions>
+				<transition state='idle' />
+			</transitions>
+		</event>
+	</state>
+	<state name='idle'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='waiting'/>
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='CheckForArrival' args='takeoff_start'/>
+			</actions>
+		</event>
+	</state>
+	<state name='takeoff_start'>
+		<event name='onUpdate'>
+			<actions>				
+				<action name='CheckDelay' args='1,takeoff' />
+			</actions>
+		</event>
+	</state>
+	<state name='takeoff'>
+		<event name='onEnter'>
+			<actions>
+				<action name='explodeDesk' />
+				<action name='PlayAnimation' args='takeoff'/>
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='CheckForAnimationComplete' args='rise'/>
+			</actions>
+		</event>
+	</state>
+	<state name='moving'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='idle'/>
+				<action name='startMove' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='moving' />
+			</actions>
+			<transitions>
+				<transition condition='WithinAttackRange' args='150' state='attack_bomb_start' />
+			</transitions>
+		</event>
+		<event name='onExit'>
+		</event>
+	</state>
+	<state name='lower'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='idle'/>
+				<action name='startMove_down' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='moving_down' />
+			</actions>
+		</event>
+		<event name='onExit'>
+		</event>
+	</state>
+	<state name='rise'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='idle'/>
+				<action name='startMove_up' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='moving_up' />
+			</actions>
+		</event>
+		<event name='onExit'>
+		</event>
+	</state>
+	<state name='vulnerable'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='idle'/>
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='CheckDelay' args='2,rise'/>
+			</actions>
+		</event>
+		<event name='onExit'>
+		</event>
+	</state>
+	<state name='attack_bomb_start'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='bomb'/>
+				<action name='PlaySound' args='sfx_boss_attack_release'/>
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='moving' />
+				<action name='CheckForAnimationComplete' args='attack_bomb' />
+			</actions>
+		</event>
+	</state>
+	<state name='attack_bomb'>
+		<event name='onEnter'>
+			<actions>
+				<action name='Launch' args='0'/>
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='moving' />
+				<action name='BombDelay' args='attack_bomb_finish' />
+			</actions>
+		</event>
+	</state>
+	<state name='attack_bomb_finish'>
+		<event name='onUpdate'>
+			<actions>
+				<action name='moving' />
+				<action name='CheckDelay' args='0,moving' />
+			</actions>
+		</event>
+	</state>
+
+	<state name='dying'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='dead'/>
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='CheckForAnimationComplete' args='dead' />
+			</actions>
+		</event>
+	</state>
+	<state name='dead'>
+		<event name='onEnter'>
+			<actions>
+				<action name='die' />
+			</actions>
+		</event>
+	</state>
+</states>

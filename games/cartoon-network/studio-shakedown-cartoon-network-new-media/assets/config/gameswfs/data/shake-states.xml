@@ -1,0 +1,413 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE states SYSTEM "game_states.dtd">
+
+<!-- TODO: Allow more complex conditionals. Instead of
+	       simply calling a function, specify a property
+		   and a test value.
+-->
+
+<!--
+	  TODO: Every state will probably want it's own processMessage 
+			function. It would be great if we could define message
+			responses in the state xml.
+
+			For example...
+
+			<msg name="Move_West">
+				<action>doSomething</action>
+				<transitions>
+					<transition>
+						<condition>c</condition>
+						<state>newState</state>
+					</transition>
+				</transitions>
+		    </msg>
+-->
+
+<states>
+	<state name='global'>
+		<event name='onMessage'>
+			<actions>
+				<action name='handleMessage' />
+			</actions>
+		</event>
+	</state>
+	<state name='init'>
+		<event name='onEnter'>
+			<actions>
+				<action name='Initialize' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions />
+			<transitions>
+				<transition state='idle' />
+			</transitions>
+		</event>
+	</state>
+	<state name='idle'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='idle'/>
+				<action name='SetVelocity' args='0, 0' />
+				<action name='CheckForAction' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='handleMessage' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='UpdateAnimation' />
+				<action name='UpdateMouth' />
+				<action name='Carry' />
+			</actions>
+		</event>
+	</state>
+	<state name='walking'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='walk'/>
+				<action name='startWalk' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='walking_handleMessage' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='UpdatePosition' args='idle' />
+				<action name='Carry' />
+				<action name='UpdateMouth' />
+				<action name='UpdateAnimation' />
+				<action name='draw' />
+			</actions>
+		</event>
+		<event name='onExit'>
+		</event>
+	</state>
+	<state name='attacking'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='hit' />
+				<action name='Set_Group_Active' args='colliders' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='attacking_handleMessage' />
+				<action name='SaveAction' />
+  			</actions>d
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='CheckForCollisions' args='colliders' />
+				<action name='UpdateMouth' />
+				<action name='CheckForAnimationComplete' args='idle' />
+			</actions>
+		</event>
+	</state>
+	<state name='jumping'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='idle' />
+				<action name='Jump' args='-10' />
+				<action name='SetVariable' args='m_jumping, false' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='jumping_handleMessage' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='jumping' />
+				<action name='UpdatePosition' args='idle' />
+				<action name='Carry' />
+				<action name='UpdateMouth' />
+				<action name='UpdateAnimation' />
+				<action name='draw' />
+			</actions>
+		</event>
+		<event name='onExit'>
+			<actions>
+				<action name='RemoveAction' args='MSG_Action_Up' />
+			</actions>
+		</event>
+	</state>
+	<state name='jump_attack'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='hit' />
+				<action name='Set_Group_Active' args='colliders' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='jumping_handleMessage' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='jumping' />
+				<action name='CheckForCollisions' args='colliders' />
+				<action name='UpdatePosition' args='idle' />
+				<action name='Carry' />
+				<action name='UpdateMouth' />
+				<action name='UpdateAnimation' />
+				<action name='draw' />
+			</actions>
+		</event>
+		<event name='onExit'>
+			<actions>
+				<action name='RemoveAction' args='MSG_Action_Up' />
+			</actions>
+		</event>
+	</state>
+	<state name='ducking'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='bend'/>
+				<action name='SetVelocity' args='0, 0' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='ducking_handleMessage' />
+				<action name='SaveAction' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='CheckForAnimationComplete' args='idle' />
+				<action name='Carry' />
+			</actions>
+		</event>
+		<event name='onExit'>
+			<actions>
+				<action name='RemoveAction' args='MSG_Action_Down' />
+			</actions>
+		</event>
+	</state>
+
+	<state name='entering_elevator'>
+		<event name='onEnter'>
+			<actions>
+				<action name='setMap' args='null' />
+				<action name="Drop" />
+				<action name='PlayAnimation' args='enter' />
+				<action name='SetVelocity' args='0,0' />
+				<action name='RemoveAction' args='MSG_Action_Use' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<!--<action name='entering_handleMessage' />-->
+				<action name='SaveAction' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='UpdateMouth' />
+				<action name='CheckForAnimationComplete' args='ride_elevator' />
+				<action name='Carry' />
+			</actions>
+		</event>
+		<event name='onExit'>
+			<actions>
+				<action name='TellElevatorReady' />
+				<action name='MoveUnderDoor' />
+				<action name='TurnOnElevatorMusic' />
+			</actions>
+		</event>
+	</state>
+	<state name='ride_elevator'>
+		<event name='onEnter'>
+			<actions>
+				<action name='ShowArrows' />
+				<action name='setMap' args='null' />
+				<action name='CheckForAction' />
+				<action name='UpdateArrow' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='riding_handleMessage' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='UpdateMouth' />
+				<action name='riding' />
+				<action name='Carry' />
+				<action name='draw' />
+				<action name='UpdateArrow' />
+			</actions>
+		</event>
+		<event name='onExit'>
+		</event>
+	</state>
+	<state name='exiting_elevator'>
+		<event name='onEnter'>
+			<actions>
+				<action name='SetVisible' args='true' />
+				<action name='PlayAnimation' args='exit' />
+				<action name='HideArrows' />
+				<action name='TurnOffElevatorMusic' />
+				<action name='TellElevatorReady' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='SaveAction' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='UpdateMouth' />
+				<action name='CheckForAnimationComplete' args='idle' />
+				<action name='Carry' />
+			</actions>
+		</event>
+		<event name='onExit'>
+			<actions>
+				<action name='exitDoor'/>
+				<action name='TellElevatorExit' />
+				<action name='SetGoal' args='null' />
+			</actions>
+		</event>
+	</state>
+
+	<state name='entering_stairs_up'>
+		<event name='onEnter'>
+			<actions>
+				<action name="Drop" />
+				<action name='PlayAnimation' args='enter_door' />
+				<action name='SetGoal' args='stairs_up' />
+				<action name='SetVelocityTowardsGoal' />
+				<action name='setMap' args='null' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='SaveAction' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='Carry' />
+				<action name='UpdateMouth' />
+				<action name='CheckForAnimationComplete' args='move_stairs' />
+			</actions>
+		</event>
+		<event name='onExit'>
+			<actions>
+				<action name='OpenNewDoor' />
+			</actions>
+		</event>
+	</state>
+
+	<state name='entering_stairs_dn'>
+		<event name='onEnter'>
+			<actions>
+				<action name="Drop" />
+				<action name='PlayAnimation' args='enter_door' />
+				<action name='SetGoal' args='stairs_down' />
+				<action name='SetVelocityTowardsGoal' />
+				<action name='setMap' args='null' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='SaveAction' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='UpdateMouth' />
+				<action name='CheckForAnimationComplete' args='move_stairs' />
+				<action name='Carry' />
+			</actions>
+		</event>
+		<event name='onExit'>
+			<actions>
+				<action name='OpenNewDoor' />
+			</actions>
+		</event>
+	</state>
+
+	<state name='move_stairs'>
+		<event name='onEnter'>
+			<actions>
+				<action name='SetVisible' args='false' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='SaveAction' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='UpdateMouth' />
+				<action name='Carry' />
+			</actions>
+			<transitions>
+				<transition condition='MoveToGoal' state='exiting_stairs' />
+			</transitions>
+		</event>
+		<event name='onExit'>
+			<actions>
+				<action name='SetVisible' args='true' />
+				<action name='draw' />
+				<action name='OpenNewDoor' />
+			</actions>
+		</event>
+	</state>
+
+	<state name='exiting_stairs'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='exit' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='SaveAction' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='UpdateMouth' />
+				<action name='CheckForAnimationComplete' args='idle' />
+				<action name='Carry' />
+			</actions>
+		</event>
+		<event name='onExit'>
+			<actions>
+				<action name='exitDoor' />
+				<action name='OpenNewDoor' />
+				<action name='SetGoal' args='null' />
+			</actions>
+		</event>
+	</state>
+	<state name='dead'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='dead'/>
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='dead_handleMessage' />
+			</actions>
+		</event>
+	</state>
+	<state name='paused'>
+	</state>
+</states>

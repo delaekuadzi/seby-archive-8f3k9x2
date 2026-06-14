@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+<GAMESHELL_CONFIG>
+<!-- The 'AssetPath' specifies where the PopFlash Player can find the assets listed in the 'Library'.-->
+<!-- The 'LoadingAsset' is the 'Name' of the asset to play while other assets are loaded into the Popflash Player.-->
+<!-- The 'InitialAsset' is the 'Name' of the first asset to play after the Popflash Player initializes.-->
+<!-- The 'Library' contains all of the information pertaining to each 'Asset'.-->
+
+<ASSET_PATH>config/GameSWFs/</ASSET_PATH>
+<LOADING_ASSET>loading.swf</LOADING_ASSET>
+<INITIAL_ASSET>story.swf</INITIAL_ASSET>
+<LIBRARY>
+<!-- The 'Name' is the actual name of the asset to be imported.-->
+<!-- An 'EventDescription' is an explanation to the Popflash Player about what to do when a specific 'Message' is received from the asset.-->
+<!-- The 'Message' is the notification that is sent to the Popflash Player when the event occurs.-->
+<!-- Each 'Action' is interpreted and carried out by the Popflash Player when the 'Message' is received. The actions are carried out from top to bottom.-->
+
+<ASSET>
+<NAME>loading.swf</NAME>
+</ASSET>
+
+<ASSET>
+<NAME>story.swf</NAME>
+<EVENT_DESCRIPTION>
+<MESSAGE>story_done</MESSAGE>
+<ACTION>load_setup</ACTION>
+</EVENT_DESCRIPTION>
+</ASSET>
+
+<ASSET>
+<NAME>setup.swf</NAME>
+<EVENT_DESCRIPTION>
+<MESSAGE>setup_done</MESSAGE>
+<ACTION>load_game</ACTION>
+</EVENT_DESCRIPTION>
+</ASSET>
+
+<ASSET>
+<NAME>game.swf</NAME>
+
+<EVENT_DESCRIPTION>
+<MESSAGE>game_end</MESSAGE>
+<ACTION>load_setup</ACTION>
+</EVENT_DESCRIPTION>
+
+</ASSET>
+
+
+</LIBRARY>
+</GAMESHELL_CONFIG>

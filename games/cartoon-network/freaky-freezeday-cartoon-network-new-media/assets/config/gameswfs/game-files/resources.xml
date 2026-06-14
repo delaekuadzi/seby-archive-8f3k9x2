@@ -1,0 +1,698 @@
+<main>
+<sprites>
+	<sprite>
+		<name>Mandy</name>
+		<filename>mandy.swf</filename>
+		<animations>
+			<animation name='s_idle' loop='0'>1</animation>
+			<animation name='e_idle' loop='0'>5</animation>
+			<animation name='n_idle' loop='0'>9</animation>
+			<animation name='w_idle' loop='0'>13</animation>
+			<animation name='s_walk' loop='1'>1,1,2,2,3,3,4,4</animation><!--loop-->
+			<animation name='s_fast_walk' loop='1'>1,2,3,4</animation><!--loop-->
+			<animation name='e_walk' loop='1'>5,5,6,6,7,7,8,8</animation><!--loop-->
+			<animation name='e_fast_walk' loop='1'>5,6,7,8</animation><!--loop-->
+			<animation name='n_walk' loop='1'>9,9,10,10,11,11,12,12</animation><!--loop-->
+			<animation name='n_fast_walk' loop='1'>9,10,11,12</animation><!--loop-->
+			<animation name='w_walk' loop='1'>13,13,14,14,15,15,16,16</animation><!--loop-->
+			<animation name='w_fast_walk' loop='1'>13,14,15,16</animation><!--loop-->
+			<animation name='s_attack' loop='0'>33,34,35,35,35,35,34,33,36,37,38,39,40</animation>
+			<animation name='e_attack' loop='0'>41,42,43,43,43,43,42,41,44,45,46,47,48</animation>
+			<animation name='n_attack' loop='0'>49,50,51,51,51,51,50,52,53,54,55,56</animation>
+			<animation name='w_attack' loop='0'>57,58,59,59,59,59,58,57,60,61,62,63</animation>
+			<animation name='s_attack_start' loop='0'>35,34,33</animation>
+			<animation name='e_attack_start' loop='0'>43,42,41</animation>
+			<animation name='n_attack_start' loop='0'>51,50,49</animation>
+			<animation name='w_attack_start' loop='0'>59,58,57</animation>
+			<animation name='s_attack_ready' loop='0'>33</animation>
+			<animation name='e_attack_ready' loop='0'>41</animation>
+			<animation name='n_attack_ready' loop='0'>49</animation>
+			<animation name='w_attack_ready' loop='0'>57</animation>
+			<animation name='s_attack_finish' loop='0'>34,36,36,35</animation>
+			<animation name='e_attack_finish' loop='0'>42,44,44,43</animation>
+			<animation name='n_attack_finish' loop='0'>50,52,52,51</animation>
+			<animation name='w_attack_finish' loop='0'>58,60,60,59</animation>
+			<animation name='s_slide' loop='1'>65</animation><!--loop-->
+			<animation name='e_slide' loop='1'>66</animation><!--loop-->
+			<animation name='n_slide' loop='1'>67</animation><!--loop-->
+			<animation name='w_slide' loop='1'>68</animation><!--loop-->
+			<animation name='s_knockback' loop='0'>69</animation>
+			<animation name='e_knockback' loop='0'>70</animation>
+			<animation name='n_knockback' loop='0'>71</animation>
+			<animation name='w_knockback' loop='0'>72</animation>
+			<animation name='s_frozen' loop='0'>137,137,137,137,137,137,138,139,140</animation>
+			<animation name='e_frozen' loop='0'>141,141,141,141,141,141,142,143,144</animation>
+			<animation name='n_frozen' loop='0'>145,145,145,145,145,145,146,147,148</animation>
+			<animation name='w_frozen' loop='0'>149,149,149,149,149,149,150,151,152</animation>
+			<animation name='s_hit' loop='0'>137,137,137,137,137,137,138,139,140</animation>
+			<animation name='e_hit' loop='0'>141,141,141,141,141,141,142,143,144</animation>
+			<animation name='n_hit' loop='0'>145,145,145,145,145,145,146,147,148</animation>
+			<animation name='w_hit' loop='0'>149,149,149,149,149,149,150,151,152</animation>
+			<animation name='s_quickattack' loop='0'>73,74,75,75,75,75,74,73,76,77,78,79,80</animation>
+			<animation name='e_quickattack' loop='0'>81,82,83,83,83,83,82,81,84,85,86,87,88</animation>
+			<animation name='n_quickattack' loop='0'>89,90,91,91,91,91,90,92,93,94,95,96</animation>
+			<animation name='w_quickattack' loop='0'>97,98,99,99,99,99,98,97,100,101,102,103</animation>
+			<animation name='s_quickattack_start' loop='0'>75,74,73</animation>
+			<animation name='e_quickattack_start' loop='0'>83,82,81</animation>
+			<animation name='n_quickattack_start' loop='0'>91,90,89</animation>
+			<animation name='w_quickattack_start' loop='0'>99,98,97</animation>
+			<animation name='s_quickattack_finish' loop='0'>74,76,76,75</animation>
+			<animation name='e_quickattack_finish' loop='0'>82,84,84,83</animation>
+			<animation name='n_quickattack_finish' loop='0'>90,92,92,91</animation>
+			<animation name='w_quickattack_finish' loop='0'>98,100,100,99</animation>
+			<animation name='s_strongattack' loop='0'>105,106,107,107,107,107,106,105,108,109,110,111,112</animation>
+			<animation name='e_strongattack' loop='0'>113,114,115,115,115,115,114,113,116,117,118,119,120</animation>
+			<animation name='n_strongattack' loop='0'>121,122,123,123,123,123,122,124,125,126,127,128</animation>
+			<animation name='w_strongattack' loop='0'>129,130,131,131,131,131,130,129,132,133,134,135</animation>
+			<animation name='s_strongattack_start' loop='0'>107,106,105</animation>
+			<animation name='e_strongattack_start' loop='0'>115,114,113</animation>
+			<animation name='n_strongattack_start' loop='0'>123,122,121</animation>
+			<animation name='w_strongattack_start' loop='0'>131,130,129</animation>
+			<animation name='s_strongattack_finish' loop='0'>106,108,108,107</animation>
+			<animation name='e_strongattack_finish' loop='0'>114,116,116,115</animation>
+			<animation name='n_strongattack_finish' loop='0'>122,124,124,123</animation>
+			<animation name='w_strongattack_finish' loop='0'>130,132,132,131</animation>
+		</animations>
+	</sprite>
+	<sprite>
+		<name>Billy</name>
+		<filename>billy.swf</filename>
+		<animations>
+			<animation name='s_idle' loop='0'>1</animation>
+			<animation name='e_idle' loop='0'>5</animation>
+			<animation name='n_idle' loop='0'>9</animation>
+			<animation name='w_idle' loop='0'>13</animation>
+			<animation name='s_walk' loop='1'>1,1,2,2,3,3,4,4</animation><!--loop-->
+			<animation name='s_fast_walk' loop='1'>1,2,3,4</animation><!--loop-->
+			<animation name='e_walk' loop='1'>5,5,6,6,7,7,8,8</animation><!--loop-->
+			<animation name='e_fast_walk' loop='1'>5,6,7,8</animation><!--loop-->
+			<animation name='n_walk' loop='1'>9,9,10,10,11,11,12,12</animation><!--loop-->
+			<animation name='n_fast_walk' loop='1'>9,10,11,12</animation><!--loop-->
+			<animation name='w_walk' loop='1'>13,13,14,14,15,15,16,16</animation><!--loop-->
+			<animation name='w_fast_walk' loop='1'>13,14,15,16</animation><!--loop-->
+			<animation name='s_attack_start' loop='1'>33,34,35</animation><!--loop-->
+			<animation name='e_attack_start' loop='1'>41,42,43</animation><!--loop-->
+			<animation name='n_attack_start' loop='1'>49,50,51</animation><!--loop-->
+			<animation name='w_attack_start' loop='1'>57,58,59</animation><!--loop-->
+			<animation name='s_attack_finish' loop='0'>36,38,40,40,40</animation>
+			<animation name='e_attack_finish' loop='0'>44,46,48,48,48</animation>
+			<animation name='n_attack_finish' loop='0'>52,54,56,56,56</animation>
+			<animation name='w_attack_finish' loop='0'>60,62,64,64,64</animation>
+			<animation name='s_slide' loop='1'>65,65,65,66,66,66</animation><!--loop-->
+			<animation name='e_slide' loop='1'>67,67,67,68,68,68</animation><!--loop-->
+			<animation name='n_slide' loop='1'>69,69,69,70,70,70</animation><!--loop-->
+			<animation name='w_slide' loop='1'>71,71,71,72,72,72</animation><!--loop-->
+			<animation name='s_knock' loop='0'>73</animation>
+			<animation name='e_knock' loop='0'>74</animation>
+			<animation name='n_knock' loop='0'>75</animation>
+			<animation name='w_knock' loop='0'>76</animation>
+			<animation name='s_frozen' loop='0'>73,73,73,73,73,73,74,75,76</animation>
+			<animation name='e_frozen' loop='0'>77,77,77,77,77,77,78,79,80</animation>
+			<animation name='n_frozen' loop='0'>81,81,81,81,81,81,82,83,84</animation>
+			<animation name='w_frozen' loop='0'>85,85,85,85,85,85,86,87,88</animation>
+			<animation name='s_hit' loop='0'>73,73,73,73,73,73,74,75,76</animation>
+			<animation name='e_hit' loop='0'>77,77,77,77,77,77,78,79,80</animation>
+			<animation name='n_hit' loop='0'>81,81,81,81,81,81,82,83,84</animation>
+			<animation name='w_hit' loop='0'>85,85,85,85,85,85,86,87,88</animation>
+		</animations>
+	</sprite>
+	<sprite>
+		<name>Snowman</name>
+		<filename>snowman.swf</filename>
+		<animations>
+			<animation name='s_idle' loop='0'>1</animation>
+			<animation name='e_idle' loop='0'>3</animation>
+			<animation name='n_idle' loop='0'>5</animation>
+			<animation name='w_idle' loop='0'>7</animation>
+			<animation name='s_walk' loop='1'>1,1,1,1,2,2,2,2</animation><!--loop-->
+			<animation name='s_fast_walk' loop='1'>1,1,2,2</animation><!--loop-->
+			<animation name='e_walk' loop='1'>3,3,3,3,4,4,4,4</animation><!--loop-->
+			<animation name='e_fast_walk' loop='1'>3,3,4,4</animation><!--loop-->
+			<animation name='n_walk' loop='1'>5,5,5,5,6,6,6,6</animation><!--loop-->
+			<animation name='n_fast_walk' loop='1'>5,5,6,6</animation><!--loop-->
+			<animation name='w_walk' loop='1'>7,7,7,7,8,8,8,8</animation><!--loop-->
+			<animation name='w_fast_walk' loop='1'>7,7,8,8</animation><!--loop-->
+			<animation name='s_grab' loop='0'>9,10,10,10,10,10,10</animation>
+			<animation name='e_grab' loop='0'>11,12,12,12,12,12,12</animation>
+			<animation name='n_grab' loop='0'>13,14,14,14,14,14,14</animation>
+			<animation name='w_grab' loop='0'>15,16,16,16,16,16,16</animation>
+			<animation name='s_roll_start' loop='0'>17,18</animation>
+			<animation name='e_roll_start' loop='0'>22,23</animation>
+			<animation name='n_roll_start' loop='0'>27,28</animation>
+			<animation name='w_roll_start' loop='0'>32,33</animation>
+			<animation name='s_roll' loop='1'>19,20,21</animation><!--loop-->
+			<animation name='e_roll' loop='1'>24,25,26</animation><!--loop-->
+			<animation name='n_roll' loop='1'>29,30,31</animation><!--loop-->
+			<animation name='w_roll' loop='1'>34,35,36</animation><!--loop-->
+			<animation name='s_roll_finish' loop='0'>18,17</animation>
+			<animation name='e_roll_finish' loop='0'>23,22</animation>
+			<animation name='n_roll_finish' loop='0'>28,27</animation>
+			<animation name='w_roll_finish' loop='0'>33,32</animation>
+			<animation name='s_throw' loop='0'>37,37,38,38,39,39,40,40,40,40,40,40,41,42,42,42,42,42,42,42</animation>
+			<animation name='e_throw' loop='0'>43,43,44,44,45,45,46,46,46,46,46,46,47,48,48,48,48,48,48,48</animation>
+			<animation name='n_throw' loop='0'>49,49,49,49,49,49,50,50,50,50,50,50,50,51,52,52,52,52,52,52</animation>
+			<animation name='w_throw' loop='0'>53,53,54,54,55,55,56,56,56,56,56,56,57,58,58,58,58,58,58,58</animation>
+			<animation name='s_knockback' loop='1'>59,89</animation><!--loop-->
+			<animation name='e_knockback' loop='1'>60,90</animation><!--loop-->
+			<animation name='n_knockback' loop='1'>61,91</animation><!--loop-->
+			<animation name='w_knockback' loop='1'>62,92</animation><!--loop-->
+			<animation name='death' loop='0'>63,63,64,64,65,65,66,66,67,67,68,68,69,69,69,69,69,69,69</animation>
+			<animation name='generate' loop='0'>70,71,72,73,74,75,76,77,78,79,80</animation>
+			<animation name='s_stun' loop='1'>81,82</animation><!--loop-->
+			<animation name='e_stun' loop='1'>83,84</animation><!--loop-->
+			<animation name='n_stun' loop='1'>85,86</animation><!--loop-->
+			<animation name='w_stun' loop='1'>87,88</animation><!--loop-->
+		</animations>
+	</sprite>
+	<sprite>
+		<name>Snowman2</name>
+		<filename>snowman2.swf</filename>
+		<animations>
+			<animation name='s_idle' loop='0'>1</animation>
+			<animation name='e_idle' loop='0'>3</animation>
+			<animation name='n_idle' loop='0'>5</animation>
+			<animation name='w_idle' loop='0'>7</animation>
+			<animation name='s_walk' loop='1'>1,1,1,1,2,2,2,2</animation><!--loop-->
+			<animation name='s_fast_walk' loop='1'>1,1,2,2</animation><!--loop-->
+			<animation name='e_walk' loop='1'>3,3,3,3,4,4,4,4</animation><!--loop-->
+			<animation name='e_fast_walk' loop='1'>3,3,4,4</animation><!--loop-->
+			<animation name='n_walk' loop='1'>5,5,5,5,6,6,6,6</animation><!--loop-->
+			<animation name='n_fast_walk' loop='1'>5,5,6,6</animation><!--loop-->
+			<animation name='w_walk' loop='1'>7,7,7,7,8,8,8,8</animation><!--loop-->
+			<animation name='w_fast_walk' loop='1'>7,7,8,8</animation><!--loop-->
+			<animation name='s_grab' loop='0'>9,10,10,10,10,10,10</animation>
+			<animation name='e_grab' loop='0'>11,12,12,12,12,12,12</animation>
+			<animation name='n_grab' loop='0'>13,14,14,14,14,14,14</animation>
+			<animation name='w_grab' loop='0'>15,16,16,16,16,16,16</animation>
+			<animation name='s_roll_start' loop='0'>17,18</animation>
+			<animation name='e_roll_start' loop='0'>22,23</animation>
+			<animation name='n_roll_start' loop='0'>27,28</animation>
+			<animation name='w_roll_start' loop='0'>32,33</animation>
+			<animation name='s_roll' loop='1'>19,20,21</animation><!--loop-->
+			<animation name='e_roll' loop='1'>24,25,26</animation><!--loop-->
+			<animation name='n_roll' loop='1'>29,30,31</animation><!--loop-->
+			<animation name='w_roll' loop='1'>34,35,36</animation><!--loop-->
+			<animation name='s_roll_finish' loop='0'>18,17</animation>
+			<animation name='e_roll_finish' loop='0'>23,22</animation>
+			<animation name='n_roll_finish' loop='0'>28,27</animation>
+			<animation name='w_roll_finish' loop='0'>33,32</animation>
+			<animation name='s_throw' loop='0'>37,37,38,38,39,39,40,40,40,40,40,40,41,42,42,42,42,42,42,42</animation>
+			<animation name='e_throw' loop='0'>43,43,44,44,45,45,46,46,46,46,46,46,47,48,48,48,48,48,48,48</animation>
+			<animation name='n_throw' loop='0'>49,49,49,49,49,49,50,50,50,50,50,50,50,51,52,52,52,52,52,52</animation>
+			<animation name='w_throw' loop='0'>53,53,54,54,55,55,56,56,56,56,56,56,57,58,58,58,58,58,58,58</animation>
+			<animation name='s_knockback' loop='1'>59,89</animation><!--loop-->
+			<animation name='e_knockback' loop='1'>60,90</animation><!--loop-->
+			<animation name='n_knockback' loop='1'>61,91</animation><!--loop-->
+			<animation name='w_knockback' loop='1'>62,92</animation><!--loop-->
+			<animation name='death' loop='0'>63,63,64,64,65,65,66,66,67,67,68,68,69,69,69,69,69,69,69</animation>
+			<animation name='generate' loop='0'>70,71,72,73,74,75,76,77,78,79,80</animation>
+			<animation name='s_stun' loop='1'>81,82</animation><!--loop-->
+			<animation name='e_stun' loop='1'>83,84</animation><!--loop-->
+			<animation name='n_stun' loop='1'>85,86</animation><!--loop-->
+			<animation name='w_stun' loop='1'>87,88</animation><!--loop-->
+		</animations>
+	</sprite>
+	<sprite>
+		<name>Skeleton</name>
+		<filename>skeleton.swf</filename>
+		<animations>
+			<animation name='s_idle' loop='0'>1</animation>
+			<animation name='e_idle' loop='0'>5</animation>
+			<animation name='n_idle' loop='0'>9</animation>
+			<animation name='w_idle' loop='0'>13</animation>
+			<animation name='s_walk' loop='1'>1,1,2,2,3,3,4,4</animation><!--loop-->
+			<animation name='s_fast_walk' loop='1'>1,2,3,4</animation><!--loop-->
+			<animation name='e_walk' loop='1'>5,5,6,6,7,7,8,8</animation><!--loop-->
+			<animation name='e_fast_walk' loop='1'>5,6,7,8</animation><!--loop-->
+			<animation name='n_walk' loop='1'>9,9,10,10,11,11,12,12</animation><!--loop-->
+			<animation name='n_fast_walk' loop='1'>9,10,11,12</animation><!--loop-->
+			<animation name='w_walk' loop='1'>13,13,14,14,15,15,16,16</animation><!--loop-->
+			<animation name='w_fast_walk' loop='1'>13,14,15,16</animation><!--loop-->
+			<animation name='s_throw' loop='0'>17,18,18,19,19,19,19,19,19,20,21,21,21</animation>
+			<animation name='e_throw' loop='0'>22,23,23,24,24,24,24,24,25,26,26,26</animation>
+			<animation name='n_throw' loop='0'>27,28,28,29,29,29,29,29,29,30,31,31,31</animation>
+			<animation name='w_throw' loop='0'>32,33,33,34,34,34,34,34,34,35,36,36,36</animation>
+			<animation name='death' loop='0'>52,53,54,55,56</animation>
+			<animation name='s_knockback' loop='1'>94,95,96,97,98,99</animation><!--loop-->
+			<animation name='e_knockback' loop='1'>100,101,102,103,104,105</animation><!--loop-->
+			<animation name='n_knockback' loop='1'>106,107,108,109,110,111</animation><!--loop-->
+			<animation name='w_knockback' loop='1'>112,113,114,115,116,117</animation><!--loop-->
+			<animation name='generate' loop='0'>69,70,71,72,73,74,75,76,77</animation>
+			<animation name='s_blow' loop='0'>78,79,79,79,80,81,80,81,80,81,1</animation>
+			<animation name='e_blow' loop='0'>82,83,83,83,84,85,84,85,84,85,5</animation>
+			<animation name='n_blow' loop='0'>86,87,87,87,88,89,88,89,88,89,9</animation>
+			<animation name='w_blow' loop='0'>90,91,91,91,92,93,92,93,92,93,13</animation>
+			<animation name='s_stun' loop='1'>60,61</animation><!--loop-->
+			<animation name='e_stun' loop='1'>62,63</animation><!--loop-->
+			<animation name='n_stun' loop='1'>64,65</animation><!--loop-->
+			<animation name='w_stun' loop='1'>66,67</animation><!--loop-->
+		</animations>
+	</sprite>
+	<sprite>
+		<name>Skeleton2</name>
+		<filename>skeleton2.swf</filename>
+		<animations>
+			<animation name='s_idle' loop='0'>1</animation>
+			<animation name='e_idle' loop='0'>5</animation>
+			<animation name='n_idle' loop='0'>9</animation>
+			<animation name='w_idle' loop='0'>13</animation>
+			<animation name='s_walk' loop='1'>1,1,2,2,3,3,4,4</animation><!--loop-->
+			<animation name='s_fast_walk' loop='1'>1,2,3,4</animation><!--loop-->
+			<animation name='e_walk' loop='1'>5,5,6,6,7,7,8,8</animation><!--loop-->
+			<animation name='e_fast_walk' loop='1'>5,6,7,8</animation><!--loop-->
+			<animation name='n_walk' loop='1'>9,9,10,10,11,11,12,12</animation><!--loop-->
+			<animation name='n_fast_walk' loop='1'>9,10,11,12</animation><!--loop-->
+			<animation name='w_walk' loop='1'>13,13,14,14,15,15,16,16</animation><!--loop-->
+			<animation name='w_fast_walk' loop='1'>13,14,15,16</animation><!--loop-->
+			<animation name='s_throw' loop='0'>17,18,18,19,19,19,19,19,19,20,21,21,21</animation>
+			<animation name='e_throw' loop='0'>22,23,23,24,24,24,24,24,25,26,26,26</animation>
+			<animation name='n_throw' loop='0'>27,28,28,29,29,29,29,29,29,30,31,31,31</animation>
+			<animation name='w_throw' loop='0'>32,33,33,34,34,34,34,34,34,35,36,36,36</animation>
+			<animation name='death' loop='0'>52,53,54,55,56</animation>
+			<animation name='s_knockback' loop='1'>94,95,96,97,98,99</animation><!--loop-->
+			<animation name='e_knockback' loop='1'>100,101,102,103,104,105</animation><!--loop-->
+			<animation name='n_knockback' loop='1'>106,107,108,109,110,111</animation><!--loop-->
+			<animation name='w_knockback' loop='1'>112,113,114,115,116,117</animation><!--loop-->
+			<animation name='generate' loop='0'>69,70,71,72,73,74,75,76,77</animation>
+			<animation name='s_blow' loop='0'>78,79,79,79,80,81,80,81,80,81,1</animation>
+			<animation name='e_blow' loop='0'>82,83,83,83,84,85,84,85,84,85,5</animation>
+			<animation name='n_blow' loop='0'>86,87,87,87,88,89,88,89,88,89,9</animation>
+			<animation name='w_blow' loop='0'>90,91,91,91,92,93,92,93,92,93,13</animation>
+			<animation name='s_stun' loop='1'>60,61</animation><!--loop-->
+			<animation name='e_stun' loop='1'>62,63</animation><!--loop-->
+			<animation name='n_stun' loop='1'>64,65</animation><!--loop-->
+			<animation name='w_stun' loop='1'>66,67</animation><!--loop-->
+		</animations>
+	</sprite>
+	<sprite>
+		<name>Fsa</name>
+		<filename>fsa.swf</filename>
+		<animations>
+			<animation name='s_idle' loop='0'>1</animation>
+			<animation name='e_idle' loop='0'>3</animation>
+			<animation name='n_idle' loop='0'>5</animation>
+			<animation name='w_idle' loop='0'>7</animation>
+			<animation name='s_walk' loop='1'>1,1,1,1,2,2,2,2</animation><!--loop-->
+			<animation name='s_fast_walk' loop='1'>1,1,2,2</animation><!--loop-->
+			<animation name='e_walk' loop='1'>3,3,3,3,4,4,4,4</animation><!--loop-->
+			<animation name='e_fast_walk' loop='1'>3,3,4,4</animation><!--loop-->
+			<animation name='n_walk' loop='1'>5,5,5,5,6,6,6,6</animation><!--loop-->
+			<animation name='n_fast_walk' loop='1'>5,5,6,6</animation><!--loop-->
+			<animation name='w_walk' loop='1'>7,7,7,7,8,8,8,8</animation><!--loop-->
+			<animation name='w_fast_walk' loop='1'>7,7,8,8</animation><!--loop-->
+			<animation name='s_magic' loop='0'>25,26,27,28,27,28,27,28,1</animation>
+			<animation name='e_magic' loop='0'>29,30,31,32,31,32,31,32,3</animation>
+			<animation name='n_magic' loop='0'>33,34,35,36,35,36,35,36,5</animation>
+			<animation name='w_magic' loop='0'>37,38,39,40,39,40,39,40,7</animation>
+			<animation name='s_knockback' loop='1'>41,75</animation><!--loop-->
+			<animation name='e_knockback' loop='1'>42,76</animation><!--loop-->
+			<animation name='n_knockback' loop='1'>43,77</animation><!--loop-->
+			<animation name='w_knockback' loop='1'>44,78</animation><!--loop-->
+			<animation name='s_phase_in' loop='0'>45,46,46,47,48,49</animation>
+			<animation name='e_phase_in' loop='0'>45,50,50,51,52,53</animation>
+			<animation name='n_phase_in' loop='0'>45,54,54,55,56,57</animation>
+			<animation name='w_phase_in' loop='0'>45,58,58,59,60,61</animation>
+			<animation name='s_phase_out' loop='0'>49,48,47,46,46,45</animation>
+			<animation name='e_phase_out' loop='0'>53,52,51,50,50,45</animation>
+			<animation name='n_phase_out' loop='0'>57,56,55,54,54,45</animation>
+			<animation name='w_phase_out' loop='0'>61,60,59,58,58,45</animation>
+			<animation name='death' loop='0'>62,63,64,65,66</animation>
+			<animation name='s_stun' loop='1'>67,68</animation><!--loop-->
+			<animation name='e_stun' loop='1'>69,70</animation><!--loop-->
+			<animation name='n_stun' loop='1'>71,72</animation><!--loop-->
+			<animation name='w_stun' loop='1'>73,74</animation><!--loop-->
+		</animations>
+	</sprite>
+	<sprite>
+		<name>Fsa2</name>
+		<filename>fsa2.swf</filename>
+		<animations>
+			<animation name='s_idle' loop='0'>1</animation>
+			<animation name='e_idle' loop='0'>3</animation>
+			<animation name='n_idle' loop='0'>5</animation>
+			<animation name='w_idle' loop='0'>7</animation>
+			<animation name='s_walk' loop='1'>1,1,1,1,2,2,2,2</animation><!--loop-->
+			<animation name='s_fast_walk' loop='1'>1,1,2,2</animation><!--loop-->
+			<animation name='e_walk' loop='1'>3,3,3,3,4,4,4,4</animation><!--loop-->
+			<animation name='e_fast_walk' loop='1'>3,3,4,4</animation><!--loop-->
+			<animation name='n_walk' loop='1'>5,5,5,5,6,6,6,6</animation><!--loop-->
+			<animation name='n_fast_walk' loop='1'>5,5,6,6</animation><!--loop-->
+			<animation name='w_walk' loop='1'>7,7,7,7,8,8,8,8</animation><!--loop-->
+			<animation name='w_fast_walk' loop='1'>7,7,8,8</animation><!--loop-->
+			<animation name='s_magic' loop='0'>25,26,27,28,27,28,27,28,1</animation>
+			<animation name='e_magic' loop='0'>29,30,31,32,31,32,31,32,3</animation>
+			<animation name='n_magic' loop='0'>33,34,35,36,35,36,35,36,5</animation>
+			<animation name='w_magic' loop='0'>37,38,39,40,39,40,39,40,7</animation>
+			<animation name='s_knockback' loop='1'>41,75</animation><!--loop-->
+			<animation name='e_knockback' loop='1'>42,76</animation><!--loop-->
+			<animation name='n_knockback' loop='1'>43,77</animation><!--loop-->
+			<animation name='w_knockback' loop='1'>44,78</animation><!--loop-->
+			<animation name='s_phase_in' loop='0'>45,46,46,47,48,49</animation>
+			<animation name='e_phase_in' loop='0'>45,50,50,51,52,53</animation>
+			<animation name='n_phase_in' loop='0'>45,54,54,55,56,57</animation>
+			<animation name='w_phase_in' loop='0'>45,58,58,59,60,61</animation>
+			<animation name='s_phase_out' loop='0'>49,48,47,46,46,45</animation>
+			<animation name='e_phase_out' loop='0'>53,52,51,50,50,45</animation>
+			<animation name='n_phase_out' loop='0'>57,56,55,54,54,45</animation>
+			<animation name='w_phase_out' loop='0'>61,60,59,58,58,45</animation>
+			<animation name='death' loop='0'>62,63,64,65,66</animation>
+			<animation name='s_stun' loop='1'>67,68</animation><!--loop-->
+			<animation name='e_stun' loop='1'>69,70</animation><!--loop-->
+			<animation name='n_stun' loop='1'>71,72</animation><!--loop-->
+			<animation name='w_stun' loop='1'>73,74</animation><!--loop-->
+		</animations>
+	</sprite>
+	<sprite>
+		<name>Sock</name>
+		<filename>sock.swf</filename>
+		<animations>
+			<animation name='e_fly' loop='0'>1</animation>
+			<animation name='n_fly' loop='0'>2</animation>
+			<animation name='s_fly' loop='0'>3</animation>
+			<animation name='w_fly' loop='0'>4</animation>
+			<animation name='impact_ground' loop='0'>5,6,7,8</animation>
+			<animation name='n_impact' loop='0'>12,13,14</animation>
+			<animation name='s_impact' loop='0'>15,16,17</animation>
+			<animation name='e_impact' loop='0'>9,10,11</animation>
+			<animation name='w_impact' loop='0'>18,19,20</animation>
+		</animations>
+	</sprite>
+	<sprite>
+		<name>Snowball</name>
+		<filename>snowball.swf</filename>
+		<animations>
+			<animation name='e_fly' loop='1'>1,2</animation><!--loop-->
+			<animation name='n_fly' loop='1'>1,2</animation><!--loop-->
+			<animation name='s_fly' loop='1'>1,2</animation><!--loop-->
+			<animation name='w_fly' loop='1'>1,2</animation><!--loop-->
+			<animation name='impact_ground' loop='0'>15,16,17,18</animation>
+			<animation name='n_impact' loop='0'>6,7,8</animation>
+			<animation name='s_impact' loop='0'>9,10,11</animation>
+			<animation name='e_impact' loop='0'>3,4,5</animation>
+			<animation name='w_impact' loop='0'>12,13,14</animation>
+		</animations>
+	</sprite>
+	<sprite>
+		<name>Icicle</name>
+		<filename>ice.swf</filename>
+		<animations>
+			<animation name='e_fly' loop='1'>1,2,3</animation><!--loop-->
+			<animation name='n_fly' loop='1'>1,2,3</animation><!--loop-->
+			<animation name='s_fly' loop='1'>1,2,3</animation><!--loop-->
+			<animation name='w_fly' loop='1'>1,2,3</animation><!--loop-->
+			<animation name='impact_ground' loop='0'>1</animation>
+			<animation name='n_impact' loop='0'>6,7</animation>
+			<animation name='s_impact' loop='0'>8,9</animation>
+			<animation name='e_impact' loop='0'>4,5</animation>
+			<animation name='w_impact' loop='0'>10,11</animation>
+		</animations>
+	</sprite>
+</sprites>
+<sounds>
+	<sound><name>player_bonus_invincible</name><filename>player_bonus_invincible.mp3</filename></sound>
+	<sound><name>player_bonus_invisible</name><filename>player_bonus_invisible.mp3</filename></sound>
+	<sound><name>player_bonus_pickup1</name><filename>player_bonus_pickup1.mp3</filename></sound>
+	<sound><name>player_damage_freeze</name><filename>player_damage_freeze.mp3</filename></sound>
+	<sound><name>player_damage_lowhealth</name><filename>player_damage_lowhealth.mp3</filename></sound>
+	<sound><name>player_hit1</name><filename>player_hit1.mp3</filename></sound>
+	<sound><name>powerup_arrival1</name><filename>powerup_arrival1.mp3</filename></sound>
+	<sound><name>footstep_grass1</name><filename>footstep_grass1.mp3</filename></sound>
+	<sound><name>footstep_grass2</name><filename>footstep_grass2.mp3</filename></sound>
+	<sound><name>footstep_grass3</name><filename>footstep_grass3.mp3</filename></sound>
+	<sound><name>footstep_grass4</name><filename>footstep_grass4.mp3</filename></sound>
+	<sound><name>footstep_grass5</name><filename>footstep_grass5.mp3</filename></sound>
+	<sound><name>footstep_grass6</name><filename>footstep_grass6.mp3</filename></sound>
+	<sound><name>footstep_ice1</name><filename>footstep_ice1.mp3</filename></sound>
+	<sound><name>footstep_ice2</name><filename>footstep_ice2.mp3</filename></sound>
+	<sound><name>footstep_ice3</name><filename>footstep_ice3.mp3</filename></sound>
+	<sound><name>footstep_ice4</name><filename>footstep_ice4.mp3</filename></sound>
+	<sound><name>footstep_snow1</name><filename>footstep_snow1.mp3</filename></sound>
+	<sound><name>footstep_snow2</name><filename>footstep_snow2.mp3</filename></sound>
+	<sound><name>footstep_snow3</name><filename>footstep_snow3.mp3</filename></sound>
+	<sound><name>footstep_snow4</name><filename>footstep_snow4.mp3</filename></sound>
+	<sound><name>mandy_bat_destroy_fsa</name><filename>mandy_bat_destroy_fsa.mp3</filename></sound>
+	<sound><name>mandy_bat_destroy_skeleton</name><filename>mandy_bat_destroy_skeleton.mp3</filename></sound>
+	<sound><name>mandy_bat_destroy_snowman</name><filename>mandy_bat_destroy_snowman.mp3</filename></sound>
+	<sound><name>mandy_bat_hit</name><filename>mandy_bat_hit.mp3</filename></sound>
+	<sound><name>mandy_bat_hit_billy</name><filename>mandy_bat_hit_billy.mp3</filename></sound>
+	<sound><name>mandy_bat_hit_fsa</name><filename>mandy_bat_hit_fsa.mp3</filename></sound>
+	<sound><name>mandy_bat_hit_skeleton</name><filename>mandy_bat_hit_skeleton.mp3</filename></sound>
+	<sound><name>mandy_bat_hit_snowman</name><filename>mandy_bat_hit_snowman.mp3</filename></sound>
+	<sound><name>mandy_bat_max_loop</name><filename>mandy_bat_max_loop.mp3</filename></sound>
+	<sound><name>mandy_bat_swing</name><filename>mandy_bat_swing.mp3</filename></sound>
+	<sound><name>mandy_bat_windup</name><filename>mandy_bat_windup.mp3</filename></sound>
+	<sound><name>billy_sock_destroy_fsa</name><filename>billy_sock_destroy_fsa.mp3</filename></sound>
+	<sound><name>billy_sock_destroy_skeleton</name><filename>billy_sock_destroy_skeleton.mp3</filename></sound>
+	<sound><name>billy_sock_destroy_snowman</name><filename>billy_sock_destroy_snowman.mp3</filename></sound>
+	<sound><name>billy_sock_hit</name><filename>billy_sock_hit.mp3</filename></sound>
+	<sound><name>billy_sock_hit_fsa</name><filename>billy_sock_hit_fsa.mp3</filename></sound>
+	<sound><name>billy_sock_hit_mandy</name><filename>billy_sock_hit_mandy.mp3</filename></sound>
+	<sound><name>billy_sock_hit_skeleton</name><filename>billy_sock_hit_skeleton.mp3</filename></sound>
+	<sound><name>billy_sock_hit_snowman</name><filename>billy_sock_hit_snowman.mp3</filename></sound>
+	<sound><name>billy_sock_max_loop</name><filename>billy_sock_max_loop.mp3</filename></sound>
+	<sound><name>billy_sock_throw</name><filename>billy_sock_throw.mp3</filename></sound>
+	<sound><name>billy_sock_windup</name><filename>billy_sock_windup.mp3</filename></sound>
+	<sound><name>enemy_knockback1</name><filename>enemy_knockback.mp3</filename></sound>
+	<sound><name>enemy_knockback2</name><filename>enemy_knockback2.mp3</filename></sound>
+	<sound><name>enemy_knockback3</name><filename>enemy_knockback3.mp3</filename></sound>
+	<sound><name>skeleton_frostbreath</name><filename>skeleton_frostbreath.mp3</filename></sound>
+	<sound><name>skeleton_remove_rib</name><filename>skeleton_remove_rib.mp3</filename></sound>
+	<sound><name>skeleton_rib_hit</name><filename>skeleton_rib_hit.mp3</filename></sound>
+	<sound><name>skeleton_throw_rib</name><filename>skeleton_throw_rib.mp3</filename></sound>
+	<sound><name>fsa_rise_from_snow</name><filename>fsa_rise_from_snow.mp3</filename></sound>
+	<sound><name>fsa_sink_into_snow</name><filename>fsa_sink_into_snow.mp3</filename></sound>
+	<sound><name>fsa_underground_loop</name><filename>fsa_underground_loop.mp3</filename></sound>
+	<sound><name>fsa_wingflap</name><filename>fsa_wingflap.mp3</filename></sound>
+	<sound><name>fsa_wingflap_fast</name><filename>fsa_wingflap_fast.mp3</filename></sound>
+</sounds>
+<VO>
+	<positive>
+		<Billy>
+			<sound><name>billy_vo_ugly_butt</name><filename>billy_ugly_butt_vo.mp3</filename></sound>
+			<sound><name>billy_vo_taste_this</name><filename>billy_taste_this_vo.mp3</filename></sound>
+			<sound><name>billy_vo_more_where_that</name><filename>billy_more_where_that_vo.mp3</filename></sound>
+			<sound><name>billy_vo_aw_yeah</name><filename>billy_aw_yeah_vo.mp3</filename></sound>
+			<sound><name>billy_vo_cocoa_loco</name><filename>billy_cocoa_loco_vo.mp3</filename></sound>
+			<sound><name>billy_vo_hee_hee</name><filename>billy_hee_hee_vo.mp3</filename></sound>
+			<sound><name>billy_vo_hee_hee1</name><filename>billy_hee_hee1.mp3</filename></sound>
+			<sound><name>billy_vo_kapow</name><filename>billy_kapow_vo.mp3</filename></sound>
+			<sound><name>billy_vo_ice_cold</name><filename>billy_ice_cold_vo.mp3</filename></sound>
+			<sound><name>billy_vo_gotcha</name><filename>billy_gotcha_vo.mp3</filename></sound>
+			<sound><name>billy_vo_in_yo_face</name><filename>billy_in_yo_face_vo.mp3</filename></sound>
+			<sound><name>billy_vo_eat_hot_cocoa</name><filename>billy_eat_hot_cocoa_vo.mp3</filename></sound>
+			<sound><name>billy_vo_am_the_king</name><filename>billy_am_the_king_vo.mp3</filename></sound>
+			<sound><name>billy_vo_ding_dong1</name><filename>billy_ding_dong1_vo.mp3</filename></sound>
+			<sound><name>billy_vo_ding_dong2</name><filename>billy_ding_dong2_vo.mp3</filename></sound>
+			<sound><name>billy_vo_go_sledding</name><filename>billy_go_sledding_vo.mp3</filename></sound>
+			<sound><name>billy_vo_laughter1</name><filename>billy_laughter1_vo.mp3</filename></sound>
+			<sound><name>billy_vo_laughter2</name><filename>billy_laughter2_vo.mp3</filename></sound>
+			<sound><name>billy_vo_laughter3</name><filename>billy_laughter3_vo.mp3</filename></sound>
+			<sound><name>billy_vo_laughter4</name><filename>billy_laughter4_vo.mp3</filename></sound>
+			<sound><name>billy_vo_long_johns</name><filename>billy_long_johns_vo.mp3</filename></sound>
+			<sound><name>billy_vo_shake_it</name><filename>billy_shake_it_vo.mp3</filename></sound>
+			<sound><name>billy_vo_stick_and_move</name><filename>billy_stick_and_move_vo.mp3</filename></sound>
+			<sound><name>billy_vo_this_is_fun</name><filename>billy_this_is_fun_vo.mp3</filename></sound>
+			<sound><name>billy_vo_this_rules</name><filename>billy_this_rules_vo.mp3</filename></sound>
+			<sound><name>billy_vo_timeout_cookie</name><filename>billy_timeout_cookie_vo.mp3</filename></sound>
+			<sound><name>billy_vo_winter_wonderland</name><filename>billy_winter_wonderland_vo.mp3</filename></sound>
+		</Billy>
+		<Mandy>
+			<sound><name>mandy_vo_get_over_it</name><filename>mandy_get_over_it_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_call_icebreaker</name><filename>mandy_call_icebreaker_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_talk_to_the_bat</name><filename>mandy_talk_to_the_bat_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_asking_for_it</name><filename>mandy_asking_for_it_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_want_some_more</name><filename>mandy_want_some_more_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_that_was_cool</name><filename>mandy_that_was_cool_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_you_like_that</name><filename>mandy_you_like_that_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_ha</name><filename>mandy_ha_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_sorry_smack_bat</name><filename>mandy_sorry_smack_bat_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_poor_snow_monster</name><filename>mandy_poor_snow_monster_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_billy_gonna_kill_you</name><filename>mandy_billy_gonna_kill_you_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_buncha_freaks</name><filename>mandy_buncha_freaks_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_make_me_hurt_you</name><filename>mandy_make_me_hurt_you_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_my_day_is_ruined</name><filename>mandy_my_day_is_ruined_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_ridiculous</name><filename>mandy_ridiculous_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_why_snow_demons</name><filename>mandy_why_snow_demons_vo.mp3</filename></sound>
+		</Mandy>
+		<Grim>
+			<sound><name>grim_vo_great_cant_believe_it</name><filename>grim_great_cant_believe_it_vo.mp3</filename></sound>
+			<sound><name>grim_vo_da_way_its_done</name><filename>grim_da_way_its_done_vo.mp3</filename></sound>
+			<sound><name>grim_vo_snowball_effect</name><filename>grim_snowball_effect_vo.mp3</filename></sound>
+			<sound><name>grim_vo_hit_where_hurts</name><filename>grim_hit_where_hurts_vo.mp3</filename></sound>
+			<sound><name>grim_vo_tensions_melt_away</name><filename>grim_tensions_melt_away_vo.mp3</filename></sound>
+			<sound><name>grim_vo_put_on_ice_mon</name><filename>grim_put_on_ice_mon_vo.mp3</filename></sound>
+			<sound><name>grim_vo_go_team</name><filename>grim_go_team_vo.mp3</filename></sound>
+			<sound><name>grim_vo_dont_mess_best</name><filename>grim_dont_mess_best_vo.mp3</filename></sound>
+			<sound><name>grim_vo_fool_with_cool</name><filename>grim_fool_with_cool_vo.mp3</filename></sound>
+			<sound><name>grim_vo_smell_burning</name><filename>grim_smell_burning_vo.mp3</filename></sound>
+			<sound><name>grim_vo_demons_put_away</name><filename>grim_demons_put_away_vo.mp3</filename></sound>
+			<sound><name>grim_vo_bring_my_snowglobe</name><filename>grim_bring_my_snowglobe_vo.mp3</filename></sound>
+			<sound><name>grim_vo_chilled_to_bone</name><filename>grim_chilled_to_bone_vo.mp3</filename></sound>
+		</Grim>
+	</positive>
+	<negative>
+		<Billy>
+			<sound><name>billy_vo_beg_your_pardon</name><filename>billy_beg_your_pardon_vo.mp3</filename></sound>
+			<sound><name>billy_vo_ever_do_to_you</name><filename>billy_ever_do_to_you_vo.mp3</filename></sound>
+			<sound><name>billy_vo_gets_hit1</name><filename>billy_gets_hit1_vo.mp3</filename></sound>
+			<sound><name>billy_vo_gets_hit2</name><filename>billy_gets_hit2_vo.mp3</filename></sound>
+			<sound><name>billy_vo_gets_hit3</name><filename>billy_gets_hit3_vo.mp3</filename></sound>
+			<sound><name>billy_vo_oof</name><filename>billy_oof_vo.mp3</filename></sound>
+			<sound><name>billy_vo_oww_that_hurt</name><filename>billy_oww_that_hurt_vo.mp3</filename></sound>
+			<sound><name>billy_vo_snow_monsters_mean</name><filename>billy_snow_monsters_mean_vo.mp3</filename></sound>
+			<sound><name>billy_vo_uncalled_for</name><filename>billy_uncalled_for_vo.mp3</filename></sound>
+			<sound><name>billy_vo_you_stink</name><filename>billy_you_stink_vo.mp3</filename></sound>
+			<sound><name>billy_vo_boogers_froze</name><filename>billy_boogers_froze_vo.mp3</filename></sound>
+			<sound><name>billy_vo_can_i_go_home</name><filename>billy_can_i_go_home_vo.mp3</filename></sound>
+			<sound><name>billy_vo_cant_feel_toes</name><filename>billy_cant_feel_toes_vo.mp3</filename></sound>
+			<sound><name>billy_vo_grim_help</name><filename>billy_grim_help_vo.mp3</filename></sound>
+			<sound><name>billy_vo_so_cold</name><filename>billy_so_cold_vo.mp3</filename></sound>
+		</Billy>
+		<Mandy>
+			<sound><name>mandy_vo_oww</name><filename>mandy_oww_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_ouch1</name><filename>mandy_ouch1_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_okay_now_mad</name><filename>mandy_okay_now_mad_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_hey</name><filename>mandy_hey_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_watch_it_buster</name><filename>mandy_watch_it_buster_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_gets_hit1</name><filename>mandy_gets_hit1_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_gets_hit2</name><filename>mandy_gets_hit2_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_gets_hit3</name><filename>mandy_gets_hit3_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_gets_hit4</name><filename>mandy_gets_hit4_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_i_hate_winter</name><filename>mandy_i_hate_winter_vo.mp3</filename></sound>
+		</Mandy>
+		<Grim>
+			<sound><name>grim_vo_cant_look</name><filename>grim_cant_look_vo.mp3</filename></sound>
+			<sound><name>grim_vo_cant_look_yes_can</name><filename>grim_cant_look_yes_can_vo.mp3</filename></sound>
+			<sound><name>grim_vo_dis_bad_ting_here</name><filename>grim_dis_bad_ting_here_vo.mp3</filename></sound>
+			<sound><name>grim_vo_i_warned_you</name><filename>grim_i_warned_you_vo.mp3</filename></sound>
+			<sound><name>grim_vo_laughter1</name><filename>grim_laughter1_vo.mp3</filename></sound>
+			<sound><name>grim_vo_laughter2</name><filename>grim_laughter2_vo.mp3</filename></sound>
+			<sound><name>grim_vo_look_behind_you</name><filename>grim_look_behind_you_vo.mp3</filename></sound>
+			<sound><name>grim_vo_met_few_snow_demons</name><filename>grim_met_few_snow_demons_vo.mp3</filename></sound>
+			<sound><name>grim_vo_one_cannot_reason</name><filename>grim_one_cannot_reason_vo.mp3</filename></sound>
+			<sound><name>grim_vo_so_much_go_beach</name><filename>grim_so_much_go_beach_vo.mp3</filename></sound>
+			<sound><name>grim_vo_tin_ice</name><filename>grim_tin_ice_vo.mp3</filename></sound>
+			<sound><name>grim_vo_tools_not_toys</name><filename>grim_tools_not_toys_vo.mp3</filename></sound>
+		</Grim>
+	</negative>
+	<random>
+		<Billy>
+		</Billy>
+		<Mandy>
+		</Mandy>
+	</random>
+	<powerup>
+		<Billy>
+			<sound><name>billy_vo_extra_life</name><filename>billy_extra_life_vo.mp3</filename></sound>
+			<sound><name>billy_vo_im_speedy</name><filename>billy_im_speedy_vo.mp3</filename></sound>
+			<sound><name>billy_vo_kung_fu</name><filename>billy_kung_fu_vo.mp3</filename></sound>
+			<sound><name>billy_vo_will_crush_you</name><filename>billy_will_crush_you_vo.mp3</filename></sound>
+			<sound><name>billy_vo_feel_strong</name><filename>billy_feel_strong_vo.mp3</filename></sound>
+			<sound><name>billy_vo_you_cant_see_me</name><filename>billy_you_cant_see_me_vo.mp3</filename></sound>
+			<sound><name>billy_vo_zooma_zoom</name><filename>billy_zooma_zoom_vo.mp3</filename></sound>
+			<sound><name>billy_vo_look_over_here</name><filename>billy_look_over_here_vo.mp3</filename></sound>
+			<sound><name>billy_vo_yum</name><filename>billy_yum_vo.mp3</filename></sound>
+			<sound><name>billy_vo_power_up</name><filename>billy_power_up_vo.mp3</filename></sound>
+			<sound><name>billy_vo_tee_hee</name><filename>billy_tee_hee_vo.mp3</filename></sound>
+			<sound><name>billy_vo_woo_hoo</name><filename>billy_woo_hoo_vo.mp3</filename></sound>
+			<sound><name>billy_vo_i_can_fly</name><filename>billy_i_can_fly_vo.mp3</filename></sound>
+			<sound><name>billy_vo_unstoppable</name><filename>billy_unstoppable_vo.mp3</filename></sound>
+		</Billy>
+		<Mandy>
+			<sound><name>mandy_vo_nice</name><filename>mandy_nice_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_yes</name><filename>mandy_yes_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_up_a_notch</name><filename>mandy_up_a_notch_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_what_i_needed</name><filename>mandy_what_i_needed_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_better_than_you</name><filename>mandy_better_than_you_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_try_stop_me</name><filename>mandy_try_stop_me_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_extra_life</name><filename>mandy_extra_life_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_speed_things_up</name><filename>mandy_speed_things_up_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_bat_on_fire</name><filename>mandy_bat_on_fire.mp3</filename></sound>
+			<sound><name>mandy_vo_clobberin_time</name><filename>mandy_clobberin_time_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_invulnerable_dead</name><filename>mandy_invulnerable_dead_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_now_you_see_me</name><filename>mandy_now_you_see_me_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_gonna_love_this</name><filename>mandy_gonna_love_this_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_time_change</name><filename>mandy_time_change_vo.mp3</filename></sound>
+		</Mandy>
+	</powerup>
+	<win_level>
+		<Billy>
+			<sound><name>billy_vo_hooray</name><filename>billy_hooray_vo.mp3</filename></sound>
+			<sound><name>billy_vo_thats_that</name><filename>billy_thats_that_vo.mp3</filename></sound>
+			<sound><name>billy_vo_sweetness</name><filename>billy_sweetness_vo.mp3</filename></sound>
+			<sound><name>billy_vo_were_the_best</name><filename>billy_were_the_best_vo.mp3</filename></sound>
+		</Billy>
+		<Mandy>
+			<sound><name>mandy_vo_we_did_it</name><filename>mandy_we_did_it_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_nice_work</name><filename>mandy_nice_work_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_like_any_doubt</name><filename>mandy_like_any_doubt_vo.mp3</filename></sound>
+			<sound><name>mandy_vo_do_this_all_day</name><filename>mandy_do_this_all_day_vo.mp3</filename></sound>
+		</Mandy>
+		<Grim>
+			<sound><name>grim_vo_well_done</name><filename>grim_vo_well_done.mp3</filename></sound>
+		</Grim>
+	</win_level>
+	<lose_level>
+		<Grim>
+			<sound><name>grim_vo_you_failed</name><filename>grim_vo_you_failed.mp3</filename></sound>
+			<sound><name>grim_vo_game_over</name><filename>grim_vo_game_over.mp3</filename></sound>
+		</Grim>
+	</lose_level>
+</VO>
+<levels>
+	<level><filename>level1.xml</filename></level>
+	<level><filename>level2.xml</filename></level>
+	<level><filename>level3.xml</filename></level>
+	<level><filename>level4.xml</filename></level>
+	<level><filename>level5.xml</filename></level>
+	<level><filename>level6.xml</filename></level> 
+	<level><filename>level7.xml</filename></level>
+	<level><filename>level8.xml</filename></level>
+	<level><filename>level9.xml</filename></level>
+	<level><filename>level10.xml</filename></level>
+	<level><filename>level11.xml</filename></level>
+	<level><filename>level12.xml</filename></level>
+	<level><filename>level13.xml</filename></level> 
+	<level><filename>level14.xml</filename></level>
+	<level><filename>level15.xml</filename></level>
+	<level><filename>level16.xml</filename></level>
+	<level><filename>level17.xml</filename></level>
+	<level><filename>level18.xml</filename></level>
+	<level><filename>level19.xml</filename></level>
+	<level><filename>level20.xml</filename></level>
+	<level><filename>level21.xml</filename></level>
+	<level><filename>level22.xml</filename></level>
+	<level><filename>level23.xml</filename></level>
+	<level><filename>level24.xml</filename></level>
+	<level><filename>level25.xml</filename></level>
+	<level><filename>level26.xml</filename></level>
+	<level><filename>level27.xml</filename></level>
+	<level><filename>level28.xml</filename></level>
+	<level><filename>level29.xml</filename></level>
+	<level><filename>level30.xml</filename></level>
+	<level><filename>level31.xml</filename></level>
+	<level><filename>level32.xml</filename></level>
+	<level><filename>level33.xml</filename></level>
+	<level><filename>level34.xml</filename></level>
+	<level><filename>level35.xml</filename></level>
+	<level><filename>level36.xml</filename></level>
+	<level><filename>level37.xml</filename></level>
+	<level><filename>level38.xml</filename></level>
+	<level><filename>level39.xml</filename></level>
+	<level><filename>level40.xml</filename></level>
+	<level><filename>level41.xml</filename></level>
+	<level><filename>level42.xml</filename></level>
+	<level><filename>level43.xml</filename></level>
+	<level><filename>level44.xml</filename></level>
+	<level><filename>level45.xml</filename></level>
+	<level><filename>level46.xml</filename></level>
+	<level><filename>level47.xml</filename></level>
+	<level><filename>level48.xml</filename></level>
+	<level><filename>level49.xml</filename></level>
+	<level><filename>level50.xml</filename></level>
+</levels>
+<screens>
+	<screen><name>loading_screen</name><filename>loading.swf</filename></screen>
+	<screen><name>interface</name><filename>interface.swf</filename></screen>
+</screens>
+</main>

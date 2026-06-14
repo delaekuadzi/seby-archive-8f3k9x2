@@ -1,0 +1,1 @@
+intro=city&superman=5,5&woman=1,2&batman=7,5&gladiator=12,2&flake=2,2,10,3&basilisk=5,4&obstacles=1,9,6,   1,10,6,   1,11,6,   1,10,1

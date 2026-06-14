@@ -1,0 +1,1 @@
+intro=icecave&superman=3,3&woman=4,1&batman=5,5&wyrm=12,5,11,1&gladiator=8,4,10,5&obstacles=1,1,2,   1,1,4,   1,6,2,   1,6,3,   1,6,4,   1,7,1,   1,7,5,   1,13,1,   1,13,5

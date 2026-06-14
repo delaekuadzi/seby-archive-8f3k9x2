@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE states SYSTEM "game_states.dtd">
+
+<states>
+	<state name='global'>
+		<event name='onMessage'>
+			<actions>
+				<action name='bomb_handleMessage' />
+			</actions>
+		</event>
+	</state>
+	<state name='init'>
+		<event name='onEnter'>
+			<actions>
+				<action name='Initialize' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions />
+			<transitions>
+				<transition state='ready' />
+			</transitions>
+		</event>
+	</state>
+	<state name='ready'>
+		<event name='onEnter'>
+			<actions>
+				<action name='SetActive' args='true' />
+				<action name='CheckForCollisions' args='colliders' />
+				<action name='PlayAnimation' args='l_idle' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='CheckDelay' args='1,armed' />
+			</actions>
+		</event>
+	</state>
+	<state name='armed'>
+		<event name='onEnter'>
+			<actions>
+				<action name='StartTimer' args='1, 100, 100' />
+				<action name='PlayAnimation' args='l_armed' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='UpdateAnimation' />
+			</actions>
+		</event>
+	</state>
+	<state name='limbo'>
+		<event name='onEnter'>
+			<actions>
+				<action name='SetActive' args='false' />
+			</actions>
+		</event>
+	</state>
+</states>

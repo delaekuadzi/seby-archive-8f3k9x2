@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE states SYSTEM "game_states.dtd">
+
+<states>
+	<state name='global'>
+	</state>
+	<state name='init'>
+		<event name='onEnter'>
+			<actions>
+				<action name='Initialize' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions />
+			<transitions>
+				<transition state='closed' />
+			</transitions>
+		</event>
+	</state>
+	<state name='closed'>
+		<event name='onMessage'>
+			<actions>
+				<action name='closed_handleMessage' />
+			</actions>
+		</event>
+	</state>
+	<state name='opened'>
+		<event name='onMessage'>
+			<actions>
+				<action name='open_handleMessage' />
+			</actions>
+		</event>
+	</state>
+	<state name='opening'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='open' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='open_handleMessage' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='CheckForAnimationComplete' args='opened' />
+			</actions>
+		</event>
+	</state>
+	<state name='closing'>
+		<event name='onEnter'>
+			<actions>
+				<action name='PlayAnimation' args='close' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='CheckForAnimationComplete' args='closed' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='closed_handleMessage' />
+			</actions>
+		</event>
+	</state>
+</states>

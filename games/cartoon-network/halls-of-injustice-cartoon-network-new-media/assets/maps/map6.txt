@@ -1,0 +1,1 @@
+intro=canyon&superman=3,3&woman=5,5&batman=4,1&bizarro=12,5&abaddon=8,4,10,3&obstacles=1,1,1,   1,2,1,   1,2,4,   1,7,6,   1,11,6,   1,12,1,   1,13,2,   2,6,1,   2,6,2,   2,7,2

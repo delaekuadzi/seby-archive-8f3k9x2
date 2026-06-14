@@ -1,0 +1,24 @@
+
+ To Configure PowerPlay games, you must include the game resolution as below (GameSize= widthxheight)
+ To include a feature, prepend an asterisk to it (*), remove the asterisk or put a minus sign (-) to indicate
+ that this game should not use a given feature. Or you can just leave the feature out... but GameSize must be included.
+ Note that we can support (I've got the graphics set dynamically) any resolution of game you might have, besides
+ just the two specified. Also, you can leave this explanatory text in this file and it will still work without a hitch!
+
+-- Menu and Game Options
+
+*FullScreen
+*GameSize= 524x400
+*Instructions
+-SaveGames
+-HighScores
+-Billboard
+*SplashTime= 2500
+
+
+-- Scoring Options
+
+-PostScoresStayInGame
+-ReverseScores
+-NamesProvided
+-HighScoreDelay= 180

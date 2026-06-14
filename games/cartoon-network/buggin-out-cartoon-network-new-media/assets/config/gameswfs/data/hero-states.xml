@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<!DOCTYPE states SYSTEM "game_states.dtd">
+
+<states>
+	<state name='global'>
+		<event name='onMessage'>
+			<actions>
+				<action name='handleMessage' />
+			</actions>
+		</event>
+	</state>
+	<state name='init'>
+		<event name='onEnter'>
+			<actions>
+				<action name='Initialize' />
+				<action name='CanCatch' args='false' />
+				<action name='updateBounds' />
+				<action name='draw' />
+				<action name='FaceCenter' />
+				<action name='PlayAnimation' args='idle' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions />
+			<transitions>
+				<transition state='idle' />
+			</transitions>
+		</event>
+	</state>
+	<state name='idle'>
+		<event name='onEnter'>
+			<actions>
+				<!--<action name='printMsg' args='-------------------- hero idle state ------------------' />-->
+				<action name='CanCatch' args='false' />
+				<action name='updateBounds' />
+				<action name='FaceCenter' />
+				<action name='PlayAnimation' args='idle' />
+				<action name='Notify_Arrow_Manager' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+			<!--	<action name='updateBounds' /> -->
+				<action name='FaceMouse' />
+			</actions>
+		</event>
+	</state>
+	<state name='run'>
+		<event name='onEnter'>
+			<actions>
+				<!--<action name='printMsg' args='-------------------- hero run state ------------------' />-->
+				<action name='CanCatch' args='true' />
+				<action name='FaceVelocity' />
+				<action name='PlayAnimation' args='run' />
+				<action name='PlayFootstepsSound' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='run_handleMessage' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='updateBounds' />
+				<action name='UpdateAnimation' />
+				<action name='draw' />
+			</actions>
+			<transitions>
+				<transition condition='MoveToGoal' state='idle' />
+			</transitions>
+		</event>
+		<event name='onExit'>
+			<actions>
+				<action name='StopFootstepsSound' />
+			</actions>
+		</event>
+	</state>
+	<state name='run_no_catch'>
+		<event name='onEnter'>
+			<actions>
+				<!--<action name='printMsg' args='-------------------- hero run state ------------------' />-->
+				<action name='CanCatch' args='false' />
+				<action name='FaceVelocity' />
+				<action name='PlayAnimation' args='run' />
+				<action name='PlayFootstepsSound' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='run_handleMessage' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='updateBounds' />
+				<action name='UpdateAnimation' />
+				<action name='draw' />
+			</actions>
+			<transitions>
+				<transition condition='MoveToGoal' state='idle' />
+			</transitions>
+		</event>
+		<event name='onExit'>
+			<actions>
+				<action name='StopFootstepsSound' />
+			</actions>
+		</event>
+	</state>
+	<state name='fall'>
+		<event name='onEnter'>
+			<actions>
+				<!--<action name='printMsg' args='-------------------- hero fall state ------------------' />-->
+				<action name='CanCatch' args='false' />
+				<action name='PlayAnimation' args='fall' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='fall_handleMessage' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='UpdateAnimation' />
+				<action name='draw' />
+			</actions>
+			<transitions>
+				<transition condition='CheckDelay' args='2' state='rise' />
+			</transitions>
+		</event>
+	</state>
+	<state name='rise'>
+		<event name='onEnter'>
+			<actions>
+				<!--<action name='printMsg' args='-------------------- hero rise state ------------------' />-->
+				<action name='CanCatch' args='false' />
+				<action name='PlayAnimation' args='up' />
+				<action name='PlayRecoverySound' />
+			</actions>
+		</event>
+		<event name='onMessage'>
+			<actions>
+				<action name='fall_handleMessage' />
+			</actions>
+		</event>
+		<event name='onUpdate'>
+			<actions>
+				<action name='UpdateAnimation' />
+				<action name='draw' />
+			</actions>
+			<transitions>
+				<transition condition='CheckForAnimationComplete' state='run_no_catch' />
+			</transitions>
+		</event>
+	</state>
+</states>

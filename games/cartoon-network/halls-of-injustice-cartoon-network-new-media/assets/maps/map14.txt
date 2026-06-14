@@ -1,0 +1,1 @@
+intro=ruins&superman=4,3&woman=3,5&batman=3,2&grodd2=12,3&abaddon=8,1,8,6&wyrm=10,2,10,5&flake=6,2,6,5&obstacles=1,1,3,   1,1,5,   1,4,6,   1,5,1,   1,12,4,   2,1,1,   2,2,3,   2,2,4,   2,7,3,   2,8,3

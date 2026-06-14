@@ -1,0 +1,28 @@
+﻿<game_data>
+	<!-- Nothing in this file should be dependant on the order.
+		 We access nodes by searching for their names. -->
+	<General>
+		<!-- 1 for true, 0 for false -->
+		<SOUNDS_ENABLED>1</SOUNDS_ENABLED>
+		<SKIP_INTRO>0</SKIP_INTRO>
+	</General>
+	<default>
+		<numPlayers>1</numPlayers>
+
+		<!-- 0 for easy, 1 for normal -->
+		<difficulty>0</difficulty>
+
+        <!-- "MEDIUM" or "HIGH" -->
+        <quality>MEDIUM</quality>
+
+	</default>
+	<Duration>
+		<Loading_Screen>500</Loading_Screen>
+		<Pause_After_Intro>10</Pause_After_Intro>
+		<Get_Ready>4000</Get_Ready>
+		<Update_Interval>10</Update_Interval>
+		<Message_Success>5000</Message_Success>
+		<Message_Failure>5000</Message_Failure>
+		<Pause_After_Level_End>1500</Pause_After_Level_End>
+	</Duration>
+</game_data>

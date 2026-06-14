@@ -1,0 +1,103 @@
+<enemies>
+
+	<!-- Gotham -->
+
+	<map ID="1">
+		<enemy id="flake" life="20" move="1" attack="1" damage="10" level="1" experience="5"></enemy>
+		<enemy id="basilisk" life="15" move="1" attack="2" damage="5" level="1" experience="5"></enemy>
+	</map>
+
+	<map ID="2">
+		<enemy id="flake" life="20" move="1" attack="1" damage="10" level="1" experience="5"></enemy>
+		<enemy id="basilisk" life="15" move="1" attack="2" damage="5" level="1" experience="5"></enemy>
+		<enemy id="gladiator" life="60" move="2" attack="3" damage="15" level="3" experience="15"></enemy>
+	</map>
+
+	<map ID="3">
+		<enemy id="gladiator" life="60" move="2" attack="3" damage="15" level="3" experience="15"></enemy>
+		<enemy id="joker" life="100" move="3" attack="3" damage="15" level="5" experience="25" immune="1"></enemy>
+	</map>
+
+	<!-- Canyon -->
+
+	<map ID="4">
+		<enemy id="basilisk" life="15" move="1" attack="2" damage="5" level="1" experience="5"></enemy>
+		<enemy id="wyrm" life="90" move="1" attack="4" damage="15" level="4" experience="20"></enemy>
+	</map>
+
+	<map ID="5">
+		<enemy id="flake" life="20" move="1" attack="1" damage="10" level="1" experience="5"></enemy>
+		<enemy id="joker" life="100" move="3" attack="3" damage="15" level="5" experience="25" immune="1"></enemy>
+	</map>
+
+	<map ID="6">
+		<enemy id="abaddon" life="85" move="2" attack="2" damage="25" level="6" experience="30"></enemy>
+		<enemy id="bizarro" life="125" move="3" attack="2" damage="35" level="8" experience="45" immune="1"></enemy>
+	</map>
+
+	<!-- Antartica -->
+
+	<map ID="7">
+		<enemy id="wyrm" life="240" move="1" attack="4" damage="50" level="11" experience="30"></enemy>
+		<enemy id="gladiator" life="160" move="2" attack="3" damage="40" level="9" experience="20"></enemy>
+	</map>
+
+	<map ID="8">
+		<enemy id="joker" life="200" move="3" attack="3" damage="45" level="8" experience="25" immune="1"></enemy>
+		<enemy id="bizarro" life="250" move="4" attack="2" damage="70" level="9" experience="45" immune="1"></enemy>
+		<enemy id="basilisk" life="120" move="1" attack="2" damage="15" level="5" experience="5"></enemy>
+		<enemy id="flake" life="140" move="1" attack="1" damage="20" level="5" experience="5"></enemy>
+	</map>
+
+	<map ID="9">
+		<enemy id="shade" life="350" move="3" attack="2" damage="80" level="12" experience="60" immune="1"></enemy>
+		<enemy id="abaddon" life="300" move="2" attack="2" damage="40" level="11" experience="30"></enemy>
+		<enemy id="gladiator" life="150" move="2" attack="3" damage="40" level="9" experience="20"></enemy>		
+	</map>
+
+	<!-- Chong Mai -->	
+
+	<map ID="10">
+		<enemy id="wyrm" life="240" move="1" attack="4" damage="50" level="11" experience="30"></enemy>
+		<enemy id="gladiator" life="160" move="2" attack="3" damage="40" level="9" experience="20"></enemy>
+	</map>
+
+	<map ID="11">
+		<enemy id="joker" life="200" move="3" attack="3" damage="45" level="8" experience="25" immune="1"></enemy>
+		<enemy id="bizarro" life="250" move="4" attack="2" damage="70" level="9" experience="45" immune="1"></enemy>
+		<enemy id="shade" life="350" move="3" attack="2" damage="80" level="12" experience="60" immune="1"></enemy>
+		<enemy id="gladiator" life="160" move="2" attack="3" damage="40" level="9" experience="20"></enemy>
+	</map>
+
+	<map ID="12">
+		<enemy id="clay" life="400" move="2" attack="3" damage="100" level="13" experience="75" immune="1"></enemy>
+		<enemy id="abaddon" life="300" move="2" attack="2" damage="40" level="11" experience="30"></enemy>
+		<enemy id="basilisk" life="120" move="1" attack="2" damage="15" level="5" experience="5"></enemy>		
+	</map>
+
+	
+	<!-- Europe -->
+
+	<map ID="13">
+		<enemy id="abaddon" life="350" move="2" attack="2" damage="70" level="14" experience="50"></enemy>
+		<enemy id="gladiator" life="200" move="2" attack="3" damage="55" level="13" experience="25"></enemy>
+		<enemy id="wyrm" life="300" move="1" attack="4" damage="65" level="14" experience="30"></enemy>
+	</map>
+
+	<map ID="14">
+		<enemy id="grodd2" life="999" move="2" attack="3" damage="175" level="15" experience="150" immune="1"></enemy>
+		<enemy id="abaddon" life="350" move="2" attack="2" damage="70" level="14" experience="50"></enemy>
+		<enemy id="wyrm" life="300" move="1" attack="4" damage="65" level="14" experience="30"></enemy>
+		<enemy id="flake" life="200" move="1" attack="1" damage="30" level="8" experience="10"></enemy>
+	</map>
+
+	<map ID="15">
+		<enemy id="joker" life="300" move="3" attack="3" damage="65" level="15" experience="25" immune="1"></enemy>
+		<enemy id="bizarro" life="375" move="4" attack="2" damage="90" level="8" experience="45" immune="1"></enemy>
+		<enemy id="grodd2" life="999" move="2" attack="3" damage="200" level="15" experience="150" immune="1"></enemy>
+		<enemy id="shade" life="450" move="3" attack="2" damage="120" level="15" experience="60" immune="1"></enemy>
+		<enemy id="clay" life="600" move="2" attack="3" damage="150" level="15" experience="75" immune="1"></enemy>		
+	</map>
+
+</enemies>
+

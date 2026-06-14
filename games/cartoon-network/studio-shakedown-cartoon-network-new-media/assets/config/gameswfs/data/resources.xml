@@ -1,0 +1,1013 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE main SYSTEM "resources.dtd">
+
+<main>
+<sprites>
+		<sprite id='0' name='Shake' filename='sprite_shake.swf' states='shake_states.xml'>
+			<frames name='animations'>
+				<sequence name='l_idle' loop='0'>36</sequence>
+				<sequence name='r_idle' loop='0'>1</sequence>
+				<sequence name='l_walk' loop='1'>2,2,3,3</sequence><!--loop-->
+				<sequence name='r_walk' loop='1'>4,4,5,5</sequence><!--loop-->
+				<sequence name='l_bend' loop='0'>6,6,7,7,8,8,9,9,9,9,9,9,7,7,6,6</sequence>
+				<sequence name='r_bend' loop='0'>10,10,11,11,12,12,13,13,13,13,13,13,11,11,10,10</sequence>
+				<sequence name='l_turn' loop='0'>14,14,15,151,16,16,17,17,18,18,19,19,20,20,21,21</sequence>
+				<sequence name='r_turn' loop='0'>21,21,20,20,19,19,18,18,17,17,16,16,15,15,14,14</sequence>
+				<sequence name='r_enter' loop='0'>16,16,17,17,18,18,22,22,23,23</sequence>
+				<sequence name='l_enter' loop='0'>20,20,19,19,18,18,22,22,23,23</sequence>
+				<sequence name='l_enter_elevator' loop='0'>18,18,22,22,23,23</sequence>
+				<sequence name='r_enter_elevator' loop='0'>18,18,22,22,23,23</sequence>
+				<sequence name='l_exit' loop='0'>24,24,25,25,14,14</sequence>
+				<sequence name='r_exit' loop='0'>24,24,25,25,14,14</sequence>
+				<sequence name='r_hit' loop='0'>26,27,27,28,28,29</sequence>
+				<sequence name='l_hit' loop='0'>31,32,32,33,33,34</sequence>
+				<sequence name='l_enter_door' loop='0'>37,37,38,38</sequence>
+				<sequence name='r_enter_door' loop='0'>37,37,38,38</sequence>
+				<sequence name='l_exit_door' loop='0'>39,39,40,40</sequence>
+				<sequence name='r_exit_door' loop='0'>39,39,40,40</sequence>
+				<sequence name='l_push' loop='0'>41,41,41,41,41,41,18,18</sequence>
+				<sequence name='r_push' loop='0'>41,41,41,41,41,41,18,18</sequence>
+
+				<sequence name='l_dead' loop='0'>42</sequence>
+
+				<sequence name='r_dead' loop='0'>42</sequence>
+
+			</frames>
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc='bodyMC'>1</sequence>
+				<sequence name='damage1' loop='0' mc='bodyMC'>2</sequence>
+				<sequence name='damage2' loop='0' mc='bodyMC'>3</sequence>
+				<sequence name='damage3' loop='0' mc='bodyMC'>4</sequence>
+				<sequence name='damage4' loop='0' mc='bodyMC'>5</sequence>
+				<sequence name='damage5' loop='0' mc='bodyMC'>6</sequence>
+			</frames>
+			<frames name='vo'>
+				<sequence name='afternoon_off' loop='0' mc='mouthMC'>1,3,3,4,4,2,3,3,2,2,1,1,1,1,2,3,3,2,1,6,6,2,2,2,3,3,5,5,2,2,2,4,4,1,1,2,2,3,3,5,5,5,1,1,4,4,2,2,2,2,2,1,1,1,1</sequence>
+				<sequence name='attack_scream' loop='0' mc='mouthMC'>1,1,1,1,2,2,3,3,2,2,1,1,1,1,1</sequence>
+				<sequence name='attack_scream2' loop='0' mc='mouthMC'>1,1,1,4,4,4,4,4,4,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1</sequence>
+				<sequence name='busted_robot' loop='0' mc='mouthMC'>1,1,1,2,2,1,1,3,3,3,1,1,1,4,4,5,5,2,2,2,2,4,4,4,5,5,2,2,4,4,4,1,1,2,2,1,1,4,4,1,1,1,4,4,5,2,2,2,1,1,1,1,1,2,3,3,2,2,1,1,2,2,4,4,4,4,1,1,2,2,3,3,1,1,1,2,2,1,1,2,2,5,5,5,5,3,3,3,3,2,2,5,5,5,5,1,1,1,1,1,1</sequence>
+				<sequence name='call_mass' loop='0' mc='mouthMC'>1,1,1,1,1,1,2,2,4,4,2,2,2,2,2,3,3,6,6,4,4,1,1,2,2,2,2,2,4,4,4,4,4,2,2,1,1,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='cut_print_destroy' loop='0' mc='mouthMC'>1,1,1,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,3,3,1,1,1,1,1,1,1,1,1,1,1,1,3,3,2,1,1,1,1,1,1,1,2,2,1,1,1,1,1,4,4,4,3,3,3,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='enough_robot' loop='0' mc='mouthMC'>1,2,2,1,1,3,3,5,5,5,5,5,3,3,2,2,2,3,3,2,2,2,4,4,1,1,1,2,2,2,3,3,3,1,1,3,3,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='hello_suckas' loop='0' mc='mouthMC'>1,1,1,1,2,3,3,6,6,3,3,2,4,4,2,2,2,3,3,2,2,2,2,3,3,2,2,1,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='less_resistant' loop='0' mc='mouthMC'>1,1,1,1,2,2,4,4,2,2,4,4,1,1,3,3,2,2,1,2,2,3,3,2,2,1,1,4,4,4,4,2,2,4,4,4,6,6,3,3,2,2,4,4,2,2,3,3,2,2,1,1,2,2,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='let_me_speak' loop='0' mc='mouthMC'>1,1,6,6,3,2,2,2,2,2,1,1,3,3,2,1,1,4,4,4,1,1,3,3,1,2,2,5,5,2,3,3,2,2,1,1,1,4,4,4,1,1,1,1,1,1</sequence>
+				<sequence name='mr_pain' loop='0' mc='mouthMC'>1,1,1,2,2,5,5,4,4,1,1,2,2,1,1,2,3,3,3,3,2,1,1,2,2,2,2,1,1,1,1,1,1,1,1,1,2,2,1,1,4,4,1,1,3,3,3,3,2,2,2,2,2,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='robots_again' loop='0' mc='mouthMC'>1,1,1,2,2,1,1,2,3,3,3,3,1,1,4,4,1,1,1,2,2,4,4,4,3,3,1,3,3,3,3,2,2,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='robots_why' loop='0' mc='mouthMC'>1,1,1,4,4,4,4,1,1,3,3,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,4,3,3,3,2,2,2,2,2,2,2,2,1,1,2,2,3,3,2,5,5,5,2,1,1,2,2,2,2,4,4,4,4,3,3,1,1,2,2,2,2,1,1,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='say_hi_pipe' loop='0' mc='mouthMC'>1,1,1,1,1,2,2,2,2,2,3,3,3,2,2,1,1,1,2,2,2,1,1,1,2,2,2,3,3,2,2,1,1,1,1,1,1,1</sequence>
+				<sequence name='security' loop='0' mc='mouthMC'>1,1,1,1,1,1,1,1,1,2,2,2,2,2,4,4,3,3,3,3,3,2,2,3,3,3,3,3,3,3,2,2,1,1,1,1,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='shaken' loop='0' mc='mouthMC'>1,4,4,2,2,3,3,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,2,2,3,3,1,1,1,1,1,1,2,2,2,2,3,3,2,2,2,2,2,1,1,1,1,1,1,1</sequence>
+				<sequence name='up_late' loop='0' mc='mouthMC'>1,1,2,2,1,1,4,4,1,1,3,3,4,4,2,2,5,5,3,3,2,2,2,4,4,2,2,3,3,2,2,4,4,3,3,1,1,2,2,2,1,1,6,6,2,2,2,1,1,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='want_some' loop='0' mc='mouthMC'>1,1,1,4,4,4,4,4,2,2,3,3,2,2,2,2,3,3,1,1,1,2,2,2,3,3,3,2,2,1,1,1,1,1,1,1</sequence>
+				<sequence name='jerkface' loop='0' mc='mouthMC'>1,1,1,1,2,2,4,4,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,4,4,3,3,3,5,5,2,2,4,4,4,4,5,5,5,2,2,2,2,1,1,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='bam' loop='0' mc='mouthMC'>1,1,1,1,2,2,3,3,3,3,3,1,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='buy_foreign' loop='0' mc='mouthMC'>1,1,1,6,3,3,2,2,2,4,4,2,2,2,2,3,3,3,1,1,2,2,2,2,2,4,4,2,2,2,2,1,1,3,3,3,3,5,5,5,5,3,3,3,3,4,4,2,2,1,1,1,1,1,1</sequence>
+				<sequence name='buying_this_one' loop='0' mc='mouthMC'>1,1,1,1,1,2,2,2,2,6,6,3,3,1,1,2,2,1,1,1,2,3,3,3,3,2,1,1,3,3,1,1,1,1,1,4,2,2,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='get_things_out' loop='0' mc='mouthMC'>1,1,1,1,1,1,1,1,2,2,1,1,2,2,2,2,1,1,1,1,2,3,1,1,6,6,6,2,2,2,6,2,2,2,2,3,3,3,4,4,1,1,1,2,2,2,2,2,4,4,1,1,1,1,1,1,1</sequence>
+				<sequence name='got_receipt' loop='0' mc='mouthMC'>1,1,1,1,1,2,2,2,1,1,2,2,2,3,3,3,3,4,4,4,2,2,2,2,3,3,3,3,1,1,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='intern' loop='0' mc='mouthMC'>1,3,3,3,2,2,4,4,4,2,2,1,1,1,2,2,3,3,3,3,2,2,2,2,3,3,3,2,3,3,3,2,2,2,6,6,6,1,1,1,1,1,1</sequence>
+				<sequence name='looks_bought_it' loop='0' mc='mouthMC'>1,1,1,1,1,1,6,6,4,4,2,2,6,6,3,3,3,2,2,3,3,3,1,1,1,3,3,3,3,2,2,1,1,1,1,1,1,1</sequence>
+				<sequence name='oh_boy' loop='0' mc='mouthMC'>1,1,1,2,2,3,3,1,1,3,3,2,2,2,6,3,3,3,3,1,1,1,3,3,2,2,2,1,1,1,3,3,3,4,4,4,4,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='really_satisfying' loop='0' mc='mouthMC'>1,1,1,1,6,2,2,2,2,2,2,2,2,4,4,4,6,6,2,2,2,2,2,2,3,3,3,2,2,2,2,5,5,3,3,3,3,2,2,2,1,1,1,1,1,1</sequence>
+				<sequence name='shoddy_work' loop='0' mc='mouthMC'>1,1,2,3,3,2,2,4,4,4,3,3,2,2,1,1,2,2,2,2,2,1,1,1,4,4,2,2,4,4,1,1,3,3,3,3,3,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='talk_to_pipe' loop='0' mc='mouthMC'>1,1,1,2,2,3,3,1,1,1,4,4,6,1,1,1,2,3,3,3,3,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='used_to_valuable' loop='0' mc='mouthMC'>1,1,1,1,1,6,6,2,1,1,1,2,2,4,4,4,1,1,1,2,2,6,6,2,2,5,5,3,3,6,4,4,4,1,2,2,6,1,1,1,1,1,1</sequence>
+				<sequence name='warrent_voided' loop='0' mc='mouthMC'>1,1,1,2,2,2,2,4,4,3,3,3,3,2,2,1,1,2,2,2,2,2,2,2,2,2,6,2,2,2,1,1,5,5,5,4,4,3,3,2,1,1,2,2,2,1,1,2,2,2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='whoops' loop='0' mc='mouthMC'>1,1,1,1,1,3,3,3,2,2,2,2,2,2,1,1,1</sequence>
+				<sequence name='why_broken' loop='0' mc='mouthMC'>1,1,1,1,1,4,4,4,2,2,2,2,3,5,5,4,4,6,2,2,2,2,3,3,2,2,4,4,1,1,4,4,4,4,2,2,2,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='alright_lets_work' loop='0' mc='mouthMC'>1,1,1,2,2,6,4,4,3,3,3,2,2,1,1,6,6,1,1,1,3,3,2,2,2,4,4,4,3,3,3,2,1,1,1,1,1,1,1</sequence>
+				<sequence name='knock_heads' loop='0' mc='mouthMC'>1,1,1,3,3,3,3,2,2,2,1,1,1,2,2,3,3,3,3,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='make_noise' loop='0' mc='mouthMC'>1,1,1,1,1,6,6,3,3,2,2,2,1,1,3,3,3,2,2,2,1,1,1,1,1,3,3,3,3,3,3,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='turkeys_how' loop='0' mc='mouthMC'>1,1,6,6,2,2,2,2,2,4,4,4,6,6,2,2,1,1,2,2,3,3,3,2,2,2,2,2,2,2,3,3,4,4,2,2,1,1,1,3,3,3,3,3,2,2,1,1,1,1,1</sequence>
+				<sequence name='war_to_door' loop='0' mc='mouthMC'>1,2,2,1,1,1,1,3,3,3,3,3,2,2,6,6,4,4,3,3,3,3,3,3,2,2,2,2,2,2,3,3,3,5,5,5,5,3,3,3,3,2,2,2,3,3,3,3,3,2,2,2,1,1,1,1</sequence>
+				<sequence name='attitude' loop='0' mc='mouthMC'>1,3,3,5,5,2,2,1,1,1,3,3,3,1,6,1,4,4,6,6,6,2,2,2,2,3,3,2,2,1,1,1,4,4,4,4,1,1,1,1,1,1</sequence>
+				<sequence name='behind' loop='0' mc='mouthMC'>1,1,4,4,2,2,2,1,3,3,1,1,3,3,3,3,2,2,2,1,1,3,3,3,1,1,1,1</sequence>
+				<sequence name='doesnt_feel' loop='0' mc='mouthMC'>1,1,1,6,2,1,1,3,3,3,2,2,2,2,5,5,5,5,6,6,6,6,3,3,3,3,2,2,1,1,1,1,1,1</sequence>
+				<sequence name='grunt_big' loop='0' mc='mouthMC'>1,1,2,2,2,3,3,3,3,2,1,1,1,1,1,1</sequence>
+				<sequence name='grunt_big3' loop='0' mc='mouthMC'>1,2,2,2,3,3,3,3,3,3,3,3,1,1,1</sequence>
+				<sequence name='grunt_small3' loop='0' mc='mouthMC'>1,1,1,1,1,1,3,3,4,4,4,4,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='grunt_small8' loop='0' mc='mouthMC'>1,1,4,4,4,4,4,1,1,1</sequence>
+				<sequence name='had_with_you' loop='0' mc='mouthMC'>1,1,6,2,2,2,1,1,1,2,2,2,2,1,1,3,3,3,2,5,5,2,2,3,3,3,3,2,2,2,4,4,6,6,6,2,2,4,4,4,1,1,1</sequence>
+				<sequence name='hey' loop='0' mc='mouthMC'>1,1,2,2,2,3,3,3,3,2,2,2,1,1,1,1,1,1,1</sequence>
+				<sequence name='hey_hurt' loop='0' mc='mouthMC'>1,1,2,2,2,6,3,3,3,3,3,2,2,3,3,3,3,2,2,1,1,1,1,1</sequence>
+				<sequence name='how_sleep' loop='0' mc='mouthMC'>1,1,2,3,3,3,4,4,4,1,1,6,6,3,3,1,1,2,2,1,1,3,3,3,3,1,1,1</sequence>
+				<sequence name='hurting_me' loop='0' mc='mouthMC'>1,1,4,4,4,2,2,2,2,3,3,2,2,3,3,3,1,1,1,3,3,3,3,3,3,1,1,1,1</sequence>
+				<sequence name='knock_off' loop='0' mc='mouthMC'>1,1,2,2,2,2,2,2,3,3,1,1,2,2,3,3,3,3,5,5,5,2,6,3,3,3,3,3,2,2,2,1,1,1,1,1,1,1,1</sequence>
+				<sequence name='mother_laser' loop='0' mc='mouthMC'>1,4,4,4,1,2,2,2,2,2,4,4,1,1,3,3,6,6,6,4,4,6,6,3,3,3,6,6,3,3,3,2,2,4,4,4,1,1,1,1,1,1</sequence>
+				<sequence name='my_foot' loop='0' mc='mouthMC'>1,1,1,3,3,3,1,3,3,5,5,5,4,4,3,3,1,1,1</sequence>
+				<sequence name='next_level_pal' loop='0' mc='mouthMC'>1,4,4,1,3,3,2,3,4,4,4,4,1,1,3,3,2,2,3,3,1,1,1,2,2,2,4,4,3,3,3,6,6,1,3,3,2,2,2,6,6,2,5,5,6,6,1,3,3,3,3,6,6,6,1,1,1,1,1,1</sequence>
+				<sequence name='nice_way' loop='0' mc='mouthMC'>1,6,6,2,2,2,1,1,3,3,3,2,2,2,2,4,3,3,2,2,2,2,4,4,4,4,6,3,3,3,3,2,2,4,4,1,3,3,3,4,4,4,4,1,1,1,1</sequence>
+				<sequence name='not_my_face' loop='0' mc='mouthMC'>1,3,3,3,3,1,3,3,2,5,5,3,3,3,2,2,2,2,1,1,1,1,1,1</sequence>
+				<sequence name='oh_that_hurt' loop='0' mc='mouthMC'>1,1,1,4,3,3,3,6,3,3,3,2,2,3,3,3,2,2,1,1</sequence>
+				<sequence name='ow_that_smarts' loop='0' mc='mouthMC'>1,4,4,4,6,3,3,3,2,2,2,2,1,1,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1</sequence>
+				<sequence name='ouch' loop='0' mc='mouthMC'>1,1,2,2,2,2,3,3,4,4,4,4,2,2,2,2,2,2,2,1,1,1,1,1</sequence>
+				<sequence name='ow' loop='0' mc='mouthMC'>1,2,2,2,3,3,3,3,4,4,4,1,1,1</sequence>
+				<sequence name='regret_that' loop='0' mc='mouthMC'>1,4,4,4,4,3,3,3,3,3,2,2,2,2,2,2,2,3,3,3,4,4,4,4,2,3,3,1,2,2,4,4,2,2,2,3,3,3,3,2,2,2,6,3,3,3,2,2,1,1,1,1,1</sequence>
+				<sequence name='somebody_medic' loop='0' mc='mouthMC'>1,2,3,3,1,1,3,3,2,3,3,3,1,1,2,3,3,3,1,3,3,3,3,3,1,1,1,3,3,3,3,2,3,3,3,2,2,1</sequence>
+				<sequence name='thats_it' loop='0' mc='mouthMC'>1,6,3,3,3,2,2,2,2,3,3,3,2,1,1,1</sequence>
+				<sequence name='were_friends' loop='0' mc='mouthMC'>1,1,6,6,2,2,2,4,2,2,4,4,5,5,5,5,3,3,3,2,2,2,1,1,1,1,1</sequence>
+				<sequence name='wow' loop='0' mc='mouthMC'>1,1,1,4,4,4,3,3,3,3,4,4,4,4,1,1,1</sequence>
+			</frames>
+		</sprite>
+
+
+<!-- obstacles -->
+		<sprite id='1' name='TV' filename='obj1' states='object_states.xml' ptValue='500' lbs='30' damageFx='break_tv'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='damaged' loop='0' mc=''>2</sequence>
+				<sequence name='damaged2' loop='0' mc=''>3</sequence>
+				<sequence name='destroyed' loop='0' mc=''>4</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='2' name='PlantAndPot' filename='obj2' states='object_states.xml' ptValue='200' lbs='30' damageFx='break_wood'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='3' name='PlantOnly' filename='obj3' states='object_states.xml' ptValue='100' lbs='10' damageFx='break_wood'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='4' name='PlantPot' filename='obj4' states='object_states.xml' ptValue='100' lbs='20' damageFx='break_wood'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='5' name='Computer' filename='obj5' states='object_states.xml' ptValue='870' lbs='30' damageFx='break_tv'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='damaged' loop='0' mc=''>2</sequence>
+				<sequence name='destroyed' loop='0' mc=''>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='6' name='Lamp1' filename='obj6' states='object_states.xml' ptValue='100' lbs='5' damageFx='break_lights'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='7' name='Lamp2' filename='obj7' states='object_states.xml' ptValue='100' lbs='5' damageFx='break_lights'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='8' name='Chair' filename='obj8' states='object_states.xml' ptValue='700' lbs='20' damageFx='break_wood'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='9' name='Watercooler' filename='obj9' states='object_states.xml' ptValue='300' lbs='50' damageFx='break_watercooler'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='10' name='Poster1' filename='obj10' states='object_states.xml' ptValue='250' lbs='2' damageFx='break_glass'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='damaged'   loop='0' mc=''>2</sequence>
+				<sequence name='destroyed' loop='0' mc=''>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='11' name='Poster2' filename='obj11' states='object_states.xml' ptValue='250' lbs='2' damageFx='break_glass'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='damaged'   loop='0' mc=''>2</sequence>
+				<sequence name='destroyed' loop='0' mc=''>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='12' name='Poster3' filename='obj12' states='object_states.xml' ptValue='250' lbs='2' damageFx='break_glass'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='damaged'   loop='0' mc=''>2</sequence>
+				<sequence name='destroyed' loop='0' mc=''>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='13' name='Poster4' filename='obj13' states='object_states.xml' ptValue='250' lbs='2' damageFx='break_glass'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='damaged'   loop='0' mc=''>2</sequence>
+				<sequence name='destroyed' loop='0' mc=''>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='14' name='Poster5' filename='obj14' states='object_states.xml' ptValue='200' lbs='2' damageFx='break_glass'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='damaged'   loop='0' mc=''>2</sequence>
+				<sequence name='destroyed' loop='0' mc=''>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='15' name='RecycleBin' filename='obj15' states='object_states.xml' ptValue='50' lbs='5'  damageFx='break_metal'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='16' name='SecurityCam' filename='obj16' states='object_states.xml' ptValue='950' lbs='8' damageFx='break_tv'>
+			<frames name='animations'>
+				<sequence name='right' loop='0'>1</sequence>
+				<sequence name='center' loop='0'>2</sequence>
+				<sequence name='left' loop='0'>3</sequence>
+			</frames>
+			<frames name='damage'>								<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>4</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='17' name='Alert' filename='obj17' states='object_states.xml' ptValue='250' lbs='10' damageFx='break_lights'>
+			<frames name='animations'>
+				<sequence name='idle' loop='0'>1</sequence>
+				<sequence name='blink' loop='20'>1,1,1,2,2,2</sequence>
+			</frames>
+			<frames name='damage'>				
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='18' name='Vending' filename='obj18' states='object_states.xml' ptValue='750' lbs='80' damageFx='break_glass'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='damaged' loop='0' mc=''>2</sequence>
+				<sequence name='destroyed' loop='0' mc=''>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='19' name='Coffee' filename='obj19' states='object_states.xml' ptValue='20' lbs='7' damageFx='break_wood'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='20' name='FireExtinguisher' filename='obj20' states='object_states.xml' ptValue='150' lbs='15' damageFx='break_metal'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='21' name='Award' filename='obj21' states='object_states.xml' ptValue='70' lbs='5' damageFx='break_metal'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='22' name='Box' filename='obj22' states='object_states.xml' ptValue='150' lbs='15' damageFx='break_wood'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='23' name='Trashcan' filename='obj23' states='object_states.xml' ptValue='120' lbs='15' damageFx='break_metal'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='24' name='Desk' filename='obj24' states='object_states.xml' ptValue='850' lbs='15' damageFx='break_wood'>
+			<frames name='animations' >
+				<sequence name='explode' loop='0' mc=''>1,1,2,2,3</sequence>
+			</frames>
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='25' name='DirectorChair' filename='obj25' states='object_states.xml' ptValue='70' lbs='15' damageFx='break_wood'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='26' name='Camera' filename='obj26' states='object_states.xml' ptValue='990' lbs='50' damageFx='break_metal'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='27' name='Phone' filename='obj27' states='object_states.xml' ptValue='80' lbs='5' damageFx='phone_offhook'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='28' name='Flowers' filename='obj28' states='object_states.xml' ptValue='20' lbs='5' damageFx='break_wood'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='29' name='SmallPlant' filename='obj29' states='object_states.xml' ptValue='30' lbs='5' damageFx='break_wood'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='30' name='MovieLight' filename='obj30' states='object_states.xml' ptValue='450' lbs='35' damageFx='break_lights'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='31' name='Urinal' filename='obj31' states='object_states.xml' ptValue='250' lbs='80' damageFx='break_concrete'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='32' name='Table' filename='obj32' states='object_states.xml' ptValue='150' lbs='80' damageFx='break_wood'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	    </sprite>
+
+
+		<sprite id='33' name='SecurityHead' filename='guard1' states='object_states.xml' lbs='35'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+			<frames name='color'>
+				<sequence name='blue' loop='0'>1</sequence>
+				<sequence name='green' loop='0'>2</sequence>
+				<sequence name='red' loop='0'>3</sequence>
+			</frames>
+		</sprite>
+		<sprite id='34' name='SecurityBody' filename='guard2' states='object_states.xml' lbs='85'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+			<frames name='color'>
+				<sequence name='blue' loop='0'>1</sequence>
+				<sequence name='green' loop='0'>2</sequence>
+				<sequence name='red' loop='0'>3</sequence>
+			</frames>
+		</sprite>
+		<sprite id='35' name='SecurityCannon' filename='guard3' states='object_states.xml' lbs='45'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+		</sprite>
+		<sprite id='36' name='SecurityLaser' filename='guard4' states='object_states.xml' lbs='35'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+		</sprite>
+		<sprite id='37' name='SecurityArm' filename='guard5' states='object_states.xml' lbs='35'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc=''>1</sequence>
+				<sequence name='destroyed' loop='0' mc=''>2</sequence>
+			</frames>
+	   	 </sprite>
+
+
+<!-- doors -->
+		<sprite id='501' name='SecurityDoor' filename='door1' states='door_states.xml' ptValue='400' lbs='50'>
+			<frames name='animations'>
+				<sequence name='open' loop='0'>1,1,2</sequence>
+				<sequence name='close' loop='0'>2,2,1</sequence>
+			</frames>
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc='damageMC'>1</sequence>
+				<sequence name='damage1' loop='0' mc='damageMC'>2</sequence>
+				<sequence name='damage2' loop='0' mc='damageMC'>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='502' name='StairsDoorUp' filename='door2' states='door_states.xml' ptValue='100' lbs='50'>
+			<frames name='animations'>
+				<sequence name='open' loop='0'>1,1,2</sequence>
+				<sequence name='close' loop='0'>2,2,1</sequence>
+			</frames>
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc='damageMC'>1</sequence>
+				<sequence name='damage1' loop='0' mc='damageMC'>2</sequence>
+				<sequence name='damage2' loop='0' mc='damageMC'>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='503' name='ElevatorDoor' filename='door3' states='door_states.xml' ptValue='0' lbs='50'>
+			<frames name='animations'>
+				<sequence name='open' loop='0'>3,3,3,4</sequence>
+				<sequence name='close' loop='0'>3,3,3,2</sequence>
+			</frames>
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0'>2</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='504' name='StairsDoorDn' filename='door4' states='door_states.xml' ptValue='100' lbs='50'>
+			<frames name='animations'>
+				<sequence name='open' loop='0'>1,1,2</sequence>
+				<sequence name='close' loop='0'>2,2,1</sequence>
+			</frames>
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc='damageMC'>1</sequence>
+				<sequence name='damage1' loop='0' mc='damageMC'>2</sequence>
+				<sequence name='damage2' loop='0' mc='damageMC'>3</sequence>
+			</frames>
+	    </sprite>
+
+
+
+		<sprite id='505' name='l_brokenWindow' filename='door4' states='door_states.xml' ptValue='300' lbs='50'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc='damageMC'>1</sequence>
+				<sequence name='destroyed' loop='0' mc='damageMC'>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='506' name='r_BrokenWindow' filename='door5' states='door_states.xml' ptValue='300' lbs='50'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc='damageMC'>1</sequence>
+				<sequence name='destroyed' loop='0' mc='damageMC'>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='507' name='l_BrokenDoor' filename='door6' states='door_states.xml' ptValue='100' lbs='50'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc='damageMC'>1</sequence>
+				<sequence name='destroyed' loop='0' mc='damageMC'>3</sequence>
+			</frames>
+	    </sprite>
+		<sprite id='508' name='r_BrokenDoor' filename='door7' states='door_states.xml' ptValue='100' lbs='50'>
+			<frames name='animations' />
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0' mc='damageMC'>1</sequence>
+				<sequence name='destroyed' loop='0' mc='damageMC'>3</sequence>
+			</frames>
+	    </sprite>
+
+
+<!-- enemies -->
+		<sprite id='1001' name='Guard' filename='sprite_security.swf' states='guard_states.xml' ptValue='750' lbs='250' damageFx='security_damage'>
+			<frames name='animations'>
+				<sequence name='l_idle' loop='0'>1</sequence>
+				<sequence name='r_idle' loop='0'>2</sequence>
+				<sequence name='l_walk' loop='1'>1</sequence><!--loop-->
+				<sequence name='r_walk' loop='1'>2</sequence><!--loop-->
+				<sequence name='l_bomb' loop='0'>3,4,4,5,5,4,4,3</sequence>
+				<sequence name='r_bomb' loop='0'>6,7,7,8,8,7,7,6</sequence>
+				<sequence name='l_arm_missile' loop='0'>9,10,10,11,11,12,12</sequence>
+				<sequence name='r_arm_missile' loop='0'>13,14,14,15,15,16,16</sequence>
+				<sequence name='l_lower_missile' loop='0'>12,11,10,9</sequence>
+				<sequence name='r_lower_missile' loop='0'>16,15,14,13</sequence>
+				<sequence name='l_laser' loop='0'>17,18,19,20,21,22</sequence>
+				<sequence name='r_laser' loop='0'>23,24,25,26,27,28</sequence>
+				<sequence name='l_enter_door' loop='0'>29,29,30,30,31,31</sequence>
+				<sequence name='r_enter_door' loop='0'>32,32,33,33,34,34</sequence>
+				<sequence name='l_exit_door' loop='0'>31,31,30,30,29,29</sequence>
+				<sequence name='r_exit_door' loop='0'>34,34,33,33,32,32</sequence>
+				<sequence name='l_firemissile' loop='0'>35,36,37,38,39</sequence>
+				<sequence name='r_firemissile' loop='0'>40,41,42,43,44</sequence>
+				<sequence name='l_enter' loop='0'>45,45,46,46,47,47</sequence>
+				<sequence name='r_enter' loop='0'>48,48,49,49,50,50</sequence>
+				<sequence name='l_exit' loop='0'>47,47,46,46,45,45</sequence>
+				<sequence name='r_exit' loop='0'>50,50,49,49,48,48</sequence>
+				<sequence name='l_scan' loop='1'>51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,52,52,52,52,52,52,52,52,52,52,52,52,52,52,52,52,52,52</sequence>
+				<sequence name='r_scan' loop='1'>53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54,54</sequence>
+
+				<sequence name='l_dead' loop='0'>55,56,57,58,59,60,61,62,,63,63,63,63,63,63,63,63,63,63,63,63,63,63,64,65,66</sequence>
+
+				<sequence name='r_dead' loop='0'>55,56,57,58,59,60,61,62,,63,63,63,63,63,63,63,63,63,63,63,63,63,63,64,65,66</sequence>
+			</frames>
+			<frames name='damage'>
+				<sequence name='undamaged' loop='0'>1</sequence>
+				<sequence name='damaged' loop='0'>2</sequence>
+				<sequence name='removed' loop='0'>3</sequence>
+			</frames>
+			<frames name='color'>
+				<sequence name='blue' loop='0'>1</sequence>
+				<sequence name='green' loop='0'>2</sequence>
+				<sequence name='red' loop='0'>3</sequence>
+			</frames>
+		</sprite>
+
+		<sprite id='1002' name='Bomb' filename='guardBomb' states='bomb_states.xml' lbs='25'>
+			<frames name='animations'>
+				<sequence name='l_idle' loop='0'>1</sequence>
+				<sequence name='r_idle' loop='0'>1</sequence>
+				<sequence name='l_armed' loop='1'>1,1,2,2</sequence>
+				<sequence name='r_armed' loop='1'>1,1,2,2</sequence>
+			</frames>
+		</sprite>
+	
+		<sprite id='1003' name='Rocket' filename='guardRocket' states='projectile_states.xml' lbs='25'>
+			<frames name='animations'>
+				<sequence name='l_idle' loop='1'>1</sequence>
+				<sequence name='r_idle' loop='1'>2</sequence>
+			</frames>
+		</sprite>
+
+		<sprite id='1004' name='Laser' filename='guardLaser' states='projectile_states.xml' lbs='25'>
+			<frames name='animations'>
+				<sequence name='l_idle' loop='1'>1</sequence>
+				<sequence name='r_idle' loop='1'>2</sequence>
+			</frames>
+		</sprite>
+
+
+		<sprite id='1005' name='Boss' filename='sprite_head.swf' states='boss_states.xml' ptValue='100000' lbs='500'>
+			<frames name='animations'>
+				<sequence name='l_idle' loop='0'>1</sequence>
+				<sequence name='r_idle' loop='0'>1</sequence>
+				<sequence name='l_bomb' loop='0'>2,2,3,3,4,4,5,5,6,6,7,7,1</sequence>
+				<sequence name='r_bomb' loop='0'>2,2,3,3,4,4,5,5,6,6,7,7,1</sequence>
+				<sequence name='l_hit' loop='0'>8,8,1</sequence>
+				<sequence name='r_hit' loop='0'>9,9,1</sequence>
+
+				<sequence name='l_dead' loop='0'>10,10,11,11,12,12,13,13,14,14,15,15,16,16</sequence>
+
+				<sequence name='r_dead' loop='0'>10,10,11,11,12,12,13,13,14,14,15,15,16,16</sequence>
+
+				<sequence name='l_waiting' loop='0'>17</sequence>
+
+				<sequence name='r_waiting' loop='0'>17</sequence>
+
+				<sequence name='l_takeoff' loop='0'>17,18,19,20,21,22,23,24,25,26,27,28</sequence>
+
+				<sequence name='r_takeoff' loop='0'>17,18,19,20,21,22,23,24,25,26,27,28</sequence>
+			</frames>
+			<frames name='mutation'>
+				<sequence name='b_toe_fro' loop='0' mc='mutationMC'>1</sequence>
+				<sequence name='b_arm_fro' loop='0' mc='mutationMC'>2</sequence>
+				<sequence name='b_ear_fro' loop='0' mc='mutationMC'>3</sequence>
+				<sequence name='w_toe_fro' loop='0' mc='mutationMC'>4</sequence>
+				<sequence name='w_arm_fro' loop='0' mc='mutationMC'>5</sequence>
+				<sequence name='w_ear_fro' loop='0' mc='mutationMC'>6</sequence>
+				<sequence name='b_toe_mullet' loop='0' mc='mutationMC'>7</sequence>
+				<sequence name='b_arm_mullet' loop='0' mc='mutationMC'>8</sequence>
+				<sequence name='b_ear_mullet' loop='0' mc='mutationMC'>9</sequence>
+				<sequence name='w_toe_mullet' loop='0' mc='mutationMC'>10</sequence>
+				<sequence name='w_arm_mullet' loop='0' mc='mutationMC'>11</sequence>
+				<sequence name='w_ear_mullet' loop='0' mc='mutationMC'>12</sequence>
+				<sequence name='b_toe_sides' loop='0' mc='mutationMC'>13</sequence>
+				<sequence name='b_arm_sides' loop='0' mc='mutationMC'>14</sequence>
+				<sequence name='b_ear_sides' loop='0' mc='mutationMC'>15</sequence>
+				<sequence name='w_toe_sides' loop='0' mc='mutationMC'>16</sequence>
+				<sequence name='w_arm_sides' loop='0' mc='mutationMC'>17</sequence>
+				<sequence name='w_ear_sides' loop='0' mc='mutationMC'>18</sequence>
+				<sequence name='b_brain' loop='0' mc='mutationMC'>19</sequence>
+				<sequence name='w_brain' loop='0' mc='mutationMC'>20</sequence>
+			</frames>
+			<frames name='face'>
+				<sequence name='black' loop='0' mc='faceMC'>1</sequence>
+				<sequence name='white' loop='0' mc='faceMC'>2</sequence>
+			</frames>
+			<frames name='neck'>
+				<sequence name='black' loop='0' mc='neckMC'>1</sequence>
+				<sequence name='white' loop='0' mc='neckMC'>2</sequence>
+			</frames>
+			<frames name='tie'>
+				<sequence name='green' loop='0' mc='tieMC'>4</sequence>
+				<sequence name='purple' loop='0' mc='tieMC'>3</sequence>
+				<sequence name='red' loop='0' mc='tieMC'>1</sequence>
+				<sequence name='blue' loop='0' mc='tieMC'>2</sequence>
+			</frames>
+		</sprite>
+	</sprites>
+	
+<!-- sound effects and VO in equivalency groups -->	
+	<soundgroups>
+		<category name='sfx'>
+			<subcategory name='interface'>
+				<sound name='sfx_interface_awardpoints' filename='sfx_interface_awardpoints.mp3' />
+			</subcategory>
+			<subcategory name='shake_pipe_swing'>			
+				<sound name='sfx_shake_pipe_swing1' filename='sfx_shake_pipe_swing1.mp3' />
+				<sound name='sfx_shake_pipe_swing2' filename='sfx_shake_pipe_swing2.mp3' />
+				<sound name='sfx_shake_pipe_swing3' filename='sfx_shake_pipe_swing3.mp3' />
+				<sound name='sfx_shake_pipe_swing4' filename='sfx_shake_pipe_swing4.mp3' />
+				<sound name='sfx_shake_pipe_swing5' filename='sfx_shake_pipe_swing5.mp3' />
+				<sound name='sfx_shake_pipe_swing6' filename='sfx_shake_pipe_swing6.mp3' />
+			</subcategory>
+			<subcategory name='break_glass'>
+				<sound name='sfx_obj_damage_glass1' filename='sfx_obj_damage_glass1.mp3' />
+				<sound name='sfx_obj_damage_glass2' filename='sfx_obj_damage_glass2.mp3' />
+				<sound name='sfx_obj_damage_glass3' filename='sfx_obj_damage_glass3.mp3' />
+			</subcategory>
+			<subcategory name='break_concrete'>			
+				<sound name='sfx_obj_damage_concrete1' filename='sfx_obj_damage_concrete1.mp3' />
+				<sound name='sfx_obj_damage_concrete2' filename='sfx_obj_damage_concrete2.mp3' />
+				<sound name='sfx_obj_damage_concrete3' filename='sfx_obj_damage_concrete3.mp3' />
+				<sound name='sfx_obj_damage_concrete4' filename='sfx_obj_damage_concrete4.mp3' />
+			</subcategory>
+			<subcategory name='break_metal'>			
+				<sound name='sfx_obj_damage_metal1' filename='sfx_obj_damage_metal1.mp3' />
+				<sound name='sfx_obj_damage_metal2' filename='sfx_obj_damage_metal2.mp3' />
+				<sound name='sfx_obj_damage_metal3' filename='sfx_obj_damage_metal3.mp3' />
+				<sound name='sfx_obj_damage_metal4' filename='sfx_obj_damage_metal4.mp3' />
+				<sound name='sfx_obj_damage_metal5' filename='sfx_obj_damage_metal5.mp3' />
+				<sound name='sfx_obj_damage_metal6' filename='sfx_obj_damage_metal6.mp3' />
+				<sound name='sfx_obj_damage_metal7' filename='sfx_obj_damage_metal7.mp3' />
+				<sound name='sfx_obj_damage_metal8' filename='sfx_obj_damage_metal8.mp3' />
+			</subcategory>
+			<subcategory name='break_wood'>			
+				<sound name='sfx_obj_damage_wood1' filename='sfx_obj_damage_wood1.mp3' />
+				<sound name='sfx_obj_damage_wood2' filename='sfx_obj_damage_wood2.mp3' />
+				<sound name='sfx_obj_damage_wood3' filename='sfx_obj_damage_wood3.mp3' />
+				<sound name='sfx_obj_damage_wood4' filename='sfx_obj_damage_wood4.mp3' />
+				<sound name='sfx_obj_damage_wood5' filename='sfx_obj_damage_wood5.mp3' />
+				<sound name='sfx_obj_damage_wood6' filename='sfx_obj_damage_wood6.mp3' />
+			</subcategory>
+			<subcategory name='break_lights'>			
+				<sound name='sfx_obj_damage_light1' filename='sfx_obj_damage_light1.mp3' />
+				<sound name='sfx_obj_damage_light2' filename='sfx_obj_damage_light2.mp3' />
+				<sound name='sfx_obj_damage_light3' filename='sfx_obj_damage_light3.mp3' />
+			</subcategory>
+			<subcategory name='break_tv'>			
+				<sound name='sfx_obj_damage_tv1' filename='sfx_obj_damage_tv1.mp3' />
+				<sound name='sfx_obj_damage_tv2' filename='sfx_obj_damage_tv2.mp3' />
+			</subcategory>
+			<subcategory name='explosion_large'>			
+				<sound name='sfx_obj_exploding_large1' filename='sfx_obj_exploding_large1.mp3' />
+				<sound name='sfx_obj_exploding_large2' filename='sfx_obj_exploding_large2.mp3' />
+				<sound name='sfx_obj_exploding_large3' filename='sfx_obj_exploding_large3.mp3' />
+				<sound name='sfx_obj_exploding_large4' filename='sfx_obj_exploding_large4.mp3' />
+			</subcategory>
+			<subcategory name='explosion_small'>			
+				<sound name='sfx_obj_exploding_small1' filename='sfx_obj_exploding_small1.mp3' />
+				<sound name='sfx_obj_exploding_small2' filename='sfx_obj_exploding_small2.mp3' />
+				<sound name='sfx_obj_exploding_small3' filename='sfx_obj_exploding_small3.mp3' />
+			</subcategory>
+			<subcategory name='boss_jets_ignite'>			
+				<sound name='sfx_boss_jets_ignite1' filename='sfx_boss_jets_ignite1.mp3' />
+				<sound name='sfx_boss_jets_ignite2' filename='sfx_boss_jets_ignite2.mp3' />
+				<sound name='sfx_boss_jets_ignite3' filename='sfx_boss_jets_ignite3.mp3' />
+			</subcategory>
+			<subcategory name='boss_laugh'>			
+				<sound name='sfx_boss_laugh1' filename='sfx_boss_laugh1.mp3' />
+				<sound name='sfx_boss_laugh2' filename='sfx_boss_laugh2.mp3' />
+				<sound name='sfx_boss_laugh3' filename='sfx_boss_laugh3.mp3' />
+			</subcategory>
+			<subcategory name='boss_jets_loop'>			
+				<sound name='sfx_boss_jets_loop1' filename='sfx_boss_jets_loop1.mp3' />
+				<sound name='sfx_boss_jets_loop2' filename='sfx_boss_jets_loop2.mp3' />
+			</subcategory>
+			<subcategory name='security_bleeps'>			
+				<sound name='sfx_security_bleep1' filename='sfx_security_bleep1.mp3' />
+				<sound name='sfx_security_bleep2' filename='sfx_security_bleep2.mp3' />
+				<sound name='sfx_security_bleep4' filename='sfx_security_bleep4.mp3' />
+				<sound name='sfx_security_bleep5' filename='sfx_security_bleep5.mp3' />
+			</subcategory>
+			<subcategory name='security_damage'>			
+				<sound name='sfx_security_hit1' filename='sfx_security_hit1.mp3' />
+				<sound name='sfx_security_hit2' filename='sfx_security_hit2.mp3' />
+				<sound name='sfx_security_hit3' filename='sfx_security_hit3.mp3' />
+			</subcategory>
+			<subcategory name='security_die'>
+				<sound name='sfx_security_powerdown1' filename='sfx_security_powerdown1.mp3' />
+				<sound name='sfx_security_powerdown2' filename='sfx_security_powerdown2.mp3' />
+				<sound name='sfx_security_powerdown3' filename='sfx_security_powerdown3.mp3' />
+			</subcategory>
+			<subcategory name='security_downstairs'>
+				<sound name='sfx_security_move_falldownstairs1' filename='sfx_security_move_falldownstairs1.mp3' />
+				<sound name='sfx_security_move_falldownstairs2' filename='sfx_security_move_falldownstairs2.mp3' />
+			</subcategory>
+			<subcategory name='security_turn'>
+				<sound name='sfx_security_move_turn1' filename='sfx_security_move_turn1.mp3' />
+				<sound name='sfx_security_move_turn2' filename='sfx_security_move_turn2.mp3' />
+				<sound name='sfx_security_move_turn3' filename='sfx_security_move_turn3.mp3' />
+			</subcategory>
+			<subcategory name='phone_offhook'>
+				<sound name='sfx_obj_phone_dialtone' filename='sfx_obj_phone_dialtone.mp3' />
+				<sound name='sfx_obj_phone_offhook' filename='sfx_obj_phone_offhook.mp3' />
+				<sound name='sfx_obj_phone_operator' filename='sfx_obj_phone_operator.mp3' />
+				<sound name='sfx_obj_phone_busy' filename='sfx_obj_phone_busy.mp3' />
+			</subcategory>
+
+			<subcategory name='break_watercooler'>
+
+				<sound name='sfx_obj_damage_watercooler' filename='sfx_obj_damage_watercooler.mp3' />
+
+			</subcategory>
+			<subcategory name='unique_sounds'>
+				<sound name='sfx_boss_attack_explode' filename='sfx_boss_attack_explode.mp3' />
+				<sound name='sfx_boss_attack_release' filename='sfx_boss_attack_release.mp3' />
+				<sound name='sfx_boss_attack_whistle' filename='sfx_boss_attack_whistle.mp3' />
+				<sound name='sfx_boss_jets_powerdown1' filename='sfx_boss_jets_powerdown1.mp3' />
+				<sound name='sfx_camera_alarm_loop1' filename='sfx_camera_alarm_loop1.mp3' />
+				<sound name='sfx_elevator_arrive' filename='sfx_elevator_arrive.mp3' />
+				<sound name='sfx_elevator_open' filename='sfx_elevator_open.mp3' />
+				<sound name='sfx_elevator_music' filename='sfx_elevator_music.mp3' />
+				<sound name='sfx_elevator_bing' filename='sfx_elevator_bing.mp3' />
+				<sound name='sfx_interface_awardpoints' filename='sfx_interface_awardpoints.mp3' />
+				<sound name='sfx_interface_tallytotal' filename='sfx_interface_tallytotal.mp3' />
+				<sound name='sfx_obj_damage_watercooler' filename='sfx_obj_damage_watercooler.mp3' />
+				<sound name='sfx_obj_misc_lightflickering' filename='sfx_obj_misc_lightflickering.mp3' />
+				<sound name='sfx_security_ai_alert' filename='sfx_security_ai_alert.mp3' />
+				<sound name='sfx_security_ai_searching_loop' filename='sfx_security_ai_searching_loop.mp3' />
+				<sound name='sfx_security_attack_laser' filename='sfx_security_attack_laser2.mp3' />
+				<sound name='sfx_security_attack_laser_hit' filename='sfx_security_attack_laser_hit3.mp3' />
+				<sound name='sfx_security_attack_missle' filename='sfx_security_attack_missle5.mp3' />
+				<sound name='sfx_security_attack_missle_hit' filename='sfx_security_attack_missle_hit2.mp3' />
+				<sound name='sfx_security_attack_readyrocket' filename='sfx_security_attack_readyweapon5.mp3' />
+				<sound name='sfx_security_move_treads1' filename='sfx_security_move_treads1.mp3' />
+				<sound name='sfx_security_readylaser' filename='sfx_security_bleep3.mp3' />
+				<sound name='sfx_obj_phone_ring' filename='sfx_obj_phone_ring.mp3' />
+				<sound name='sfx_shake_bend_down' filename='sfx_shake_bend_down.mp3' />
+				<sound name='sfx_shake_bend_up' filename='sfx_shake_bend_up.mp3' />
+				<sound name='sfx_shake_fall' filename='sfx_shake_fall.mp3' />
+				<sound name='sfx_shake_turn' filename='sfx_shake_turn.mp3' />
+				<sound name='sfx_shake_run' filename='sfx_shake_run.mp3' />
+				<sound name='vo_studiohead1' filename='' />
+				<sound name='vo_studiohead2' filename='' />
+				<sound name='vo_studiohead3' filename='' />
+				<sound name='vo_studiohead4' filename='' />
+				<sound name='vo_studiohead5' filename='' />
+				<sound name='vo_studiohead6' filename='' />
+				<sound name='vo_studiohead7' filename='' />
+				<sound name='vo_studiohead8' filename='' />
+				<sound name='vo_studiohead9' filename='' />
+				<sound name='vo_studiohead10' filename='' />
+			</subcategory>			
+		</category>
+		<category name='vo'>
+			<subcategory name='shake_attack_general'>
+				<sound name='why_broken' filename='vo_shake_smashing1.MP3' />
+				<sound name='whoops' filename='vo_shake_smashing2.MP3' />
+				<sound name='warrent_voided' filename='vo_shake_smashing3.MP3' />
+				<sound name='buy_foreign' filename='vo_shake_smashing4.MP3' />
+				<sound name='bam' filename='vo_shake_smashing5.MP3' />
+				<sound name='used_to_valuable' filename='vo_shake_smashing6.MP3' />
+				<sound name='talk_to_pipe' filename='vo_shake_smashing7.MP3' />
+				<sound name='shoddy_work' filename='vo_shake_smashing8.MP3' />
+				<sound name='really_satisfying' filename='vo_shake_smashing9.MP3' />
+				<sound name='oh_boy' filename='vo_shake_smashing10.MP3' />
+				<sound name='looks_bought_it' filename='vo_shake_smashing11.MP3' />
+				<sound name='intern' filename='vo_shake_smashing12.MP3' />
+				<sound name='got_receipt' filename='vo_shake_smashing13.MP3' />
+				<sound name='get_things_out' filename='vo_shake_smashing14.MP3' />
+				<sound name='buying_this_one' filename='vo_shake_smashing15.MP3' />			
+				<sound name='attack_scream2' filename='vo_shake_attack_general1.MP3' />
+				<sound name='shaken' filename='vo_shake_attack_general2.MP3' />
+				<sound name='security' filename='vo_shake_attack_general3.MP3' />
+				<sound name='say_hi_pipe' filename='vo_shake_attack_general4.MP3' />
+				<sound name='cut_print_destroy' filename='vo_shake_attack_general5.MP3' />
+				<sound name='attack_scream' filename='vo_shake_attack_general6.MP3' />
+			</subcategory>
+			<subcategory name='shake_attack_security'>			
+				<sound name='afternoon_off' filename='vo_shake_attack_security1.MP3' />
+				<sound name='robots_why' filename='vo_shake_attack_security10.MP3' />
+				<sound name='up_late' filename='vo_shake_attack_security11.MP3' />
+				<sound name='want_some' filename='vo_shake_attack_security12.MP3' />
+				<sound name='jerkface' filename='vo_shake_attack_security13.MP3' />
+				<sound name='busted_robot' filename='vo_shake_attack_security2.MP3' />
+				<sound name='call_mass' filename='vo_shake_attack_security3.MP3' />
+				<sound name='enough_robot' filename='vo_shake_attack_security4.MP3' />
+				<sound name='hello_suckas' filename='vo_shake_attack_security5.MP3' />
+				<sound name='less_resistant' filename='vo_shake_attack_security6.MP3' />
+				<sound name='let_me_speak' filename='vo_shake_attack_security7.MP3' />
+				<sound name='mr_pain' filename='vo_shake_attack_security8.MP3' />
+				<sound name='robots_again' filename='vo_shake_attack_security9.MP3' />
+			</subcategory>
+			<subcategory name='shake_damage_general'>			
+				<sound name='wow' filename='vo_shake_damage_general1.MP3' />
+				<sound name='oh_that_hurt' filename='vo_shake_damage_general10.MP3' />
+				<sound name='ow_that_smarts' filename='vo_shake_damage_general11.MP3' />
+				<sound name='ouch' filename='vo_shake_damage_general12.MP3' />
+				<sound name='ow' filename='vo_shake_damage_general13.MP3' />
+				<sound name='somebody_medic' filename='vo_shake_damage_general14.MP3' />
+				<sound name='doesnt_feel' filename='vo_shake_damage_general2.MP3' />
+				<sound name='grunt_big3' filename='vo_shake_damage_general3.MP3' />
+				<sound name='grunt_big' filename='vo_shake_damage_general4.MP3' />
+				<sound name='grunt_small3' filename='vo_shake_damage_general5.MP3' />
+				<sound name='grunt_small8' filename='vo_shake_damage_general6.MP3' />
+				<sound name='hey' filename='vo_shake_damage_general7.MP3' />
+				<sound name='hey_hurt' filename='vo_shake_damage_general8.MP3' />
+				<sound name='my_foot' filename='vo_shake_damage_general9.MP3' />
+
+				<sound name='attitude' filename='vo_shake_damage_security1.MP3' />
+
+				<sound name='not_my_face' filename='vo_shake_damage_security10.MP3' />
+
+				<sound name='regret_that' filename='vo_shake_damage_security11.MP3' />
+
+				<sound name='thats_it' filename='vo_shake_damage_security12.MP3' />
+
+				<sound name='were_friends' filename='vo_shake_damage_security13.MP3' />
+
+				<sound name='behind' filename='vo_shake_damage_security2.MP3' />
+
+				<sound name='had_with_you' filename='vo_shake_damage_security3.MP3' />
+
+				<sound name='how_sleep' filename='vo_shake_damage_security4.MP3' />
+
+				<sound name='hurting_me' filename='vo_shake_damage_security5.MP3' />
+
+				<sound name='knock_off' filename='vo_shake_damage_security6.MP3' />
+
+				<sound name='mother_laser' filename='vo_shake_damage_security7.MP3' />
+
+				<sound name='next_level_pal' filename='vo_shake_damage_security8.MP3' />
+
+				<sound name='nice_way' filename='vo_shake_damage_security9.MP3' />
+			</subcategory>
+		</category>
+	</soundgroups>
+	<gamelevels>
+		<gamelevel name = "level_a_1">	
+			<map x="0" y="33" id="0" xOffset="16" yOffset="24"><filename>level_a_1/map0.xml</filename></map>
+			<map x="0" y="30" id="1" xOffset="16" yOffset="24"><filename>level_a_1/map1.xml</filename></map>
+			<map x="0" y="27" id="2" xOffset="16" yOffset="24"><filename>level_a_1/map2.xml</filename></map>
+			<map x="0" y="24" id="3" xOffset="16" yOffset="24"><filename>level_a_1/map3.xml</filename></map>
+			<map x="0" y="21" id="4" xOffset="16" yOffset="24"><filename>level_a_1/map4.xml</filename></map>
+			<map x="0" y="18" id="5" xOffset="16" yOffset="24"><filename>level_a_1/map5.xml</filename></map>
+			<map x="0" y="15" id="6" xOffset="16" yOffset="24"><filename>level_a_1/map6.xml</filename></map>
+			<map x="0" y="12" id="7" xOffset="16" yOffset="24"><filename>level_a_1/map7.xml</filename></map>
+			<map x="0" y="0" id="8" xOffset="16" yOffset="24"><filename>level_a_1/map_boss.xml</filename></map>			
+		</gamelevel>
+		<gamelevel name = "level_a_2">	
+			<map x="0" y="33" id="0" xOffset="16" yOffset="24"><filename>level_a_2/map0.xml</filename></map>
+			<map x="0" y="30" id="1" xOffset="16" yOffset="24"><filename>level_a_2/map1.xml</filename></map>
+			<map x="0" y="27" id="2" xOffset="16" yOffset="24"><filename>level_a_2/map2.xml</filename></map>
+			<map x="0" y="24" id="3" xOffset="16" yOffset="24"><filename>level_a_2/map3.xml</filename></map>
+			<map x="0" y="21" id="4" xOffset="16" yOffset="24"><filename>level_a_2/map4.xml</filename></map>
+			<map x="0" y="18" id="5" xOffset="16" yOffset="24"><filename>level_a_2/map5.xml</filename></map>
+			<map x="0" y="15" id="6" xOffset="16" yOffset="24"><filename>level_a_2/map6.xml</filename></map>
+			<map x="0" y="12" id="7" xOffset="16" yOffset="24"><filename>level_a_2/map7.xml</filename></map>
+			<map x="0" y="0" id="8" xOffset="16" yOffset="24"><filename>level_a_2/map_boss.xml</filename></map>			
+		</gamelevel>
+	<gamelevel name = "level_a_3">	
+			<map x="0" y="33" id="0" xOffset="16" yOffset="24"><filename>level_a_3/map0.xml</filename></map>
+			<map x="0" y="30" id="1" xOffset="16" yOffset="24"><filename>level_a_3/map1.xml</filename></map>
+			<map x="0" y="27" id="2" xOffset="16" yOffset="24"><filename>level_a_3/map2.xml</filename></map>
+			<map x="0" y="24" id="3" xOffset="16" yOffset="24"><filename>level_a_3/map3.xml</filename></map>
+			<map x="0" y="21" id="4" xOffset="16" yOffset="24"><filename>level_a_3/map4.xml</filename></map>
+			<map x="0" y="18" id="5" xOffset="16" yOffset="24"><filename>level_a_3/map5.xml</filename></map>
+			<map x="0" y="15" id="6" xOffset="16" yOffset="24"><filename>level_a_3/map6.xml</filename></map>
+			<map x="0" y="12" id="7" xOffset="16" yOffset="24"><filename>level_a_3/map7.xml</filename></map>
+			<map x="0" y="0" id="8" xOffset="16" yOffset="24"><filename>level_a_3/map_boss.xml</filename></map>			
+		</gamelevel>
+		<gamelevel name = "level_b_1">	
+			<map x="0" y="45" id="0" xOffset="16" yOffset="24"><filename>level_b_1/map0.xml</filename></map>
+			<map x="0" y="42" id="1" xOffset="16" yOffset="24"><filename>level_b_1/map1.xml</filename></map>
+			<map x="0" y="39" id="2" xOffset="16" yOffset="24"><filename>level_b_1/map2.xml</filename></map>
+			<map x="0" y="36" id="3" xOffset="16" yOffset="24"><filename>level_b_1/map3.xml</filename></map>
+			<map x="0" y="33" id="4" xOffset="16" yOffset="24"><filename>level_b_1/map4.xml</filename></map>
+			<map x="0" y="30" id="5" xOffset="16" yOffset="24"><filename>level_b_1/map5.xml</filename></map>
+			<map x="0" y="27" id="6" xOffset="16" yOffset="24"><filename>level_b_1/map6.xml</filename></map>
+			<map x="0" y="24" id="7" xOffset="16" yOffset="24"><filename>level_b_1/map7.xml</filename></map>
+			<map x="0" y="21" id="8" xOffset="16" yOffset="24"><filename>level_b_1/map8.xml</filename></map>
+			<map x="0" y="18" id="9" xOffset="16" yOffset="24"><filename>level_b_1/map9.xml</filename></map>
+			<map x="0" y="15" id="10" xOffset="16" yOffset="24"><filename>level_b_1/map10.xml</filename></map>
+			<map x="0" y="12" id="11" xOffset="16" yOffset="24"><filename>level_b_1/map11.xml</filename></map>
+			<map x="0" y="0" id="12" xOffset="16" yOffset="24"><filename>level_b_1/map_boss.xml</filename></map>			
+		</gamelevel>		
+		<gamelevel name = "level_b_2">	
+			<map x="0" y="45" id="0" xOffset="16" yOffset="24"><filename>level_b_2/map0.xml</filename></map>
+			<map x="0" y="42" id="1" xOffset="16" yOffset="24"><filename>level_b_2/map1.xml</filename></map>
+			<map x="0" y="39" id="2" xOffset="16" yOffset="24"><filename>level_b_2/map2.xml</filename></map>
+			<map x="0" y="36" id="3" xOffset="16" yOffset="24"><filename>level_b_2/map3.xml</filename></map>
+			<map x="0" y="33" id="4" xOffset="16" yOffset="24"><filename>level_b_2/map4.xml</filename></map>
+			<map x="0" y="30" id="5" xOffset="16" yOffset="24"><filename>level_b_2/map5.xml</filename></map>
+			<map x="0" y="27" id="6" xOffset="16" yOffset="24"><filename>level_b_2/map6.xml</filename></map>
+			<map x="0" y="24" id="7" xOffset="16" yOffset="24"><filename>level_b_2/map7.xml</filename></map>
+			<map x="0" y="21" id="8" xOffset="16" yOffset="24"><filename>level_b_2/map12.xml</filename></map>
+			<map x="0" y="18" id="9" xOffset="16" yOffset="24"><filename>level_b_2/map13.xml</filename></map>
+			<map x="0" y="15" id="10" xOffset="16" yOffset="24"><filename>level_b_2/map14.xml</filename></map>
+			<map x="0" y="12" id="11" xOffset="16" yOffset="24"><filename>level_b_2/map15.xml</filename></map>
+			<map x="0" y="0" id="12" xOffset="16" yOffset="24"><filename>level_b_2/map_boss.xml</filename></map>			
+		</gamelevel>	
+		<gamelevel name = "level_b_3">	
+			<map x="0" y="45" id="0" xOffset="16" yOffset="24"><filename>level_b_3/map0.xml</filename></map>
+			<map x="0" y="42" id="1" xOffset="16" yOffset="24"><filename>level_b_3/map1.xml</filename></map>
+			<map x="0" y="39" id="2" xOffset="16" yOffset="24"><filename>level_b_3/map2.xml</filename></map>
+			<map x="0" y="36" id="3" xOffset="16" yOffset="24"><filename>level_b_3/map3.xml</filename></map>
+			<map x="0" y="33" id="4" xOffset="16" yOffset="24"><filename>level_b_3/map4.xml</filename></map>
+			<map x="0" y="30" id="5" xOffset="16" yOffset="24"><filename>level_b_3/map5.xml</filename></map>
+			<map x="0" y="27" id="6" xOffset="16" yOffset="24"><filename>level_b_3/map6.xml</filename></map>
+			<map x="0" y="24" id="7" xOffset="16" yOffset="24"><filename>level_b_3/map7.xml</filename></map>
+			<map x="0" y="21" id="8" xOffset="16" yOffset="24"><filename>level_b_3/map12.xml</filename></map>
+			<map x="0" y="18" id="9" xOffset="16" yOffset="24"><filename>level_b_3/map13.xml</filename></map>
+			<map x="0" y="15" id="10" xOffset="16" yOffset="24"><filename>level_b_3/map14.xml</filename></map>
+			<map x="0" y="12" id="11" xOffset="16" yOffset="24"><filename>level_b_3/map15.xml</filename></map>
+			<map x="0" y="0" id="12" xOffset="16" yOffset="24"><filename>level_b_3/map_boss.xml</filename></map>			
+		</gamelevel>	
+		<gamelevel name = "level_c_1">	
+			<map x="0" y="57" id="0" xOffset="16" yOffset="24"><filename>level_c_1/map4.xml</filename></map>
+			<map x="0" y="54" id="1" xOffset="16" yOffset="24"><filename>level_c_1/map5.xml</filename></map>
+			<map x="0" y="51" id="2" xOffset="16" yOffset="24"><filename>level_c_1/map6.xml</filename></map>
+			<map x="0" y="48" id="3" xOffset="16" yOffset="24"><filename>level_c_1/map7.xml</filename></map>
+			<map x="0" y="45" id="4" xOffset="16" yOffset="24"><filename>level_c_1/map8.xml</filename></map>
+			<map x="0" y="42" id="5" xOffset="16" yOffset="24"><filename>level_c_1/map9.xml</filename></map>
+			<map x="0" y="39" id="6" xOffset="16" yOffset="24"><filename>level_c_1/map10.xml</filename></map>
+			<map x="0" y="36" id="7" xOffset="16" yOffset="24"><filename>level_c_1/map11.xml</filename></map>
+			<map x="0" y="33" id="8" xOffset="16" yOffset="24"><filename>level_c_1/map12.xml</filename></map>
+			<map x="0" y="30" id="9" xOffset="16" yOffset="24"><filename>level_c_1/map13.xml</filename></map>
+			<map x="0" y="27" id="10" xOffset="16" yOffset="24"><filename>level_c_1/map14.xml</filename></map>
+			<map x="0" y="24" id="11" xOffset="16" yOffset="24"><filename>level_c_1/map15.xml</filename></map>
+			<map x="0" y="21" id="12" xOffset="16" yOffset="24"><filename>level_c_1/map16.xml</filename></map>
+			<map x="0" y="18" id="13" xOffset="16" yOffset="24"><filename>level_c_1/map3.xml</filename></map>
+
+			<map x="0" y="15" id="14" xOffset="16" yOffset="24"><filename>level_c_1/map18.xml</filename></map>
+			<map x="0" y="12" id="15" xOffset="16" yOffset="24"><filename>level_c_1/map19.xml</filename></map>
+			<map x="0" y="0" id="16" xOffset="16" yOffset="24"><filename>level_c_1/map_boss.xml</filename></map>			
+		</gamelevel>
+		<gamelevel name = "level_c_2">	
+			<map x="0" y="57" id="0" xOffset="16" yOffset="24"><filename>level_c_2/map0.xml</filename></map>
+			<map x="0" y="54" id="1" xOffset="16" yOffset="24"><filename>level_c_2/map1.xml</filename></map>
+			<map x="0" y="51" id="2" xOffset="16" yOffset="24"><filename>level_c_2/map2.xml</filename></map>
+			<map x="0" y="48" id="3" xOffset="16" yOffset="24"><filename>level_c_2/map3.xml</filename></map>
+			<map x="0" y="45" id="4" xOffset="16" yOffset="24"><filename>level_c_2/map4.xml</filename></map>
+			<map x="0" y="42" id="5" xOffset="16" yOffset="24"><filename>level_c_2/map5.xml</filename></map>
+			<map x="0" y="39" id="6" xOffset="16" yOffset="24"><filename>level_c_2/map6.xml</filename></map>
+			<map x="0" y="36" id="7" xOffset="16" yOffset="24"><filename>level_c_2/map7.xml</filename></map>
+			<map x="0" y="33" id="8" xOffset="16" yOffset="24"><filename>level_c_2/map8.xml</filename></map>
+			<map x="0" y="30" id="9" xOffset="16" yOffset="24"><filename>level_c_2/map9.xml</filename></map>
+			<map x="0" y="27" id="10" xOffset="16" yOffset="24"><filename>level_c_2/map10.xml</filename></map>
+			<map x="0" y="24" id="11" xOffset="16" yOffset="24"><filename>level_c_2/map11.xml</filename></map>
+			<map x="0" y="21" id="12" xOffset="16" yOffset="24"><filename>level_c_2/map16.xml</filename></map>
+			<map x="0" y="18" id="13" xOffset="16" yOffset="24"><filename>level_c_2/map17.xml</filename></map>
+			<map x="0" y="15" id="14" xOffset="16" yOffset="24"><filename>level_c_2/map18.xml</filename></map>
+			<map x="0" y="12" id="15" xOffset="16" yOffset="24"><filename>level_c_2/map19.xml</filename></map>
+			<map x="0" y="0" id="16" xOffset="16" yOffset="24"><filename>level_c_2/map_boss.xml</filename></map>			
+		</gamelevel>	
+		<gamelevel name = "level_c_3">	
+			<map x="0" y="57" id="0" xOffset="16" yOffset="24"><filename>level_c_3/map0.xml</filename></map>
+			<map x="0" y="54" id="1" xOffset="16" yOffset="24"><filename>level_c_3/map1.xml</filename></map>
+			<map x="0" y="51" id="2" xOffset="16" yOffset="24"><filename>level_c_3/map2.xml</filename></map>
+			<map x="0" y="48" id="3" xOffset="16" yOffset="24"><filename>level_c_3/map3.xml</filename></map>
+			<map x="0" y="45" id="4" xOffset="16" yOffset="24"><filename>level_c_3/map4.xml</filename></map>
+			<map x="0" y="42" id="5" xOffset="16" yOffset="24"><filename>level_c_3/map5.xml</filename></map>
+			<map x="0" y="39" id="6" xOffset="16" yOffset="24"><filename>level_c_3/map6.xml</filename></map>
+			<map x="0" y="36" id="7" xOffset="16" yOffset="24"><filename>level_c_3/map7.xml</filename></map>
+			<map x="0" y="33" id="8" xOffset="16" yOffset="24"><filename>level_c_3/map8.xml</filename></map>
+			<map x="0" y="30" id="9" xOffset="16" yOffset="24"><filename>level_c_3/map9.xml</filename></map>
+			<map x="0" y="27" id="10" xOffset="16" yOffset="24"><filename>level_c_3/map12.xml</filename></map>
+			<map x="0" y="24" id="11" xOffset="16" yOffset="24"><filename>level_c_3/map11.xml</filename></map>
+			<map x="0" y="21" id="12" xOffset="16" yOffset="24"><filename>level_c_3/map16.xml</filename></map>
+			<map x="0" y="18" id="13" xOffset="16" yOffset="24"><filename>level_c_3/map17.xml</filename></map>
+			<map x="0" y="15" id="14" xOffset="16" yOffset="24"><filename>level_c_3/map13.xml</filename></map>
+			<map x="0" y="12" id="15" xOffset="16" yOffset="24"><filename>level_c_3/map19.xml</filename></map>
+			<map x="0" y="0" id="16" xOffset="16" yOffset="24"><filename>level_c_3/map_boss.xml</filename></map>			
+		</gamelevel>	
+		<gamelevel name = "level_c_4">	
+			<map x="0" y="69" id="0" xOffset="16" yOffset="24"><filename>level_c_4/map0.xml</filename></map>
+			<map x="0" y="66" id="1" xOffset="16" yOffset="24"><filename>level_c_4/map1.xml</filename></map>
+			<map x="0" y="63" id="2" xOffset="16" yOffset="24"><filename>level_c_4/map2.xml</filename></map>
+			<map x="0" y="60" id="3" xOffset="16" yOffset="24"><filename>level_c_4/map3.xml</filename></map>
+			<map x="0" y="57" id="4" xOffset="16" yOffset="24"><filename>level_c_4/map4.xml</filename></map>
+			<map x="0" y="54" id="5" xOffset="16" yOffset="24"><filename>level_c_4/map5.xml</filename></map>
+			<map x="0" y="51" id="6" xOffset="16" yOffset="24"><filename>level_c_4/map6.xml</filename></map>
+			<map x="0" y="48" id="7" xOffset="16" yOffset="24"><filename>level_c_4/map7.xml</filename></map>
+			<map x="0" y="45" id="8" xOffset="16" yOffset="24"><filename>level_c_4/map8.xml</filename></map>
+			<map x="0" y="42" id="9" xOffset="16" yOffset="24"><filename>level_c_4/map9.xml</filename></map>
+			<map x="0" y="39" id="10" xOffset="16" yOffset="24"><filename>level_c_4/map10.xml</filename></map>
+			<map x="0" y="36" id="11" xOffset="16" yOffset="24"><filename>level_c_4/map11.xml</filename></map>
+			<map x="0" y="33" id="12" xOffset="16" yOffset="24"><filename>level_c_4/map12.xml</filename></map>
+			<map x="0" y="30" id="13" xOffset="16" yOffset="24"><filename>level_c_4/map13.xml</filename></map>
+			<map x="0" y="27" id="14" xOffset="16" yOffset="24"><filename>level_c_4/map14.xml</filename></map>
+			<map x="0" y="24" id="15" xOffset="16" yOffset="24"><filename>level_c_4/map15.xml</filename></map>
+			<map x="0" y="21" id="16" xOffset="16" yOffset="24"><filename>level_c_4/map16.xml</filename></map>
+			<map x="0" y="18" id="17" xOffset="16" yOffset="24"><filename>level_c_4/map17.xml</filename></map>
+			<map x="0" y="15" id="18" xOffset="16" yOffset="24"><filename>level_c_4/map18.xml</filename></map>
+			<map x="0" y="12" id="19" xOffset="16" yOffset="24"><filename>level_c_4/map19.xml</filename></map>
+			<map x="0" y="0" id="20" xOffset="16" yOffset="24"><filename>level_c_4/map_boss.xml</filename></map>			
+		</gamelevel>
+	</gamelevels>
+	<screens>
+		<screen name='loading_screen' filename='loading.swf' />
+		<screen name='interface' filename='interface.swf' />
+	</screens>
+</main>

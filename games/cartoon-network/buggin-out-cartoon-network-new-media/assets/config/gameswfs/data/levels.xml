@@ -1,0 +1,1872 @@
+﻿<?xml version="1.0"?>
+<main>
+	<formations>
+		<!--
+			offsets are from the center of the game area, and are in approx. 40 px units.
+
+			time is not a delta from the last node, like in levels.
+
+			***Time is in frames, not seconds. 1 fr = 1/24 sec.
+
+		-->
+		<formation bonus='0' name='s_solo' sprite='butterfly' >
+			<insect path='s_wave'		approach='S'	offset='0'	time='0' />
+		</formation>
+		<formation bonus='0' name='n_solo' sprite='butterfly' >
+			<insect path='n_wave'		approach='N'	offset='0'	time='0' />
+		</formation>
+		<formation bonus='0' name='e_solo' sprite='butterfly' >
+			<insect path='e_wave'		approach='E'	offset='0'	time='0' />
+		</formation>
+		<formation bonus='0' name='w_solo' sprite='butterfly' >
+			<insect path='w_wave'		approach='W'	offset='0'	time='0' />
+		</formation>
+		<formation bonus='2000' name='s_kiss' sprite='butterfly' >
+			<insect path='s_kiss1'		approach='S'	offset='-2'	time='0' />
+			<insect path='s_kiss2'		approach='S'	offset='2'	time='0' />
+			<insect path='s_kiss1'		approach='S'	offset='-2'	time='40' />
+			<insect path='s_kiss2'		approach='S'	offset='2'	time='40' />
+			<insect path='s_kiss1'		approach='S'	offset='-2'	time='80' />
+			<insect path='s_kiss2'		approach='S'	offset='2'	time='80' />
+			<insect path='s_kiss1'		approach='S'	offset='-2'	time='120' />
+			<insect path='s_kiss2'		approach='S'	offset='2'	time='120' />
+			<insect path='s_kiss1'		approach='S'	offset='-2'	time='160' />
+			<insect path='s_kiss2'		approach='S'	offset='2'	time='160' />
+		</formation>
+		<formation bonus='2000' name='n_kiss' sprite='butterfly' >
+			<insect path='n_kiss1'		approach='N'	offset='-2'	time='0' />
+			<insect path='n_kiss2'		approach='N'	offset='2'	time='0' />
+			<insect path='n_kiss1'		approach='N'	offset='-2'	time='40' />
+			<insect path='n_kiss2'		approach='N'	offset='2'	time='40' />
+			<insect path='n_kiss1'		approach='N'	offset='-2'	time='80' />
+			<insect path='n_kiss2'		approach='N'	offset='2'	time='80' />
+			<insect path='n_kiss1'		approach='N'	offset='-2'	time='120' />
+			<insect path='n_kiss2'		approach='N'	offset='2'	time='120' />
+			<insect path='n_kiss1'		approach='N'	offset='-2'	time='160' />
+			<insect path='n_kiss2'		approach='N'	offset='2'	time='160' />
+		</formation>
+		<formation bonus='2000' name='e_kiss' sprite='butterfly' >
+			<insect path='e_kiss1'		approach='E'	offset='-2'	time='0' />
+			<insect path='e_kiss2'		approach='E'	offset='2'	time='0' />
+			<insect path='e_kiss1'		approach='E'	offset='-2'	time='40' />
+			<insect path='e_kiss2'		approach='E'	offset='2'	time='40' />
+			<insect path='e_kiss1'		approach='E'	offset='-2'	time='80' />
+			<insect path='e_kiss2'		approach='E'	offset='2'	time='80' />
+			<insect path='e_kiss1'		approach='E'	offset='-2'	time='120' />
+			<insect path='e_kiss2'		approach='E'	offset='2'	time='120' />
+			<insect path='e_kiss1'		approach='E'	offset='-2'	time='160' />
+			<insect path='e_kiss2'		approach='E'	offset='2'	time='160' />
+		</formation>
+		<formation bonus='2000' name='w_kiss' sprite='butterfly' >
+			<insect path='w_kiss1'		approach='W'	offset='-2'	time='0' />
+			<insect path='w_kiss2'		approach='W'	offset='2'	time='0' />
+			<insect path='w_kiss1'		approach='W'	offset='-2'	time='40' />
+			<insect path='w_kiss2'		approach='W'	offset='2'	time='40' />
+			<insect path='w_kiss1'		approach='W'	offset='-2'	time='80' />
+			<insect path='w_kiss2'		approach='W'	offset='2'	time='80' />
+			<insect path='w_kiss1'		approach='W'	offset='-2'	time='120' />
+			<insect path='w_kiss2'		approach='W'	offset='2'	time='120' />
+			<insect path='w_kiss1'		approach='W'	offset='-2'	time='160' />
+			<insect path='w_kiss2'		approach='W'	offset='2'	time='160' />
+		</formation>
+		<formation bonus='2000' name='s_separate' sprite='butterfly' >
+			<insect path='s_separate1'		approach='S'	offset='-2'	time='0' />
+			<insect path='s_separate2'		approach='S'	offset='2'	time='20' />
+			<insect path='s_separate1'		approach='S'	offset='-2'	time='40' />
+			<insect path='s_separate2'		approach='S'	offset='2'	time='60' />
+			<insect path='s_separate1'		approach='S'	offset='-2'	time='80' />
+			<insect path='s_separate2'		approach='S'	offset='2'	time='100' />
+			<insect path='s_separate1'		approach='S'	offset='-2'	time='120' />
+			<insect path='s_separate2'		approach='S'	offset='2'	time='140' />
+			<insect path='s_separate1'		approach='S'	offset='-2'	time='160' />
+			<insect path='s_separate2'		approach='S'	offset='2'	time='180' />
+		</formation>
+		<formation bonus='2000' name='n_separate' sprite='butterfly' >
+			<insect path='n_separate1'		approach='N'	offset='-2'	time='0' />
+			<insect path='n_separate2'		approach='N'	offset='2'	time='20' />
+			<insect path='n_separate1'		approach='N'	offset='-2'	time='40' />
+			<insect path='n_separate2'		approach='N'	offset='2'	time='60' />
+			<insect path='n_separate1'		approach='N'	offset='-2'	time='80' />
+			<insect path='n_separate2'		approach='N'	offset='2'	time='100' />
+			<insect path='n_separate1'		approach='N'	offset='-2'	time='120' />
+			<insect path='n_separate2'		approach='N'	offset='2'	time='140' />
+			<insect path='n_separate1'		approach='N'	offset='-2'	time='160' />
+			<insect path='n_separate2'		approach='N'	offset='2'	time='180' />
+		</formation>
+		<formation bonus='2000' name='e_separate' sprite='butterfly' >
+			<insect path='e_separate1'		approach='E'	offset='-2'	time='0' />
+			<insect path='e_separate2'		approach='E'	offset='2'	time='20' />
+			<insect path='e_separate1'		approach='E'	offset='-2'	time='40' />
+			<insect path='e_separate2'		approach='E'	offset='2'	time='60' />
+			<insect path='e_separate1'		approach='E'	offset='-2'	time='80' />
+			<insect path='e_separate2'		approach='E'	offset='2'	time='100' />
+			<insect path='e_separate1'		approach='E'	offset='-2'	time='120' />
+			<insect path='e_separate2'		approach='E'	offset='2'	time='140' />
+			<insect path='e_separate1'		approach='E'	offset='-2'	time='160' />
+			<insect path='e_separate2'		approach='E'	offset='2'	time='180' />
+		</formation>
+		<formation bonus='2000' name='w_separate' sprite='butterfly' >
+			<insect path='w_separate1'		approach='W'	offset='-2'	time='0' />
+			<insect path='w_separate2'		approach='W'	offset='2'	time='20' />
+			<insect path='w_separate1'		approach='W'	offset='-2'	time='40' />
+			<insect path='w_separate2'		approach='W'	offset='2'	time='60' />
+			<insect path='w_separate1'		approach='W'	offset='-2'	time='80' />
+			<insect path='w_separate2'		approach='W'	offset='2'	time='100' />
+			<insect path='w_separate1'		approach='W'	offset='-2'	time='120' />
+			<insect path='w_separate2'		approach='W'	offset='2'	time='140' />
+			<insect path='w_separate1'		approach='W'	offset='-2'	time='160' />
+			<insect path='w_separate2'		approach='W'	offset='2'	time='180' />
+		</formation>
+		<formation bonus='2000' name='s_crossover' sprite='butterfly' >
+			<insect path='s_crossover1'		approach='S'	offset='6'	time='0' />
+			<insect path='s_crossover2'		approach='S'	offset='-6'	time='20' />
+			<insect path='s_crossover1'		approach='S'	offset='6'	time='40' />
+			<insect path='s_crossover2'		approach='S'	offset='-6'	time='60' />
+			<insect path='s_crossover1'		approach='S'	offset='6'	time='80' />
+			<insect path='s_crossover2'		approach='S'	offset='-6'	time='100' />
+			<insect path='s_crossover1'		approach='S'	offset='6'	time='120' />
+			<insect path='s_crossover2'		approach='S'	offset='-6'	time='140' />
+			<insect path='s_crossover1'		approach='S'	offset='6'	time='160' />
+			<insect path='s_crossover2'		approach='S'	offset='-6'	time='180' />
+		</formation>
+		<formation bonus='2000' name='n_crossover' sprite='butterfly' >
+			<insect path='n_crossover1'		approach='N'	offset='6'	time='0' />
+			<insect path='n_crossover2'		approach='N'	offset='-6'	time='20' />
+			<insect path='n_crossover1'		approach='N'	offset='6'	time='40' />
+			<insect path='n_crossover2'		approach='N'	offset='-6'	time='60' />
+			<insect path='n_crossover1'		approach='N'	offset='6'	time='80' />
+			<insect path='n_crossover2'		approach='N'	offset='-6'	time='100' />
+			<insect path='n_crossover1'		approach='N'	offset='6'	time='120' />
+			<insect path='n_crossover2'		approach='N'	offset='-6'	time='140' />
+			<insect path='n_crossover1'		approach='N'	offset='6'	time='160' />
+			<insect path='n_crossover2'		approach='N'	offset='-6'	time='180' />
+		</formation>
+		<formation bonus='2000' name='e_crossover' sprite='butterfly' >
+			<insect path='e_crossover1'		approach='E'	offset='6'	time='0' />
+			<insect path='e_crossover2'		approach='E'	offset='-6'	time='20' />
+			<insect path='e_crossover1'		approach='E'	offset='6'	time='40' />
+			<insect path='e_crossover2'		approach='E'	offset='-6'	time='60' />
+			<insect path='e_crossover1'		approach='E'	offset='6'	time='80' />
+			<insect path='e_crossover2'		approach='E'	offset='-6'	time='100' />
+			<insect path='e_crossover1'		approach='E'	offset='6'	time='120' />
+			<insect path='e_crossover2'		approach='E'	offset='-6'	time='140' />
+			<insect path='e_crossover1'		approach='E'	offset='6'	time='160' />
+			<insect path='e_crossover2'		approach='E'	offset='-6'	time='180' />
+		</formation>
+		<formation bonus='2000' name='w_crossover' sprite='butterfly' >
+			<insect path='w_crossover1'		approach='W'	offset='6'	time='0' />
+			<insect path='w_crossover2'		approach='W'	offset='-6'	time='20' />
+			<insect path='w_crossover1'		approach='W'	offset='6'	time='40' />
+			<insect path='w_crossover2'		approach='W'	offset='-6'	time='60' />
+			<insect path='w_crossover1'		approach='W'	offset='6'	time='80' />
+			<insect path='w_crossover2'		approach='W'	offset='-6'	time='100' />
+			<insect path='w_crossover1'		approach='W'	offset='6'	time='120' />
+			<insect path='w_crossover2'		approach='W'	offset='-6'	time='140' />
+			<insect path='w_crossover1'		approach='W'	offset='6'	time='160' />
+			<insect path='w_crossover2'		approach='W'	offset='-6'	time='180' />
+		</formation>
+		<formation bonus='2000' name='s_cross_twice' sprite='butterfly' >
+			<insect path='s_cross_twice1'		approach='S'	offset='0'	time='0' />
+			<insect path='s_cross_twice2'		approach='S'	offset='0'	time='20' />
+			<insect path='s_cross_twice1'		approach='S'	offset='0'	time='40' />
+			<insect path='s_cross_twice2'		approach='S'	offset='0'	time='60' />
+			<insect path='s_cross_twice1'		approach='S'	offset='0'	time='80' />
+			<insect path='s_cross_twice2'		approach='S'	offset='0'	time='100' />
+			<insect path='s_cross_twice1'		approach='S'	offset='0'	time='120' />
+			<insect path='s_cross_twice2'		approach='S'	offset='0'	time='140' />
+			<insect path='s_cross_twice1'		approach='S'	offset='0'	time='160' />
+			<insect path='s_cross_twice2'		approach='S'	offset='0'	time='180' />
+		</formation>
+		<formation bonus='2000' name='n_cross_twice' sprite='butterfly' >
+			<insect path='n_cross_twice1'		approach='N'	offset='0'	time='0' />
+			<insect path='n_cross_twice2'		approach='N'	offset='0'	time='20' />
+			<insect path='n_cross_twice1'		approach='N'	offset='0'	time='40' />
+			<insect path='n_cross_twice2'		approach='N'	offset='0'	time='60' />
+			<insect path='n_cross_twice1'		approach='N'	offset='0'	time='80' />
+			<insect path='n_cross_twice2'		approach='N'	offset='0'	time='100' />
+			<insect path='n_cross_twice1'		approach='N'	offset='0'	time='120' />
+			<insect path='n_cross_twice2'		approach='N'	offset='0'	time='140' />
+			<insect path='n_cross_twice1'		approach='N'	offset='0'	time='160' />
+			<insect path='n_cross_twice2'		approach='N'	offset='0'	time='180' />
+		</formation>
+		<formation bonus='2000' name='e_cross_twice' sprite='butterfly' >
+			<insect path='e_cross_twice1'		approach='E'	offset='0'	time='0' />
+			<insect path='e_cross_twice2'		approach='E'	offset='0'	time='20' />
+			<insect path='e_cross_twice1'		approach='E'	offset='0'	time='40' />
+			<insect path='e_cross_twice2'		approach='E'	offset='0'	time='60' />
+			<insect path='e_cross_twice1'		approach='E'	offset='0'	time='80' />
+			<insect path='e_cross_twice2'		approach='E'	offset='0'	time='100' />
+			<insect path='e_cross_twice1'		approach='E'	offset='0'	time='120' />
+			<insect path='e_cross_twice2'		approach='E'	offset='0'	time='140' />
+			<insect path='e_cross_twice1'		approach='E'	offset='0'	time='160' />
+			<insect path='e_cross_twice2'		approach='E'	offset='0'	time='180' />
+		</formation>
+		<formation bonus='2000' name='w_cross_twice' sprite='butterfly' >
+			<insect path='w_cross_twice1'		approach='W'	offset='0'	time='0' />
+			<insect path='w_cross_twice2'		approach='W'	offset='0'	time='20' />
+			<insect path='w_cross_twice1'		approach='W'	offset='0'	time='40' />
+			<insect path='w_cross_twice2'		approach='W'	offset='0'	time='60' />
+			<insect path='w_cross_twice1'		approach='W'	offset='0'	time='80' />
+			<insect path='w_cross_twice2'		approach='W'	offset='0'	time='100' />
+			<insect path='w_cross_twice1'		approach='W'	offset='0'	time='120' />
+			<insect path='w_cross_twice2'		approach='W'	offset='0'	time='140' />
+			<insect path='w_cross_twice1'		approach='W'	offset='0'	time='160' />
+			<insect path='w_cross_twice2'		approach='W'	offset='0'	time='180' />
+		</formation>
+		<formation bonus='0' name='s_two_jumps' sprite='stickbug'>
+			<insect path='s_double_hop'		approach='S'	offset='0'	time='0' />
+		</formation>
+		<formation bonus='0' name='n_two_jumps' sprite='stickbug'>
+			<insect path='n_double_hop'		approach='N'	offset='0'	time='0' />
+		</formation>
+		<formation bonus='0' name='e_two_jumps' sprite='stickbug'>
+			<insect path='e_double_hop'		approach='E'	offset='0'	time='0' />
+		</formation>
+		<formation bonus='0' name='w_two_jumps' sprite='stickbug'>
+			<insect path='w_double_hop'		approach='W'	offset='0'	time='0' />
+		</formation>
+		<formation bonus='1000' name='s_row' sprite='snail'>
+			<insect path='s_linear'		approach='S'	offset='-2' time='0' />
+			<insect path='s_linear'		approach='S'	offset='-1' time='0' />
+			<insect path='s_linear'		approach='S'	offset='0'	time='0' />
+			<insect path='s_linear'		approach='S'	offset='1'  time='0' />
+			<insect path='s_linear'		approach='S'	offset='2'  time='0' />
+		</formation>
+		<formation bonus='1000' name='n_row' sprite='snail'>
+			<insect path='n_linear'		approach='N'	offset='-2' time='0' />
+			<insect path='n_linear'		approach='N'	offset='-1' time='0' />
+			<insect path='n_linear'		approach='N'	offset='0'	time='0' />
+			<insect path='n_linear'		approach='N'	offset='1'  time='0' />
+			<insect path='n_linear'		approach='N'	offset='2'  time='0' />
+		</formation>
+		<formation bonus='1000' name='e_row' sprite='snail'>
+			<insect path='e_linear'		approach='E'	offset='-2' time='0' />
+			<insect path='e_linear'		approach='E'	offset='-1' time='0' />
+			<insect path='e_linear'		approach='E'	offset='0'	time='0' />
+			<insect path='e_linear'		approach='E'	offset='1'  time='0' />
+			<insect path='e_linear'		approach='E'	offset='2'  time='0' />
+		</formation>
+		<formation bonus='1000' name='w_row' sprite='snail'>
+			<insect path='w_linear'		approach='W'	offset='-2' time='0' />
+			<insect path='w_linear'		approach='W'	offset='-1' time='0' />
+			<insect path='w_linear'		approach='W'	offset='0'	time='0' />
+			<insect path='w_linear'		approach='W'	offset='1'  time='0' />
+			<insect path='w_linear'		approach='W'	offset='2'  time='0' />
+		</formation>
+		<formation bonus='2000' name='s_triangle' sprite='snail'>
+			<insect path='s_linear'		approach='S'	offset='0'  time='0' />
+			<insect path='s_linear'		approach='S'	offset='-1' time='30' />
+			<insect path='s_linear'		approach='S'	offset='0'	time='30' />
+			<insect path='s_linear'		approach='S'	offset='1'  time='30' />
+			<insect path='s_linear'		approach='S'	offset='-2' time='60' />
+			<insect path='s_linear'		approach='S'	offset='-1' time='60' />
+			<insect path='s_linear'		approach='S'	offset='0'	time='60' />
+			<insect path='s_linear'		approach='S'	offset='1'  time='60' />
+			<insect path='s_linear'		approach='S'	offset='2'  time='60' />
+		</formation>
+		<formation bonus='2000' name='n_triangle' sprite='snail'>
+			<insect path='n_linear'		approach='N'	offset='0'  time='0' />
+			<insect path='n_linear'		approach='N'	offset='-1' time='30' />
+			<insect path='n_linear'		approach='N'	offset='0'	time='30' />
+			<insect path='n_linear'		approach='N'	offset='1'  time='30' />
+			<insect path='n_linear'		approach='N'	offset='-2' time='60' />
+			<insect path='n_linear'		approach='N'	offset='-1' time='60' />
+			<insect path='n_linear'		approach='N'	offset='0'	time='60' />
+			<insect path='n_linear'		approach='N'	offset='1'  time='60' />
+			<insect path='n_linear'		approach='N'	offset='2'  time='60' />
+		</formation>
+		<formation bonus='2000' name='e_triangle' sprite='snail'>
+			<insect path='e_linear'		approach='E'	offset='0'  time='0' />
+			<insect path='e_linear'		approach='E'	offset='-1' time='30' />
+			<insect path='e_linear'		approach='E'	offset='0'	time='30' />
+			<insect path='e_linear'		approach='E'	offset='1'  time='30' />
+			<insect path='e_linear'		approach='E'	offset='-2' time='60' />
+			<insect path='e_linear'		approach='E'	offset='-1' time='60' />
+			<insect path='e_linear'		approach='E'	offset='0'	time='60' />
+			<insect path='e_linear'		approach='E'	offset='1'  time='60' />
+			<insect path='e_linear'		approach='E'	offset='2'  time='60' />
+		</formation>
+		<formation bonus='2000' name='w_triangle' sprite='snail'>
+			<insect path='w_linear'		approach='W'	offset='0'  time='0' />
+			<insect path='w_linear'		approach='W'	offset='-1' time='30' />
+			<insect path='w_linear'		approach='W'	offset='0'	time='30' />
+			<insect path='w_linear'		approach='W'	offset='1'  time='30' />
+			<insect path='w_linear'		approach='W'	offset='-2' time='60' />
+			<insect path='w_linear'		approach='W'	offset='-1' time='60' />
+			<insect path='w_linear'		approach='W'	offset='0'	time='60' />
+			<insect path='w_linear'		approach='W'	offset='1'  time='60' />
+			<insect path='w_linear'		approach='W'	offset='2'  time='60' />
+		</formation>
+		<formation bonus='2000' name='s_wedge' sprite='caterpillar'>
+			<insect path='s_cat_hop'		approach='S'	offset='0' time='0' />
+			<insect path='s_cat_hop'		approach='S'	offset='-1' time='24' />
+			<insect path='s_cat_hop'		approach='S'	offset='1'	time='24' />
+			<insect path='s_cat_hop'		approach='S'	offset='-2'  time='48' />
+			<insect path='s_cat_hop'		approach='S'	offset='2'  time='48' />
+		</formation>
+		<formation bonus='2000' name='n_wedge' sprite='caterpillar'>
+			<insect path='n_cat_hop'		approach='N'	offset='0' time='0' />
+			<insect path='n_cat_hop'		approach='N'	offset='-1' time='24' />
+			<insect path='n_cat_hop'		approach='N'	offset='1'	time='24' />
+			<insect path='n_cat_hop'		approach='N'	offset='-2'  time='48' />
+			<insect path='n_cat_hop'		approach='N'	offset='2'  time='48' />
+		</formation>
+		<formation bonus='2000' name='e_wedge' sprite='caterpillar'>
+			<insect path='e_cat_hop'		approach='E'	offset='0' time='0' />
+			<insect path='e_cat_hop'		approach='E'	offset='-1' time='24' />
+			<insect path='e_cat_hop'		approach='E'	offset='1'	time='24' />
+			<insect path='e_cat_hop'		approach='E'	offset='-2'  time='48' />
+			<insect path='e_cat_hop'		approach='E'	offset='2'  time='48' />
+		</formation>
+		<formation bonus='2000' name='w_wedge' sprite='caterpillar'>
+			<insect path='w_cat_hop'		approach='W'	offset='0' time='0' />
+			<insect path='w_cat_hop'		approach='W'	offset='-1' time='24' />
+			<insect path='w_cat_hop'		approach='W'	offset='1'	time='24' />
+			<insect path='w_cat_hop'		approach='W'	offset='-2'  time='48' />
+			<insect path='w_cat_hop'		approach='W'	offset='2'  time='48' />
+		</formation>
+		<formation bonus='2000' name='s_catchup' sprite='grasshopper'>
+			<insect path='s_hop' approach='S' offset='-2' time='0' />
+			<insect path='s_hop' approach='S' offset='-1'  time='6' />
+			<insect path='s_hop' approach='S' offset='0' time='12' />
+			<insect path='s_hop' approach='S' offset='1'  time='18' />
+			<insect path='s_hop' approach='S' offset='2'  time='24' />
+		</formation>
+		<formation bonus='2000' name='n_catchup' sprite='grasshopper'>
+			<insect path='n_hop' approach='N' offset='-2' time='0' />
+			<insect path='n_hop' approach='N' offset='-1'  time='6' />
+			<insect path='n_hop' approach='N' offset='0' time='12' />
+			<insect path='n_hop' approach='N' offset='1'  time='18' />
+			<insect path='n_hop' approach='N' offset='2'  time='24' />
+		</formation>
+		<formation bonus='2000' name='e_catchup' sprite='grasshopper'>
+			<insect path='e_hop' approach='E' offset='-2' time='0' />
+			<insect path='e_hop' approach='E' offset='-1'  time='6' />
+			<insect path='e_hop' approach='E' offset='0' time='12' />
+			<insect path='e_hop' approach='E' offset='1'  time='18' />
+			<insect path='e_hop' approach='E' offset='2'  time='24' />
+		</formation>
+		<formation bonus='2000' name='w_catchup' sprite='grasshopper'>
+			<insect path='w_hop' approach='W' offset='-2' time='0' />
+			<insect path='w_hop' approach='W' offset='-1'  time='6' />
+			<insect path='w_hop' approach='W' offset='0' time='12' />
+			<insect path='w_hop' approach='W' offset='1'  time='18' />
+			<insect path='w_hop' approach='W' offset='2'  time='24' />
+		</formation>
+		<formation bonus='3000' name='vert_passby' sprite='grasshopper'>
+			<insect path='s_hop' approach='S' offset='-3' time='0' />
+			<insect path='s_hop' approach='S' offset='-1'  time='6' />
+			<insect path='s_hop' approach='S' offset='1' time='12' />
+			<insect path='s_hop' approach='S' offset='3'  time='18' />
+			<insect path='n_hop' approach='N' offset='-4'  time='0' />
+			<insect path='n_hop' approach='N' offset='-2'  time='6' />
+			<insect path='n_hop' approach='N' offset='0'  time='12' />
+			<insect path='n_hop' approach='N' offset='2'  time='18' />
+		</formation>
+		<formation bonus='3000' name='horz_passby' sprite='grasshopper'>
+			<insect path='e_hop' approach='E' offset='-3' time='0' />
+			<insect path='e_hop' approach='E' offset='-1'  time='6' />
+			<insect path='e_hop' approach='E' offset='1' time='12' />
+			<insect path='e_hop' approach='E' offset='3'  time='18' />
+			<insect path='w_hop' approach='W' offset='-4'  time='0' />
+			<insect path='w_hop' approach='W' offset='-2'  time='6' />
+			<insect path='w_hop' approach='W' offset='0'  time='12' />
+			<insect path='w_hop' approach='W' offset='2'  time='18' />
+		</formation>
+		<formation bonus='1000' name='s_diag_hop' sprite='ladybug'>
+			<insect path='s_short_hop' approach='S' offset='-2' time='0' />
+			<insect path='s_short_hop' approach='S' offset='-1' time='36' />
+			<insect path='s_short_hop' approach='S' offset='0'	time='72' />
+			<insect path='s_short_hop' approach='S' offset='1'  time='108' />
+			<insect path='s_short_hop' approach='S' offset='2'  time='144' />
+		</formation>
+		<formation bonus='1000' name='n_diag_hop' sprite='ladybug'>
+			<insect path='n_short_hop' approach='N' offset='-2' time='0' />
+			<insect path='n_short_hop' approach='N' offset='-1' time='36' />
+			<insect path='n_short_hop' approach='N' offset='0'	time='72' />
+			<insect path='n_short_hop' approach='N' offset='1'  time='108' />
+			<insect path='n_short_hop' approach='N' offset='2'  time='144' />
+		</formation>
+		<formation bonus='1000' name='e_diag_hop' sprite='ladybug'>
+			<insect path='e_short_hop' approach='E' offset='-2' time='0' />
+			<insect path='e_short_hop' approach='E' offset='-1' time='36' />
+			<insect path='e_short_hop' approach='E' offset='0'	time='72' />
+			<insect path='e_short_hop' approach='E' offset='1'  time='108' />
+			<insect path='e_short_hop' approach='E' offset='2'  time='144' />
+		</formation>
+		<formation bonus='1000' name='w_diag_hop' sprite='ladybug'>
+			<insect path='w_short_hop' approach='W' offset='-2' time='0' />
+			<insect path='w_short_hop' approach='W' offset='-1' time='36' />
+			<insect path='w_short_hop' approach='W' offset='0'	time='72' />
+			<insect path='w_short_hop' approach='W' offset='1'  time='108' />
+			<insect path='w_short_hop' approach='W' offset='2'  time='144' />
+		</formation>
+		<formation bonus='8000' name='s_follow' sprite='beetle'>
+			<insect path='s_wave_tight_slow' approach='S' offset='0' time='0' />
+			<insect path='s_wave_tight_slow' approach='S' offset='0' time='30' />
+			<insect path='s_wave_tight_slow' approach='S' offset='0' time='60' />
+			<insect path='s_wave_tight_slow' approach='S' offset='0' time='90' />
+			<insect path='s_wave_tight_slow' approach='S' offset='0' time='120' />
+			<insect path='s_wave_tight_slow' approach='S' offset='0' time='150' />
+			<insect path='s_wave_tight_slow' approach='S' offset='0' time='180' />
+		</formation>
+		<formation bonus='8000' name='n_follow' sprite='beetle'>
+			<insect path='n_wave_tight_slow' approach='N' offset='0' time='0' />
+			<insect path='n_wave_tight_slow' approach='N' offset='0' time='30' />
+			<insect path='n_wave_tight_slow' approach='N' offset='0' time='60' />
+			<insect path='n_wave_tight_slow' approach='N' offset='0' time='90' />
+			<insect path='n_wave_tight_slow' approach='N' offset='0' time='120' />
+			<insect path='n_wave_tight_slow' approach='N' offset='0' time='150' />
+			<insect path='n_wave_tight_slow' approach='N' offset='0' time='180' />
+		</formation>
+		<formation bonus='8000' name='e_follow' sprite='beetle'>
+			<insect path='e_wave_tight_slow' approach='E' offset='0' time='0' />
+			<insect path='e_wave_tight_slow' approach='E' offset='0' time='30' />
+			<insect path='e_wave_tight_slow' approach='E' offset='0' time='60' />
+			<insect path='e_wave_tight_slow' approach='E' offset='0' time='90' />
+			<insect path='e_wave_tight_slow' approach='E' offset='0' time='120' />
+			<insect path='e_wave_tight_slow' approach='E' offset='0' time='150' />
+			<insect path='e_wave_tight_slow' approach='E' offset='0' time='180' />
+		</formation>
+		<formation bonus='8000' name='w_follow' sprite='beetle'>
+			<insect path='w_wave_tight_slow' approach='W' offset='0' time='0' />
+			<insect path='w_wave_tight_slow' approach='W' offset='0' time='30' />
+			<insect path='w_wave_tight_slow' approach='W' offset='0' time='60' />
+			<insect path='w_wave_tight_slow' approach='W' offset='0' time='90' />
+			<insect path='w_wave_tight_slow' approach='W' offset='0' time='120' />
+			<insect path='w_wave_tight_slow' approach='W' offset='0' time='150' />
+			<insect path='w_wave_tight_slow' approach='W' offset='0' time='180' />
+		</formation>
+		<formation bonus='10000' name='vert_thread' sprite='beetle'>
+			<insect path='s_wave_slow' approach='S' offset='0' time='0' />
+			<insect path='n_wave_slow' approach='N' offset='0' time='20' />
+			<insect path='s_wave_slow' approach='S' offset='0' time='40' />
+			<insect path='n_wave_slow' approach='N' offset='0' time='60' />
+			<insect path='s_wave_slow' approach='S' offset='0' time='80' />
+			<insect path='n_wave_slow' approach='N' offset='0' time='100' />
+			<insect path='s_wave_slow' approach='S' offset='0' time='120' />
+			<insect path='n_wave_slow' approach='N' offset='0' time='140' />
+			<insect path='s_wave_slow' approach='S' offset='0' time='160' />
+			<insect path='n_wave_slow' approach='N' offset='0' time='180' />
+		</formation>
+		<formation bonus='10000' name='horz_thread' sprite='beetle'>
+			<insect path='e_wave_slow' approach='E' offset='0' time='0' />
+			<insect path='w_wave_slow' approach='W' offset='0' time='20' />
+			<insect path='e_wave_slow' approach='E' offset='0' time='40' />
+			<insect path='w_wave_slow' approach='W' offset='0' time='60' />
+			<insect path='e_wave_slow' approach='E' offset='0' time='80' />
+			<insect path='w_wave_slow' approach='W' offset='0' time='100' />
+			<insect path='e_wave_slow' approach='E' offset='0' time='120' />
+			<insect path='w_wave_slow' approach='W' offset='0' time='140' />
+			<insect path='e_wave_slow' approach='E' offset='0' time='160' />
+			<insect path='w_wave_slow' approach='W' offset='0' time='180' />
+		</formation>
+		<formation bonus='15000' name='vert_pass' sprite='beetle'>
+			<insect path='s_wave_tight_slow' approach='S' offset='0.5' time='0' />
+			<insect path='n_wave_tight_slow' approach='N' offset='-.5' time='20' />
+			<insect path='s_wave_tight_slow' approach='S' offset='0.5' time='40' />
+			<insect path='n_wave_tight_slow' approach='N' offset='-.5' time='60' />
+			<insect path='s_wave_tight_slow' approach='S' offset='0.5' time='80' />
+			<insect path='n_wave_tight_slow' approach='N' offset='-.5' time='100' />
+			<insect path='s_wave_tight_slow' approach='S' offset='0.5' time='120' />
+			<insect path='n_wave_tight_slow' approach='N' offset='-.5' time='140' />
+			<insect path='s_wave_tight_slow' approach='S' offset='0.5' time='160' />
+			<insect path='n_wave_tight_slow' approach='N' offset='-.5' time='180' />
+			<insect path='s_wave_tight_slow' approach='S' offset='0.5' time='200' />
+			<insect path='n_wave_tight_slow' approach='N' offset='-.5' time='220' />
+			<insect path='s_wave_tight_slow' approach='S' offset='0.5' time='240' />
+			<insect path='n_wave_tight_slow' approach='N' offset='-.5' time='260' />
+			<insect path='s_wave_tight_slow' approach='S' offset='0.5' time='280' />
+			<insect path='n_wave_tight_slow' approach='N' offset='-.5' time='300' />
+		</formation>
+		<formation bonus='15000' name='horz_pass' sprite='beetle'>
+			<insect path='e_wave_tight_slow' approach='E' offset='.5' time='0' />
+			<insect path='w_wave_tight_slow' approach='W' offset='-.5' time='20' />
+			<insect path='e_wave_tight_slow' approach='E' offset='.5' time='40' />
+			<insect path='w_wave_tight_slow' approach='W' offset='-.5' time='60' />
+			<insect path='e_wave_tight_slow' approach='E' offset='0.5' time='80' />
+			<insect path='w_wave_tight_slow' approach='W' offset='-.5' time='100' />
+			<insect path='e_wave_tight_slow' approach='E' offset='0.5' time='120' />
+			<insect path='w_wave_tight_slow' approach='W' offset='-.5' time='140' />
+			<insect path='e_wave_tight_slow' approach='E' offset='0.5' time='160' />
+			<insect path='w_wave_tight_slow' approach='W' offset='-.5' time='180' />
+			<insect path='e_wave_tight_slow' approach='E' offset='.5' time='200' />
+			<insect path='w_wave_tight_slow' approach='W' offset='-.5' time='220' />
+			<insect path='e_wave_tight_slow' approach='E' offset='.5' time='240' />
+			<insect path='w_wave_tight_slow' approach='W' offset='-.5' time='260' />
+			<insect path='e_wave_tight_slow' approach='E' offset='.5' time='280' />
+			<insect path='w_wave_tight_slow' approach='W' offset='-.5' time='300' />
+		</formation>
+		<formation bonus='10000' name='s_drunk' sprite='dragonfly'>
+			<insect path='s_wave_wide' approach='S' offset='0' time='0' />
+			<insect path='s_wave_wide' approach='S' offset='0' time='30' />
+			<insect path='s_wave_wide' approach='S' offset='0' time='60' />
+		</formation>
+		<formation bonus='10000' name='n_drunk' sprite='dragonfly'>
+			<insect path='n_wave_wide' approach='N' offset='0' time='0' />
+			<insect path='n_wave_wide' approach='N' offset='0' time='30' />
+			<insect path='n_wave_wide' approach='N' offset='0' time='60' />
+		</formation>
+		<formation bonus='10000' name='e_drunk' sprite='dragonfly'>
+			<insect path='e_wave_wide' approach='E' offset='0' time='0' />
+			<insect path='e_wave_wide' approach='E' offset='0' time='30' />
+			<insect path='e_wave_wide' approach='E' offset='0' time='60' />
+		</formation>
+		<formation bonus='10000' name='w_drunk' sprite='dragonfly'>
+			<insect path='w_wave_wide' approach='W' offset='0' time='0' />
+			<insect path='w_wave_wide' approach='W' offset='0' time='30' />
+			<insect path='w_wave_wide' approach='W' offset='0' time='60' />
+		</formation>
+		<formation bonus='15000' name='s_olympic' sprite='dragonfly'>
+			<insect path='s_olympic' approach='S' offset='0' time='0' />
+			<insect path='s_olympic' approach='S' offset='0' time='30' />
+			<insect path='s_olympic' approach='S' offset='0' time='60' />
+			<insect path='s_olympic' approach='S' offset='0' time='90' />
+			<insect path='s_olympic' approach='S' offset='0' time='120' />
+		</formation>
+		<formation bonus='15000' name='n_olympic' sprite='dragonfly'>
+			<insect path='n_olympic' approach='N' offset='0' time='0' />
+			<insect path='n_olympic' approach='N' offset='0' time='30' />
+			<insect path='n_olympic' approach='N' offset='0' time='60' />
+			<insect path='n_olympic' approach='N' offset='0' time='90' />
+			<insect path='n_olympic' approach='N' offset='0' time='120' />
+		</formation>
+		<formation bonus='15000' name='e_olympic' sprite='dragonfly'>
+			<insect path='e_olympic' approach='E' offset='0' time='0' />
+			<insect path='e_olympic' approach='E' offset='0' time='30' />
+			<insect path='e_olympic' approach='E' offset='0' time='60' />
+			<insect path='e_olympic' approach='E' offset='0' time='90' />
+			<insect path='e_olympic' approach='E' offset='0' time='120' />
+		</formation>
+		<formation bonus='15000' name='w_olympic' sprite='dragonfly'>
+			<insect path='w_olympic' approach='W' offset='0' time='0' />
+			<insect path='w_olympic' approach='W' offset='0' time='30' />
+			<insect path='w_olympic' approach='W' offset='0' time='60' />
+			<insect path='w_olympic' approach='W' offset='0' time='90' />
+			<insect path='w_olympic' approach='W' offset='0' time='120' />
+		</formation>
+		<formation bonus='15000' name='s_scream' sprite='dragonfly'>
+			<insect path='s_wave_tight_fast' approach='S' offset='-2' time='0' />
+			<insect path='s_wave_tight_fast' approach='S' offset='-1' time='30' />
+			<insect path='s_wave_tight_fast' approach='S' offset='0' time='60' />
+			<insect path='s_wave_tight_fast' approach='S' offset='1' time='90' />
+			<insect path='s_wave_tight_fast' approach='S' offset='2' time='120' />
+		</formation>
+		<formation bonus='15000' name='n_scream' sprite='dragonfly'>
+			<insect path='n_wave_tight_fast' approach='N' offset='-2' time='0' />
+			<insect path='n_wave_tight_fast' approach='N' offset='-1' time='30' />
+			<insect path='n_wave_tight_fast' approach='N' offset='0' time='60' />
+			<insect path='n_wave_tight_fast' approach='N' offset='1' time='90' />
+			<insect path='n_wave_tight_fast' approach='N' offset='2' time='120' />
+		</formation>
+		<formation bonus='15000' name='e_scream' sprite='dragonfly'>
+			<insect path='e_wave_tight_fast' approach='E' offset='-2' time='0' />
+			<insect path='e_wave_tight_fast' approach='E' offset='-1' time='30' />
+			<insect path='e_wave_tight_fast' approach='E' offset='0' time='60' />
+			<insect path='e_wave_tight_fast' approach='E' offset='1' time='90' />
+			<insect path='e_wave_tight_fast' approach='E' offset='2' time='120' />
+		</formation>
+		<formation bonus='15000' name='w_scream' sprite='dragonfly'>
+			<insect path='w_wave_tight_fast' approach='W' offset='-2' time='0' />
+			<insect path='w_wave_tight_fast' approach='W' offset='-1' time='30' />
+			<insect path='w_wave_tight_fast' approach='W' offset='0' time='60' />
+			<insect path='w_wave_tight_fast' approach='W' offset='1' time='90' />
+			<insect path='w_wave_tight_fast' approach='W' offset='2' time='120' />
+		</formation>
+		<formation bonus='15000' name='s_cross3' sprite='dragonfly'>
+			<insect path='s_med_wave1' approach='S' offset='0' time='0' />
+			<insect path='s_med_wave2' approach='S' offset='0' time='10' />
+			<insect path='s_med_wave1' approach='S' offset='0' time='20' />
+			<insect path='s_med_wave2' approach='S' offset='0' time='30' />
+			<insect path='s_med_wave1' approach='S' offset='0' time='40' />
+			<insect path='s_med_wave2' approach='S' offset='0' time='50' />
+		</formation>
+		<formation bonus='15000' name='n_cross3' sprite='dragonfly'>
+			<insect path='n_med_wave1' approach='N' offset='0' time='0' />
+			<insect path='n_med_wave2' approach='N' offset='0' time='10' />
+			<insect path='n_med_wave1' approach='N' offset='0' time='20' />
+			<insect path='n_med_wave2' approach='N' offset='0' time='30' />
+			<insect path='n_med_wave1' approach='N' offset='0' time='40' />
+			<insect path='n_med_wave2' approach='N' offset='0' time='50' />
+		</formation>
+		<formation bonus='15000' name='e_cross3' sprite='dragonfly'>
+			<insect path='e_med_wave1' approach='E' offset='0' time='0' />
+			<insect path='e_med_wave2' approach='E' offset='0' time='10' />
+			<insect path='e_med_wave1' approach='E' offset='0' time='20' />
+			<insect path='e_med_wave2' approach='E' offset='0' time='30' />
+			<insect path='e_med_wave1' approach='E' offset='0' time='40' />
+			<insect path='e_med_wave2' approach='E' offset='0' time='50' />
+		</formation>
+		<formation bonus='15000' name='w_cross3' sprite='dragonfly'>
+			<insect path='w_med_wave1' approach='W' offset='0' time='0' />
+			<insect path='w_med_wave2' approach='W' offset='0' time='10' />
+			<insect path='w_med_wave1' approach='W' offset='0' time='20' />
+			<insect path='w_med_wave2' approach='W' offset='0' time='30' />
+			<insect path='w_med_wave1' approach='W' offset='0' time='40' />
+			<insect path='w_med_wave2' approach='W' offset='0' time='50' />
+		</formation>
+		<formation bonus='5000' name='star' sprite='bee'>
+			<insect	path='n_circle'		approach='Nc'	offset='0'  time='0' />
+			<insect	path='e_circle'		approach='E'	offset='0'  time='0' />
+			<insect	path='w_circle'		approach='W'	offset='0'  time='0' />
+			<insect	path='s_circle'		approach='Sc'	offset='0'  time='0' />
+			<insect	path='n_circle'		approach='Nc'	offset='0'  time='48' />
+			<insect	path='e_circle'		approach='E'	offset='0'  time='48' />
+			<insect	path='w_circle'		approach='W'	offset='0'  time='48' />
+			<insect	path='s_circle'		approach='Sc'	offset='0'  time='48' />
+		</formation>
+		<formation bonus='5000' name='spin' sprite='bee'>
+			<insect	path='s_circle'		approach='Sc'	offset='0'  time='0' />
+			<insect	path='s_circle'		approach='Sc'	offset='0'  time='10' />
+			<insect	path='s_circle'		approach='Sc'	offset='0'  time='20' />
+			<insect	path='s_circle'		approach='Sc'	offset='0'  time='30' />
+			<insect	path='s_circle'		approach='Sc'	offset='0'  time='40' />
+			<insect	path='s_circle'		approach='Sc'	offset='0'  time='50' />
+			<insect	path='s_circle'		approach='Sc'	offset='0'  time='60' />
+			<insect	path='s_circle'		approach='Sc'	offset='0'  time='70' />
+		</formation>
+	</formations>
+	<levels>
+		<!-- SUNDAY 2004-12-12  - LEVELS by BRAD -->
+		<!-- *******   LEVEL 1  42 bugs  *********** -->
+		<level q_easy='10' q_normal='15' heroes='b' perfect='25000'>
+			<wave formation='e_solo'		offset='0'  time='1' />
+			<wave formation='w_solo'		offset='0'  time='4' />
+			<wave formation='w_solo'		offset='0'  time='1' />
+			<wave formation='w_solo'		offset='0'  time='1' />
+			<wave formation='s_row'		offset='0'  time='3' />
+			<wave formation='spin'		offset='0'  time='8' />
+			<wave formation='e_catchup'	offset='0'  time='8' />
+			<wave formation='w_row'		offset='0'  time='6' />
+			<wave formation='s_catchup'	offset='0'  time='4' />
+			<wave formation='w_follow'		offset='0'  time='4' />
+			<wave formation='n_drunk'		offset='0'  time='4' />
+		</level>
+		<!-- *******   LEVEL 2   72 bugs  *********** -->
+		<level q_easy='15' q_normal='20' heroes='b' perfect='25000'>
+			<wave formation='s_wedge'	offset='0'  time='0' />
+			<wave formation='e_solo'		offset='0'  time='0' />
+			<wave formation='e_solo'		offset='0'  time='1' />
+			<wave formation='e_solo'		offset='0'  time='1' />
+			<wave formation='n_two_jumps'	offset='-6'  time='4' />
+			<wave formation='n_two_jumps'	offset='6'  time='0' />
+			<wave formation='s_separate'		offset='0'  time='4' />
+			<wave formation='e_triangle'		offset='0'  time='6' />
+			<wave formation='n_follow'		offset='0'  time='4' />
+			<wave formation='star'		offset='0'  time='6' />
+			<wave formation='w_separate'	offset='0'  time='8' />
+			<wave formation='w_row'		offset='0'  time='6' />
+			<wave formation='e_row'		offset='0'  time='0' />
+			<wave formation='n_drunk'		offset='0'  time='4' />
+			<wave formation='w_scream'	offset='0'  time='4' />
+		</level>
+		<!-- *******   LEVEL 3  60 bugs  *********** -->
+		<level q_easy='15' q_normal='20' heroes='be' perfect='25000'>
+			<wave formation='s_row'	offset='0'  time='0' />
+			<wave formation='n_row'	offset='0'  time='1' />
+			<wave formation='horz_passby'	offset='0'  time='4' />
+			<wave formation='vert_passby'	offset='0'  time='4' />
+			<wave formation='spin'		offset='0'  time='8' />
+			<wave formation='w_follow'	offset='2'  time='8' />
+			<wave formation='e_follow'	offset='-2'  time='0' />
+			<wave formation='w_two_jumps'	offset='-4'  time='0' />
+			<wave formation='e_two_jumps'	offset='4'  time='0' />
+			<wave formation='n_scream'	offset='0'  time='8' />
+			<wave formation='w_scream'	offset='0'  time='2' />
+		</level>
+		<!-- *******   LEVEL 4  68 bugs  *********** -->
+		<level q_easy='15' q_normal='20' heroes='be' perfect='25000'>
+			<wave formation='s_triangle'	offset='0'  time='0' />
+			<wave formation='n_solo'		offset='-3'  time='0' />
+			<wave formation='n_solo'		offset='3'  time='0' />
+			<wave formation='e_diag_hop'	offset='0'  time='1' />
+			<wave formation='w_crossover'	offset='0'  time='5' />
+			<wave formation='n_catchup'	offset='0'  time='4' />
+			<wave formation='spin'		offset='0'  time='8' />
+			<wave formation='w_follow'		offset='-4'  time='8' />
+			<wave formation='e_follow'		offset='4'  time='0' />
+			<wave formation='e_wedge'		offset='0'  time='0' />
+			<wave formation='n_olympic'	offset='0'  time='10' />
+			<wave formation='n_scream'	offset='0'  time='4' />
+		</level>
+	      <!-- *******   LEVEL 5  8 bugs  *********** -->
+		<level q_easy='0' q_normal='0' heroes='bwe' perfect='25000'>
+			<wave formation='firefly'	offset='0'  time='0'/>
+		</level>
+		<!-- *******   LEVEL 6  74 bugs  *********** -->
+		<level q_easy='15' q_normal='20' heroes='bwe' perfect='25000'>
+			<wave formation='w_two_jumps'	offset='0'  time='0' />
+			<wave formation='w_two_jumps'	offset='-4'  time='0' />
+			<wave formation='w_two_jumps'	offset='4'  time='0' />
+			<wave formation='e_two_jumps'	offset='-2'  time='0' />
+			<wave formation='e_two_jumps'	offset='2'  time='0' />
+			<wave formation='n_triangle'	offset='3'  time='5' />
+			<wave formation='s_triangle'	offset='-3'  time='0' />
+			<wave formation='w_kiss'		offset='0'  time='8' />
+			<wave formation='w_separate'	offset='0'  time='7' />
+			<wave formation='spin'		offset='0'  time='10' />
+			<wave formation='w_wedge'	offset='0'  time='6' />
+			<wave formation='w_two_jumps'	offset='-4'  time='6' />
+			<wave formation='w_two_jumps'	offset='4'  time='0' />
+			<wave formation='e_separate'	offset='0'  time='0' />
+			<wave formation='n_drunk'		offset='-3'  time='10' />
+			<wave formation='n_drunk'		offset='3'  time='0' />
+		</level>
+	      <!-- *******   LEVEL 7  77 bugs  *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='w_diag_hop'	offset='-3'  time='0' />
+			<wave formation='e_diag_hop'	offset='3'  time='0' />
+			<wave formation='n_solo'		offset='3'  time='0' />
+			<wave formation='e_solo'		offset='-3'  time='0' />
+			<wave formation='w_solo'		offset='3'  time='0' />
+			<wave formation='s_solo'		offset='-3'  time='0' />
+			<wave formation='n_cross_twice'	offset='0'  time='6' />
+			<wave formation='e_triangle'	offset='0'  time='5' />
+			<wave formation='spin'		offset='0'  time='7' />
+			<wave formation='n_catchup'	offset='-2'  time='6' />
+			<wave formation='s_catchup'	offset='2'  time='0' />
+			<wave formation='horz_pass'	offset='0'  time='5' />
+			<wave formation='n_olympic'	offset='-4'  time='8' />
+			<wave formation='s_olympic'	offset='4'  time='2' />
+		</level>
+		<!-- *******   LEVEL 8  62 bugs  *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='s_solo'		offset='-4'  time='0' />
+			<wave formation='s_solo'		offset='4'  time='0' />
+			<wave formation='s_solo'		offset='-2'  time='0' />
+			<wave formation='s_solo'		offset='2'  time='0' />
+			<wave formation='s_solo'		offset='0'  time='0' />
+			<wave formation='n_two_jumps'	offset='2'  time='0' />
+			<wave formation='n_two_jumps'	offset='-2'  time='0' />
+			<wave formation='n_separate'	offset='0'  time='4' />
+			<wave formation='e_wedge'		offset='3'  time='0' />
+			<wave formation='w_wedge'	offset='-3'  time='0' />
+			<wave formation='star'		offset='0'  time='10' />
+			<wave formation='s_row'		offset='0'  time='4' />
+			<wave formation='n_follow'		offset='4'  time='0' />
+			<wave formation='n_follow'		offset='-4'  time='0' />
+			<wave formation='e_scream'	offset='0'  time='7' />
+			<wave formation='s_drunk'		offset='0'  time='2' />
+		</level>
+		<!-- *******   LEVEL 9    *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='w_catchup'		offset='0'  time='0' />
+			<wave formation='e_two_jumps'		offset='-4'  time='0' />
+			<wave formation='e_two_jumps'		offset='4'  time='0' />
+			<wave formation='n_triangle'		offset='0'  time='5' />
+			<wave formation='n_follow'			offset='-4'  time='0' />
+			<wave formation='s_follow'			offset='4'  time='0' />
+			<wave formation='n_triangle'		offset='0'  time='7' />
+			<wave formation='spin'			offset='0'  time='6' />
+			<wave formation='horz_passby'		offset='0'  time='5' />
+			<wave formation='s_cross_twice'		offset='0'  time='4' />
+			<wave formation='w_scream'		offset='0'  time='8' />
+			<wave formation='w_scream'		offset='0'  time='4' />
+		</level>
+	      <!-- *******   LEVEL 10  8 bugs  *********** -->
+		<level q_easy='0' q_normal='0' heroes='bwe' perfect='25000'>
+			<wave formation='firefly'	offset='0'  time='0'/>
+		</level>
+
+		<!-- *******   LEVEL 11    *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='s_diag_hop'		offset='0'  time='0' />
+			<wave formation='e_crossover'		offset='0'  time='0' />
+			<wave formation='n_two_jumps'		offset='-4'  time='6' />
+			<wave formation='n_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_crossover'		offset='0'  time='4' />
+			<wave formation='n_two_jumps'		offset='-4'  time='0' />
+			<wave formation='n_two_jumps'		offset='4'  time='0' />
+			<wave formation='e_separate'		offset='0'  time='2' />
+			<wave formation='star'			offset='0'  time='8' />
+			<wave formation='e_catchup'		offset='0'  time='5' />
+			<wave formation='w_two_jumps'		offset='-4'  time='1' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='vert_thread'		offset='0'  time='1' />
+			<wave formation='s_drunk'			offset='0'  time='4' />
+			<wave formation='e_olympic'		offset='0'  time='2' />
+		</level>
+		<!-- *******   LEVEL 12    *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='e_triangle'		offset='3'  time='0' />
+			<wave formation='w_triangle'		offset='-3'  time='0' />
+			<wave formation='n_two_jumps'		offset='0'  time='0' />
+			<wave formation='n_two_jumps'		offset='0'  time='1' />
+			<wave formation='e_kiss'			offset='0'  time='5' />
+			<wave formation='w_kiss'			offset='0'  time='0' />
+			<wave formation='vert_passby'		offset='0'  time='5' />
+			<wave formation='spin'			offset='0'  time='7' />
+			<wave formation='w_wedge'		offset='2'  time='4' />
+			<wave formation='e_follow'			offset='-3'  time='0' />
+			<wave formation='n_kiss'			offset='0'  time='0' />
+			<wave formation='w_wedge'		offset='2'  time='6' />
+			<wave formation='w_cross3'		offset='0'  time='8' />
+
+		</level>
+
+		<!-- *******   LEVEL 13  112 bugs  *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='n_kiss'		offset='0'  time='0' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='w_two_jumps'		offset='-3'  time='3' />
+			<wave formation='w_two_jumps'		offset='3'  time='0' />
+			<wave formation='e_row'			offset='0'  time='1' />
+			<wave formation='n_cross_twice'		offset='0'  time='4' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='n_wedge'			offset='0'  time='0' />
+			<wave formation='n_wedge'			offset='0'  time='8' />
+			<wave formation='spin'			offset='0'  time='4' />
+			<wave formation='horz_passby'		offset='0'  time='8' />
+			<wave formation='e_separate'		offset='0'  time='8' />
+			<wave formation='w_separate'		offset='0'  time='0' />
+			<wave formation='n_triangle'		offset='0'  time='1' />
+			<wave formation='n_scream'		offset='-2'  time='11' />
+			<wave formation='s_scream'		offset='2'  time='0' />
+			<wave formation='e_scream'		offset='2'  time='6' />
+			<wave formation='w_scream'		offset='-2'  time='0' />
+		</level>
+
+		<!-- *******   LEVEL 14  111 bugs  *********** -->
+		<level q_easy='40' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='w_catchup'		offset='-2'  time='0' />
+			<wave formation='w_diag_hop'		offset='-2'  time='1' />
+			<wave formation='n_kiss'			offset='2'  time='0' />
+			<wave formation='s_kiss'			offset='-3'  time='0' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='w_wedge'		offset='-2'  time='0' />
+			<wave formation='e_follow'			offset='3'  time='4' />
+			<wave formation='spin'			offset='0'  time='6' />
+			<wave formation='w_catchup'		offset='-2'  time='1' />
+			<wave formation='s_solo'			offset='-4'  time='6' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='s_follow'			offset='-3'  time='5' />
+			<wave formation='n_row'			offset='3'  time='2' />
+			<wave formation='n_row'			offset='3'  time='4' />
+			<wave formation='n_follow'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='-3'  time='2' />
+			<wave formation='s_row'			offset='-3'  time='4' />
+			<wave formation='w_olympic'		offset='0'  time='6' />
+			<wave formation='n_cross3'		offset='0'  time='6' />
+			<wave formation='e_cross3'		offset='0'  time='6' />
+		</level>
+	      <!-- *******   LEVEL 15  8 bugs  *********** -->
+		<level q_easy='0' q_normal='0' heroes='bwe' perfect='25000'>
+			<wave formation='firefly'	offset='0'  time='0'/>
+		</level>
+		<!-- *******   LEVEL 16   106 bugs *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='w_crossover'		offset='0'  time='0' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='e_row'			offset='0'  time='6' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='0' />
+			<wave formation='w_follow'			offset='3'  time='5' />
+			<wave formation='w_follow'			offset='-3'  time='0' />
+			<wave formation='e_solo'			offset='0'  time='0' />
+			<wave formation='e_solo'			offset='0'  time='3' />
+			<wave formation='e_solo'			offset='0'  time='3' />
+			<wave formation='e_solo'			offset='0'  time='3' />
+			<wave formation='e_triangle'		offset='0'  time='3' />
+			<wave formation='star'			offset='0'  time='3' />
+			<wave formation='vert_passby'		offset='0'  time='8' />
+			<wave formation='e_kiss'			offset='0'  time='6' />
+			<wave formation='w_kiss'			offset='0'  time='0' />
+			<wave formation='n_drunk'			offset='-2'  time='10' />
+			<wave formation='n_drunk'			offset='2'  time='0' />
+			<wave formation='e_olympic'		offset='0'  time='0' />
+			<wave formation='e_scream'		offset='0'  time='8' />
+			<wave formation='e_scream'		offset='0'  time='4' />
+		</level>
+
+		<!-- *******   LEVEL 17   116 bugs *********** -->
+		<level q_easy='50' q_normal='75' heroes='bwe' perfect='25000'>
+			<wave formation='s_row'			offset='-3'  time='0' />
+			<wave formation='s_wedge'			offset='-3'  time='1' />
+			<wave formation='n_row'			offset='3'  time='0' />
+			<wave formation='n_wedge'			offset='3'  time='1' />
+			<wave formation='e_cross_twice'		offset='0'  time='0' />
+			<wave formation='n_follow'			offset='3'  time='10' />
+			<wave formation='s_follow'			offset='-3'  time='0' />
+			<wave formation='spin'			offset='0'  time='6' />
+			<wave formation='vert_pass'		offset='0'  time='6' />
+			<wave formation='s_solo'			offset='-4'  time='3' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='s_solo'			offset='-3'  time='3' />
+			<wave formation='s_solo'			offset='3'  time='0' />
+			<wave formation='s_solo'			offset='-4'  time='3' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='s_solo'			offset='-3'  time='3' />
+			<wave formation='s_solo'			offset='3'  time='0' />
+			<wave formation='s_solo'			offset='-4'  time='3' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='e_olympic'		offset='0'  time='2' />
+			<wave formation='w_drunk'			offset='0'  time='0' />
+			<wave formation='w_scream'		offset='-2'  time='6' />
+			<wave formation='w_scream'		offset='2'  time='2' />
+			<wave formation='w_scream'		offset='-2'  time='4' />
+			<wave formation='w_scream'		offset='2'  time='2' />
+			<wave formation='w_scream'		offset='-2'  time='4' />
+			<wave formation='w_scream'		offset='2'  time='2' />
+		</level>
+
+		<!-- *******   LEVEL 18    110 bugs *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='n_cross_twice'		offset='0'  time='0' />
+			<wave formation='vert_passby'		offset='0'  time='0' />
+			<wave formation='e_two_jumps'		offset='0'  time='6' />
+			<wave formation='e_row'			offset='0'  time='3' />
+			<wave formation='e_triangle'		offset='0'  time='4' />
+			<wave formation='w_two_jumps'		offset='-4'  time='0' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='n_separate'		offset='1'  time='3' />
+			<wave formation='n_separate'		offset='-1'  time='0' />
+			<wave formation='e_row'			offset='0'  time='4' />
+			<wave formation='star'			offset='0'  time='9' />
+			<wave formation='vert_pass'		offset='0'  time='4' />
+			<wave formation='s_wedge'			offset='-4'  time='0' />
+			<wave formation='s_wedge'			offset='4'  time='0' />
+			<wave formation='w_drunk'			offset='2'  time='14' />
+			<wave formation='w_drunk'			offset='-2'  time='4' />
+			<wave formation='s_scream'		offset='-2'  time='2' />
+			<wave formation='n_scream'		offset='2'  time='3' />
+		</level>
+
+		<!-- *******   LEVEL 19   114 bugs *********** -->
+		<level q_easy='50' q_normal='75' heroes='bwe' perfect='25000'>
+			<wave formation='vert_passby'		offset='0'  time='0' />
+			<wave formation='n_kiss'			offset='0'  time='0' />
+			<wave formation='s_solo'			offset='4'  time='2' />
+			<wave formation='s_solo'			offset='-4'  time='0' />
+			<wave formation='horz_passby'		offset='0'  time='6' />
+			<wave formation='spin'			offset='-2'  time='8' />
+			<wave formation='spin'			offset='2'  time='2' />
+			<wave formation='s_follow'			offset='3'  time='4' />
+			<wave formation='n_follow'			offset='-3'  time='0' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='e_row'			offset='3'  time='1' />
+			<wave formation='w_row'			offset='-3'  time='0' />
+			<wave formation='e_row'			offset='3'  time='3' />
+			<wave formation='w_row'			offset='-3'  time='0' />
+			<wave formation='s_olympic'		offset='0'  time='2' />
+			<wave formation='e_cross3'		offset='-2'  time='4' />
+			<wave formation='e_cross3'		offset='2'  time='4' />
+			<wave formation='e_cross3'		offset='-2'  time='4' />
+			<wave formation='e_cross3'		offset='2'  time='4' />
+		</level>
+	      <!-- *******   LEVEL 20  8 bugs  *********** -->
+		<level q_easy='0' q_normal='0' heroes='bwe' perfect='25000'>
+			<wave formation='firefly'	offset='0'  time='0'/>
+		</level>
+		<!-- *******   LEVEL 21   111 bugs *********** -->
+		<level q_easy='50' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='w_cross_twice'	offset='0'  time='0' />
+			<wave formation='e_wedge'			offset='0'  time='0' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='2' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='2' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='2' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_cross_twice'	offset='0'  time='2' />
+			<wave formation='e_follow'			offset='0'  time='7' />
+			<wave formation='star'			offset='0'  time='8' />
+			<wave formation='s_diag_hop'		offset='-3'  time='0' />
+			<wave formation='s_row'			offset='3'  time='0' />
+			<wave formation='s_row'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='3'  time='4' />
+			<wave formation='horz_passby'		offset='0'  time='3' />
+			<wave formation='w_olympic'		offset='0'  time='4' />
+			<wave formation='e_olympic'		offset='0'  time='2' />
+			<wave formation='n_scream'		offset='-2'  time='4' />
+			<wave formation='n_scream'		offset='2'  time='4' />
+			<wave formation='n_scream'		offset='-2'  time='4' />
+		</level>
+
+		<!-- *******   LEVEL 22   109 bugs  *********** -->
+		<level q_easy='45' q_normal='65' heroes='bwe' perfect='25000'>
+			<wave formation='s_catchup'		offset='3'  time='0' />
+			<wave formation='n_catchup'		offset='-3'  time='0' />
+			<wave formation='w_kiss'			offset='0'  time='0' />
+			<wave formation='e_kiss'			offset='0'  time='0' />
+			<wave formation='s_row'			offset='3'  time='9' />
+			<wave formation='n_row'			offset='-3'  time='0' />
+			<wave formation='horz_pass'		offset='0'  time='4' />
+			<wave formation='star'			offset='0'  time='6' />
+			<wave formation='horz_pass'		offset='0'  time='9' />
+			<wave formation='e_solo'			offset='-3'  time='0' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='w_drunk'			offset='0'  time='0' />
+			<wave formation='n_drunk'			offset='0'  time='2' />
+			<wave formation='e_drunk'			offset='0'  time='2' />
+			<wave formation='s_drunk'			offset='0'  time='2' />
+			<wave formation='w_drunk'			offset='0'  time='2' />
+		</level>
+		<!-- *******   LEVEL 23  112 bugs  *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='n_kiss'		offset='0'  time='0' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='w_two_jumps'		offset='-3'  time='3' />
+			<wave formation='w_two_jumps'		offset='3'  time='0' />
+			<wave formation='e_row'			offset='0'  time='1' />
+			<wave formation='n_cross_twice'		offset='0'  time='4' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='n_wedge'			offset='0'  time='0' />
+			<wave formation='n_wedge'			offset='0'  time='8' />
+			<wave formation='spin'			offset='0'  time='4' />
+			<wave formation='horz_passby'		offset='0'  time='8' />
+			<wave formation='e_separate'		offset='0'  time='8' />
+			<wave formation='w_separate'		offset='0'  time='0' />
+			<wave formation='n_triangle'		offset='0'  time='1' />
+			<wave formation='n_scream'		offset='-2'  time='11' />
+			<wave formation='s_scream'		offset='2'  time='0' />
+			<wave formation='e_scream'		offset='2'  time='6' />
+			<wave formation='w_scream'		offset='-2'  time='0' />
+		</level>
+
+		<!-- *******   LEVEL 24  111 bugs  *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='w_catchup'		offset='-2'  time='0' />
+			<wave formation='w_diag_hop'		offset='-2'  time='1' />
+			<wave formation='n_kiss'			offset='2'  time='0' />
+			<wave formation='s_kiss'			offset='-3'  time='0' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='w_wedge'		offset='-2'  time='0' />
+			<wave formation='e_follow'			offset='3'  time='4' />
+			<wave formation='spin'			offset='0'  time='6' />
+			<wave formation='w_catchup'		offset='-2'  time='1' />
+			<wave formation='s_solo'			offset='-4'  time='6' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='s_follow'			offset='-3'  time='5' />
+			<wave formation='n_row'			offset='3'  time='2' />
+			<wave formation='n_row'			offset='3'  time='4' />
+			<wave formation='n_follow'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='-3'  time='2' />
+			<wave formation='s_row'			offset='-3'  time='4' />
+			<wave formation='w_olympic'		offset='0'  time='6' />
+			<wave formation='n_cross3'		offset='0'  time='6' />
+			<wave formation='e_cross3'		offset='0'  time='6' />
+		</level>
+	      <!-- *******   LEVEL 25  8 bugs  *********** -->
+		<level q_easy='0' q_normal='0' heroes='bwe' perfect='25000'>
+			<wave formation='firefly'	offset='0'  time='0'/>
+		</level>
+
+
+<!-- repeating lvls 6-25 with higher quotas -->
+
+
+		<!-- *******   LEVEL 26  74 bugs  *********** -->
+		<level q_easy='15' q_normal='20' heroes='bwe' perfect='25000'>
+			<wave formation='w_two_jumps'	offset='0'  time='0' />
+			<wave formation='w_two_jumps'	offset='-4'  time='0' />
+			<wave formation='w_two_jumps'	offset='4'  time='0' />
+			<wave formation='e_two_jumps'	offset='-2'  time='0' />
+			<wave formation='e_two_jumps'	offset='2'  time='0' />
+			<wave formation='n_triangle'	offset='3'  time='5' />
+			<wave formation='s_triangle'	offset='-3'  time='0' />
+			<wave formation='w_kiss'		offset='0'  time='8' />
+			<wave formation='w_separate'	offset='0'  time='7' />
+			<wave formation='spin'		offset='0'  time='10' />
+			<wave formation='w_wedge'	offset='0'  time='6' />
+			<wave formation='w_two_jumps'	offset='-4'  time='6' />
+			<wave formation='w_two_jumps'	offset='4'  time='0' />
+			<wave formation='e_separate'	offset='0'  time='0' />
+			<wave formation='n_drunk'		offset='-3'  time='10' />
+			<wave formation='n_drunk'		offset='3'  time='0' />
+		</level>
+	      <!-- *******   LEVEL 27  77 bugs  *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='w_diag_hop'	offset='-3'  time='0' />
+			<wave formation='e_diag_hop'	offset='3'  time='0' />
+			<wave formation='n_solo'		offset='3'  time='0' />
+			<wave formation='e_solo'		offset='-3'  time='0' />
+			<wave formation='w_solo'		offset='3'  time='0' />
+			<wave formation='s_solo'		offset='-3'  time='0' />
+			<wave formation='n_cross_twice'	offset='0'  time='6' />
+			<wave formation='e_triangle'	offset='0'  time='5' />
+			<wave formation='spin'		offset='0'  time='7' />
+			<wave formation='n_catchup'	offset='-2'  time='6' />
+			<wave formation='s_catchup'	offset='2'  time='0' />
+			<wave formation='horz_pass'	offset='0'  time='5' />
+			<wave formation='n_olympic'	offset='-4'  time='8' />
+			<wave formation='s_olympic'	offset='4'  time='2' />
+		</level>
+		<!-- *******   LEVEL 28  62 bugs  *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='s_solo'		offset='-4'  time='0' />
+			<wave formation='s_solo'		offset='4'  time='0' />
+			<wave formation='s_solo'		offset='-2'  time='0' />
+			<wave formation='s_solo'		offset='2'  time='0' />
+			<wave formation='s_solo'		offset='0'  time='0' />
+			<wave formation='n_two_jumps'	offset='2'  time='0' />
+			<wave formation='n_two_jumps'	offset='-2'  time='0' />
+			<wave formation='n_separate'	offset='0'  time='4' />
+			<wave formation='e_wedge'		offset='3'  time='0' />
+			<wave formation='w_wedge'	offset='-3'  time='0' />
+			<wave formation='star'		offset='0'  time='10' />
+			<wave formation='s_row'		offset='0'  time='4' />
+			<wave formation='n_follow'		offset='4'  time='0' />
+			<wave formation='n_follow'		offset='-4'  time='0' />
+			<wave formation='e_scream'	offset='0'  time='7' />
+			<wave formation='s_drunk'		offset='0'  time='2' />
+		</level>
+		<!-- *******   LEVEL 29    *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='w_catchup'		offset='0'  time='0' />
+			<wave formation='e_two_jumps'		offset='-4'  time='0' />
+			<wave formation='e_two_jumps'		offset='4'  time='0' />
+			<wave formation='n_triangle'		offset='0'  time='5' />
+			<wave formation='n_follow'			offset='-4'  time='0' />
+			<wave formation='s_follow'			offset='4'  time='0' />
+			<wave formation='n_triangle'		offset='0'  time='7' />
+			<wave formation='spin'			offset='0'  time='6' />
+			<wave formation='horz_passby'		offset='0'  time='5' />
+			<wave formation='s_cross_twice'		offset='0'  time='4' />
+			<wave formation='w_scream'		offset='0'  time='8' />
+			<wave formation='w_scream'		offset='0'  time='4' />
+		</level>
+	      <!-- *******   LEVEL 30  8 bugs  *********** -->
+		<level q_easy='0' q_normal='0' heroes='bwe' perfect='25000'>
+			<wave formation='firefly'	offset='0'  time='0'/>
+		</level>
+
+		<!-- *******   LEVEL 31    *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='s_diag_hop'		offset='0'  time='0' />
+			<wave formation='e_crossover'		offset='0'  time='0' />
+			<wave formation='n_two_jumps'		offset='-4'  time='6' />
+			<wave formation='n_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_crossover'		offset='0'  time='4' />
+			<wave formation='n_two_jumps'		offset='-4'  time='0' />
+			<wave formation='n_two_jumps'		offset='4'  time='0' />
+			<wave formation='e_separate'		offset='0'  time='2' />
+			<wave formation='star'			offset='0'  time='8' />
+			<wave formation='e_catchup'		offset='0'  time='5' />
+			<wave formation='w_two_jumps'		offset='-4'  time='1' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='vert_thread'		offset='0'  time='1' />
+			<wave formation='s_drunk'			offset='0'  time='4' />
+			<wave formation='e_olympic'		offset='0'  time='2' />
+		</level>
+		<!-- *******   LEVEL 32    *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='e_triangle'		offset='3'  time='0' />
+			<wave formation='w_triangle'		offset='-3'  time='0' />
+			<wave formation='n_two_jumps'		offset='0'  time='0' />
+			<wave formation='n_two_jumps'		offset='0'  time='1' />
+			<wave formation='e_kiss'			offset='0'  time='5' />
+			<wave formation='w_kiss'			offset='0'  time='0' />
+			<wave formation='vert_passby'		offset='0'  time='5' />
+			<wave formation='spin'			offset='0'  time='7' />
+			<wave formation='w_wedge'		offset='2'  time='4' />
+			<wave formation='e_follow'			offset='-3'  time='0' />
+			<wave formation='n_kiss'			offset='0'  time='0' />
+			<wave formation='w_wedge'		offset='2'  time='6' />
+			<wave formation='w_cross3'		offset='0'  time='8' />
+
+		</level>
+
+		<!-- *******   LEVEL 33  112 bugs  *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='n_kiss'		offset='0'  time='0' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='w_two_jumps'		offset='-3'  time='3' />
+			<wave formation='w_two_jumps'		offset='3'  time='0' />
+			<wave formation='e_row'			offset='0'  time='1' />
+			<wave formation='n_cross_twice'		offset='0'  time='4' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='n_wedge'			offset='0'  time='0' />
+			<wave formation='n_wedge'			offset='0'  time='8' />
+			<wave formation='spin'			offset='0'  time='4' />
+			<wave formation='horz_passby'		offset='0'  time='8' />
+			<wave formation='e_separate'		offset='0'  time='8' />
+			<wave formation='w_separate'		offset='0'  time='0' />
+			<wave formation='n_triangle'		offset='0'  time='1' />
+			<wave formation='n_scream'		offset='-2'  time='11' />
+			<wave formation='s_scream'		offset='2'  time='0' />
+			<wave formation='e_scream'		offset='2'  time='6' />
+			<wave formation='w_scream'		offset='-2'  time='0' />
+		</level>
+
+		<!-- *******   LEVEL 34  111 bugs  *********** -->
+		<level q_easy='40' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='w_catchup'		offset='-2'  time='0' />
+			<wave formation='w_diag_hop'		offset='-2'  time='1' />
+			<wave formation='n_kiss'			offset='2'  time='0' />
+			<wave formation='s_kiss'			offset='-3'  time='0' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='w_wedge'		offset='-2'  time='0' />
+			<wave formation='e_follow'			offset='3'  time='4' />
+			<wave formation='spin'			offset='0'  time='6' />
+			<wave formation='w_catchup'		offset='-2'  time='1' />
+			<wave formation='s_solo'			offset='-4'  time='6' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='s_follow'			offset='-3'  time='5' />
+			<wave formation='n_row'			offset='3'  time='2' />
+			<wave formation='n_row'			offset='3'  time='4' />
+			<wave formation='n_follow'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='-3'  time='2' />
+			<wave formation='s_row'			offset='-3'  time='4' />
+			<wave formation='w_olympic'		offset='0'  time='6' />
+			<wave formation='n_cross3'		offset='0'  time='6' />
+			<wave formation='e_cross3'		offset='0'  time='6' />
+		</level>
+	      <!-- *******   LEVEL 35  8 bugs  *********** -->
+		<level q_easy='0' q_normal='0' heroes='bwe' perfect='25000'>
+			<wave formation='firefly'	offset='0'  time='0'/>
+		</level>
+		<!-- *******   LEVEL 36   106 bugs *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='w_crossover'		offset='0'  time='0' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='e_row'			offset='0'  time='6' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='0' />
+			<wave formation='w_follow'			offset='3'  time='5' />
+			<wave formation='w_follow'			offset='-3'  time='0' />
+			<wave formation='e_solo'			offset='0'  time='0' />
+			<wave formation='e_solo'			offset='0'  time='3' />
+			<wave formation='e_solo'			offset='0'  time='3' />
+			<wave formation='e_solo'			offset='0'  time='3' />
+			<wave formation='e_triangle'		offset='0'  time='3' />
+			<wave formation='star'			offset='0'  time='3' />
+			<wave formation='vert_passby'		offset='0'  time='8' />
+			<wave formation='e_kiss'			offset='0'  time='6' />
+			<wave formation='w_kiss'			offset='0'  time='0' />
+			<wave formation='n_drunk'			offset='-2'  time='10' />
+			<wave formation='n_drunk'			offset='2'  time='0' />
+			<wave formation='e_olympic'		offset='0'  time='0' />
+			<wave formation='e_scream'		offset='0'  time='8' />
+			<wave formation='e_scream'		offset='0'  time='4' />
+		</level>
+
+		<!-- *******   LEVEL 37   116 bugs *********** -->
+		<level q_easy='50' q_normal='75' heroes='bwe' perfect='25000'>
+			<wave formation='s_row'			offset='-3'  time='0' />
+			<wave formation='s_wedge'			offset='-3'  time='1' />
+			<wave formation='n_row'			offset='3'  time='0' />
+			<wave formation='n_wedge'			offset='3'  time='1' />
+			<wave formation='e_cross_twice'		offset='0'  time='0' />
+			<wave formation='n_follow'			offset='3'  time='10' />
+			<wave formation='s_follow'			offset='-3'  time='0' />
+			<wave formation='spin'			offset='0'  time='6' />
+			<wave formation='vert_pass'		offset='0'  time='6' />
+			<wave formation='s_solo'			offset='-4'  time='3' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='s_solo'			offset='-3'  time='3' />
+			<wave formation='s_solo'			offset='3'  time='0' />
+			<wave formation='s_solo'			offset='-4'  time='3' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='s_solo'			offset='-3'  time='3' />
+			<wave formation='s_solo'			offset='3'  time='0' />
+			<wave formation='s_solo'			offset='-4'  time='3' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='e_olympic'		offset='0'  time='2' />
+			<wave formation='w_drunk'			offset='0'  time='0' />
+			<wave formation='w_scream'		offset='-2'  time='6' />
+			<wave formation='w_scream'		offset='2'  time='2' />
+			<wave formation='w_scream'		offset='-2'  time='4' />
+			<wave formation='w_scream'		offset='2'  time='2' />
+			<wave formation='w_scream'		offset='-2'  time='4' />
+			<wave formation='w_scream'		offset='2'  time='2' />
+		</level>
+
+		<!-- *******   LEVEL 38    110 bugs *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='n_cross_twice'		offset='0'  time='0' />
+			<wave formation='vert_passby'		offset='0'  time='0' />
+			<wave formation='e_two_jumps'		offset='0'  time='6' />
+			<wave formation='e_row'			offset='0'  time='3' />
+			<wave formation='e_triangle'		offset='0'  time='4' />
+			<wave formation='w_two_jumps'		offset='-4'  time='0' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='n_separate'		offset='1'  time='3' />
+			<wave formation='n_separate'		offset='-1'  time='0' />
+			<wave formation='e_row'			offset='0'  time='4' />
+			<wave formation='star'			offset='0'  time='9' />
+			<wave formation='vert_pass'		offset='0'  time='4' />
+			<wave formation='s_wedge'			offset='-4'  time='0' />
+			<wave formation='s_wedge'			offset='4'  time='0' />
+			<wave formation='w_drunk'			offset='2'  time='14' />
+			<wave formation='w_drunk'			offset='-2'  time='4' />
+			<wave formation='s_scream'		offset='-2'  time='2' />
+			<wave formation='n_scream'		offset='2'  time='3' />
+		</level>
+
+		<!-- *******   LEVEL 39   114 bugs *********** -->
+		<level q_easy='50' q_normal='75' heroes='bwe' perfect='25000'>
+			<wave formation='vert_passby'		offset='0'  time='0' />
+			<wave formation='n_kiss'			offset='0'  time='0' />
+			<wave formation='s_solo'			offset='4'  time='2' />
+			<wave formation='s_solo'			offset='-4'  time='0' />
+			<wave formation='horz_passby'		offset='0'  time='6' />
+			<wave formation='spin'			offset='-2'  time='8' />
+			<wave formation='spin'			offset='2'  time='2' />
+			<wave formation='s_follow'			offset='3'  time='4' />
+			<wave formation='n_follow'			offset='-3'  time='0' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='e_row'			offset='3'  time='1' />
+			<wave formation='w_row'			offset='-3'  time='0' />
+			<wave formation='e_row'			offset='3'  time='3' />
+			<wave formation='w_row'			offset='-3'  time='0' />
+			<wave formation='s_olympic'		offset='0'  time='2' />
+			<wave formation='e_cross3'		offset='-2'  time='4' />
+			<wave formation='e_cross3'		offset='2'  time='4' />
+			<wave formation='e_cross3'		offset='-2'  time='4' />
+			<wave formation='e_cross3'		offset='2'  time='4' />
+		</level>
+	      <!-- *******   LEVEL 40  8 bugs  *********** -->
+		<level q_easy='0' q_normal='0' heroes='bwe' perfect='25000'>
+			<wave formation='firefly'	offset='0'  time='0'/>
+		</level>
+		<!-- *******   LEVEL 41   111 bugs *********** -->
+		<level q_easy='50' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='w_cross_twice'	offset='0'  time='0' />
+			<wave formation='e_wedge'			offset='0'  time='0' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='2' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='2' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='2' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_cross_twice'	offset='0'  time='2' />
+			<wave formation='e_follow'			offset='0'  time='7' />
+			<wave formation='star'			offset='0'  time='8' />
+			<wave formation='s_diag_hop'		offset='-3'  time='0' />
+			<wave formation='s_row'			offset='3'  time='0' />
+			<wave formation='s_row'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='3'  time='4' />
+			<wave formation='horz_passby'		offset='0'  time='3' />
+			<wave formation='w_olympic'		offset='0'  time='4' />
+			<wave formation='e_olympic'		offset='0'  time='2' />
+			<wave formation='n_scream'		offset='-2'  time='4' />
+			<wave formation='n_scream'		offset='2'  time='4' />
+			<wave formation='n_scream'		offset='-2'  time='4' />
+		</level>
+
+		<!-- *******   LEVEL 42   109 bugs  *********** -->
+		<level q_easy='45' q_normal='65' heroes='bwe' perfect='25000'>
+			<wave formation='s_catchup'		offset='3'  time='0' />
+			<wave formation='n_catchup'		offset='-3'  time='0' />
+			<wave formation='w_kiss'			offset='0'  time='0' />
+			<wave formation='e_kiss'			offset='0'  time='0' />
+			<wave formation='s_row'			offset='3'  time='9' />
+			<wave formation='n_row'			offset='-3'  time='0' />
+			<wave formation='horz_pass'		offset='0'  time='4' />
+			<wave formation='star'			offset='0'  time='6' />
+			<wave formation='horz_pass'		offset='0'  time='9' />
+			<wave formation='e_solo'			offset='-3'  time='0' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='w_drunk'			offset='0'  time='0' />
+			<wave formation='n_drunk'			offset='0'  time='2' />
+			<wave formation='e_drunk'			offset='0'  time='2' />
+			<wave formation='s_drunk'			offset='0'  time='2' />
+			<wave formation='w_drunk'			offset='0'  time='2' />
+		</level>
+		<!-- *******   LEVEL 43  112 bugs  *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='n_kiss'		offset='0'  time='0' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='w_two_jumps'		offset='-3'  time='3' />
+			<wave formation='w_two_jumps'		offset='3'  time='0' />
+			<wave formation='e_row'			offset='0'  time='1' />
+			<wave formation='n_cross_twice'		offset='0'  time='4' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='n_wedge'			offset='0'  time='0' />
+			<wave formation='n_wedge'			offset='0'  time='8' />
+			<wave formation='spin'			offset='0'  time='4' />
+			<wave formation='horz_passby'		offset='0'  time='8' />
+			<wave formation='e_separate'		offset='0'  time='8' />
+			<wave formation='w_separate'		offset='0'  time='0' />
+			<wave formation='n_triangle'		offset='0'  time='1' />
+			<wave formation='n_scream'		offset='-2'  time='11' />
+			<wave formation='s_scream'		offset='2'  time='0' />
+			<wave formation='e_scream'		offset='2'  time='6' />
+			<wave formation='w_scream'		offset='-2'  time='0' />
+		</level>
+
+		<!-- *******   LEVEL 44  111 bugs  *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='w_catchup'		offset='-2'  time='0' />
+			<wave formation='w_diag_hop'		offset='-2'  time='1' />
+			<wave formation='n_kiss'			offset='2'  time='0' />
+			<wave formation='s_kiss'			offset='-3'  time='0' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='w_wedge'		offset='-2'  time='0' />
+			<wave formation='e_follow'			offset='3'  time='4' />
+			<wave formation='spin'			offset='0'  time='6' />
+			<wave formation='w_catchup'		offset='-2'  time='1' />
+			<wave formation='s_solo'			offset='-4'  time='6' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='s_follow'			offset='-3'  time='5' />
+			<wave formation='n_row'			offset='3'  time='2' />
+			<wave formation='n_row'			offset='3'  time='4' />
+			<wave formation='n_follow'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='-3'  time='2' />
+			<wave formation='s_row'			offset='-3'  time='4' />
+			<wave formation='w_olympic'		offset='0'  time='6' />
+			<wave formation='n_cross3'		offset='0'  time='6' />
+			<wave formation='e_cross3'		offset='0'  time='6' />
+		</level>
+	      <!-- *******   LEVEL 45  8 bugs  *********** -->
+		<level q_easy='0' q_normal='0' heroes='bwe' perfect='25000'>
+			<wave formation='firefly'	offset='0'  time='0'/>
+		</level>
+
+
+
+<!-- repeating 6-25 with even higher quotas -->
+
+
+
+		<!-- *******   LEVEL 46  74 bugs  *********** -->
+		<level q_easy='15' q_normal='20' heroes='bwe' perfect='25000'>
+			<wave formation='w_two_jumps'	offset='0'  time='0' />
+			<wave formation='w_two_jumps'	offset='-4'  time='0' />
+			<wave formation='w_two_jumps'	offset='4'  time='0' />
+			<wave formation='e_two_jumps'	offset='-2'  time='0' />
+			<wave formation='e_two_jumps'	offset='2'  time='0' />
+			<wave formation='n_triangle'	offset='3'  time='5' />
+			<wave formation='s_triangle'	offset='-3'  time='0' />
+			<wave formation='w_kiss'		offset='0'  time='8' />
+			<wave formation='w_separate'	offset='0'  time='7' />
+			<wave formation='spin'		offset='0'  time='10' />
+			<wave formation='w_wedge'	offset='0'  time='6' />
+			<wave formation='w_two_jumps'	offset='-4'  time='6' />
+			<wave formation='w_two_jumps'	offset='4'  time='0' />
+			<wave formation='e_separate'	offset='0'  time='0' />
+			<wave formation='n_drunk'		offset='-3'  time='10' />
+			<wave formation='n_drunk'		offset='3'  time='0' />
+		</level>
+	      <!-- *******   LEVEL 47  77 bugs  *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='w_diag_hop'	offset='-3'  time='0' />
+			<wave formation='e_diag_hop'	offset='3'  time='0' />
+			<wave formation='n_solo'		offset='3'  time='0' />
+			<wave formation='e_solo'		offset='-3'  time='0' />
+			<wave formation='w_solo'		offset='3'  time='0' />
+			<wave formation='s_solo'		offset='-3'  time='0' />
+			<wave formation='n_cross_twice'	offset='0'  time='6' />
+			<wave formation='e_triangle'	offset='0'  time='5' />
+			<wave formation='spin'		offset='0'  time='7' />
+			<wave formation='n_catchup'	offset='-2'  time='6' />
+			<wave formation='s_catchup'	offset='2'  time='0' />
+			<wave formation='horz_pass'	offset='0'  time='5' />
+			<wave formation='n_olympic'	offset='-4'  time='8' />
+			<wave formation='s_olympic'	offset='4'  time='2' />
+		</level>
+		<!-- *******   LEVEL 48  62 bugs  *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='s_solo'		offset='-4'  time='0' />
+			<wave formation='s_solo'		offset='4'  time='0' />
+			<wave formation='s_solo'		offset='-2'  time='0' />
+			<wave formation='s_solo'		offset='2'  time='0' />
+			<wave formation='s_solo'		offset='0'  time='0' />
+			<wave formation='n_two_jumps'	offset='2'  time='0' />
+			<wave formation='n_two_jumps'	offset='-2'  time='0' />
+			<wave formation='n_separate'	offset='0'  time='4' />
+			<wave formation='e_wedge'		offset='3'  time='0' />
+			<wave formation='w_wedge'	offset='-3'  time='0' />
+			<wave formation='star'		offset='0'  time='10' />
+			<wave formation='s_row'		offset='0'  time='4' />
+			<wave formation='n_follow'		offset='4'  time='0' />
+			<wave formation='n_follow'		offset='-4'  time='0' />
+			<wave formation='e_scream'	offset='0'  time='7' />
+			<wave formation='s_drunk'		offset='0'  time='2' />
+		</level>
+		<!-- *******   LEVEL 49    *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='w_catchup'		offset='0'  time='0' />
+			<wave formation='e_two_jumps'		offset='-4'  time='0' />
+			<wave formation='e_two_jumps'		offset='4'  time='0' />
+			<wave formation='n_triangle'		offset='0'  time='5' />
+			<wave formation='n_follow'			offset='-4'  time='0' />
+			<wave formation='s_follow'			offset='4'  time='0' />
+			<wave formation='n_triangle'		offset='0'  time='7' />
+			<wave formation='spin'			offset='0'  time='6' />
+			<wave formation='horz_passby'		offset='0'  time='5' />
+			<wave formation='s_cross_twice'		offset='0'  time='4' />
+			<wave formation='w_scream'		offset='0'  time='8' />
+			<wave formation='w_scream'		offset='0'  time='4' />
+		</level>
+	      <!-- *******   LEVEL 50  8 bugs  *********** -->
+		<level q_easy='0' q_normal='0' heroes='bwe' perfect='25000'>
+			<wave formation='firefly'	offset='0'  time='0'/>
+		</level>
+
+		<!-- *******   LEVEL 51    *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='s_diag_hop'		offset='0'  time='0' />
+			<wave formation='e_crossover'		offset='0'  time='0' />
+			<wave formation='n_two_jumps'		offset='-4'  time='6' />
+			<wave formation='n_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_crossover'		offset='0'  time='4' />
+			<wave formation='n_two_jumps'		offset='-4'  time='0' />
+			<wave formation='n_two_jumps'		offset='4'  time='0' />
+			<wave formation='e_separate'		offset='0'  time='2' />
+			<wave formation='star'			offset='0'  time='8' />
+			<wave formation='e_catchup'		offset='0'  time='5' />
+			<wave formation='w_two_jumps'		offset='-4'  time='1' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='vert_thread'		offset='0'  time='1' />
+			<wave formation='s_drunk'			offset='0'  time='4' />
+			<wave formation='e_olympic'		offset='0'  time='2' />
+		</level>
+		<!-- *******   LEVEL 52    *********** -->
+		<level q_easy='20' q_normal='25' heroes='bwe' perfect='25000'>
+			<wave formation='e_triangle'		offset='3'  time='0' />
+			<wave formation='w_triangle'		offset='-3'  time='0' />
+			<wave formation='n_two_jumps'		offset='0'  time='0' />
+			<wave formation='n_two_jumps'		offset='0'  time='1' />
+			<wave formation='e_kiss'			offset='0'  time='5' />
+			<wave formation='w_kiss'			offset='0'  time='0' />
+			<wave formation='vert_passby'		offset='0'  time='5' />
+			<wave formation='spin'			offset='0'  time='7' />
+			<wave formation='w_wedge'		offset='2'  time='4' />
+			<wave formation='e_follow'			offset='-3'  time='0' />
+			<wave formation='n_kiss'			offset='0'  time='0' />
+			<wave formation='w_wedge'		offset='2'  time='6' />
+			<wave formation='w_cross3'		offset='0'  time='8' />
+
+		</level>
+
+		<!-- *******   LEVEL 53  112 bugs  *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='n_kiss'		offset='0'  time='0' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='w_two_jumps'		offset='-3'  time='3' />
+			<wave formation='w_two_jumps'		offset='3'  time='0' />
+			<wave formation='e_row'			offset='0'  time='1' />
+			<wave formation='n_cross_twice'		offset='0'  time='4' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='n_wedge'			offset='0'  time='0' />
+			<wave formation='n_wedge'			offset='0'  time='8' />
+			<wave formation='spin'			offset='0'  time='4' />
+			<wave formation='horz_passby'		offset='0'  time='8' />
+			<wave formation='e_separate'		offset='0'  time='8' />
+			<wave formation='w_separate'		offset='0'  time='0' />
+			<wave formation='n_triangle'		offset='0'  time='1' />
+			<wave formation='n_scream'		offset='-2'  time='11' />
+			<wave formation='s_scream'		offset='2'  time='0' />
+			<wave formation='e_scream'		offset='2'  time='6' />
+			<wave formation='w_scream'		offset='-2'  time='0' />
+		</level>
+
+		<!-- *******   LEVEL 54  111 bugs  *********** -->
+		<level q_easy='40' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='w_catchup'		offset='-2'  time='0' />
+			<wave formation='w_diag_hop'		offset='-2'  time='1' />
+			<wave formation='n_kiss'			offset='2'  time='0' />
+			<wave formation='s_kiss'			offset='-3'  time='0' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='e_two_jumps'		offset='3'  time='4' />
+			<wave formation='w_wedge'		offset='-2'  time='0' />
+			<wave formation='e_follow'			offset='3'  time='4' />
+			<wave formation='spin'			offset='0'  time='6' />
+			<wave formation='w_catchup'		offset='-2'  time='1' />
+			<wave formation='s_solo'			offset='-4'  time='6' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='s_follow'			offset='-3'  time='5' />
+			<wave formation='n_row'			offset='3'  time='2' />
+			<wave formation='n_row'			offset='3'  time='4' />
+			<wave formation='n_follow'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='-3'  time='2' />
+			<wave formation='s_row'			offset='-3'  time='4' />
+			<wave formation='w_olympic'		offset='0'  time='6' />
+			<wave formation='n_cross3'		offset='0'  time='6' />
+			<wave formation='e_cross3'		offset='0'  time='6' />
+		</level>
+	      <!-- *******   LEVEL 55  8 bugs  *********** -->
+		<level q_easy='0' q_normal='0' heroes='bwe' perfect='25000'>
+			<wave formation='firefly'	offset='0'  time='0'/>
+		</level>
+		<!-- *******   LEVEL 56   106 bugs *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='w_crossover'		offset='0'  time='0' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='e_row'			offset='0'  time='6' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='0' />
+			<wave formation='w_follow'			offset='3'  time='5' />
+			<wave formation='w_follow'			offset='-3'  time='0' />
+			<wave formation='e_solo'			offset='0'  time='0' />
+			<wave formation='e_solo'			offset='0'  time='3' />
+			<wave formation='e_solo'			offset='0'  time='3' />
+			<wave formation='e_solo'			offset='0'  time='3' />
+			<wave formation='e_triangle'		offset='0'  time='3' />
+			<wave formation='star'			offset='0'  time='3' />
+			<wave formation='vert_passby'		offset='0'  time='8' />
+			<wave formation='e_kiss'			offset='0'  time='6' />
+			<wave formation='w_kiss'			offset='0'  time='0' />
+			<wave formation='n_drunk'			offset='-2'  time='10' />
+			<wave formation='n_drunk'			offset='2'  time='0' />
+			<wave formation='e_olympic'		offset='0'  time='0' />
+			<wave formation='e_scream'		offset='0'  time='8' />
+			<wave formation='e_scream'		offset='0'  time='4' />
+		</level>
+
+		<!-- *******   LEVEL 57   116 bugs *********** -->
+		<level q_easy='50' q_normal='75' heroes='bwe' perfect='25000'>
+			<wave formation='s_row'			offset='-3'  time='0' />
+			<wave formation='s_wedge'			offset='-3'  time='1' />
+			<wave formation='n_row'			offset='3'  time='0' />
+			<wave formation='n_wedge'			offset='3'  time='1' />
+			<wave formation='e_cross_twice'		offset='0'  time='0' />
+			<wave formation='n_follow'			offset='3'  time='10' />
+			<wave formation='s_follow'			offset='-3'  time='0' />
+			<wave formation='spin'			offset='0'  time='6' />
+			<wave formation='vert_pass'		offset='0'  time='6' />
+			<wave formation='s_solo'			offset='-4'  time='3' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='s_solo'			offset='-3'  time='3' />
+			<wave formation='s_solo'			offset='3'  time='0' />
+			<wave formation='s_solo'			offset='-4'  time='3' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='s_solo'			offset='-3'  time='3' />
+			<wave formation='s_solo'			offset='3'  time='0' />
+			<wave formation='s_solo'			offset='-4'  time='3' />
+			<wave formation='s_solo'			offset='4'  time='0' />
+			<wave formation='e_olympic'		offset='0'  time='2' />
+			<wave formation='w_drunk'			offset='0'  time='0' />
+			<wave formation='w_scream'		offset='-2'  time='6' />
+			<wave formation='w_scream'		offset='2'  time='2' />
+			<wave formation='w_scream'		offset='-2'  time='4' />
+			<wave formation='w_scream'		offset='2'  time='2' />
+			<wave formation='w_scream'		offset='-2'  time='4' />
+			<wave formation='w_scream'		offset='2'  time='2' />
+		</level>
+
+		<!-- *******   LEVEL 58    110 bugs *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='n_cross_twice'		offset='0'  time='0' />
+			<wave formation='vert_passby'		offset='0'  time='0' />
+			<wave formation='e_two_jumps'		offset='0'  time='6' />
+			<wave formation='e_row'			offset='0'  time='3' />
+			<wave formation='e_triangle'		offset='0'  time='4' />
+			<wave formation='w_two_jumps'		offset='-4'  time='0' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='n_separate'		offset='1'  time='3' />
+			<wave formation='n_separate'		offset='-1'  time='0' />
+			<wave formation='e_row'			offset='0'  time='4' />
+			<wave formation='star'			offset='0'  time='9' />
+			<wave formation='vert_pass'		offset='0'  time='4' />
+			<wave formation='s_wedge'			offset='-4'  time='0' />
+			<wave formation='s_wedge'			offset='4'  time='0' />
+			<wave formation='w_drunk'			offset='2'  time='14' />
+			<wave formation='w_drunk'			offset='-2'  time='4' />
+			<wave formation='s_scream'		offset='-2'  time='2' />
+			<wave formation='n_scream'		offset='2'  time='3' />
+		</level>
+
+		<!-- *******   LEVEL 59   114 bugs *********** -->
+		<level q_easy='50' q_normal='75' heroes='bwe' perfect='25000'>
+			<wave formation='vert_passby'		offset='0'  time='0' />
+			<wave formation='n_kiss'			offset='0'  time='0' />
+			<wave formation='s_solo'			offset='4'  time='2' />
+			<wave formation='s_solo'			offset='-4'  time='0' />
+			<wave formation='horz_passby'		offset='0'  time='6' />
+			<wave formation='spin'			offset='-2'  time='8' />
+			<wave formation='spin'			offset='2'  time='2' />
+			<wave formation='s_follow'			offset='3'  time='4' />
+			<wave formation='n_follow'			offset='-3'  time='0' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='s_two_jumps'		offset='0'  time='2' />
+			<wave formation='e_row'			offset='3'  time='1' />
+			<wave formation='w_row'			offset='-3'  time='0' />
+			<wave formation='e_row'			offset='3'  time='3' />
+			<wave formation='w_row'			offset='-3'  time='0' />
+			<wave formation='s_olympic'		offset='0'  time='2' />
+			<wave formation='e_cross3'		offset='-2'  time='4' />
+			<wave formation='e_cross3'		offset='2'  time='4' />
+			<wave formation='e_cross3'		offset='-2'  time='4' />
+			<wave formation='e_cross3'		offset='2'  time='4' />
+		</level>
+	      <!-- *******   LEVEL 60  8 bugs  *********** -->
+		<level q_easy='0' q_normal='0' heroes='bwe' perfect='25000'>
+			<wave formation='firefly'	offset='0'  time='0'/>
+		</level>
+		<!-- *******   LEVEL 61   111 bugs *********** -->
+		<level q_easy='50' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='w_cross_twice'	offset='0'  time='0' />
+			<wave formation='e_wedge'			offset='0'  time='0' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='2' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='2' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_two_jumps'		offset='-4'  time='2' />
+			<wave formation='w_two_jumps'		offset='4'  time='0' />
+			<wave formation='w_cross_twice'	offset='0'  time='2' />
+			<wave formation='e_follow'			offset='0'  time='7' />
+			<wave formation='star'			offset='0'  time='8' />
+			<wave formation='s_diag_hop'		offset='-3'  time='0' />
+			<wave formation='s_row'			offset='3'  time='0' />
+			<wave formation='s_row'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='3'  time='4' />
+			<wave formation='s_row'			offset='3'  time='4' />
+			<wave formation='horz_passby'		offset='0'  time='3' />
+			<wave formation='w_olympic'		offset='0'  time='4' />
+			<wave formation='e_olympic'		offset='0'  time='2' />
+			<wave formation='n_scream'		offset='-2'  time='4' />
+			<wave formation='n_scream'		offset='2'  time='4' />
+			<wave formation='n_scream'		offset='-2'  time='4' />
+		</level>
+
+		<!-- *******   LEVEL 62   109 bugs  *********** -->
+		<level q_easy='45' q_normal='65' heroes='bwe' perfect='25000'>
+			<wave formation='s_catchup'		offset='3'  time='0' />
+			<wave formation='n_catchup'		offset='-3'  time='0' />
+			<wave formation='w_kiss'			offset='0'  time='0' />
+			<wave formation='e_kiss'			offset='0'  time='0' />
+			<wave formation='s_row'			offset='3'  time='9' />
+			<wave formation='n_row'			offset='-3'  time='0' />
+			<wave formation='horz_pass'		offset='0'  time='4' />
+			<wave formation='star'			offset='0'  time='6' />
+			<wave formation='horz_pass'		offset='0'  time='9' />
+			<wave formation='e_solo'			offset='-3'  time='0' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='e_solo'			offset='-3'  time='3' />
+			<wave formation='w_solo'			offset='3'  time='0' />
+			<wave formation='w_drunk'			offset='0'  time='0' />
+			<wave formation='n_drunk'			offset='0'  time='2' />
+			<wave formation='e_drunk'			offset='0'  time='2' />
+			<wave formation='s_drunk'			offset='0'  time='2' />
+			<wave formation='w_drunk'			offset='0'  time='2' />
+		</level>
+		<!-- *******   LEVEL 63  112 bugs  *********** -->
+		<level q_easy='45' q_normal='70' heroes='bwe' perfect='25000'>
+			<wave formation='n_kiss'		offset='0'  time='0' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='w_two_jumps'		offset='-3'  time='3' />
+			<wave formation='w_two_jumps'		offset='3'  time='0' />
+			<wave formation='e_row'			offset='0'  time='1' />
+			<wave formation='n_cross_twice'		offset='0'  time='4' />
+			<wave formation='e_row'			offset='0'  time='0' />
+			<wave formation='n_wedge'			offset='0'  time='0' />
+			<wave formation='n_wedge'			offset='0'  time='8' />
+			<wave formation='spin'			offset='0'  time='4' />
+			<wave formation='horz_passby'		offset='0'  time='8' />
+			<wave formation='e_separate'		offset='0'  time='8' />
+			<wave formation='w_separate'		offset='0'  time='0' />
+			<wave formation='n_triangle'		offset='0'  time='1' />
+			<wave formation='n_scream'		offset='-2'  time='11' />
+			<wave formation='s_scream'		offset='2'  time='0' />
+			<wave formation='e_scream'		offset='2'  time='6' />
+			<wave formation='w_scream'		offset='-2'  time='0' />
+		</level>
+
+		<!-- *******   LEVEL 64    200 bugs  *********** -->
+		<level q_easy='150' q_normal='185' heroes='bwe' perfect='100000'>
+			<wave formation='s_kiss'			offset='0'  time='0' />
+			<wave formation='n_kiss'			offset='0'  time='0' />
+			<wave formation='horz_passby'		offset='0'  time='0' />
+			<wave formation='n_two_jumps'		offset='0'  time='3' />
+			<wave formation='n_two_jumps'		offset='0'  time='4' />
+			<wave formation='n_row'			offset='0'  time='2' />
+			<wave formation='s_follow'			offset='-3'  time='5' />
+			<wave formation='s_follow'			offset='3'  time='0' />
+			<wave formation='n_row'			offset='0'  time='0' />
+			<wave formation='n_row'			offset='0'  time='4' />
+			<wave formation='e_cross_twice'		offset='0'  time='9' />
+			<wave formation='n_cross_twice'		offset='0'  time='0' />
+			<wave formation='vert_passby'		offset='0'  time='1' />
+			<wave formation='star'			offset='0'  time='10' />
+			<wave formation='s_separate'		offset='0'  time='10' />
+			<wave formation='n_separate'		offset='0'  time='2' />
+			<wave formation='horz_passby'		offset='0'  time='4' />
+			<wave formation='w_scream'		offset='2'  time='10' />
+			<wave formation='e_scream'		offset='-2'  time='1' />
+			<wave formation='n_scream'		offset='2'  time='3' />
+			<wave formation='s_scream'		offset='-2'  time='1' />
+			<wave formation='w_drunk'			offset='0'  time='3' />
+			<wave formation='n_scream'		offset='-2'  time='2' />
+			<wave formation='e_drunk'			offset='0'  time='0' />
+			<wave formation='s_scream'		offset='2'  time='2' />
+			<wave formation='e_olympic'		offset='2'  time='2' />
+			<wave formation='w_cross3'		offset='2'  time='4' />
+			<wave formation='w_cross3'		offset='-2'  time='4' />
+			<wave formation='s_drunk'			offset='0'  time='0' />
+			<wave formation='w_cross3'		offset='2'  time='4' />
+			<wave formation='w_cross3'		offset='-2'  time='4' />
+			<wave formation='n_drunk'			offset='0'  time='0' />
+			<wave formation='w_cross3'		offset='2'  time='4' />
+		</level>
+
+	      <!-- *******   LEVEL 65  8 bugs  *********** -->
+		<level q_easy='0' q_normal='0' heroes='bwe' perfect='25000'>
+			<wave formation='firefly'	offset='0'  time='0'/>
+		</level>
+
+
+	</levels>
+</main>

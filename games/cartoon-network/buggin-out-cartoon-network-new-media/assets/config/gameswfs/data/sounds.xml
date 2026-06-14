@@ -1,0 +1,168 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE main SYSTEM "resources.dtd">
+<main>
+	<soundgroups>
+		<category name='sfx'>
+			<subcategory name='bugs'>
+				<sound name='sfx_bee' filename='' />
+				<sound name='sfx_beetle' filename='' />
+				<sound name='sfx_butterfly' filename='' />
+				<sound name='sfx_caterpillar' filename='' />
+				<sound name='sfx_dragonfly' filename='' />
+				<sound name='sfx_firefly' filename='' />
+				<sound name='sfx_grasshopper' filename='' />
+				<sound name='sfx_ladybug' filename='' />
+				<sound name='sfx_snail' filename='' />
+				<sound name='sfx_stickbug' filename='' />
+				<sound name='sfx_wilt_hit' filename='' />
+				<sound name='sfx_wilt_recover' filename='' />
+				<sound name='sfx_wilt_footsteps' filename='' />
+				<sound name='sfx_bloo_hit' filename='' />
+				<sound name='sfx_bloo_recover' filename='' />
+				<sound name='sfx_bloo_footsteps' filename='' />
+				<sound name='sfx_ed_footsteps' filename='' />
+                <sound name='sfx_ed_recover' filename='' />
+                <sound name='sfx_ed_hit' filename='' />
+				<sound name='sfx_hit1' filename='' />
+				<sound name='sfx_hit2' filename='' />
+				<sound name='sfx_collect' filename='' />
+				<sound name='sfx_collectX' filename='' />
+				<sound name='sfx_bonus' filename='' />
+				<sound name='sfx_bonusX' filename='' />
+				<sound name='sfx_perfect' filename='' />
+				<sound name='sfx_perfectX' filename='' />
+
+			</subcategory>
+		</category>
+		<category name='vo'>
+			<character name='bloo'>
+				<subcategory name='idle'>
+					<sound name='bloo_10_hum' filename='' />
+					<sound name='bloo_10_lalala' filename='' />
+					<sound name='bloo_10_ready' filename='' />
+					<sound name='bloo_10_uhReady' filename='' />
+				</subcategory>
+				<subcategory name='run'>
+					<sound name='bloo_11_charge' filename='' />
+					<sound name='bloo_11_hiyaa' filename='' />
+					<sound name='bloo_11_waa' filename='' />
+				</subcategory>
+				<subcategory name='collide'>
+					<sound name='bloo_12_heyWatchOut' filename='' />
+					<sound name='bloo_12_imeant2doThat' filename='' />
+					<sound name='bloo_12_intentional' filename='' />
+					<sound name='bloo_12_myButt' filename='' />
+					<sound name='bloo_12_oww' filename='' />
+					<sound name='bloo_12_thatsOnPurpose' filename='' />
+				</subcategory>
+				<subcategory name='collect'>
+					<sound name='bloo_13_bloo1bugs0' filename='' />
+					<sound name='bloo_13_gotcha' filename='' />
+					<sound name='bloo_13_oneMore' filename='' />
+					<sound name='bloo_13_yes' filename='' />
+				</subcategory>
+				<subcategory name='finish'>
+					<sound name='bloo_14_eatItBugs' filename='' />
+					<sound name='bloo_14_greatJob' filename='' />
+					<sound name='bloo_14_iTotallyWin' filename='' />
+					<sound name='bloo_14_takeThatBugs' filename='' />
+				</subcategory>
+				<subcategory name='bonus'>
+					<sound name='bloo_15_bonusStage' filename='' />
+					<sound name='bloo_15_fireFliesLightningBugs' filename='' />
+					<sound name='bloo_15_wow' filename='' />
+				</subcategory>
+			</character>
+			<character name='wilt'>
+				<subcategory name='idle'>
+					<sound name='wilt_2_hey' filename='' />
+					<sound name='wilt_2_hi' filename='' />
+					<sound name='wilt_2_whistles' filename='' />
+				</subcategory>
+				<subcategory name='run'>
+   					<sound name='wilt_2_sureThing' filename='' />
+					<sound name='wilt_3_cominThru' filename='' />
+					<sound name='wilt_3_excuseMe' filename='' />
+				</subcategory>
+				<subcategory name='collide'>
+					<sound name='wilt_4_myFault' filename='' />
+					<sound name='wilt_4_sorry' filename='' />
+					<sound name='wilt_4_woah' filename='' />
+					<sound name='wilt_8_oof' filename='' />
+				</subcategory>
+				<subcategory name='collect'>
+					<sound name='wilt_5_gotcha' filename='' />
+					<sound name='wilt_5_heyLittleGuy' filename='' />
+					<sound name='wilt_5_sorry' filename='' />
+				</subcategory>
+				<subcategory name='finish'>
+					<sound name='wilt_6_planComesTogether' filename='' />
+					<sound name='wilt_6_thatsAwesome' filename='' />
+					<sound name='wilt_6_weDidIt' filename='' />
+				</subcategory>
+				<subcategory name='bonus'>
+					<sound name='wilt_7_amazing' filename='' />
+					<sound name='wilt_7_soGlowy' filename='' />
+					<sound name='wilt_7_thisIsCool' filename='' />
+				</subcategory>
+			</character>
+			<character name='ed'>
+				<subcategory name='idle'>
+					<sound name='ed_2_humming' filename='' />
+					<sound name='ed_2_illWaitHere' filename='' />
+					<sound name='ed_2_thisIsFun' filename='' />
+				</subcategory>
+				<subcategory name='run'>
+					<sound name='ed_3_creepyCrawlies' filename='' />
+					<sound name='ed_3_escaredOfBugs' filename='' />
+					<sound name='ed_3_hereIcome' filename='' />
+					<sound name='ed_3_roar' filename='' />
+				</subcategory>
+				<subcategory name='collide'>
+					<sound name='ed_4_crying' filename='' />
+					<sound name='ed_4_oopsie' filename='' />
+					<sound name='ed_4_ouch' filename='' />
+					<sound name='ed_4_pardon' filename='' />
+					<sound name='ed_4_whoops' filename='' />
+				</subcategory>
+				<subcategory name='collect'>
+					<sound name='ed_5_esMuyLoco' filename='' />
+					<sound name='ed_5_gotOne' filename='' />
+					<sound name='ed_5_holaSenorBicho' filename='' />
+					<sound name='ed_5_holaSenorInsecto' filename='' />
+				</subcategory>
+				<subcategory name='finish'>
+					<sound name='ed_6_bueno' filename='' />
+					<sound name='ed_6_iLikeIt' filename='' />
+					<sound name='ed_6_whatAteam' filename='' />
+				</subcategory>
+				<subcategory name='bonus'>
+					<sound name='ed_7_buenosNoches' filename='' />
+					<sound name='ed_7_itsSoDark' filename='' />
+					<sound name='ed_7_noLikeTheNight' filename='' />
+				</subcategory>
+			</character>
+			<character name='mac'>
+				<subcategory name='cheer'>
+					<sound name='mac_allNameScience' filename='' />
+					<sound name='mac_allThoseBugs' filename='' />
+					<sound name='mac_dontBugOut' filename='' />
+					<sound name='mac_dontGiveUpNow' filename='' />
+					<sound name='mac_guysAreFantastic' filename='' />
+					<sound name='mac_keepGoing' filename='' />
+					<sound name='mac_oneOverThere' filename='' />
+				</subcategory>
+				<subcategory name='bump'>
+					<sound name='mac_laugh' filename='' />
+					<sound name='mac_lookOutUguys' filename='' />
+					<sound name='mac_oops' filename='' />
+					<sound name='mac_thatMustaHurt' filename='' />
+					<sound name='mac_watchWhereUgoing' filename='' />
+				</subcategory>
+
+
+
+			</character>
+		</category>
+	</soundgroups>
+</main>
