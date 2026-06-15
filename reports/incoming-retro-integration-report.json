@@ -1,0 +1,686 @@
+{
+  "generatedAt": "2026-06-15T21:53:04.270Z",
+  "sourceRoot": "C:\\Users\\dela3\\Downloads\\retro",
+  "archiveRoot": "C:\\Users\\dela3\\Desktop\\seby-archive-8f3k9x2",
+  "sourceFiles": 125,
+  "sourceSizeBytes": 40245866,
+  "sourceSizeMB": 38.38,
+  "swfCandidates": 12,
+  "importedGames": 9,
+  "duplicateSwfsSkipped": 3,
+  "excludedFiles": 113,
+  "excludedSizeBytes": 7742450,
+  "excludedSizeMB": 7.38,
+  "cleanArchiveSizeBytes": 20688345,
+  "cleanArchiveSizeMB": 19.73,
+  "imported": [
+    {
+      "title": "Blind Fooled",
+      "slug": "blind-fooled",
+      "category": "cartoon-network",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/blind-fooled/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/blind-fooled/thumbnail.jpg",
+      "compatibility": "working",
+      "engine": "AS3"
+    },
+    {
+      "title": "Gem Bound",
+      "slug": "gem-bound",
+      "category": "cartoon-network",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/gem-bound/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/gem-bound/thumbnail.jpg",
+      "compatibility": "broken",
+      "engine": "AS3"
+    },
+    {
+      "title": "Goat Guardian",
+      "slug": "goat-guardian",
+      "category": "cartoon-network",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/goat-guardian/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/goat-guardian/thumbnail.jpg",
+      "compatibility": "working",
+      "engine": "AS3"
+    },
+    {
+      "title": "Sword Dancers",
+      "slug": "sword-dancers",
+      "category": "cartoon-network",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/sword-dancers/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/sword-dancers/thumbnail.jpg",
+      "compatibility": "broken",
+      "engine": "AS3"
+    },
+    {
+      "title": "Hard Hat Hustle",
+      "slug": "hard-hat-hustle",
+      "category": "cartoon-network",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/hard-hat-hustle/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/hard-hat-hustle/thumbnail.jpg",
+      "compatibility": "working",
+      "engine": "AS3"
+    },
+    {
+      "title": "Scooby-Doo Castle Hassle",
+      "slug": "scooby-doo-castle-hassle",
+      "category": "cartoon-network",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-castle-hassle/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-castle-hassle/thumbnail.jpg",
+      "compatibility": "working",
+      "engine": "AS1/AS2"
+    },
+    {
+      "title": "Scooby-Doo Haunts For The Holidays Episode 3 The Last Act",
+      "slug": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act",
+      "category": "cartoon-network",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-haunts-for-the-holidays-episode-3-the-last-act/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-haunts-for-the-holidays-episode-3-the-last-act/thumbnail.jpg",
+      "compatibility": "working",
+      "engine": "AS1/AS2"
+    },
+    {
+      "title": "Scooby-Doo Ripping Ride",
+      "slug": "scooby-doo-ripping-ride",
+      "category": "cartoon-network",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-ripping-ride/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-ripping-ride/thumbnail.jpg",
+      "compatibility": "working",
+      "engine": "AS1/AS2"
+    },
+    {
+      "title": "Scooby-Doo The Ghost Pirate Attacks Episode 1",
+      "slug": "scooby-doo-the-ghost-pirate-attacks-episode-1",
+      "category": "cartoon-network",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-the-ghost-pirate-attacks-episode-1/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-the-ghost-pirate-attacks-episode-1/thumbnail.jpg",
+      "compatibility": "working",
+      "engine": "AS1/AS2"
+    }
+  ],
+  "duplicates": [
+    {
+      "title": "The Amazing World Of Gumball Water Sons",
+      "source": "tawog-water-sons/WaterSons.swf",
+      "reason": "SWF content already exists in archive",
+      "sha256": "a38310d9e7d58edda5effb7a52279ddd32849fb6cdbd6c04cecca06fd69f52a8"
+    },
+    {
+      "title": "The Amazing World Of Gumball Battle Bowlers",
+      "source": "the-amazing-world-of-gumball-battle-bowlers/game.swf",
+      "reason": "SWF content already exists in archive",
+      "sha256": "3abb64084361d38f311b62438bd5630d187cae03b0de2359c4f99b04344e8562"
+    },
+    {
+      "title": "The Powerpuff Girls Attack Of The Puppybots",
+      "source": "the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186/the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186.swf",
+      "reason": "SWF content already exists in archive",
+      "sha256": "e3820416ccc37503ea0f76b042cb09507a5f97100ec4173644fde30075682e91"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "blind-fooled/00_coverscreenshot.png",
+      "size": 317245,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "blind-fooled/00_coverscreenshot_thumb.jpg",
+      "size": 9779,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "blind-fooled/blind-fooled_202408_archive.torrent",
+      "size": 3684,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "blind-fooled/blind-fooled_202408_files.xml",
+      "size": 4916,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "blind-fooled/blind-fooled_202408_meta.sqlite",
+      "size": 28672,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "blind-fooled/blind-fooled_202408_meta.xml",
+      "size": 1197,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "blind-fooled/blind-fooled_202408_reviews.xml",
+      "size": 563,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "blind-fooled/blind-fooled_202408_screenshot.gif",
+      "size": 248207,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "blind-fooled/blindfooled-thumb.jpeg",
+      "size": 263478,
+      "reason": "Source artwork optimized into thumbnail.jpg"
+    },
+    {
+      "path": "blind-fooled/blindfooled-thumb_thumb.jpg",
+      "size": 9665,
+      "reason": "Source artwork optimized into thumbnail.jpg"
+    },
+    {
+      "path": "blind-fooled/screenshot_00.png",
+      "size": 317245,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "blind-fooled/screenshot_00_thumb.jpg",
+      "size": 9779,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "blind-fooled/screenshot_01.png",
+      "size": 316562,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "blind-fooled/screenshot_01_thumb.jpg",
+      "size": 9778,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "blind-fooled/__ia_thumb.jpg",
+      "size": 20385,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "goat guardian/20200424_20200424_2236_archive.torrent",
+      "size": 3051,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "goat guardian/20200424_20200424_2236_files.xml",
+      "size": 3477,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "goat guardian/20200424_20200424_2236_meta.sqlite",
+      "size": 47104,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "goat guardian/20200424_20200424_2236_meta.xml",
+      "size": 4303,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "goat guardian/su_gembound_300x165.jpg",
+      "size": 11164,
+      "reason": "Source artwork optimized into thumbnail.jpg"
+    },
+    {
+      "path": "goat guardian/su_goatguardian_300x165.jpg",
+      "size": 14232,
+      "reason": "Source artwork optimized into thumbnail.jpg"
+    },
+    {
+      "path": "goat guardian/su_sworddancers_300x165.jpg",
+      "size": 10328,
+      "reason": "Source artwork optimized into thumbnail.jpg"
+    },
+    {
+      "path": "goat guardian/__ia_thumb.jpg",
+      "size": 13200,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "hard-hat-hustle/00_coverscreenshot.png",
+      "size": 297465,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "hard-hat-hustle/00_coverscreenshot_thumb.jpg",
+      "size": 8892,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "hard-hat-hustle/hard-hat-hustle_archive.torrent",
+      "size": 2902,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "hard-hat-hustle/hard-hat-hustle_files.xml",
+      "size": 3695,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "hard-hat-hustle/hard-hat-hustle_meta.sqlite",
+      "size": 32768,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "hard-hat-hustle/hard-hat-hustle_meta.xml",
+      "size": 1920,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "hard-hat-hustle/hard-hat-hustle_reviews.xml",
+      "size": 884,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "hard-hat-hustle/hard-hat-hustle_screenshot.gif",
+      "size": 190967,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "hard-hat-hustle/screenshot_00.png",
+      "size": 297465,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "hard-hat-hustle/screenshot_00_thumb.jpg",
+      "size": 8892,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "hard-hat-hustle/__ia_thumb.jpg",
+      "size": 16583,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-castle-hassle_flash/00_coverscreenshot.png",
+      "size": 166604,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-castle-hassle_flash/00_coverscreenshot_thumb.jpg",
+      "size": 9904,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-castle-hassle_flash/scooby-doo-castle-hassle_flash_archive.torrent",
+      "size": 2882,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-castle-hassle_flash/scooby-doo-castle-hassle_flash_files.xml",
+      "size": 3484,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-castle-hassle_flash/scooby-doo-castle-hassle_flash_meta.sqlite",
+      "size": 28672,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-castle-hassle_flash/scooby-doo-castle-hassle_flash_meta.xml",
+      "size": 1114,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-castle-hassle_flash/scooby-doo-castle-hassle_flash_screenshot.gif",
+      "size": 252299,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-castle-hassle_flash/screenshot_00.png",
+      "size": 166604,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-castle-hassle_flash/screenshot_00_thumb.jpg",
+      "size": 9904,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-castle-hassle_flash/__ia_thumb.jpg",
+      "size": 18397,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash/00_coverscreenshot.png",
+      "size": 115919,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash/00_coverscreenshot_thumb.jpg",
+      "size": 7816,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash/scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash_archive.torrent",
+      "size": 3364,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash/scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash_files.xml",
+      "size": 3649,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash/scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash_meta.sqlite",
+      "size": 28672,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash/scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash_meta.xml",
+      "size": 1437,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash/scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash_screenshot.gif",
+      "size": 146007,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash/screenshot_00.png",
+      "size": 115919,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash/screenshot_00_thumb.jpg",
+      "size": 7816,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash/__ia_thumb.jpg",
+      "size": 15384,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-ripping-ride_flash/00_coverscreenshot.png",
+      "size": 93259,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-ripping-ride_flash/00_coverscreenshot_thumb.jpg",
+      "size": 9867,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-ripping-ride_flash/scooby-doo-ripping-ride_flash_archive.torrent",
+      "size": 2901,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-ripping-ride_flash/scooby-doo-ripping-ride_flash_files.xml",
+      "size": 3480,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-ripping-ride_flash/scooby-doo-ripping-ride_flash_meta.sqlite",
+      "size": 28672,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-ripping-ride_flash/scooby-doo-ripping-ride_flash_meta.xml",
+      "size": 1356,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-ripping-ride_flash/scooby-doo-ripping-ride_flash_screenshot.gif",
+      "size": 117169,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-ripping-ride_flash/screenshot_00.png",
+      "size": 93259,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-ripping-ride_flash/screenshot_00_thumb.jpg",
+      "size": 9867,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-ripping-ride_flash/__ia_thumb.jpg",
+      "size": 22470,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-the-ghost-pirate-attacks-episode-1_flash/00_coverscreenshot.png",
+      "size": 108121,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-the-ghost-pirate-attacks-episode-1_flash/00_coverscreenshot_thumb.jpg",
+      "size": 9149,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-the-ghost-pirate-attacks-episode-1_flash/scooby-doo-the-ghost-pirate-attacks-episode-1_flash_archive.torrent",
+      "size": 3158,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-the-ghost-pirate-attacks-episode-1_flash/scooby-doo-the-ghost-pirate-attacks-episode-1_flash_files.xml",
+      "size": 3586,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-the-ghost-pirate-attacks-episode-1_flash/scooby-doo-the-ghost-pirate-attacks-episode-1_flash_meta.sqlite",
+      "size": 28672,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-the-ghost-pirate-attacks-episode-1_flash/scooby-doo-the-ghost-pirate-attacks-episode-1_flash_meta.xml",
+      "size": 1499,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-the-ghost-pirate-attacks-episode-1_flash/scooby-doo-the-ghost-pirate-attacks-episode-1_flash_screenshot.gif",
+      "size": 155311,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-the-ghost-pirate-attacks-episode-1_flash/screenshot_00.png",
+      "size": 108121,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-the-ghost-pirate-attacks-episode-1_flash/screenshot_00_thumb.jpg",
+      "size": 9149,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "scooby-doo-the-ghost-pirate-attacks-episode-1_flash/__ia_thumb.jpg",
+      "size": 17926,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/00_coverscreenshot.png",
+      "size": 433311,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/00_coverscreenshot_thumb.jpg",
+      "size": 11741,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/screenshot_00.png",
+      "size": 433137,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/screenshot_00_thumb.jpg",
+      "size": 11734,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/screenshot_01.png",
+      "size": 433311,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/screenshot_01_thumb.jpg",
+      "size": 11741,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/screenshot_02.png",
+      "size": 433138,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/screenshot_02_thumb.jpg",
+      "size": 11737,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/tawog-water-sons_archive.torrent",
+      "size": 4006,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/tawog-water-sons_files.xml",
+      "size": 5481,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/tawog-water-sons_meta.sqlite",
+      "size": 28672,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/tawog-water-sons_meta.xml",
+      "size": 1260,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/tawog-water-sons_reviews.xml",
+      "size": 497,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/tawog-water-sons_screenshot.gif",
+      "size": 389384,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "tawog-water-sons/water-sons.png",
+      "size": 77075,
+      "reason": "Source artwork optimized into thumbnail.jpg"
+    },
+    {
+      "path": "tawog-water-sons/water-sons_thumb.jpg",
+      "size": 11684,
+      "reason": "Source artwork optimized into thumbnail.jpg"
+    },
+    {
+      "path": "tawog-water-sons/__ia_thumb.jpg",
+      "size": 27270,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the-amazing-world-of-gumball-battle-bowlers/00_coverscreenshot.png",
+      "size": 82007,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the-amazing-world-of-gumball-battle-bowlers/00_coverscreenshot_thumb.jpg",
+      "size": 9284,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the-amazing-world-of-gumball-battle-bowlers/screenshot_00.png",
+      "size": 82007,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the-amazing-world-of-gumball-battle-bowlers/screenshot_00_thumb.jpg",
+      "size": 9284,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the-amazing-world-of-gumball-battle-bowlers/the-amazing-world-of-gumball-battle-bowlers_archive.torrent",
+      "size": 3286,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the-amazing-world-of-gumball-battle-bowlers/the-amazing-world-of-gumball-battle-bowlers_files.xml",
+      "size": 3457,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the-amazing-world-of-gumball-battle-bowlers/the-amazing-world-of-gumball-battle-bowlers_meta.sqlite",
+      "size": 28672,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the-amazing-world-of-gumball-battle-bowlers/the-amazing-world-of-gumball-battle-bowlers_meta.xml",
+      "size": 4076,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the-amazing-world-of-gumball-battle-bowlers/the-amazing-world-of-gumball-battle-bowlers_screenshot.gif",
+      "size": 153827,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the-amazing-world-of-gumball-battle-bowlers/__ia_thumb.jpg",
+      "size": 18853,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186/00_coverscreenshot.png",
+      "size": 92438,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186/00_coverscreenshot_thumb.jpg",
+      "size": 11446,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186/screenshot_00.png",
+      "size": 92438,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186/screenshot_00_thumb.jpg",
+      "size": 11446,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186/screenshot_01.png",
+      "size": 62036,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186/screenshot_01_thumb.jpg",
+      "size": 8084,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186/the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186_archive.torrent",
+      "size": 3830,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186/the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186_files.xml",
+      "size": 4315,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186/the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186_meta.sqlite",
+      "size": 13312,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186/the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186_meta.xml",
+      "size": 1225,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186/the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186_screenshot.gif",
+      "size": 233434,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    },
+    {
+      "path": "the_powerpuff_girls___attack_of_the_puppybots_by_oldadobeflashgames01_de16186/__ia_thumb.jpg",
+      "size": 25228,
+      "reason": "Archive metadata, duplicate screenshot, or wrapper artifact"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-06-15T21:53:04.273Z",
+  "ruffleDesktop": "C:\\Program Files\\ruffle\\bin\\ruffle.exe",
+  "method": "Static SWF header/tag inspection plus metadata-derived Ruffle compatibility. Ruffle Desktop has no headless pass/fail runner, so full gameplay validation remains manual.",
+  "gamesChecked": 9,
+  "rows": [
+    {
+      "title": "Blind Fooled",
+      "slug": "blind-fooled",
+      "source": "blind-fooled/Blind Fooled.swf",
+      "swfVersion": 15,
+      "compressed": "zlib",
+      "engine": "AS3",
+      "compatibility": "working",
+      "ruffleStatus": "expected-working",
+      "notes": "SWF header and manifest validation passed; browser playback is wired through Ruffle.",
+      "externalDependencies": [
+        "http://www.lilpodge.com/gumballgame/gumballdomains/domains.dat",
+        "http://fontforge.sf.net/"
+      ]
+    },
+    {
+      "title": "Gem Bound",
+      "slug": "gem-bound",
+      "source": "goat guardian/gem-bound.swf",
+      "swfVersion": 9,
+      "compressed": "zlib",
+      "engine": "AS3",
+      "compatibility": "broken",
+      "ruffleStatus": "known-broken",
+      "notes": "Internet Archive metadata states this game does not work on an emulator.",
+      "externalDependencies": []
+    },
+    {
+      "title": "Goat Guardian",
+      "slug": "goat-guardian",
+      "source": "goat guardian/goat-guardian.swf",
+      "swfVersion": 10,
+      "compressed": "zlib",
+      "engine": "AS3",
+      "compatibility": "working",
+      "ruffleStatus": "expected-working",
+      "notes": "Internet Archive metadata states this game works when emulated.",
+      "externalDependencies": [
+        "http://www.tweenlite.com/",
+        "http://www.tweenmax.com/"
+      ]
+    },
+    {
+      "title": "Sword Dancers",
+      "slug": "sword-dancers",
+      "source": "goat guardian/sword-dancers.swf",
+      "swfVersion": 13,
+      "compressed": "zlib",
+      "engine": "AS3",
+      "compatibility": "broken",
+      "ruffleStatus": "known-broken",
+      "notes": "Internet Archive metadata states this game is stuck on the loading screen.",
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://purl.org/dc/elements/1.1",
+        "http://www.adobe.com/products/flex"
+      ]
+    },
+    {
+      "title": "Hard Hat Hustle",
+      "slug": "hard-hat-hustle",
+      "source": "hard-hat-hustle/hard-hat-hustle.swf",
+      "swfVersion": 10,
+      "compressed": "zlib",
+      "engine": "AS3",
+      "compatibility": "working",
+      "ruffleStatus": "expected-working",
+      "notes": "SWF header and manifest validation passed; browser playback is wired through Ruffle.",
+      "externalDependencies": [
+        "http://g1.api.playtomic.com/playerlevels/thumb.aspx?swfid="
+      ]
+    },
+    {
+      "title": "Scooby-Doo Castle Hassle",
+      "slug": "scooby-doo-castle-hassle",
+      "source": "scooby-doo-castle-hassle_flash/castlehassleFinal.swf",
+      "swfVersion": 7,
+      "compressed": "none",
+      "engine": "AS1/AS2",
+      "compatibility": "working",
+      "ruffleStatus": "expected-working",
+      "notes": "SWF header and manifest validation passed; browser playback is wired through Ruffle.",
+      "externalDependencies": [
+        "http://www.execpc.com/~diner"
+      ]
+    },
+    {
+      "title": "Scooby-Doo Haunts For The Holidays Episode 3 The Last Act",
+      "slug": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act",
+      "source": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act_flash/part-3-the-last-act.swf",
+      "swfVersion": 7,
+      "compressed": "zlib",
+      "engine": "AS1/AS2",
+      "compatibility": "working",
+      "ruffleStatus": "expected-working",
+      "notes": "SWF header and manifest validation passed; browser playback is wired through Ruffle.",
+      "externalDependencies": []
+    },
+    {
+      "title": "Scooby-Doo Ripping Ride",
+      "slug": "scooby-doo-ripping-ride",
+      "source": "scooby-doo-ripping-ride_flash/scoobys-ripping-ride.swf",
+      "swfVersion": 6,
+      "compressed": "zlib",
+      "engine": "AS1/AS2",
+      "compatibility": "working",
+      "ruffleStatus": "expected-working",
+      "notes": "SWF header and manifest validation passed; browser playback is wired through Ruffle.",
+      "externalDependencies": []
+    },
+    {
+      "title": "Scooby-Doo The Ghost Pirate Attacks Episode 1",
+      "slug": "scooby-doo-the-ghost-pirate-attacks-episode-1",
+      "source": "scooby-doo-the-ghost-pirate-attacks-episode-1_flash/Scooby1Timed.swf",
+      "swfVersion": 6,
+      "compressed": "zlib",
+      "engine": "AS1/AS2",
+      "compatibility": "working",
+      "ruffleStatus": "expected-working",
+      "notes": "SWF header and manifest validation passed; browser playback is wired through Ruffle.",
+      "externalDependencies": []
+    }
+  ]
+}
