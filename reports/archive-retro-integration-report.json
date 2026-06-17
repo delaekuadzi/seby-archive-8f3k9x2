@@ -1,0 +1,1427 @@
+{
+  "generatedAt": "2026-06-17T01:37:10.178Z",
+  "sourceRoot": "C:\\Users\\dela3\\Downloads\\retro",
+  "archiveRoot": "C:\\Users\\dela3\\Desktop\\seby-archive-8f3k9x2",
+  "sourceFiles": 1022,
+  "sourceSizeBytes": 846834142,
+  "sourceSizeMB": 807.6,
+  "inventory": {
+    "byExtension": [
+      {
+        "extension": ".exe",
+        "count": 70,
+        "sizeBytes": 355894897,
+        "sizeMB": 339.41
+      },
+      {
+        "extension": ".w3d",
+        "count": 91,
+        "sizeBytes": 93415260,
+        "sizeMB": 89.09
+      },
+      {
+        "extension": ".dat",
+        "count": 10,
+        "sizeBytes": 85263844,
+        "sizeMB": 81.31
+      },
+      {
+        "extension": ".dcr",
+        "count": 53,
+        "sizeBytes": 77895844,
+        "sizeMB": 74.29
+      },
+      {
+        "extension": ".cxt",
+        "count": 62,
+        "sizeBytes": 68619026,
+        "sizeMB": 65.44
+      },
+      {
+        "extension": ".swf",
+        "count": 46,
+        "sizeBytes": 47250375,
+        "sizeMB": 45.06
+      },
+      {
+        "extension": ".wav",
+        "count": 5,
+        "sizeBytes": 47151988,
+        "sizeMB": 44.97
+      },
+      {
+        "extension": ".x32",
+        "count": 44,
+        "sizeBytes": 35453952,
+        "sizeMB": 33.81
+      },
+      {
+        "extension": ".txt",
+        "count": 379,
+        "sizeBytes": 15640027,
+        "sizeMB": 14.92
+      },
+      {
+        "extension": ".cct",
+        "count": 32,
+        "sizeBytes": 7554222,
+        "sizeMB": 7.2
+      },
+      {
+        "extension": ".jpg",
+        "count": 152,
+        "sizeBytes": 4832839,
+        "sizeMB": 4.61
+      },
+      {
+        "extension": ".mp3",
+        "count": 9,
+        "sizeBytes": 3484216,
+        "sizeMB": 3.32
+      },
+      {
+        "extension": ".avi",
+        "count": 1,
+        "sizeBytes": 1846126,
+        "sizeMB": 1.76
+      },
+      {
+        "extension": ".png",
+        "count": 19,
+        "sizeBytes": 988143,
+        "sizeMB": 0.94
+      },
+      {
+        "extension": ".rb",
+        "count": 18,
+        "sizeBytes": 722460,
+        "sizeMB": 0.69
+      },
+      {
+        "extension": ".gif",
+        "count": 2,
+        "sizeBytes": 321323,
+        "sizeMB": 0.31
+      },
+      {
+        "extension": ".dll",
+        "count": 1,
+        "sizeBytes": 183808,
+        "sizeMB": 0.18
+      },
+      {
+        "extension": ".doc",
+        "count": 1,
+        "sizeBytes": 165888,
+        "sizeMB": 0.16
+      },
+      {
+        "extension": ".sqlite",
+        "count": 2,
+        "sizeBytes": 55296,
+        "sizeMB": 0.05
+      },
+      {
+        "extension": ".cfg",
+        "count": 6,
+        "sizeBytes": 49332,
+        "sizeMB": 0.05
+      },
+      {
+        "extension": ".xml",
+        "count": 4,
+        "sizeBytes": 15547,
+        "sizeMB": 0.01
+      },
+      {
+        "extension": ".torrent",
+        "count": 2,
+        "sizeBytes": 10669,
+        "sizeMB": 0.01
+      },
+      {
+        "extension": ".def",
+        "count": 1,
+        "sizeBytes": 9484,
+        "sizeMB": 0.01
+      },
+      {
+        "extension": ".htm",
+        "count": 4,
+        "sizeBytes": 6226,
+        "sizeMB": 0.01
+      },
+      {
+        "extension": ".r-b",
+        "count": 1,
+        "sizeBytes": 2384,
+        "sizeMB": 0
+      },
+      {
+        "extension": ".usr",
+        "count": 1,
+        "sizeBytes": 256,
+        "sizeMB": 0
+      },
+      {
+        "extension": ".css",
+        "count": 1,
+        "sizeBytes": 254,
+        "sizeMB": 0
+      },
+      {
+        "extension": ".html",
+        "count": 1,
+        "sizeBytes": 184,
+        "sizeMB": 0
+      },
+      {
+        "extension": ".ini",
+        "count": 1,
+        "sizeBytes": 165,
+        "sizeMB": 0
+      },
+      {
+        "extension": ".url",
+        "count": 1,
+        "sizeBytes": 107,
+        "sizeMB": 0
+      },
+      {
+        "extension": "(none)",
+        "count": 2,
+        "sizeBytes": 0,
+        "sizeMB": 0
+      }
+    ],
+    "byTopFolder": [
+      {
+        "folder": "Off-Road Arena - KaTGames",
+        "files": 55,
+        "sizeBytes": 143913976,
+        "sizeMB": 137.25
+      },
+      {
+        "folder": "Sunset Racer 2 - Inludo",
+        "files": 64,
+        "sizeBytes": 86557331,
+        "sizeMB": 82.55
+      },
+      {
+        "folder": "Open Wheel Grand Prix - Silent Bay Studios",
+        "files": 29,
+        "sizeBytes": 51698112,
+        "sizeMB": 49.3
+      },
+      {
+        "folder": "the-last-stand_202302",
+        "files": 7,
+        "sizeBytes": 33124083,
+        "sizeMB": 31.59
+      },
+      {
+        "folder": "Rumbletown Racing 2 - Silent Bay Studios",
+        "files": 51,
+        "sizeBytes": 32044651,
+        "sizeMB": 30.56
+      },
+      {
+        "folder": "Drift N' Burn 365 - Kinelco",
+        "files": 452,
+        "sizeBytes": 29941495,
+        "sizeMB": 28.55
+      },
+      {
+        "folder": "Road Spies - Silent Bay Studios",
+        "files": 22,
+        "sizeBytes": 27857061,
+        "sizeMB": 26.57
+      },
+      {
+        "folder": "300 MPH - Silent Bay Studios",
+        "files": 18,
+        "sizeBytes": 27055213,
+        "sizeMB": 25.8
+      },
+      {
+        "folder": "Formula GP Racing - Silent Bay Studios",
+        "files": 31,
+        "sizeBytes": 24016908,
+        "sizeMB": 22.9
+      },
+      {
+        "folder": "Rumbletown Racing - Silent Bay Studios",
+        "files": 9,
+        "sizeBytes": 18603569,
+        "sizeMB": 17.74
+      },
+      {
+        "folder": "Oversize XXL - Silent Bay Studios",
+        "files": 23,
+        "sizeBytes": 18549245,
+        "sizeMB": 17.69
+      },
+      {
+        "folder": "Paul Blart_ Mall Cop - Silent Bay Studios",
+        "files": 10,
+        "sizeBytes": 18467255,
+        "sizeMB": 17.61
+      },
+      {
+        "folder": "The Backyardigans Mission to Mars - 360KID",
+        "files": 33,
+        "sizeBytes": 17410907,
+        "sizeMB": 16.6
+      },
+      {
+        "folder": "200 MPH_ Night Show - Silent Bay Studios",
+        "files": 11,
+        "sizeBytes": 15318265,
+        "sizeMB": 14.61
+      },
+      {
+        "folder": "Zoo Buggy - Silent Bay Studios",
+        "files": 10,
+        "sizeBytes": 13384361,
+        "sizeMB": 12.76
+      },
+      {
+        "folder": "Meter Down Racing - Silent Bay Studios",
+        "files": 12,
+        "sizeBytes": 12639422,
+        "sizeMB": 12.05
+      },
+      {
+        "folder": "Ford Fiesta Racing Challenge 2 - Inludo",
+        "files": 5,
+        "sizeBytes": 12236704,
+        "sizeMB": 11.67
+      },
+      {
+        "folder": "Sunset Racer 1.x_ Evolution - Inludo",
+        "files": 3,
+        "sizeBytes": 11495284,
+        "sizeMB": 10.96
+      },
+      {
+        "folder": "Laser Maze - Silent Bay Studios",
+        "files": 6,
+        "sizeBytes": 11373148,
+        "sizeMB": 10.85
+      },
+      {
+        "folder": "Donutz Rush Hour Racer - Left Brain Games",
+        "files": 3,
+        "sizeBytes": 11138766,
+        "sizeMB": 10.62
+      },
+      {
+        "folder": "Office Work - Silent Bay Studios",
+        "files": 5,
+        "sizeBytes": 10177384,
+        "sizeMB": 9.71
+      },
+      {
+        "folder": "Bay Racer - Inludo",
+        "files": 3,
+        "sizeBytes": 10170135,
+        "sizeMB": 9.7
+      },
+      {
+        "folder": "Ford Fiesta Racing Challenge - Inludo",
+        "files": 4,
+        "sizeBytes": 9969607,
+        "sizeMB": 9.51
+      },
+      {
+        "folder": "200 MPH - Silent Bay Studios",
+        "files": 8,
+        "sizeBytes": 9854662,
+        "sizeMB": 9.4
+      },
+      {
+        "folder": "GT Blaster - Left Brain Games",
+        "files": 4,
+        "sizeBytes": 7647748,
+        "sizeMB": 7.29
+      },
+      {
+        "folder": "Laffy Taffy 3D Pyramid - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 7513200,
+        "sizeMB": 7.17
+      },
+      {
+        "folder": "SweetTARTS 3D - Left Brain Games",
+        "files": 3,
+        "sizeBytes": 7445455,
+        "sizeMB": 7.1
+      },
+      {
+        "folder": "Wanna B Wonka - Left Brain Games",
+        "files": 3,
+        "sizeBytes": 7083049,
+        "sizeMB": 6.75
+      },
+      {
+        "folder": "Rescue Quest - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 6189467,
+        "sizeMB": 5.9
+      },
+      {
+        "folder": "The Great NERDS Chase - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 6164758,
+        "sizeMB": 5.88
+      },
+      {
+        "folder": "Riven Elementary - Jig Interactive",
+        "files": 31,
+        "sizeBytes": 5998998,
+        "sizeMB": 5.72
+      },
+      {
+        "folder": "Shockers - Left Brain Games",
+        "files": 1,
+        "sizeBytes": 5850855,
+        "sizeMB": 5.58
+      },
+      {
+        "folder": "Squeez-n-Freeze Tag - Left Brain Games",
+        "files": 1,
+        "sizeBytes": 5818925,
+        "sizeMB": 5.55
+      },
+      {
+        "folder": "Oompas Outrageous Rush - Left Brain Games",
+        "files": 1,
+        "sizeBytes": 5356590,
+        "sizeMB": 5.11
+      },
+      {
+        "folder": "Offside - Silent Bay Studios",
+        "files": 1,
+        "sizeBytes": 5101203,
+        "sizeMB": 4.86
+      },
+      {
+        "folder": "WONKAvision Illusions - Left Brain Games",
+        "files": 1,
+        "sizeBytes": 4930561,
+        "sizeMB": 4.7
+      },
+      {
+        "folder": "Redline Rumble 2_ Detonator - RJS Visual Design",
+        "files": 3,
+        "sizeBytes": 4919388,
+        "sizeMB": 4.69
+      },
+      {
+        "folder": "DROP! - iSurf",
+        "files": 12,
+        "sizeBytes": 4882766,
+        "sizeMB": 4.66
+      },
+      {
+        "folder": "WONKA Conveyor Belt Challenge - 2-Lane Media",
+        "files": 1,
+        "sizeBytes": 4740481,
+        "sizeMB": 4.52
+      },
+      {
+        "folder": "Office War - Silent Bay Studios",
+        "files": 1,
+        "sizeBytes": 4722588,
+        "sizeMB": 4.5
+      },
+      {
+        "folder": "Get Wonk'd - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 4642361,
+        "sizeMB": 4.43
+      },
+      {
+        "folder": "Wild Coaster Game - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 4592215,
+        "sizeMB": 4.38
+      },
+      {
+        "folder": "Spooky NERDS - 2-Lane Media",
+        "files": 2,
+        "sizeBytes": 4569957,
+        "sizeMB": 4.36
+      },
+      {
+        "folder": "Chocolate Pipe Madness - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 4483118,
+        "sizeMB": 4.28
+      },
+      {
+        "folder": "Redline Rumble - RJS Visual Design",
+        "files": 3,
+        "sizeBytes": 4447939,
+        "sizeMB": 4.24
+      },
+      {
+        "folder": "canabalt",
+        "files": 37,
+        "sizeBytes": 4060847,
+        "sizeMB": 3.87
+      },
+      {
+        "folder": "PIXY STIX Space Slalom - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 3944043,
+        "sizeMB": 3.76
+      },
+      {
+        "folder": "Laffy Taffy Flavour Flippers_ Flip Out - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 3797645,
+        "sizeMB": 3.62
+      },
+      {
+        "folder": "Gum Ball Grabber - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 3761449,
+        "sizeMB": 3.59
+      },
+      {
+        "folder": "Ride the Wave - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 3724619,
+        "sizeMB": 3.55
+      },
+      {
+        "folder": "LAFFY TAFFYtris - Left Brain Games",
+        "files": 1,
+        "sizeBytes": 3682944,
+        "sizeMB": 3.51
+      },
+      {
+        "folder": "SHOCKERS Blaster - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 3585976,
+        "sizeMB": 3.42
+      },
+      {
+        "folder": "FUN DIP Knid Knocker - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 3413514,
+        "sizeMB": 3.26
+      },
+      {
+        "folder": "Block Party - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 3408926,
+        "sizeMB": 3.25
+      },
+      {
+        "folder": "Animal MIX UPS Game - 2-Lane Media, Left Brain Games",
+        "files": 1,
+        "sizeBytes": 3349319,
+        "sizeMB": 3.19
+      },
+      {
+        "folder": "Laffy Taffy Puzzle Game - Left Brain Games",
+        "files": 2,
+        "sizeBytes": 3166758,
+        "sizeMB": 3.02
+      },
+      {
+        "folder": "TechnoWONKA - 2-Lane Media",
+        "files": 1,
+        "sizeBytes": 3101082,
+        "sizeMB": 2.96
+      },
+      {
+        "folder": "The Inventonator - Left Brain Games",
+        "files": 1,
+        "sizeBytes": 3033090,
+        "sizeMB": 2.89
+      },
+      {
+        "folder": "Pet Wonkanite - 2-Lane Media",
+        "files": 1,
+        "sizeBytes": 3022546,
+        "sizeMB": 2.88
+      },
+      {
+        "folder": "WONKA Holiday Treats Game - 2-Lane Media",
+        "files": 1,
+        "sizeBytes": 2945001,
+        "sizeMB": 2.81
+      },
+      {
+        "folder": "WONKAnoid Breakout - 2-Lane Media, Left Brain Games",
+        "files": 1,
+        "sizeBytes": 2884894,
+        "sizeMB": 2.75
+      },
+      {
+        "folder": "WONKA Trivia - 2-Lane Media",
+        "files": 1,
+        "sizeBytes": 2811223,
+        "sizeMB": 2.68
+      },
+      {
+        "folder": "RUNTS Collector - Left Brain Games",
+        "files": 1,
+        "sizeBytes": 2801593,
+        "sizeMB": 2.67
+      },
+      {
+        "folder": "WONKArific Colorizer - Left Brain Games",
+        "files": 1,
+        "sizeBytes": 2551382,
+        "sizeMB": 2.43
+      },
+      {
+        "folder": "TechnOlympics - 2-Lane Media",
+        "files": 1,
+        "sizeBytes": 2311509,
+        "sizeMB": 2.2
+      },
+      {
+        "folder": "WONKAir Hockey - Left Brain Games",
+        "files": 1,
+        "sizeBytes": 2077820,
+        "sizeMB": 1.98
+      },
+      {
+        "folder": "Follow the Leader - Left Brain Games",
+        "files": 1,
+        "sizeBytes": 1818783,
+        "sizeMB": 1.73
+      },
+      {
+        "folder": "WONKA Space Rescue Game - 2-Lane Media",
+        "files": 1,
+        "sizeBytes": 1746633,
+        "sizeMB": 1.67
+      },
+      {
+        "folder": "GOBBSTOPPER Gobbler - Left Brain Games",
+        "files": 1,
+        "sizeBytes": 1733380,
+        "sizeMB": 1.65
+      }
+    ],
+    "classificationTotals": {
+      "html5RelatedFiles": 5,
+      "flashSwfs": 46,
+      "shockwaveDcr": 53,
+      "launchersAndBinaryArtifacts": 122,
+      "tempArchiveOrDuplicateArtworkFiles": 49
+    },
+    "targetCategoryFolders": [
+      "action",
+      "arcade",
+      "adventure",
+      "puzzle",
+      "racing",
+      "sports",
+      "strategy",
+      "multiplayer",
+      "retro-classics",
+      "flash",
+      "html5"
+    ]
+  },
+  "candidatesFound": 5,
+  "importedGames": 5,
+  "skippedDuplicates": 0,
+  "unsupportedOrQuestionableGames": 66,
+  "duplicateFileGroups": 19,
+  "duplicateBytesWasted": 29150706,
+  "duplicateMBWasted": 27.8,
+  "finalManifestGames": 89,
+  "imported": [
+    {
+      "title": "Canabalt",
+      "slug": "canabalt",
+      "category": "arcade",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/canabalt/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/canabalt/thumbnail.jpg",
+      "compatibility": "working",
+      "engine": "AS3",
+      "assetDependencies": []
+    },
+    {
+      "title": "The Last Stand 2",
+      "slug": "the-last-stand-2",
+      "category": "action",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand-2/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand-2/thumbnail.jpg",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "assetDependencies": []
+    },
+    {
+      "title": "The Last Stand",
+      "slug": "the-last-stand",
+      "category": "action",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand/thumbnail.jpg",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "assetDependencies": []
+    },
+    {
+      "title": "The Last Stand Union City",
+      "slug": "the-last-stand-union-city",
+      "category": "action",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand-union-city/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand-union-city/thumbnail.jpg",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "assetDependencies": []
+    },
+    {
+      "title": "Wanna B Wonka Candy Maker",
+      "slug": "wanna-b-wonka-candy-maker",
+      "category": "puzzle",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/puzzle/wanna-b-wonka-candy-maker/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/puzzle/wanna-b-wonka-candy-maker/thumbnail.jpg",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "assetDependencies": []
+    }
+  ],
+  "skipped": [],
+  "unsupported": [
+    {
+      "folder": "Off-Road Arena - KaTGames",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 3,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 143913976,
+      "sizeMB": 137.25
+    },
+    {
+      "folder": "Sunset Racer 2 - Inludo",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 86557331,
+      "sizeMB": 82.55
+    },
+    {
+      "folder": "Open Wheel Grand Prix - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 51698112,
+      "sizeMB": 49.3
+    },
+    {
+      "folder": "Rumbletown Racing 2 - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 32044651,
+      "sizeMB": 30.56
+    },
+    {
+      "folder": "Drift N' Burn 365 - Kinelco",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 29941495,
+      "sizeMB": 28.55
+    },
+    {
+      "folder": "Road Spies - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 27857061,
+      "sizeMB": 26.57
+    },
+    {
+      "folder": "300 MPH - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 27055213,
+      "sizeMB": 25.8
+    },
+    {
+      "folder": "Formula GP Racing - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 24016908,
+      "sizeMB": 22.9
+    },
+    {
+      "folder": "Rumbletown Racing - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 18603569,
+      "sizeMB": 17.74
+    },
+    {
+      "folder": "Oversize XXL - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 18549245,
+      "sizeMB": 17.69
+    },
+    {
+      "folder": "Paul Blart_ Mall Cop - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 18467255,
+      "sizeMB": 17.61
+    },
+    {
+      "folder": "The Backyardigans Mission to Mars - 360KID",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 27,
+      "htmlFiles": 0,
+      "sizeBytes": 17410907,
+      "sizeMB": 16.6
+    },
+    {
+      "folder": "200 MPH_ Night Show - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 15318265,
+      "sizeMB": 14.61
+    },
+    {
+      "folder": "Zoo Buggy - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 13384361,
+      "sizeMB": 12.76
+    },
+    {
+      "folder": "Meter Down Racing - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 12639422,
+      "sizeMB": 12.05
+    },
+    {
+      "folder": "Ford Fiesta Racing Challenge 2 - Inludo",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 12236704,
+      "sizeMB": 11.67
+    },
+    {
+      "folder": "Sunset Racer 1.x_ Evolution - Inludo",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 11495284,
+      "sizeMB": 10.96
+    },
+    {
+      "folder": "Laser Maze - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 11373148,
+      "sizeMB": 10.85
+    },
+    {
+      "folder": "Donutz Rush Hour Racer - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 11138766,
+      "sizeMB": 10.62
+    },
+    {
+      "folder": "Office Work - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 10177384,
+      "sizeMB": 9.71
+    },
+    {
+      "folder": "Bay Racer - Inludo",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 10170135,
+      "sizeMB": 9.7
+    },
+    {
+      "folder": "Ford Fiesta Racing Challenge - Inludo",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 9969607,
+      "sizeMB": 9.51
+    },
+    {
+      "folder": "200 MPH - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 9854662,
+      "sizeMB": 9.4
+    },
+    {
+      "folder": "GT Blaster - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 7647748,
+      "sizeMB": 7.29
+    },
+    {
+      "folder": "Laffy Taffy 3D Pyramid - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 7513200,
+      "sizeMB": 7.17
+    },
+    {
+      "folder": "SweetTARTS 3D - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 7445455,
+      "sizeMB": 7.1
+    },
+    {
+      "folder": "Rescue Quest - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 6189467,
+      "sizeMB": 5.9
+    },
+    {
+      "folder": "The Great NERDS Chase - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 6164758,
+      "sizeMB": 5.88
+    },
+    {
+      "folder": "Riven Elementary - Jig Interactive",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 2,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 5998998,
+      "sizeMB": 5.72
+    },
+    {
+      "folder": "Shockers - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 5850855,
+      "sizeMB": 5.58
+    },
+    {
+      "folder": "Squeez-n-Freeze Tag - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 5818925,
+      "sizeMB": 5.55
+    },
+    {
+      "folder": "Oompas Outrageous Rush - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 5356590,
+      "sizeMB": 5.11
+    },
+    {
+      "folder": "Offside - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 5101203,
+      "sizeMB": 4.86
+    },
+    {
+      "folder": "WONKAvision Illusions - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 4930561,
+      "sizeMB": 4.7
+    },
+    {
+      "folder": "Redline Rumble 2_ Detonator - RJS Visual Design",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 4919388,
+      "sizeMB": 4.69
+    },
+    {
+      "folder": "DROP! - iSurf",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 5,
+      "sizeBytes": 4882766,
+      "sizeMB": 4.66
+    },
+    {
+      "folder": "WONKA Conveyor Belt Challenge - 2-Lane Media",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 4740481,
+      "sizeMB": 4.52
+    },
+    {
+      "folder": "Office War - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 4722588,
+      "sizeMB": 4.5
+    },
+    {
+      "folder": "Get Wonk'd - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 4642361,
+      "sizeMB": 4.43
+    },
+    {
+      "folder": "Wild Coaster Game - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 4592215,
+      "sizeMB": 4.38
+    },
+    {
+      "folder": "Spooky NERDS - 2-Lane Media",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 4569957,
+      "sizeMB": 4.36
+    },
+    {
+      "folder": "Chocolate Pipe Madness - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 4483118,
+      "sizeMB": 4.28
+    },
+    {
+      "folder": "Redline Rumble - RJS Visual Design",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 4447939,
+      "sizeMB": 4.24
+    },
+    {
+      "folder": "PIXY STIX Space Slalom - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3944043,
+      "sizeMB": 3.76
+    },
+    {
+      "folder": "Laffy Taffy Flavour Flippers_ Flip Out - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3797645,
+      "sizeMB": 3.62
+    },
+    {
+      "folder": "Gum Ball Grabber - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3761449,
+      "sizeMB": 3.59
+    },
+    {
+      "folder": "Ride the Wave - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3724619,
+      "sizeMB": 3.55
+    },
+    {
+      "folder": "LAFFY TAFFYtris - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3682944,
+      "sizeMB": 3.51
+    },
+    {
+      "folder": "SHOCKERS Blaster - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3585976,
+      "sizeMB": 3.42
+    },
+    {
+      "folder": "FUN DIP Knid Knocker - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3413514,
+      "sizeMB": 3.26
+    },
+    {
+      "folder": "Block Party - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3408926,
+      "sizeMB": 3.25
+    },
+    {
+      "folder": "Animal MIX UPS Game - 2-Lane Media, Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3349319,
+      "sizeMB": 3.19
+    },
+    {
+      "folder": "Laffy Taffy Puzzle Game - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3166758,
+      "sizeMB": 3.02
+    },
+    {
+      "folder": "TechnoWONKA - 2-Lane Media",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3101082,
+      "sizeMB": 2.96
+    },
+    {
+      "folder": "The Inventonator - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3033090,
+      "sizeMB": 2.89
+    },
+    {
+      "folder": "Pet Wonkanite - 2-Lane Media",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3022546,
+      "sizeMB": 2.88
+    },
+    {
+      "folder": "WONKA Holiday Treats Game - 2-Lane Media",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 2945001,
+      "sizeMB": 2.81
+    },
+    {
+      "folder": "WONKAnoid Breakout - 2-Lane Media, Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 2884894,
+      "sizeMB": 2.75
+    },
+    {
+      "folder": "WONKA Trivia - 2-Lane Media",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 2811223,
+      "sizeMB": 2.68
+    },
+    {
+      "folder": "RUNTS Collector - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 2801593,
+      "sizeMB": 2.67
+    },
+    {
+      "folder": "WONKArific Colorizer - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 2551382,
+      "sizeMB": 2.43
+    },
+    {
+      "folder": "TechnOlympics - 2-Lane Media",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 2311509,
+      "sizeMB": 2.2
+    },
+    {
+      "folder": "WONKAir Hockey - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 2077820,
+      "sizeMB": 1.98
+    },
+    {
+      "folder": "Follow the Leader - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 1818783,
+      "sizeMB": 1.73
+    },
+    {
+      "folder": "WONKA Space Rescue Game - 2-Lane Media",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 1746633,
+      "sizeMB": 1.67
+    },
+    {
+      "folder": "GOBBSTOPPER Gobbler - Left Brain Games",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 1733380,
+      "sizeMB": 1.65
+    }
+  ],
+  "cleanupPolicy": {
+    "removedFromSource": 0,
+    "note": "No source files were destructively removed. Obvious bloat was excluded from the deployment package and documented for safe manual deletion if desired."
+  }
+}
