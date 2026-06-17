@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-17T01:37:10.180Z",
+  "generatedAt": "2026-06-17T22:07:19.371Z",
   "method": "SWF header/tag inspection plus conservative entrypoint filtering. Ruffle Desktop does not provide a reliable headless game-completion oracle, so manual playthrough remains recommended for newly imported titles.",
-  "gamesChecked": 5,
+  "gamesChecked": 6,
   "rows": [
     {
       "title": "Canabalt",
@@ -95,6 +95,23 @@
         "http://armorgames.com/play/1443/the-last-stand-2",
         "http://twitter.com/armorgames/",
         "http://facebook.com/armorgames/"
+      ],
+      "notes": "Validated as a real SWF entrypoint by filename/folder rules and SWF header inspection. Full gameplay still needs manual Ruffle playthrough."
+    },
+    {
+      "title": "Upbeat",
+      "slug": "upbeat",
+      "source": "Upbeat (Web) - Miniclip/upbeat.swf",
+      "swfVersion": 8,
+      "compressed": "zlib",
+      "engine": "AS1/AS2",
+      "compatibility": "partial",
+      "externalDependencies": [
+        "http://www.miniclip.com/",
+        "http://www.miniclip.com/swfcontent/push/didyouknow.swf?cacheBuster",
+        "http://www.miniclip.com/games/up-beat/en/webmaster.php",
+        "http://www.miniclip.com/games/",
+        "http://www.miniclip.com/swfcontent/highscore.swf?noCache="
       ],
       "notes": "Validated as a real SWF entrypoint by filename/folder rules and SWF header inspection. Full gameplay still needs manual Ruffle playthrough."
     },

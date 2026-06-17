@@ -1,35 +1,41 @@
 {
-  "generatedAt": "2026-06-17T01:37:10.178Z",
+  "generatedAt": "2026-06-17T22:07:19.369Z",
   "sourceRoot": "C:\\Users\\dela3\\Downloads\\retro",
   "archiveRoot": "C:\\Users\\dela3\\Desktop\\seby-archive-8f3k9x2",
-  "sourceFiles": 1022,
-  "sourceSizeBytes": 846834142,
-  "sourceSizeMB": 807.6,
+  "sourceFiles": 1964,
+  "sourceSizeBytes": 2055723333,
+  "sourceSizeMB": 1960.49,
   "inventory": {
     "byExtension": [
       {
         "extension": ".exe",
-        "count": 70,
-        "sizeBytes": 355894897,
-        "sizeMB": 339.41
+        "count": 146,
+        "sizeBytes": 939125427,
+        "sizeMB": 895.62
       },
       {
         "extension": ".w3d",
-        "count": 91,
-        "sizeBytes": 93415260,
-        "sizeMB": 89.09
+        "count": 347,
+        "sizeBytes": 377869952,
+        "sizeMB": 360.36
+      },
+      {
+        "extension": ".dcr",
+        "count": 180,
+        "sizeBytes": 267808324,
+        "sizeMB": 255.4
+      },
+      {
+        "extension": ".x32",
+        "count": 159,
+        "sizeBytes": 133346304,
+        "sizeMB": 127.17
       },
       {
         "extension": ".dat",
         "count": 10,
         "sizeBytes": 85263844,
         "sizeMB": 81.31
-      },
-      {
-        "extension": ".dcr",
-        "count": 53,
-        "sizeBytes": 77895844,
-        "sizeMB": 74.29
       },
       {
         "extension": ".cxt",
@@ -39,9 +45,9 @@
       },
       {
         "extension": ".swf",
-        "count": 46,
-        "sizeBytes": 47250375,
-        "sizeMB": 45.06
+        "count": 119,
+        "sizeBytes": 55747711,
+        "sizeMB": 53.17
       },
       {
         "extension": ".wav",
@@ -50,34 +56,40 @@
         "sizeMB": 44.97
       },
       {
-        "extension": ".x32",
-        "count": 44,
-        "sizeBytes": 35453952,
-        "sizeMB": 33.81
+        "extension": ".cct",
+        "count": 87,
+        "sizeBytes": 32391182,
+        "sizeMB": 30.89
       },
       {
         "extension": ".txt",
-        "count": 379,
-        "sizeBytes": 15640027,
-        "sizeMB": 14.92
-      },
-      {
-        "extension": ".cct",
-        "count": 32,
-        "sizeBytes": 7554222,
-        "sizeMB": 7.2
+        "count": 400,
+        "sizeBytes": 16848744,
+        "sizeMB": 16.07
       },
       {
         "extension": ".jpg",
-        "count": 152,
-        "sizeBytes": 4832839,
-        "sizeMB": 4.61
+        "count": 291,
+        "sizeBytes": 10952822,
+        "sizeMB": 10.45
+      },
+      {
+        "extension": ".flv",
+        "count": 8,
+        "sizeBytes": 9632309,
+        "sizeMB": 9.19
       },
       {
         "extension": ".mp3",
-        "count": 9,
-        "sizeBytes": 3484216,
-        "sizeMB": 3.32
+        "count": 13,
+        "sizeBytes": 3936679,
+        "sizeMB": 3.75
+      },
+      {
+        "extension": ".png",
+        "count": 66,
+        "sizeBytes": 2063977,
+        "sizeMB": 1.97
       },
       {
         "extension": ".avi",
@@ -86,16 +98,22 @@
         "sizeMB": 1.76
       },
       {
-        "extension": ".png",
-        "count": 19,
-        "sizeBytes": 988143,
-        "sizeMB": 0.94
+        "extension": ".dir",
+        "count": 1,
+        "sizeBytes": 821615,
+        "sizeMB": 0.78
       },
       {
         "extension": ".rb",
         "count": 18,
         "sizeBytes": 722460,
         "sizeMB": 0.69
+      },
+      {
+        "extension": "(none)",
+        "count": 7,
+        "sizeBytes": 679525,
+        "sizeMB": 0.65
       },
       {
         "extension": ".gif",
@@ -128,9 +146,27 @@
         "sizeMB": 0.05
       },
       {
+        "extension": ".ico",
+        "count": 1,
+        "sizeBytes": 32038,
+        "sizeMB": 0.03
+      },
+      {
         "extension": ".xml",
-        "count": 4,
-        "sizeBytes": 15547,
+        "count": 6,
+        "sizeBytes": 29454,
+        "sizeMB": 0.03
+      },
+      {
+        "extension": ".php",
+        "count": 8,
+        "sizeBytes": 19054,
+        "sizeMB": 0.02
+      },
+      {
+        "extension": ".htm",
+        "count": 7,
+        "sizeBytes": 15537,
         "sizeMB": 0.01
       },
       {
@@ -143,12 +179,6 @@
         "extension": ".def",
         "count": 1,
         "sizeBytes": 9484,
-        "sizeMB": 0.01
-      },
-      {
-        "extension": ".htm",
-        "count": 4,
-        "sizeBytes": 6226,
         "sizeMB": 0.01
       },
       {
@@ -188,9 +218,9 @@
         "sizeMB": 0
       },
       {
-        "extension": "(none)",
-        "count": 2,
-        "sizeBytes": 0,
+        "extension": ".inf",
+        "count": 1,
+        "sizeBytes": 85,
         "sizeMB": 0
       }
     ],
@@ -208,10 +238,28 @@
         "sizeMB": 82.55
       },
       {
+        "folder": "On The Run Vegas - Rayamedia",
+        "files": 25,
+        "sizeBytes": 53028014,
+        "sizeMB": 50.57
+      },
+      {
         "folder": "Open Wheel Grand Prix - Silent Bay Studios",
         "files": 29,
         "sizeBytes": 51698112,
         "sizeMB": 49.3
+      },
+      {
+        "folder": "Extreme Quad - Silent Bay Studios",
+        "files": 18,
+        "sizeBytes": 35718606,
+        "sizeMB": 34.06
+      },
+      {
+        "folder": "On The Run 2 - Rayamedia",
+        "files": 12,
+        "sizeBytes": 33398780,
+        "sizeMB": 31.85
       },
       {
         "folder": "the-last-stand_202302",
@@ -226,10 +274,22 @@
         "sizeMB": 30.56
       },
       {
+        "folder": "Christmas Mayhem - Silent Bay Studios",
+        "files": 13,
+        "sizeBytes": 31292206,
+        "sizeMB": 29.84
+      },
+      {
         "folder": "Drift N' Burn 365 - Kinelco",
         "files": 452,
         "sizeBytes": 29941495,
         "sizeMB": 28.55
+      },
+      {
+        "folder": "Extreme Triathlon - Silent Bay Studios",
+        "files": 13,
+        "sizeBytes": 28997486,
+        "sizeMB": 27.65
       },
       {
         "folder": "Road Spies - Silent Bay Studios",
@@ -238,16 +298,106 @@
         "sizeMB": 26.57
       },
       {
+        "folder": "Free Wheels - Silent Bay Studios",
+        "files": 14,
+        "sizeBytes": 27550177,
+        "sizeMB": 26.27
+      },
+      {
         "folder": "300 MPH - Silent Bay Studios",
         "files": 18,
         "sizeBytes": 27055213,
         "sizeMB": 25.8
       },
       {
+        "folder": "Free Running - Silent Bay Studios",
+        "files": 13,
+        "sizeBytes": 26650431,
+        "sizeMB": 25.42
+      },
+      {
+        "folder": "Rock Wheels - Silent Bay Studios",
+        "files": 10,
+        "sizeBytes": 26581952,
+        "sizeMB": 25.35
+      },
+      {
+        "folder": "Winter Games - Silent Bay Studios",
+        "files": 14,
+        "sizeBytes": 24423308,
+        "sizeMB": 23.29
+      },
+      {
+        "folder": "Beach Soccer - Silent Bay Studios",
+        "files": 14,
+        "sizeBytes": 24095312,
+        "sizeMB": 22.98
+      },
+      {
         "folder": "Formula GP Racing - Silent Bay Studios",
         "files": 31,
         "sizeBytes": 24016908,
         "sizeMB": 22.9
+      },
+      {
+        "folder": "Extreme Trial - Silent Bay Studios",
+        "files": 15,
+        "sizeBytes": 21776391,
+        "sizeMB": 20.77
+      },
+      {
+        "folder": "Ice Racer - Silent Bay Studios",
+        "files": 10,
+        "sizeBytes": 21541135,
+        "sizeMB": 20.54
+      },
+      {
+        "folder": "Iron Man 3_ Base Jumper - Silent Bay Studios",
+        "files": 14,
+        "sizeBytes": 21446226,
+        "sizeMB": 20.45
+      },
+      {
+        "folder": "Haunted House - Silent Bay Studios",
+        "files": 19,
+        "sizeBytes": 20989010,
+        "sizeMB": 20.02
+      },
+      {
+        "folder": "Fast Car Frenzy - Silent Bay Studios",
+        "files": 11,
+        "sizeBytes": 20225796,
+        "sizeMB": 19.29
+      },
+      {
+        "folder": "Sewer Run - Kinelco",
+        "files": 3,
+        "sizeBytes": 19656888,
+        "sizeMB": 18.75
+      },
+      {
+        "folder": "Ski Run 2 - IKON MULTIMEDIA",
+        "files": 3,
+        "sizeBytes": 19411979,
+        "sizeMB": 18.51
+      },
+      {
+        "folder": "Jet Ski Racing - Silent Bay Studios",
+        "files": 11,
+        "sizeBytes": 19376626,
+        "sizeMB": 18.48
+      },
+      {
+        "folder": "European Soccer Champions - Silent Bay Studios",
+        "files": 46,
+        "sizeBytes": 19209559,
+        "sizeMB": 18.32
+      },
+      {
+        "folder": "Snowbowl - Silent Bay Studios",
+        "files": 13,
+        "sizeBytes": 18713894,
+        "sizeMB": 17.85
       },
       {
         "folder": "Rumbletown Racing - Silent Bay Studios",
@@ -268,10 +418,112 @@
         "sizeMB": 17.61
       },
       {
+        "folder": "Golf Ace Hawaii - Silent Bay Studios",
+        "files": 15,
+        "sizeBytes": 18193660,
+        "sizeMB": 17.35
+      },
+      {
+        "folder": "American Football - Silent Bay Studios",
+        "files": 9,
+        "sizeBytes": 18147318,
+        "sizeMB": 17.31
+      },
+      {
+        "folder": "Air Show - Silent Bay Studios",
+        "files": 10,
+        "sizeBytes": 18044670,
+        "sizeMB": 17.21
+      },
+      {
+        "folder": "World Rugby 2011 - Silent Bay Studios",
+        "files": 9,
+        "sizeBytes": 17861930,
+        "sizeMB": 17.03
+      },
+      {
+        "folder": "Upipe Skateboard - Silent Bay Studios",
+        "files": 15,
+        "sizeBytes": 17775679,
+        "sizeMB": 16.95
+      },
+      {
+        "folder": "Age Of Speed 2 - Silent Bay Studios",
+        "files": 14,
+        "sizeBytes": 17706187,
+        "sizeMB": 16.89
+      },
+      {
         "folder": "The Backyardigans Mission to Mars - 360KID",
         "files": 33,
         "sizeBytes": 17410907,
         "sizeMB": 16.6
+      },
+      {
+        "folder": "Centre Court Tennis - Silent Bay Studios",
+        "files": 14,
+        "sizeBytes": 17300861,
+        "sizeMB": 16.5
+      },
+      {
+        "folder": "Raceway 500 - Silent Bay Studios",
+        "files": 9,
+        "sizeBytes": 17022584,
+        "sizeMB": 16.23
+      },
+      {
+        "folder": "Jousting - Silent Bay Studios",
+        "files": 14,
+        "sizeBytes": 16702175,
+        "sizeMB": 15.93
+      },
+      {
+        "folder": "Snowboard Madness - Silent Bay Studios",
+        "files": 16,
+        "sizeBytes": 16614396,
+        "sizeMB": 15.84
+      },
+      {
+        "folder": "Golf Ace - Silent Bay Studios",
+        "files": 15,
+        "sizeBytes": 16544648,
+        "sizeMB": 15.78
+      },
+      {
+        "folder": "Golfish - Silent Bay Studios",
+        "files": 15,
+        "sizeBytes": 16496709,
+        "sizeMB": 15.73
+      },
+      {
+        "folder": "Go Karts - Silent Bay Studios",
+        "files": 10,
+        "sizeBytes": 16472441,
+        "sizeMB": 15.71
+      },
+      {
+        "folder": "Lumberjack Games - Silent Bay Studios",
+        "files": 12,
+        "sizeBytes": 16071507,
+        "sizeMB": 15.33
+      },
+      {
+        "folder": "Stunt Driver - Silent Bay Studios",
+        "files": 15,
+        "sizeBytes": 15824518,
+        "sizeMB": 15.09
+      },
+      {
+        "folder": "Motocross Urban Fever - Silent Bay Studios",
+        "files": 9,
+        "sizeBytes": 15742075,
+        "sizeMB": 15.01
+      },
+      {
+        "folder": "Basketball Jam - Silent Bay Studios",
+        "files": 12,
+        "sizeBytes": 15727246,
+        "sizeMB": 15
       },
       {
         "folder": "200 MPH_ Night Show - Silent Bay Studios",
@@ -280,16 +532,112 @@
         "sizeMB": 14.61
       },
       {
+        "folder": "Sportbike Sprint - Silent Bay Studios",
+        "files": 9,
+        "sizeBytes": 15048782,
+        "sizeMB": 14.35
+      },
+      {
+        "folder": "Tennis Doubles - Silent Bay Studios",
+        "files": 10,
+        "sizeBytes": 14916986,
+        "sizeMB": 14.23
+      },
+      {
+        "folder": "Skyboard - Silent Bay Studios",
+        "files": 9,
+        "sizeBytes": 14891452,
+        "sizeMB": 14.2
+      },
+      {
+        "folder": "Street Luge - IKON MULTIMEDIA",
+        "files": 6,
+        "sizeBytes": 14858878,
+        "sizeMB": 14.17
+      },
+      {
+        "folder": "Police Pursuit - Silent Bay Studios",
+        "files": 7,
+        "sizeBytes": 14635240,
+        "sizeMB": 13.96
+      },
+      {
+        "folder": "Insane Ski Jump - Silent Bay Studios",
+        "files": 9,
+        "sizeBytes": 14545824,
+        "sizeMB": 13.87
+      },
+      {
+        "folder": "Karate King - Silent Bay Studios",
+        "files": 18,
+        "sizeBytes": 14499129,
+        "sizeMB": 13.83
+      },
+      {
+        "folder": "Championship Rally - Robotduck",
+        "files": 52,
+        "sizeBytes": 14471638,
+        "sizeMB": 13.8
+      },
+      {
+        "folder": "Soccer Five - Silent Bay Studios",
+        "files": 9,
+        "sizeBytes": 14174668,
+        "sizeMB": 13.52
+      },
+      {
+        "folder": "Milk Shake - Silent Bay Studios",
+        "files": 8,
+        "sizeBytes": 14161336,
+        "sizeMB": 13.51
+      },
+      {
+        "folder": "Wakeboard Pro - Silent Bay Studios",
+        "files": 9,
+        "sizeBytes": 14053624,
+        "sizeMB": 13.4
+      },
+      {
+        "folder": "Vertigolf 2 - Kinelco",
+        "files": 2,
+        "sizeBytes": 13707644,
+        "sizeMB": 13.07
+      },
+      {
+        "folder": "Alien Disorder - Hammock ADB, Numbat Studios",
+        "files": 3,
+        "sizeBytes": 13512427,
+        "sizeMB": 12.89
+      },
+      {
         "folder": "Zoo Buggy - Silent Bay Studios",
         "files": 10,
         "sizeBytes": 13384361,
         "sizeMB": 12.76
       },
       {
+        "folder": "Creepy Pong - Silent Bay Studios",
+        "files": 6,
+        "sizeBytes": 13166017,
+        "sizeMB": 12.56
+      },
+      {
+        "folder": "Tennis Grand Slam - Silent Bay Studios",
+        "files": 10,
+        "sizeBytes": 13125656,
+        "sizeMB": 12.52
+      },
+      {
         "folder": "Meter Down Racing - Silent Bay Studios",
         "files": 12,
         "sizeBytes": 12639422,
         "sizeMB": 12.05
+      },
+      {
+        "folder": "Basketball Slam - Silent Bay Studios",
+        "files": 6,
+        "sizeBytes": 12450813,
+        "sizeMB": 11.87
       },
       {
         "folder": "Ford Fiesta Racing Challenge 2 - Inludo",
@@ -304,6 +652,18 @@
         "sizeMB": 10.96
       },
       {
+        "folder": "World Soccer - Silent Bay Studios",
+        "files": 6,
+        "sizeBytes": 11444601,
+        "sizeMB": 10.91
+      },
+      {
+        "folder": "Shell_ Le Mans - Robotduck",
+        "files": 16,
+        "sizeBytes": 11395106,
+        "sizeMB": 10.87
+      },
+      {
         "folder": "Laser Maze - Silent Bay Studios",
         "files": 6,
         "sizeBytes": 11373148,
@@ -314,6 +674,18 @@
         "files": 3,
         "sizeBytes": 11138766,
         "sizeMB": 10.62
+      },
+      {
+        "folder": "Vertigolf - Kinelco",
+        "files": 2,
+        "sizeBytes": 11117701,
+        "sizeMB": 10.6
+      },
+      {
+        "folder": "Super Trucks - Silent Bay Studios",
+        "files": 9,
+        "sizeBytes": 10797518,
+        "sizeMB": 10.3
       },
       {
         "folder": "Office Work - Silent Bay Studios",
@@ -340,10 +712,58 @@
         "sizeMB": 9.4
       },
       {
+        "folder": "Age Of Speed - Silent Bay Studios",
+        "files": 16,
+        "sizeBytes": 9634519,
+        "sizeMB": 9.19
+      },
+      {
+        "folder": "Power Boat - Silent Bay Studios",
+        "files": 9,
+        "sizeBytes": 9142600,
+        "sizeMB": 8.72
+      },
+      {
+        "folder": "Championship Rally (Web) - Robotduck",
+        "files": 52,
+        "sizeBytes": 9113549,
+        "sizeMB": 8.69
+      },
+      {
+        "folder": "Tropi Golf - Kinelco",
+        "files": 3,
+        "sizeBytes": 8521424,
+        "sizeMB": 8.13
+      },
+      {
+        "folder": "On The Run Classic (Time Fix Overlay) - Officine Pixel",
+        "files": 4,
+        "sizeBytes": 8113932,
+        "sizeMB": 7.74
+      },
+      {
+        "folder": "BP Rally - Robotduck",
+        "files": 5,
+        "sizeBytes": 7857960,
+        "sizeMB": 7.49
+      },
+      {
+        "folder": "Ski Run - IKON MULTIMEDIA",
+        "files": 3,
+        "sizeBytes": 7656749,
+        "sizeMB": 7.3
+      },
+      {
         "folder": "GT Blaster - Left Brain Games",
         "files": 4,
         "sizeBytes": 7647748,
         "sizeMB": 7.29
+      },
+      {
+        "folder": "RollOn - Catalyst Pictures",
+        "files": 6,
+        "sizeBytes": 7534493,
+        "sizeMB": 7.19
       },
       {
         "folder": "Laffy Taffy 3D Pyramid - Left Brain Games",
@@ -352,16 +772,40 @@
         "sizeMB": 7.17
       },
       {
+        "folder": "Waterslide Slalom - Robotduck",
+        "files": 33,
+        "sizeBytes": 7485495,
+        "sizeMB": 7.14
+      },
+      {
         "folder": "SweetTARTS 3D - Left Brain Games",
         "files": 3,
         "sizeBytes": 7445455,
         "sizeMB": 7.1
       },
       {
+        "folder": "M3Power Jetski Challenge - Robotduck",
+        "files": 55,
+        "sizeBytes": 7315890,
+        "sizeMB": 6.98
+      },
+      {
         "folder": "Wanna B Wonka - Left Brain Games",
         "files": 3,
         "sizeBytes": 7083049,
         "sizeMB": 6.75
+      },
+      {
+        "folder": "Dance 2 The Beat - Mass Destruction",
+        "files": 3,
+        "sizeBytes": 6815893,
+        "sizeMB": 6.5
+      },
+      {
+        "folder": "Crash Course Football - Robotduck",
+        "files": 3,
+        "sizeBytes": 6592459,
+        "sizeMB": 6.29
       },
       {
         "folder": "Rescue Quest - Left Brain Games",
@@ -374,6 +818,18 @@
         "files": 2,
         "sizeBytes": 6164758,
         "sizeMB": 5.88
+      },
+      {
+        "folder": "Beat The Wall - Robotduck",
+        "files": 3,
+        "sizeBytes": 6125049,
+        "sizeMB": 5.84
+      },
+      {
+        "folder": "Table Top Football - Robotduck",
+        "files": 3,
+        "sizeBytes": 6075971,
+        "sizeMB": 5.79
       },
       {
         "folder": "Riven Elementary - Jig Interactive",
@@ -394,6 +850,12 @@
         "sizeMB": 5.55
       },
       {
+        "folder": "Upbeat (Web) - Miniclip",
+        "files": 16,
+        "sizeBytes": 5635832,
+        "sizeMB": 5.37
+      },
+      {
         "folder": "Oompas Outrageous Rush - Left Brain Games",
         "files": 1,
         "sizeBytes": 5356590,
@@ -404,6 +866,18 @@
         "files": 1,
         "sizeBytes": 5101203,
         "sizeMB": 4.86
+      },
+      {
+        "folder": "On The Run Classic (Time Fix) - Officine Pixel",
+        "files": 3,
+        "sizeBytes": 4973886,
+        "sizeMB": 4.74
+      },
+      {
+        "folder": "On The Run Classic - Officine Pixel",
+        "files": 3,
+        "sizeBytes": 4972836,
+        "sizeMB": 4.74
       },
       {
         "folder": "WONKAvision Illusions - Left Brain Games",
@@ -478,6 +952,18 @@
         "sizeMB": 3.76
       },
       {
+        "folder": "Snowboarder XS - Catalyst Pictures",
+        "files": 1,
+        "sizeBytes": 3896832,
+        "sizeMB": 3.72
+      },
+      {
+        "folder": "Save The Sheriff - Playdo Community",
+        "files": 2,
+        "sizeBytes": 3852100,
+        "sizeMB": 3.67
+      },
+      {
         "folder": "Laffy Taffy Flavour Flippers_ Flip Out - Left Brain Games",
         "files": 2,
         "sizeBytes": 3797645,
@@ -506,6 +992,12 @@
         "files": 2,
         "sizeBytes": 3585976,
         "sizeMB": 3.42
+      },
+      {
+        "folder": "BP Rally (Web) - Robotduck",
+        "files": 8,
+        "sizeBytes": 3499689,
+        "sizeMB": 3.34
       },
       {
         "folder": "FUN DIP Knid Knocker - Left Brain Games",
@@ -608,13 +1100,19 @@
         "files": 1,
         "sizeBytes": 1733380,
         "sizeMB": 1.65
+      },
+      {
+        "folder": "Aqua Energizer - USELAB",
+        "files": 1,
+        "sizeBytes": 764613,
+        "sizeMB": 0.73
       }
     ],
     "classificationTotals": {
-      "html5RelatedFiles": 5,
-      "flashSwfs": 46,
-      "shockwaveDcr": 53,
-      "launchersAndBinaryArtifacts": 122,
+      "html5RelatedFiles": 8,
+      "flashSwfs": 119,
+      "shockwaveDcr": 180,
+      "launchersAndBinaryArtifacts": 313,
       "tempArchiveOrDuplicateArtworkFiles": 49
     },
     "targetCategoryFolders": [
@@ -631,14 +1129,14 @@
       "html5"
     ]
   },
-  "candidatesFound": 5,
-  "importedGames": 5,
+  "candidatesFound": 6,
+  "importedGames": 6,
   "skippedDuplicates": 0,
-  "unsupportedOrQuestionableGames": 66,
-  "duplicateFileGroups": 19,
-  "duplicateBytesWasted": 29150706,
-  "duplicateMBWasted": 27.8,
-  "finalManifestGames": 89,
+  "unsupportedOrQuestionableGames": 143,
+  "duplicateFileGroups": 84,
+  "duplicateBytesWasted": 166665229,
+  "duplicateMBWasted": 158.94,
+  "finalManifestGames": 90,
   "imported": [
     {
       "title": "Canabalt",
@@ -681,6 +1179,16 @@
       "assetDependencies": []
     },
     {
+      "title": "Upbeat",
+      "slug": "upbeat",
+      "category": "arcade",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/thumbnail.jpg",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "assetDependencies": []
+    },
+    {
       "title": "Wanna B Wonka Candy Maker",
       "slug": "wanna-b-wonka-candy-maker",
       "category": "puzzle",
@@ -716,6 +1224,17 @@
       "sizeMB": 82.55
     },
     {
+      "folder": "On The Run Vegas - Rayamedia",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 2,
+      "htmlFiles": 0,
+      "sizeBytes": 53028014,
+      "sizeMB": 50.57
+    },
+    {
       "folder": "Open Wheel Grand Prix - Silent Bay Studios",
       "classification": "unsupported",
       "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
@@ -725,6 +1244,28 @@
       "htmlFiles": 0,
       "sizeBytes": 51698112,
       "sizeMB": 49.3
+    },
+    {
+      "folder": "Extreme Quad - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 35718606,
+      "sizeMB": 34.06
+    },
+    {
+      "folder": "On The Run 2 - Rayamedia",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 2,
+      "htmlFiles": 0,
+      "sizeBytes": 33398780,
+      "sizeMB": 31.85
     },
     {
       "folder": "Rumbletown Racing 2 - Silent Bay Studios",
@@ -738,6 +1279,17 @@
       "sizeMB": 30.56
     },
     {
+      "folder": "Christmas Mayhem - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 31292206,
+      "sizeMB": 29.84
+    },
+    {
       "folder": "Drift N' Burn 365 - Kinelco",
       "classification": "unsupported",
       "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
@@ -747,6 +1299,17 @@
       "htmlFiles": 0,
       "sizeBytes": 29941495,
       "sizeMB": 28.55
+    },
+    {
+      "folder": "Extreme Triathlon - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 28997486,
+      "sizeMB": 27.65
     },
     {
       "folder": "Road Spies - Silent Bay Studios",
@@ -760,6 +1323,17 @@
       "sizeMB": 26.57
     },
     {
+      "folder": "Free Wheels - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 27550177,
+      "sizeMB": 26.27
+    },
+    {
       "folder": "300 MPH - Silent Bay Studios",
       "classification": "unsupported",
       "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
@@ -771,6 +1345,50 @@
       "sizeMB": 25.8
     },
     {
+      "folder": "Free Running - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 26650431,
+      "sizeMB": 25.42
+    },
+    {
+      "folder": "Rock Wheels - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 26581952,
+      "sizeMB": 25.35
+    },
+    {
+      "folder": "Winter Games - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 24423308,
+      "sizeMB": 23.29
+    },
+    {
+      "folder": "Beach Soccer - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 24095312,
+      "sizeMB": 22.98
+    },
+    {
       "folder": "Formula GP Racing - Silent Bay Studios",
       "classification": "unsupported",
       "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
@@ -780,6 +1398,116 @@
       "htmlFiles": 0,
       "sizeBytes": 24016908,
       "sizeMB": 22.9
+    },
+    {
+      "folder": "Extreme Trial - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 21776391,
+      "sizeMB": 20.77
+    },
+    {
+      "folder": "Ice Racer - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 21541135,
+      "sizeMB": 20.54
+    },
+    {
+      "folder": "Iron Man 3_ Base Jumper - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 21446226,
+      "sizeMB": 20.45
+    },
+    {
+      "folder": "Haunted House - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 20989010,
+      "sizeMB": 20.02
+    },
+    {
+      "folder": "Fast Car Frenzy - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 20225796,
+      "sizeMB": 19.29
+    },
+    {
+      "folder": "Sewer Run - Kinelco",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 19656888,
+      "sizeMB": 18.75
+    },
+    {
+      "folder": "Ski Run 2 - IKON MULTIMEDIA",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 19411979,
+      "sizeMB": 18.51
+    },
+    {
+      "folder": "Jet Ski Racing - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 19376626,
+      "sizeMB": 18.48
+    },
+    {
+      "folder": "European Soccer Champions - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 19209559,
+      "sizeMB": 18.32
+    },
+    {
+      "folder": "Snowbowl - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 18713894,
+      "sizeMB": 17.85
     },
     {
       "folder": "Rumbletown Racing - Silent Bay Studios",
@@ -815,6 +1543,72 @@
       "sizeMB": 17.61
     },
     {
+      "folder": "Golf Ace Hawaii - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 18193660,
+      "sizeMB": 17.35
+    },
+    {
+      "folder": "American Football - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 18147318,
+      "sizeMB": 17.31
+    },
+    {
+      "folder": "Air Show - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 18044670,
+      "sizeMB": 17.21
+    },
+    {
+      "folder": "World Rugby 2011 - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 17861930,
+      "sizeMB": 17.03
+    },
+    {
+      "folder": "Upipe Skateboard - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 17775679,
+      "sizeMB": 16.95
+    },
+    {
+      "folder": "Age Of Speed 2 - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 17706187,
+      "sizeMB": 16.89
+    },
+    {
       "folder": "The Backyardigans Mission to Mars - 360KID",
       "classification": "unsupported",
       "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
@@ -824,6 +1618,127 @@
       "htmlFiles": 0,
       "sizeBytes": 17410907,
       "sizeMB": 16.6
+    },
+    {
+      "folder": "Centre Court Tennis - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 17300861,
+      "sizeMB": 16.5
+    },
+    {
+      "folder": "Raceway 500 - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 17022584,
+      "sizeMB": 16.23
+    },
+    {
+      "folder": "Jousting - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 16702175,
+      "sizeMB": 15.93
+    },
+    {
+      "folder": "Snowboard Madness - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 16614396,
+      "sizeMB": 15.84
+    },
+    {
+      "folder": "Golf Ace - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 16544648,
+      "sizeMB": 15.78
+    },
+    {
+      "folder": "Golfish - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 16496709,
+      "sizeMB": 15.73
+    },
+    {
+      "folder": "Go Karts - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 16472441,
+      "sizeMB": 15.71
+    },
+    {
+      "folder": "Lumberjack Games - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 16071507,
+      "sizeMB": 15.33
+    },
+    {
+      "folder": "Stunt Driver - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 15824518,
+      "sizeMB": 15.09
+    },
+    {
+      "folder": "Motocross Urban Fever - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 15742075,
+      "sizeMB": 15.01
+    },
+    {
+      "folder": "Basketball Jam - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 15727246,
+      "sizeMB": 15
     },
     {
       "folder": "200 MPH_ Night Show - Silent Bay Studios",
@@ -837,6 +1752,149 @@
       "sizeMB": 14.61
     },
     {
+      "folder": "Sportbike Sprint - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 15048782,
+      "sizeMB": 14.35
+    },
+    {
+      "folder": "Tennis Doubles - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 14916986,
+      "sizeMB": 14.23
+    },
+    {
+      "folder": "Skyboard - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 14891452,
+      "sizeMB": 14.2
+    },
+    {
+      "folder": "Street Luge - IKON MULTIMEDIA",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 14858878,
+      "sizeMB": 14.17
+    },
+    {
+      "folder": "Police Pursuit - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 14635240,
+      "sizeMB": 13.96
+    },
+    {
+      "folder": "Insane Ski Jump - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 14545824,
+      "sizeMB": 13.87
+    },
+    {
+      "folder": "Karate King - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 14499129,
+      "sizeMB": 13.83
+    },
+    {
+      "folder": "Championship Rally - Robotduck",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 4,
+      "htmlFiles": 0,
+      "sizeBytes": 14471638,
+      "sizeMB": 13.8
+    },
+    {
+      "folder": "Soccer Five - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 14174668,
+      "sizeMB": 13.52
+    },
+    {
+      "folder": "Milk Shake - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 14161336,
+      "sizeMB": 13.51
+    },
+    {
+      "folder": "Wakeboard Pro - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 14053624,
+      "sizeMB": 13.4
+    },
+    {
+      "folder": "Vertigolf 2 - Kinelco",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 13707644,
+      "sizeMB": 13.07
+    },
+    {
+      "folder": "Alien Disorder - Hammock ADB, Numbat Studios",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 13512427,
+      "sizeMB": 12.89
+    },
+    {
       "folder": "Zoo Buggy - Silent Bay Studios",
       "classification": "unsupported",
       "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
@@ -848,6 +1906,28 @@
       "sizeMB": 12.76
     },
     {
+      "folder": "Creepy Pong - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 13166017,
+      "sizeMB": 12.56
+    },
+    {
+      "folder": "Tennis Grand Slam - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 13125656,
+      "sizeMB": 12.52
+    },
+    {
       "folder": "Meter Down Racing - Silent Bay Studios",
       "classification": "unsupported",
       "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
@@ -857,6 +1937,17 @@
       "htmlFiles": 0,
       "sizeBytes": 12639422,
       "sizeMB": 12.05
+    },
+    {
+      "folder": "Basketball Slam - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 12450813,
+      "sizeMB": 11.87
     },
     {
       "folder": "Ford Fiesta Racing Challenge 2 - Inludo",
@@ -881,6 +1972,28 @@
       "sizeMB": 10.96
     },
     {
+      "folder": "World Soccer - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 11444601,
+      "sizeMB": 10.91
+    },
+    {
+      "folder": "Shell_ Le Mans - Robotduck",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 6,
+      "htmlFiles": 0,
+      "sizeBytes": 11395106,
+      "sizeMB": 10.87
+    },
+    {
       "folder": "Laser Maze - Silent Bay Studios",
       "classification": "unsupported",
       "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
@@ -901,6 +2014,28 @@
       "htmlFiles": 0,
       "sizeBytes": 11138766,
       "sizeMB": 10.62
+    },
+    {
+      "folder": "Vertigolf - Kinelco",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 11117701,
+      "sizeMB": 10.6
+    },
+    {
+      "folder": "Super Trucks - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 10797518,
+      "sizeMB": 10.3
     },
     {
       "folder": "Office Work - Silent Bay Studios",
@@ -947,6 +2082,83 @@
       "sizeMB": 9.4
     },
     {
+      "folder": "Age Of Speed - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 9634519,
+      "sizeMB": 9.19
+    },
+    {
+      "folder": "Power Boat - Silent Bay Studios",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 9142600,
+      "sizeMB": 8.72
+    },
+    {
+      "folder": "Championship Rally (Web) - Robotduck",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 1,
+      "exeFiles": 0,
+      "swfFiles": 3,
+      "htmlFiles": 0,
+      "sizeBytes": 9113549,
+      "sizeMB": 8.69
+    },
+    {
+      "folder": "Tropi Golf - Kinelco",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 8521424,
+      "sizeMB": 8.13
+    },
+    {
+      "folder": "On The Run Classic (Time Fix Overlay) - Officine Pixel",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 2,
+      "exeFiles": 2,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 8113932,
+      "sizeMB": 7.74
+    },
+    {
+      "folder": "BP Rally - Robotduck",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 7857960,
+      "sizeMB": 7.49
+    },
+    {
+      "folder": "Ski Run - IKON MULTIMEDIA",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 7656749,
+      "sizeMB": 7.3
+    },
+    {
       "folder": "GT Blaster - Left Brain Games",
       "classification": "unsupported",
       "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
@@ -956,6 +2168,17 @@
       "htmlFiles": 0,
       "sizeBytes": 7647748,
       "sizeMB": 7.29
+    },
+    {
+      "folder": "RollOn - Catalyst Pictures",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 7534493,
+      "sizeMB": 7.19
     },
     {
       "folder": "Laffy Taffy 3D Pyramid - Left Brain Games",
@@ -969,6 +2192,17 @@
       "sizeMB": 7.17
     },
     {
+      "folder": "Waterslide Slalom - Robotduck",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 3,
+      "htmlFiles": 0,
+      "sizeBytes": 7485495,
+      "sizeMB": 7.14
+    },
+    {
       "folder": "SweetTARTS 3D - Left Brain Games",
       "classification": "unsupported",
       "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
@@ -978,6 +2212,39 @@
       "htmlFiles": 0,
       "sizeBytes": 7445455,
       "sizeMB": 7.1
+    },
+    {
+      "folder": "M3Power Jetski Challenge - Robotduck",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 2,
+      "htmlFiles": 0,
+      "sizeBytes": 7315890,
+      "sizeMB": 6.98
+    },
+    {
+      "folder": "Dance 2 The Beat - Mass Destruction",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 6815893,
+      "sizeMB": 6.5
+    },
+    {
+      "folder": "Crash Course Football - Robotduck",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 6592459,
+      "sizeMB": 6.29
     },
     {
       "folder": "Rescue Quest - Left Brain Games",
@@ -1000,6 +2267,28 @@
       "htmlFiles": 0,
       "sizeBytes": 6164758,
       "sizeMB": 5.88
+    },
+    {
+      "folder": "Beat The Wall - Robotduck",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 6125049,
+      "sizeMB": 5.84
+    },
+    {
+      "folder": "Table Top Football - Robotduck",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 6075971,
+      "sizeMB": 5.79
     },
     {
       "folder": "Riven Elementary - Jig Interactive",
@@ -1055,6 +2344,28 @@
       "htmlFiles": 0,
       "sizeBytes": 5101203,
       "sizeMB": 4.86
+    },
+    {
+      "folder": "On The Run Classic (Time Fix) - Officine Pixel",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 4973886,
+      "sizeMB": 4.74
+    },
+    {
+      "folder": "On The Run Classic - Officine Pixel",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 2,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 4972836,
+      "sizeMB": 4.74
     },
     {
       "folder": "WONKAvision Illusions - Left Brain Games",
@@ -1178,6 +2489,28 @@
       "sizeMB": 3.76
     },
     {
+      "folder": "Snowboarder XS - Catalyst Pictures",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3896832,
+      "sizeMB": 3.72
+    },
+    {
+      "folder": "Save The Sheriff - Playdo Community",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 1,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 3852100,
+      "sizeMB": 3.67
+    },
+    {
       "folder": "Laffy Taffy Flavour Flippers_ Flip Out - Left Brain Games",
       "classification": "unsupported",
       "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
@@ -1231,6 +2564,17 @@
       "htmlFiles": 0,
       "sizeBytes": 3585976,
       "sizeMB": 3.42
+    },
+    {
+      "folder": "BP Rally (Web) - Robotduck",
+      "classification": "unsupported",
+      "reason": "Contains SWF support/movie/advert files but no validated standalone game entrypoint.",
+      "dcrFiles": 2,
+      "exeFiles": 0,
+      "swfFiles": 1,
+      "htmlFiles": 0,
+      "sizeBytes": 3499689,
+      "sizeMB": 3.34
     },
     {
       "folder": "FUN DIP Knid Knocker - Left Brain Games",
@@ -1418,6 +2762,17 @@
       "htmlFiles": 0,
       "sizeBytes": 1733380,
       "sizeMB": 1.65
+    },
+    {
+      "folder": "Aqua Energizer - USELAB",
+      "classification": "unsupported",
+      "reason": "Shockwave Director/Windows launcher package; not playable through Ruffle-only browser delivery.",
+      "dcrFiles": 0,
+      "exeFiles": 1,
+      "swfFiles": 0,
+      "htmlFiles": 0,
+      "sizeBytes": 764613,
+      "sizeMB": 0.73
     }
   ],
   "cleanupPolicy": {

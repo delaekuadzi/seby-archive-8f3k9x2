@@ -234,6 +234,57 @@
     }
   },
   {
+    "title": "Upbeat",
+    "slug": "upbeat",
+    "category": "arcade",
+    "description": "Upbeat is a preserved Miniclip rhythm Flash game prepared for Seby Games Retro with browser playback through Ruffle.",
+    "thumbnail": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/thumbnail.jpg",
+    "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/game.swf",
+    "controls": "Keyboard",
+    "compatibility": "partial",
+    "engine": "AS1/AS2",
+    "tags": [
+      "Arcade",
+      "Music",
+      "Rhythm",
+      "Miniclip",
+      "Flash",
+      "Ruffle",
+      "arcade",
+      "Music Rhythm",
+      "AS1/AS2",
+      "retro",
+      "flash",
+      "jsdelivr"
+    ],
+    "subCategory": "Music Rhythm",
+    "franchise": "Miniclip",
+    "sourceCollection": "other",
+    "sourceProvider": "github-jsdelivr",
+    "sourcePath": "Upbeat (Web) - Miniclip/upbeat.swf",
+    "gamePath": "games/arcade/upbeat/game.swf",
+    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/thumbnail.jpg",
+    "assetDependencies": [],
+    "externalDependencies": [
+      "http://www.miniclip.com/",
+      "http://www.miniclip.com/swfcontent/push/didyouknow.swf?cacheBuster",
+      "http://www.miniclip.com/games/up-beat/en/webmaster.php",
+      "http://www.miniclip.com/games/",
+      "http://www.miniclip.com/swfcontent/highscore.swf?noCache="
+    ],
+    "seo": {
+      "slug": "upbeat",
+      "url": "https://sebygames.com/retro/upbeat",
+      "seoTitle": "Upbeat - Play Retro Flash Game | Seby Games",
+      "metaDescription": "Upbeat is a preserved Miniclip rhythm Flash game prepared for Seby Games Retro with browser playback through Ruffle.",
+      "canonicalUrl": "https://www.sebygames.com/retro/upbeat",
+      "openGraphImage": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/thumbnail.jpg",
+      "genre": "arcade",
+      "franchise": "Miniclip",
+      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/game.swf"
+    }
+  },
+  {
     "title": "Ben 10 Blockade Blitz Swf",
     "slug": "ben-10-blockade-blitz-swf",
     "category": "cartoon-network",

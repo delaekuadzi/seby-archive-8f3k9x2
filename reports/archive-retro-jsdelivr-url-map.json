@@ -32,6 +32,14 @@
     "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand-union-city/thumbnail.jpg"
   },
   {
+    "title": "Upbeat",
+    "slug": "upbeat",
+    "category": "arcade",
+    "localPath": "games/arcade/upbeat/game.swf",
+    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/game.swf",
+    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/thumbnail.jpg"
+  },
+  {
     "title": "Wanna B Wonka Candy Maker",
     "slug": "wanna-b-wonka-candy-maker",
     "category": "puzzle",
