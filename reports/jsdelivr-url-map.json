@@ -1,602 +1,702 @@
-[
-  {
-    "title": "1100 Alien Hominid",
-    "slug": "1100-alien-hominid",
-    "category": "other",
-    "localPath": "games/other/1100-alien-hominid/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/1100-alien-hominid/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/1100-alien-hominid/thumbnail.jpg"
-  },
-  {
-    "title": "3 Foot Ninja",
-    "slug": "3-foot-ninja",
-    "category": "other",
-    "localPath": "games/other/3-foot-ninja/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/3-foot-ninja/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/3-foot-ninja/thumbnail.jpg"
-  },
-  {
-    "title": "3 Foot Ninja Ii",
-    "slug": "3-foot-ninja-ii",
-    "category": "other",
-    "localPath": "games/other/3-foot-ninja-ii/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/3-foot-ninja-ii/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/3-foot-ninja-ii/thumbnail.jpg"
-  },
-  {
-    "title": "A Friend In Need",
-    "slug": "a-friend-in-need",
-    "category": "other",
-    "localPath": "games/other/a-friend-in-need/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/a-friend-in-need/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/a-friend-in-need/thumbnail.jpg"
-  },
-  {
-    "title": "Adobeflash Marioforeverflash",
-    "slug": "adobeflash-marioforeverflash",
-    "category": "other",
-    "localPath": "games/other/adobeflash-marioforeverflash/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/adobeflash-marioforeverflash/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/adobeflash-marioforeverflash/thumbnail.png"
-  },
-  {
-    "title": "Adobeflash Supermarioflash",
-    "slug": "adobeflash-supermarioflash",
-    "category": "other",
-    "localPath": "games/other/adobeflash-supermarioflash/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/adobeflash-supermarioflash/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/adobeflash-supermarioflash/thumbnail.png"
-  },
-  {
-    "title": "Angry Birds Go Crazy",
-    "slug": "angry-birds-go-crazy",
-    "category": "other",
-    "localPath": "games/other/angry-birds-go-crazy/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/angry-birds-go-crazy/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/angry-birds-go-crazy/thumbnail.png"
-  },
-  {
-    "title": "Asteroids Swf",
-    "slug": "asteroids-swf",
-    "category": "other",
-    "localPath": "games/other/asteroids-swf/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/asteroids-swf/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/asteroids-swf/thumbnail.png"
-  },
-  {
-    "title": "Ballet Parking",
-    "slug": "ballet-parking",
-    "category": "other",
-    "localPath": "games/other/ballet-parking/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/ballet-parking/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/ballet-parking/thumbnail.jpg"
-  },
-  {
-    "title": "Ben 10 Blockade Blitz Swf",
-    "slug": "ben-10-blockade-blitz-swf",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/ben-10-blockade-blitz-swf/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-blockade-blitz-swf/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-blockade-blitz-swf/thumbnail.jpg"
-  },
-  {
-    "title": "Ben 10 Cavern Run Swf",
-    "slug": "ben-10-cavern-run-swf",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/ben-10-cavern-run-swf/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-cavern-run-swf/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-cavern-run-swf/thumbnail.jpg"
-  },
-  {
-    "title": "Ben 10 Critical Impact Swf",
-    "slug": "ben-10-critical-impact-swf",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/ben-10-critical-impact-swf/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-critical-impact-swf/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-critical-impact-swf/thumbnail.jpg"
-  },
-  {
-    "title": "Ben 10 Kraken Attack",
-    "slug": "ben-10-kraken-attack",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/ben-10-kraken-attack/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-kraken-attack/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-kraken-attack/thumbnail.png"
-  },
-  {
-    "title": "Ben 10 Power Splash Swf",
-    "slug": "ben-10-power-splash-swf",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/ben-10-power-splash-swf/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-power-splash-swf/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-power-splash-swf/thumbnail.jpg"
-  },
-  {
-    "title": "Ben 10 Savage Pursuit",
-    "slug": "ben-10-savage-pursuit",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/ben-10-savage-pursuit/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-savage-pursuit/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-savage-pursuit/thumbnail.jpg"
-  },
-  {
-    "title": "Ben 10 Spore Attack Swf",
-    "slug": "ben-10-spore-attack-swf",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/ben-10-spore-attack-swf/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-spore-attack-swf/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-spore-attack-swf/thumbnail.jpg"
-  },
-  {
-    "title": "Big Shot Checkers",
-    "slug": "big-shot-checkers",
-    "category": "other",
-    "localPath": "games/other/big-shot-checkers/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/big-shot-checkers/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/big-shot-checkers/thumbnail.jpg"
-  },
-  {
-    "title": "Buggin' Out Cartoon Network New Media",
-    "slug": "buggin-out-cartoon-network-new-media",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/buggin-out-cartoon-network-new-media/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/buggin-out-cartoon-network-new-media/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/buggin-out-cartoon-network-new-media/thumbnail.png"
-  },
-  {
-    "title": "Bully Swf",
-    "slug": "bully-swf",
-    "category": "other",
-    "localPath": "games/other/bully-swf/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/bully-swf/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/bully-swf/thumbnail.png"
-  },
-  {
-    "title": "Calling All Titans Cartoon Network New Media",
-    "slug": "calling-all-titans-cartoon-network-new-media",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/calling-all-titans-cartoon-network-new-media/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/calling-all-titans-cartoon-network-new-media/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/calling-all-titans-cartoon-network-new-media/thumbnail.gif"
-  },
-  {
-    "title": "Carnival Swf",
-    "slug": "carnival-swf",
-    "category": "other",
-    "localPath": "games/other/carnival-swf/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/carnival-swf/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/carnival-swf/thumbnail.png"
-  },
-  {
-    "title": "Cartoon Cove Cartoon Network New Media",
-    "slug": "cartoon-cove-cartoon-network-new-media",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/cartoon-cove-cartoon-network-new-media/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/cartoon-cove-cartoon-network-new-media/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/cartoon-cove-cartoon-network-new-media/thumbnail.png"
-  },
-  {
-    "title": "Cartoon Network Snowbrawl Fight",
-    "slug": "cartoon-network-snowbrawl-fight",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/cartoon-network-snowbrawl-fight/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/cartoon-network-snowbrawl-fight/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/cartoon-network-snowbrawl-fight/thumbnail.png"
-  },
-  {
-    "title": "Commando 2 Battle Of Asia",
-    "slug": "commando-2-battle-of-asia",
-    "category": "other",
-    "localPath": "games/other/commando-2-battle-of-asia/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/commando-2-battle-of-asia/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/commando-2-battle-of-asia/thumbnail.jpg"
-  },
-  {
-    "title": "Commando 3",
-    "slug": "commando-3",
-    "category": "other",
-    "localPath": "games/other/commando-3/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/commando-3/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/commando-3/thumbnail.jpg"
-  },
-  {
-    "title": "Courage The Cowardly Dog Nightmare Vacation",
-    "slug": "courage-the-cowardly-dog-nightmare-vacation",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/courage-the-cowardly-dog-nightmare-vacation/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/courage-the-cowardly-dog-nightmare-vacation/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/courage-the-cowardly-dog-nightmare-vacation/thumbnail.jpg"
-  },
-  {
-    "title": "Dexter Cloneadoodledoo",
-    "slug": "dexter-cloneadoodledoo",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/dexter-cloneadoodledoo/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/dexter-cloneadoodledoo/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/dexter-cloneadoodledoo/thumbnail.jpg"
-  },
-  {
-    "title": "Dexter'S Labyrinth Cartoon Network New Media",
-    "slug": "dexter-s-labyrinth-cartoon-network-new-media",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/dexter-s-labyrinth-cartoon-network-new-media/game.dcr",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/dexter-s-labyrinth-cartoon-network-new-media/game.dcr",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/dexter-s-labyrinth-cartoon-network-new-media/thumbnail.png"
-  },
-  {
-    "title": "Dexterlabintroswf",
-    "slug": "dexterlabintroswf",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/dexterlabintroswf/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/dexterlabintroswf/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/dexterlabintroswf/thumbnail.jpg"
-  },
-  {
-    "title": "Door To Door Game",
-    "slug": "door-to-door-game",
-    "category": "other",
-    "localPath": "games/other/door-to-door-game/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/door-to-door-game/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/door-to-door-game/thumbnail.jpg"
-  },
-  {
-    "title": "Downhill Derby This Is Pop",
-    "slug": "downhill-derby-this-is-pop",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/downhill-derby-this-is-pop/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/downhill-derby-this-is-pop/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/downhill-derby-this-is-pop/thumbnail.png"
-  },
-  {
-    "title": "Earn To Die 2012",
-    "slug": "earn-to-die-2012",
-    "category": "other",
-    "localPath": "games/other/earn-to-die-2012/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/earn-to-die-2012/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/earn-to-die-2012/thumbnail.png"
-  },
-  {
-    "title": "Earn To Die Not Doppler Dec",
-    "slug": "earn-to-die-not-doppler-dec",
-    "category": "other",
-    "localPath": "games/other/earn-to-die-not-doppler-dec/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/earn-to-die-not-doppler-dec/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/earn-to-die-not-doppler-dec/thumbnail.png"
-  },
-  {
-    "title": "Eene Spinstadium",
-    "slug": "eene-spinstadium",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/eene-spinstadium/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/eene-spinstadium/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/eene-spinstadium/thumbnail.jpg"
-  },
-  {
-    "title": "Etp 20200826",
-    "slug": "etp-20200826",
-    "category": "other",
-    "localPath": "games/other/etp-20200826/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/etp-20200826/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/etp-20200826/thumbnail.jpg"
-  },
-  {
-    "title": "Fancypants 201911",
-    "slug": "fancypants-201911",
-    "category": "other",
-    "localPath": "games/other/fancypants-201911/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/fancypants-201911/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/fancypants-201911/thumbnail.jpg"
-  },
-  {
-    "title": "Fast And Flurrious Cartoon Network New Media",
-    "slug": "fast-and-flurrious-cartoon-network-new-media",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/fast-and-flurrious-cartoon-network-new-media/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/fast-and-flurrious-cartoon-network-new-media/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/fast-and-flurrious-cartoon-network-new-media/thumbnail.png"
-  },
-  {
-    "title": "Flash Alien Hominid",
-    "slug": "flash-alien-hominid",
-    "category": "other",
-    "localPath": "games/other/flash-alien-hominid/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/flash-alien-hominid/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/flash-alien-hominid/thumbnail.jpg"
-  },
-  {
-    "title": "Flash Candymachinedeluxe",
-    "slug": "flash-candymachinedeluxe",
-    "category": "other",
-    "localPath": "games/other/flash-candymachinedeluxe/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/flash-candymachinedeluxe/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/flash-candymachinedeluxe/thumbnail.jpg"
-  },
-  {
-    "title": "Flash Dutchmansdash",
-    "slug": "flash-dutchmansdash",
-    "category": "other",
-    "localPath": "games/other/flash-dutchmansdash/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/flash-dutchmansdash/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/flash-dutchmansdash/thumbnail.jpg"
-  },
-  {
-    "title": "Food Bash",
-    "slug": "food-bash",
-    "category": "other",
-    "localPath": "games/other/food-bash/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/food-bash/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/food-bash/thumbnail.jpg"
-  },
-  {
-    "title": "FPA 1",
-    "slug": "fpa-1",
-    "category": "other",
-    "localPath": "games/other/fpa-1/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/fpa-1/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/fpa-1/thumbnail.jpg"
-  },
-  {
-    "title": "Freaky Freezeday Cartoon Network New Media",
-    "slug": "freaky-freezeday-cartoon-network-new-media",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/freaky-freezeday-cartoon-network-new-media/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/freaky-freezeday-cartoon-network-new-media/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/freaky-freezeday-cartoon-network-new-media/thumbnail.png"
-  },
-  {
-    "title": "Halls Of Injustice Cartoon Network New Media",
-    "slug": "halls-of-injustice-cartoon-network-new-media",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/halls-of-injustice-cartoon-network-new-media/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/halls-of-injustice-cartoon-network-new-media/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/halls-of-injustice-cartoon-network-new-media/thumbnail.png"
-  },
-  {
-    "title": "Infinite Mario",
-    "slug": "infinite-mario",
-    "category": "other",
-    "localPath": "games/other/infinite-mario/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/infinite-mario/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/infinite-mario/thumbnail.png"
-  },
-  {
-    "title": "Isaac 202102",
-    "slug": "isaac-202102",
-    "category": "other",
-    "localPath": "games/other/isaac-202102/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/isaac-202102/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/isaac-202102/thumbnail.png"
-  },
-  {
-    "title": "Jnalien Invasion",
-    "slug": "jnalien-invasion",
-    "category": "other",
-    "localPath": "games/other/jnalien-invasion/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/jnalien-invasion/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/jnalien-invasion/thumbnail.jpg"
-  },
-  {
-    "title": "Jnold Dog Tricks",
-    "slug": "jnold-dog-tricks",
-    "category": "other",
-    "localPath": "games/other/jnold-dog-tricks/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/jnold-dog-tricks/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/jnold-dog-tricks/thumbnail.jpg"
-  },
-  {
-    "title": "Knd Numbuh Generator",
-    "slug": "knd-numbuh-generator",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/knd-numbuh-generator/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/knd-numbuh-generator/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/knd-numbuh-generator/thumbnail.jpg"
-  },
-  {
-    "title": "Mall Brawl",
-    "slug": "mall-brawl",
-    "category": "other",
-    "localPath": "games/other/mall-brawl/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/mall-brawl/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/mall-brawl/thumbnail.jpg"
-  },
-  {
-    "title": "Mid Flight Snack",
-    "slug": "mid-flight-snack",
-    "category": "other",
-    "localPath": "games/other/mid-flight-snack/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/mid-flight-snack/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/mid-flight-snack/thumbnail.jpg"
-  },
-  {
-    "title": "On The Run Classic Officine Pixel",
-    "slug": "on-the-run-classic-officine-pixel",
-    "category": "other",
-    "localPath": "games/other/on-the-run-classic-officine-pixel/game.dcr",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/on-the-run-classic-officine-pixel/game.dcr",
-    "thumbnailUrl": ""
-  },
-  {
-    "title": "Pokemon Towering Legends Flash",
-    "slug": "pokemon-towering-legends-flash",
-    "category": "other",
-    "localPath": "games/other/pokemon-towering-legends-flash/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/pokemon-towering-legends-flash/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/pokemon-towering-legends-flash/thumbnail.png"
-  },
-  {
-    "title": "Ppg Zoorescue",
-    "slug": "ppg-zoorescue",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/ppg-zoorescue/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ppg-zoorescue/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ppg-zoorescue/thumbnail.jpg"
-  },
-  {
-    "title": "Ppgpuppybots",
-    "slug": "ppgpuppybots",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/ppgpuppybots/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ppgpuppybots/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ppgpuppybots/thumbnail.jpg"
-  },
-  {
-    "title": "Rainbow Monkey Rundown",
-    "slug": "rainbow-monkey-rundown",
-    "category": "other",
-    "localPath": "games/other/rainbow-monkey-rundown/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/rainbow-monkey-rundown/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/rainbow-monkey-rundown/thumbnail.jpg"
-  },
-  {
-    "title": "Regular Show All Nighter",
-    "slug": "regular-show-all-nighter",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/regular-show-all-nighter/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/regular-show-all-nighter/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/regular-show-all-nighter/thumbnail.png"
-  },
-  {
-    "title": "Runaway Robot Dexter",
-    "slug": "runaway-robot-dexter",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/runaway-robot-dexter/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/runaway-robot-dexter/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/runaway-robot-dexter/thumbnail.jpg"
-  },
-  {
-    "title": "Samurai Jack",
-    "slug": "samurai-jack",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/samurai-jack/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/samurai-jack/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/samurai-jack/thumbnail.jpg"
-  },
-  {
-    "title": "Scooby Doo And The Creepy Castle Flash",
-    "slug": "scooby-doo-and-the-creepy-castle-flash",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/scooby-doo-and-the-creepy-castle-flash/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-and-the-creepy-castle-flash/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-and-the-creepy-castle-flash/thumbnail.png"
-  },
-  {
-    "title": "Scooby Doo Big Air Snow Show",
-    "slug": "scooby-doo-big-air-snow-show",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/scooby-doo-big-air-snow-show/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-big-air-snow-show/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-big-air-snow-show/thumbnail.jpg"
-  },
-  {
-    "title": "Scooby Doo Instamatic Monsters 2 Flash",
-    "slug": "scooby-doo-instamatic-monsters-2-flash",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/scooby-doo-instamatic-monsters-2-flash/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-instamatic-monsters-2-flash/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-instamatic-monsters-2-flash/thumbnail.png"
-  },
-  {
-    "title": "Scooby Snapshot Flash",
-    "slug": "scooby-snapshot-flash",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/scooby-snapshot-flash/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-snapshot-flash/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-snapshot-flash/thumbnail.png"
-  },
-  {
-    "title": "Smoosh Swf",
-    "slug": "smoosh-swf",
-    "category": "other",
-    "localPath": "games/other/smoosh-swf/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/smoosh-swf/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/smoosh-swf/thumbnail.png"
-  },
-  {
-    "title": "Sonic Boom Link N Smash",
-    "slug": "sonic-boom-link-n-smash",
-    "category": "other",
-    "localPath": "games/other/sonic-boom-link-n-smash/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/sonic-boom-link-n-smash/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/sonic-boom-link-n-smash/thumbnail.jpg"
-  },
-  {
-    "title": "Stick Figure Penalty Chamber 2 202401",
-    "slug": "stick-figure-penalty-chamber-2-202401",
-    "category": "other",
-    "localPath": "games/other/stick-figure-penalty-chamber-2-202401/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/stick-figure-penalty-chamber-2-202401/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/stick-figure-penalty-chamber-2-202401/thumbnail.png"
-  },
-  {
-    "title": "Strike Force Heros 3 V 20",
-    "slug": "strike-force-heros-3-v-20",
-    "category": "other",
-    "localPath": "games/other/strike-force-heros-3-v-20/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/strike-force-heros-3-v-20/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/strike-force-heros-3-v-20/thumbnail.jpg"
-  },
-  {
-    "title": "Studio Shakedown Cartoon Network New Media",
-    "slug": "studio-shakedown-cartoon-network-new-media",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/studio-shakedown-cartoon-network-new-media/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/studio-shakedown-cartoon-network-new-media/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/studio-shakedown-cartoon-network-new-media/thumbnail.png"
-  },
-  {
-    "title": "Sweets Ahoy Cartoon Network New Media",
-    "slug": "sweets-ahoy-cartoon-network-new-media",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/sweets-ahoy-cartoon-network-new-media/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/sweets-ahoy-cartoon-network-new-media/game.swf",
-    "thumbnailUrl": ""
-  },
-  {
-    "title": "Tag Team Titans Cartoon Network New Media",
-    "slug": "tag-team-titans-cartoon-network-new-media",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/tag-team-titans-cartoon-network-new-media/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/tag-team-titans-cartoon-network-new-media/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/tag-team-titans-cartoon-network-new-media/thumbnail.png"
-  },
-  {
-    "title": "Tawog Water Sons",
-    "slug": "tawog-water-sons",
-    "category": "other",
-    "localPath": "games/other/tawog-water-sons/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/tawog-water-sons/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/tawog-water-sons/thumbnail.png"
-  },
-  {
-    "title": "The Amazing World Of Gumball Battle Bowlers",
-    "slug": "the-amazing-world-of-gumball-battle-bowlers",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/the-amazing-world-of-gumball-battle-bowlers/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/the-amazing-world-of-gumball-battle-bowlers/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/the-amazing-world-of-gumball-battle-bowlers/thumbnail.png"
-  },
-  {
-    "title": "The Binding Of Isaac 202111",
-    "slug": "the-binding-of-isaac-202111",
-    "category": "other",
-    "localPath": "games/other/the-binding-of-isaac-202111/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/the-binding-of-isaac-202111/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/the-binding-of-isaac-202111/thumbnail.png"
-  },
-  {
-    "title": "The Skull Kid Flash Game",
-    "slug": "the-skull-kid-flash-game",
-    "category": "other",
-    "localPath": "games/other/the-skull-kid-flash-game/game.swf",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/the-skull-kid-flash-game/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/the-skull-kid-flash-game/thumbnail.jpg"
-  },
-  {
-    "title": "To The EdsTreme Cartoon Network New Media",
-    "slug": "to-the-edstreme-cartoon-network-new-media",
-    "category": "cartoon-network",
-    "localPath": "games/cartoon-network/to-the-edstreme-cartoon-network-new-media/game.dcr",
-    "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/to-the-edstreme-cartoon-network-new-media/game.dcr",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/to-the-edstreme-cartoon-network-new-media/thumbnail.png"
-  }
-]
+{
+  "generatedAt": "2026-06-17T23:11:07.726Z",
+  "total": 87,
+  "entries": [
+    {
+      "title": "The Last Stand 2",
+      "slug": "the-last-stand-2",
+      "category": "action",
+      "localPath": "games/action/the-last-stand-2/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand-2/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand-2/thumbnail.jpg"
+    },
+    {
+      "title": "The Last Stand Union City",
+      "slug": "the-last-stand-union-city",
+      "category": "action",
+      "localPath": "games/action/the-last-stand-union-city/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand-union-city/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand-union-city/thumbnail.jpg"
+    },
+    {
+      "title": "Canabalt",
+      "slug": "canabalt",
+      "category": "arcade",
+      "localPath": "games/arcade/canabalt/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/canabalt/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/canabalt/thumbnail.jpg"
+    },
+    {
+      "title": "Ben 10 Blockade Blitz Swf",
+      "slug": "ben-10-blockade-blitz-swf",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/ben-10-blockade-blitz-swf/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-blockade-blitz-swf/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/ben-10-blockade-blitz-swf/thumbnail.jpg"
+    },
+    {
+      "title": "Ben 10 Cavern Run Swf",
+      "slug": "ben-10-cavern-run-swf",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/ben-10-cavern-run-swf/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-cavern-run-swf/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/ben-10-cavern-run-swf/thumbnail.jpg"
+    },
+    {
+      "title": "Ben 10 Critical Impact Swf",
+      "slug": "ben-10-critical-impact-swf",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/ben-10-critical-impact-swf/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-critical-impact-swf/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/ben-10-critical-impact-swf/thumbnail.jpg"
+    },
+    {
+      "title": "Ben 10 Kraken Attack",
+      "slug": "ben-10-kraken-attack",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/ben-10-kraken-attack/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-kraken-attack/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/ben-10-kraken-attack/thumbnail.jpg"
+    },
+    {
+      "title": "Ben 10 Power Splash Swf",
+      "slug": "ben-10-power-splash-swf",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/ben-10-power-splash-swf/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-power-splash-swf/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/ben-10-power-splash-swf/thumbnail.jpg"
+    },
+    {
+      "title": "Ben 10 Savage Pursuit",
+      "slug": "ben-10-savage-pursuit",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/ben-10-savage-pursuit/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-savage-pursuit/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/ben-10-savage-pursuit/thumbnail.jpg"
+    },
+    {
+      "title": "Ben 10 Spore Attack Swf",
+      "slug": "ben-10-spore-attack-swf",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/ben-10-spore-attack-swf/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ben-10-spore-attack-swf/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/ben-10-spore-attack-swf/thumbnail.jpg"
+    },
+    {
+      "title": "Downhill Derby This Is Pop",
+      "slug": "downhill-derby-this-is-pop",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/downhill-derby-this-is-pop/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/downhill-derby-this-is-pop/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/downhill-derby-this-is-pop/thumbnail.jpg"
+    },
+    {
+      "title": "Knd Numbuh Generator",
+      "slug": "knd-numbuh-generator",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/knd-numbuh-generator/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/knd-numbuh-generator/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/knd-numbuh-generator/thumbnail.jpg"
+    },
+    {
+      "title": "Courage The Cowardly Dog Nightmare Vacation",
+      "slug": "courage-the-cowardly-dog-nightmare-vacation",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/courage-the-cowardly-dog-nightmare-vacation/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/courage-the-cowardly-dog-nightmare-vacation/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/courage-the-cowardly-dog-nightmare-vacation/thumbnail.jpg"
+    },
+    {
+      "title": "Dexter Cloneadoodledoo",
+      "slug": "dexter-cloneadoodledoo",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/dexter-cloneadoodledoo/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/dexter-cloneadoodledoo/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/dexter-cloneadoodledoo/thumbnail.jpg"
+    },
+    {
+      "title": "Dexter'S Labyrinth Cartoon Network New Media",
+      "slug": "dexter-s-labyrinth-cartoon-network-new-media",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/dexter-s-labyrinth-cartoon-network-new-media/game.dcr",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/dexter-s-labyrinth-cartoon-network-new-media/game.dcr",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/dexter-s-labyrinth-cartoon-network-new-media/thumbnail.jpg"
+    },
+    {
+      "title": "Dexterlabintroswf",
+      "slug": "dexterlabintroswf",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/dexterlabintroswf/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/dexterlabintroswf/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/dexterlabintroswf/thumbnail.jpg"
+    },
+    {
+      "title": "Runaway Robot Dexter",
+      "slug": "runaway-robot-dexter",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/runaway-robot-dexter/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/runaway-robot-dexter/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/runaway-robot-dexter/thumbnail.jpg"
+    },
+    {
+      "title": "To The EdsTreme Cartoon Network New Media",
+      "slug": "to-the-edstreme-cartoon-network-new-media",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/to-the-edstreme-cartoon-network-new-media/game.dcr",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/to-the-edstreme-cartoon-network-new-media/game.dcr",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/to-the-edstreme-cartoon-network-new-media/thumbnail.jpg"
+    },
+    {
+      "title": "Buggin' Out Cartoon Network New Media",
+      "slug": "buggin-out-cartoon-network-new-media",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/buggin-out-cartoon-network-new-media/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/buggin-out-cartoon-network-new-media/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/buggin-out-cartoon-network-new-media/thumbnail.jpg"
+    },
+    {
+      "title": "Calling All Titans Cartoon Network New Media",
+      "slug": "calling-all-titans-cartoon-network-new-media",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/calling-all-titans-cartoon-network-new-media/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/calling-all-titans-cartoon-network-new-media/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/calling-all-titans-cartoon-network-new-media/thumbnail.jpg"
+    },
+    {
+      "title": "Cartoon Cove Cartoon Network New Media",
+      "slug": "cartoon-cove-cartoon-network-new-media",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/cartoon-cove-cartoon-network-new-media/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/cartoon-cove-cartoon-network-new-media/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/cartoon-cove-cartoon-network-new-media/thumbnail.jpg"
+    },
+    {
+      "title": "Cartoon Network Snowbrawl Fight",
+      "slug": "cartoon-network-snowbrawl-fight",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/cartoon-network-snowbrawl-fight/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/cartoon-network-snowbrawl-fight/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/cartoon-network-snowbrawl-fight/thumbnail.jpg"
+    },
+    {
+      "title": "Eene Spinstadium",
+      "slug": "eene-spinstadium",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/eene-spinstadium/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/eene-spinstadium/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/eene-spinstadium/thumbnail.jpg"
+    },
+    {
+      "title": "Fast And Flurrious Cartoon Network New Media",
+      "slug": "fast-and-flurrious-cartoon-network-new-media",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/fast-and-flurrious-cartoon-network-new-media/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/fast-and-flurrious-cartoon-network-new-media/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/fast-and-flurrious-cartoon-network-new-media/thumbnail.jpg"
+    },
+    {
+      "title": "Freaky Freezeday Cartoon Network New Media",
+      "slug": "freaky-freezeday-cartoon-network-new-media",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/freaky-freezeday-cartoon-network-new-media/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/freaky-freezeday-cartoon-network-new-media/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/freaky-freezeday-cartoon-network-new-media/thumbnail.jpg"
+    },
+    {
+      "title": "Halls Of Injustice Cartoon Network New Media",
+      "slug": "halls-of-injustice-cartoon-network-new-media",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/halls-of-injustice-cartoon-network-new-media/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/halls-of-injustice-cartoon-network-new-media/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/halls-of-injustice-cartoon-network-new-media/thumbnail.jpg"
+    },
+    {
+      "title": "Ppgpuppybots",
+      "slug": "ppgpuppybots",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/ppgpuppybots/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ppgpuppybots/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/ppgpuppybots/thumbnail.jpg"
+    },
+    {
+      "title": "Studio Shakedown Cartoon Network New Media",
+      "slug": "studio-shakedown-cartoon-network-new-media",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/studio-shakedown-cartoon-network-new-media/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/studio-shakedown-cartoon-network-new-media/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/studio-shakedown-cartoon-network-new-media/thumbnail.jpg"
+    },
+    {
+      "title": "Tag Team Titans Cartoon Network New Media",
+      "slug": "tag-team-titans-cartoon-network-new-media",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/tag-team-titans-cartoon-network-new-media/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/tag-team-titans-cartoon-network-new-media/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/tag-team-titans-cartoon-network-new-media/thumbnail.jpg"
+    },
+    {
+      "title": "Regular Show All Nighter",
+      "slug": "regular-show-all-nighter",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/regular-show-all-nighter/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/regular-show-all-nighter/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/regular-show-all-nighter/thumbnail.jpg"
+    },
+    {
+      "title": "Samurai Jack",
+      "slug": "samurai-jack",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/samurai-jack/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/samurai-jack/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/samurai-jack/thumbnail.jpg"
+    },
+    {
+      "title": "Scooby Doo And The Creepy Castle Flash",
+      "slug": "scooby-doo-and-the-creepy-castle-flash",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/scooby-doo-and-the-creepy-castle-flash/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-and-the-creepy-castle-flash/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/scooby-doo-and-the-creepy-castle-flash/thumbnail.jpg"
+    },
+    {
+      "title": "Scooby Doo Big Air Snow Show",
+      "slug": "scooby-doo-big-air-snow-show",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/scooby-doo-big-air-snow-show/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-big-air-snow-show/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/scooby-doo-big-air-snow-show/thumbnail.jpg"
+    },
+    {
+      "title": "Scooby Doo Instamatic Monsters 2 Flash",
+      "slug": "scooby-doo-instamatic-monsters-2-flash",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/scooby-doo-instamatic-monsters-2-flash/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-instamatic-monsters-2-flash/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/scooby-doo-instamatic-monsters-2-flash/thumbnail.jpg"
+    },
+    {
+      "title": "Scooby Snapshot Flash",
+      "slug": "scooby-snapshot-flash",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/scooby-snapshot-flash/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-snapshot-flash/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/scooby-snapshot-flash/thumbnail.jpg"
+    },
+    {
+      "title": "Scooby-Doo Castle Hassle",
+      "slug": "scooby-doo-castle-hassle",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/scooby-doo-castle-hassle/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-castle-hassle/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-castle-hassle/thumbnail.jpg"
+    },
+    {
+      "title": "Scooby-Doo Haunts For The Holidays Episode 3 The Last Act",
+      "slug": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/scooby-doo-haunts-for-the-holidays-episode-3-the-last-act/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-haunts-for-the-holidays-episode-3-the-last-act/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-haunts-for-the-holidays-episode-3-the-last-act/thumbnail.jpg"
+    },
+    {
+      "title": "Scooby-Doo Ripping Ride",
+      "slug": "scooby-doo-ripping-ride",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/scooby-doo-ripping-ride/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-ripping-ride/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-ripping-ride/thumbnail.jpg"
+    },
+    {
+      "title": "Scooby-Doo The Ghost Pirate Attacks Episode 1",
+      "slug": "scooby-doo-the-ghost-pirate-attacks-episode-1",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/scooby-doo-the-ghost-pirate-attacks-episode-1/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-the-ghost-pirate-attacks-episode-1/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/scooby-doo-the-ghost-pirate-attacks-episode-1/thumbnail.jpg"
+    },
+    {
+      "title": "Gem Bound",
+      "slug": "gem-bound",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/gem-bound/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/gem-bound/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/gem-bound/thumbnail.jpg"
+    },
+    {
+      "title": "Goat Guardian",
+      "slug": "goat-guardian",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/goat-guardian/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/goat-guardian/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/goat-guardian/thumbnail.jpg"
+    },
+    {
+      "title": "Sword Dancers",
+      "slug": "sword-dancers",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/sword-dancers/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/sword-dancers/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/sword-dancers/thumbnail.jpg"
+    },
+    {
+      "title": "Blind Fooled",
+      "slug": "blind-fooled",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/blind-fooled/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/blind-fooled/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/blind-fooled/thumbnail.jpg"
+    },
+    {
+      "title": "Hard Hat Hustle",
+      "slug": "hard-hat-hustle",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/hard-hat-hustle/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/hard-hat-hustle/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/hard-hat-hustle/thumbnail.jpg"
+    },
+    {
+      "title": "The Amazing World Of Gumball Battle Bowlers",
+      "slug": "the-amazing-world-of-gumball-battle-bowlers",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/the-amazing-world-of-gumball-battle-bowlers/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/the-amazing-world-of-gumball-battle-bowlers/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/the-amazing-world-of-gumball-battle-bowlers/thumbnail.jpg"
+    },
+    {
+      "title": "Ppg Zoorescue",
+      "slug": "ppg-zoorescue",
+      "category": "cartoon-network",
+      "localPath": "games/cartoon-network/ppg-zoorescue/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ppg-zoorescue/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/ppg-zoorescue/thumbnail.jpg"
+    },
+    {
+      "title": "1100 Alien Hominid",
+      "slug": "1100-alien-hominid",
+      "category": "other",
+      "localPath": "games/other/1100-alien-hominid/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/1100-alien-hominid/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/1100-alien-hominid/thumbnail.jpg"
+    },
+    {
+      "title": "3 Foot Ninja",
+      "slug": "3-foot-ninja",
+      "category": "other",
+      "localPath": "games/other/3-foot-ninja/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/3-foot-ninja/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/3-foot-ninja/thumbnail.jpg"
+    },
+    {
+      "title": "3 Foot Ninja Ii",
+      "slug": "3-foot-ninja-ii",
+      "category": "other",
+      "localPath": "games/other/3-foot-ninja-ii/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/3-foot-ninja-ii/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/3-foot-ninja-ii/thumbnail.jpg"
+    },
+    {
+      "title": "A Friend In Need",
+      "slug": "a-friend-in-need",
+      "category": "other",
+      "localPath": "games/other/a-friend-in-need/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/a-friend-in-need/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/a-friend-in-need/thumbnail.jpg"
+    },
+    {
+      "title": "Angry Birds Go Crazy",
+      "slug": "angry-birds-go-crazy",
+      "category": "other",
+      "localPath": "games/other/angry-birds-go-crazy/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/angry-birds-go-crazy/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/angry-birds-go-crazy/thumbnail.jpg"
+    },
+    {
+      "title": "Asteroids Swf",
+      "slug": "asteroids-swf",
+      "category": "other",
+      "localPath": "games/other/asteroids-swf/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/asteroids-swf/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/asteroids-swf/thumbnail.jpg"
+    },
+    {
+      "title": "Ballet Parking",
+      "slug": "ballet-parking",
+      "category": "other",
+      "localPath": "games/other/ballet-parking/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/ballet-parking/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/ballet-parking/thumbnail.jpg"
+    },
+    {
+      "title": "Big Shot Checkers",
+      "slug": "big-shot-checkers",
+      "category": "other",
+      "localPath": "games/other/big-shot-checkers/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/big-shot-checkers/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/big-shot-checkers/thumbnail.jpg"
+    },
+    {
+      "title": "Bully Swf",
+      "slug": "bully-swf",
+      "category": "other",
+      "localPath": "games/other/bully-swf/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/bully-swf/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/bully-swf/thumbnail.jpg"
+    },
+    {
+      "title": "Carnival Swf",
+      "slug": "carnival-swf",
+      "category": "other",
+      "localPath": "games/other/carnival-swf/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/carnival-swf/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/carnival-swf/thumbnail.jpg"
+    },
+    {
+      "title": "Commando 2 Battle Of Asia",
+      "slug": "commando-2-battle-of-asia",
+      "category": "other",
+      "localPath": "games/other/commando-2-battle-of-asia/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/commando-2-battle-of-asia/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/commando-2-battle-of-asia/thumbnail.jpg"
+    },
+    {
+      "title": "Commando 3",
+      "slug": "commando-3",
+      "category": "other",
+      "localPath": "games/other/commando-3/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/commando-3/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/commando-3/thumbnail.jpg"
+    },
+    {
+      "title": "Door To Door Game",
+      "slug": "door-to-door-game",
+      "category": "other",
+      "localPath": "games/other/door-to-door-game/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/door-to-door-game/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/door-to-door-game/thumbnail.jpg"
+    },
+    {
+      "title": "Earn To Die 2012",
+      "slug": "earn-to-die-2012",
+      "category": "other",
+      "localPath": "games/other/earn-to-die-2012/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/earn-to-die-2012/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/earn-to-die-2012/thumbnail.jpg"
+    },
+    {
+      "title": "Earn To Die Not Doppler Dec",
+      "slug": "earn-to-die-not-doppler-dec",
+      "category": "other",
+      "localPath": "games/other/earn-to-die-not-doppler-dec/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/earn-to-die-not-doppler-dec/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/earn-to-die-not-doppler-dec/thumbnail.jpg"
+    },
+    {
+      "title": "Etp 20200826",
+      "slug": "etp-20200826",
+      "category": "other",
+      "localPath": "games/other/etp-20200826/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/etp-20200826/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/etp-20200826/thumbnail.jpg"
+    },
+    {
+      "title": "Fancypants 201911",
+      "slug": "fancypants-201911",
+      "category": "other",
+      "localPath": "games/other/fancypants-201911/game.swf",
+      "jsdelivrUrl": "https://raw.githubusercontent.com/delaekuadzi/seby-archive-8f3k9x2/main/games/other/fancypants-201911/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/fancypants-201911/thumbnail.jpg"
+    },
+    {
+      "title": "Flash Alien Hominid",
+      "slug": "flash-alien-hominid",
+      "category": "other",
+      "localPath": "games/other/flash-alien-hominid/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/flash-alien-hominid/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/flash-alien-hominid/thumbnail.jpg"
+    },
+    {
+      "title": "Flash Candymachinedeluxe",
+      "slug": "flash-candymachinedeluxe",
+      "category": "other",
+      "localPath": "games/other/flash-candymachinedeluxe/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/flash-candymachinedeluxe/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/flash-candymachinedeluxe/thumbnail.jpg"
+    },
+    {
+      "title": "Flash Dutchmansdash",
+      "slug": "flash-dutchmansdash",
+      "category": "other",
+      "localPath": "games/other/flash-dutchmansdash/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/flash-dutchmansdash/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/flash-dutchmansdash/thumbnail.jpg"
+    },
+    {
+      "title": "Food Bash",
+      "slug": "food-bash",
+      "category": "other",
+      "localPath": "games/other/food-bash/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/food-bash/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/food-bash/thumbnail.jpg"
+    },
+    {
+      "title": "FPA 1",
+      "slug": "fpa-1",
+      "category": "other",
+      "localPath": "games/other/fpa-1/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/fpa-1/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/fpa-1/thumbnail.jpg"
+    },
+    {
+      "title": "Isaac 202102",
+      "slug": "isaac-202102",
+      "category": "other",
+      "localPath": "games/other/isaac-202102/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/isaac-202102/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/isaac-202102/thumbnail.jpg"
+    },
+    {
+      "title": "Jnalien Invasion",
+      "slug": "jnalien-invasion",
+      "category": "other",
+      "localPath": "games/other/jnalien-invasion/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/jnalien-invasion/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/jnalien-invasion/thumbnail.jpg"
+    },
+    {
+      "title": "Jnold Dog Tricks",
+      "slug": "jnold-dog-tricks",
+      "category": "other",
+      "localPath": "games/other/jnold-dog-tricks/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/jnold-dog-tricks/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/jnold-dog-tricks/thumbnail.jpg"
+    },
+    {
+      "title": "Mall Brawl",
+      "slug": "mall-brawl",
+      "category": "other",
+      "localPath": "games/other/mall-brawl/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/mall-brawl/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/mall-brawl/thumbnail.jpg"
+    },
+    {
+      "title": "Mid Flight Snack",
+      "slug": "mid-flight-snack",
+      "category": "other",
+      "localPath": "games/other/mid-flight-snack/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/mid-flight-snack/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/mid-flight-snack/thumbnail.jpg"
+    },
+    {
+      "title": "On The Run Classic Officine Pixel",
+      "slug": "on-the-run-classic-officine-pixel",
+      "category": "other",
+      "localPath": "games/other/on-the-run-classic-officine-pixel/game.dcr",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/on-the-run-classic-officine-pixel/game.dcr",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/on-the-run-classic-officine-pixel/thumbnail.jpg"
+    },
+    {
+      "title": "Rainbow Monkey Rundown",
+      "slug": "rainbow-monkey-rundown",
+      "category": "other",
+      "localPath": "games/other/rainbow-monkey-rundown/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/rainbow-monkey-rundown/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/rainbow-monkey-rundown/thumbnail.jpg"
+    },
+    {
+      "title": "Smoosh Swf",
+      "slug": "smoosh-swf",
+      "category": "other",
+      "localPath": "games/other/smoosh-swf/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/smoosh-swf/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/smoosh-swf/thumbnail.jpg"
+    },
+    {
+      "title": "Stick Figure Penalty Chamber 2 202401",
+      "slug": "stick-figure-penalty-chamber-2-202401",
+      "category": "other",
+      "localPath": "games/other/stick-figure-penalty-chamber-2-202401/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/stick-figure-penalty-chamber-2-202401/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/stick-figure-penalty-chamber-2-202401/thumbnail.jpg"
+    },
+    {
+      "title": "Strike Force Heros 3 V 20",
+      "slug": "strike-force-heros-3-v-20",
+      "category": "other",
+      "localPath": "games/other/strike-force-heros-3-v-20/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/strike-force-heros-3-v-20/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/strike-force-heros-3-v-20/thumbnail.jpg"
+    },
+    {
+      "title": "Tawog Water Sons",
+      "slug": "tawog-water-sons",
+      "category": "other",
+      "localPath": "games/other/tawog-water-sons/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/tawog-water-sons/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/tawog-water-sons/thumbnail.jpg"
+    },
+    {
+      "title": "The Binding Of Isaac 202111",
+      "slug": "the-binding-of-isaac-202111",
+      "category": "other",
+      "localPath": "games/other/the-binding-of-isaac-202111/game.swf",
+      "jsdelivrUrl": "https://raw.githubusercontent.com/delaekuadzi/seby-archive-8f3k9x2/main/games/other/the-binding-of-isaac-202111/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/the-binding-of-isaac-202111/thumbnail.jpg"
+    },
+    {
+      "title": "The Skull Kid Flash Game",
+      "slug": "the-skull-kid-flash-game",
+      "category": "other",
+      "localPath": "games/other/the-skull-kid-flash-game/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/the-skull-kid-flash-game/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/the-skull-kid-flash-game/thumbnail.jpg"
+    },
+    {
+      "title": "Pokemon Towering Legends Flash",
+      "slug": "pokemon-towering-legends-flash",
+      "category": "other",
+      "localPath": "games/other/pokemon-towering-legends-flash/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/pokemon-towering-legends-flash/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/pokemon-towering-legends-flash/thumbnail.jpg"
+    },
+    {
+      "title": "Sonic Boom Link N Smash",
+      "slug": "sonic-boom-link-n-smash",
+      "category": "other",
+      "localPath": "games/other/sonic-boom-link-n-smash/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/sonic-boom-link-n-smash/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/sonic-boom-link-n-smash/thumbnail.jpg"
+    },
+    {
+      "title": "Adobeflash Marioforeverflash",
+      "slug": "adobeflash-marioforeverflash",
+      "category": "other",
+      "localPath": "games/other/adobeflash-marioforeverflash/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/adobeflash-marioforeverflash/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/adobeflash-marioforeverflash/thumbnail.jpg"
+    },
+    {
+      "title": "Adobeflash Supermarioflash",
+      "slug": "adobeflash-supermarioflash",
+      "category": "other",
+      "localPath": "games/other/adobeflash-supermarioflash/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/adobeflash-supermarioflash/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/adobeflash-supermarioflash/thumbnail.jpg"
+    },
+    {
+      "title": "Infinite Mario",
+      "slug": "infinite-mario",
+      "category": "other",
+      "localPath": "games/other/infinite-mario/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/infinite-mario/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/infinite-mario/thumbnail.jpg"
+    },
+    {
+      "title": "Wanna B Wonka Candy Maker",
+      "slug": "wanna-b-wonka-candy-maker",
+      "category": "puzzle",
+      "localPath": "games/puzzle/wanna-b-wonka-candy-maker/game.swf",
+      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/puzzle/wanna-b-wonka-candy-maker/game.swf",
+      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/puzzle/wanna-b-wonka-candy-maker/thumbnail.jpg"
+    }
+  ]
+}

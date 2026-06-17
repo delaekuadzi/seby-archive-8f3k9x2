@@ -1,0 +1,621 @@
+{
+  "generatedAt": "2026-06-17T23:11:07.726Z",
+  "total": 87,
+  "counts": {
+    "partial": 55,
+    "working": 27,
+    "unsupported": 3,
+    "broken": 2
+  },
+  "games": [
+    {
+      "title": "The Last Stand 2",
+      "slug": "the-last-stand-2",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "The Last Stand Union City",
+      "slug": "the-last-stand-union-city",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Canabalt",
+      "slug": "canabalt",
+      "compatibility": "working",
+      "engine": "AS3",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Ben 10 Blockade Blitz Swf",
+      "slug": "ben-10-blockade-blitz-swf",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Ben 10 Cavern Run Swf",
+      "slug": "ben-10-cavern-run-swf",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Ben 10 Critical Impact Swf",
+      "slug": "ben-10-critical-impact-swf",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Ben 10 Kraken Attack",
+      "slug": "ben-10-kraken-attack",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Ben 10 Power Splash Swf",
+      "slug": "ben-10-power-splash-swf",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Ben 10 Savage Pursuit",
+      "slug": "ben-10-savage-pursuit",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Ben 10 Spore Attack Swf",
+      "slug": "ben-10-spore-attack-swf",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Downhill Derby This Is Pop",
+      "slug": "downhill-derby-this-is-pop",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Knd Numbuh Generator",
+      "slug": "knd-numbuh-generator",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Courage The Cowardly Dog Nightmare Vacation",
+      "slug": "courage-the-cowardly-dog-nightmare-vacation",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Dexter Cloneadoodledoo",
+      "slug": "dexter-cloneadoodledoo",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Dexter'S Labyrinth Cartoon Network New Media",
+      "slug": "dexter-s-labyrinth-cartoon-network-new-media",
+      "compatibility": "unsupported",
+      "engine": "Shockwave Director",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Dexterlabintroswf",
+      "slug": "dexterlabintroswf",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Runaway Robot Dexter",
+      "slug": "runaway-robot-dexter",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "To The EdsTreme Cartoon Network New Media",
+      "slug": "to-the-edstreme-cartoon-network-new-media",
+      "compatibility": "unsupported",
+      "engine": "Shockwave Director",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Buggin' Out Cartoon Network New Media",
+      "slug": "buggin-out-cartoon-network-new-media",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Calling All Titans Cartoon Network New Media",
+      "slug": "calling-all-titans-cartoon-network-new-media",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Cartoon Cove Cartoon Network New Media",
+      "slug": "cartoon-cove-cartoon-network-new-media",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Cartoon Network Snowbrawl Fight",
+      "slug": "cartoon-network-snowbrawl-fight",
+      "compatibility": "partial",
+      "engine": "AS3",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Eene Spinstadium",
+      "slug": "eene-spinstadium",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Fast And Flurrious Cartoon Network New Media",
+      "slug": "fast-and-flurrious-cartoon-network-new-media",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Freaky Freezeday Cartoon Network New Media",
+      "slug": "freaky-freezeday-cartoon-network-new-media",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Halls Of Injustice Cartoon Network New Media",
+      "slug": "halls-of-injustice-cartoon-network-new-media",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Ppgpuppybots",
+      "slug": "ppgpuppybots",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Studio Shakedown Cartoon Network New Media",
+      "slug": "studio-shakedown-cartoon-network-new-media",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Tag Team Titans Cartoon Network New Media",
+      "slug": "tag-team-titans-cartoon-network-new-media",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Regular Show All Nighter",
+      "slug": "regular-show-all-nighter",
+      "compatibility": "partial",
+      "engine": "AS3",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Samurai Jack",
+      "slug": "samurai-jack",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Scooby Doo And The Creepy Castle Flash",
+      "slug": "scooby-doo-and-the-creepy-castle-flash",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Scooby Doo Big Air Snow Show",
+      "slug": "scooby-doo-big-air-snow-show",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Scooby Doo Instamatic Monsters 2 Flash",
+      "slug": "scooby-doo-instamatic-monsters-2-flash",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Scooby Snapshot Flash",
+      "slug": "scooby-snapshot-flash",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Scooby-Doo Castle Hassle",
+      "slug": "scooby-doo-castle-hassle",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Scooby-Doo Haunts For The Holidays Episode 3 The Last Act",
+      "slug": "scooby-doo-haunts-for-the-holidays-episode-3-the-last-act",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Scooby-Doo Ripping Ride",
+      "slug": "scooby-doo-ripping-ride",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Scooby-Doo The Ghost Pirate Attacks Episode 1",
+      "slug": "scooby-doo-the-ghost-pirate-attacks-episode-1",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Gem Bound",
+      "slug": "gem-bound",
+      "compatibility": "broken",
+      "engine": "AS3",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Goat Guardian",
+      "slug": "goat-guardian",
+      "compatibility": "working",
+      "engine": "AS3",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Sword Dancers",
+      "slug": "sword-dancers",
+      "compatibility": "broken",
+      "engine": "AS3",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Blind Fooled",
+      "slug": "blind-fooled",
+      "compatibility": "working",
+      "engine": "AS3",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Hard Hat Hustle",
+      "slug": "hard-hat-hustle",
+      "compatibility": "working",
+      "engine": "AS3",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "The Amazing World Of Gumball Battle Bowlers",
+      "slug": "the-amazing-world-of-gumball-battle-bowlers",
+      "compatibility": "partial",
+      "engine": "Unknown",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Ppg Zoorescue",
+      "slug": "ppg-zoorescue",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "1100 Alien Hominid",
+      "slug": "1100-alien-hominid",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "3 Foot Ninja",
+      "slug": "3-foot-ninja",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "3 Foot Ninja Ii",
+      "slug": "3-foot-ninja-ii",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "A Friend In Need",
+      "slug": "a-friend-in-need",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Angry Birds Go Crazy",
+      "slug": "angry-birds-go-crazy",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Asteroids Swf",
+      "slug": "asteroids-swf",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Ballet Parking",
+      "slug": "ballet-parking",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Big Shot Checkers",
+      "slug": "big-shot-checkers",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Bully Swf",
+      "slug": "bully-swf",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Carnival Swf",
+      "slug": "carnival-swf",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Commando 2 Battle Of Asia",
+      "slug": "commando-2-battle-of-asia",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Commando 3",
+      "slug": "commando-3",
+      "compatibility": "partial",
+      "engine": "AS3",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Door To Door Game",
+      "slug": "door-to-door-game",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Earn To Die 2012",
+      "slug": "earn-to-die-2012",
+      "compatibility": "partial",
+      "engine": "AS3",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Earn To Die Not Doppler Dec",
+      "slug": "earn-to-die-not-doppler-dec",
+      "compatibility": "partial",
+      "engine": "AS3",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Etp 20200826",
+      "slug": "etp-20200826",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Fancypants 201911",
+      "slug": "fancypants-201911",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Flash Alien Hominid",
+      "slug": "flash-alien-hominid",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Flash Candymachinedeluxe",
+      "slug": "flash-candymachinedeluxe",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Flash Dutchmansdash",
+      "slug": "flash-dutchmansdash",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Food Bash",
+      "slug": "food-bash",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "FPA 1",
+      "slug": "fpa-1",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Isaac 202102",
+      "slug": "isaac-202102",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Jnalien Invasion",
+      "slug": "jnalien-invasion",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Jnold Dog Tricks",
+      "slug": "jnold-dog-tricks",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Mall Brawl",
+      "slug": "mall-brawl",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Mid Flight Snack",
+      "slug": "mid-flight-snack",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "On The Run Classic Officine Pixel",
+      "slug": "on-the-run-classic-officine-pixel",
+      "compatibility": "unsupported",
+      "engine": "Shockwave Director",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Rainbow Monkey Rundown",
+      "slug": "rainbow-monkey-rundown",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Smoosh Swf",
+      "slug": "smoosh-swf",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Stick Figure Penalty Chamber 2 202401",
+      "slug": "stick-figure-penalty-chamber-2-202401",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Strike Force Heros 3 V 20",
+      "slug": "strike-force-heros-3-v-20",
+      "compatibility": "partial",
+      "engine": "AS3",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Tawog Water Sons",
+      "slug": "tawog-water-sons",
+      "compatibility": "partial",
+      "engine": "AS3",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "The Binding Of Isaac 202111",
+      "slug": "the-binding-of-isaac-202111",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "The Skull Kid Flash Game",
+      "slug": "the-skull-kid-flash-game",
+      "compatibility": "working",
+      "engine": "AS1/AS2",
+      "notes": "Manifest and CDN path are prepared for Ruffle playback."
+    },
+    {
+      "title": "Pokemon Towering Legends Flash",
+      "slug": "pokemon-towering-legends-flash",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Sonic Boom Link N Smash",
+      "slug": "sonic-boom-link-n-smash",
+      "compatibility": "partial",
+      "engine": "AS3",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Adobeflash Marioforeverflash",
+      "slug": "adobeflash-marioforeverflash",
+      "compatibility": "partial",
+      "engine": "AS3",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Adobeflash Supermarioflash",
+      "slug": "adobeflash-supermarioflash",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Infinite Mario",
+      "slug": "infinite-mario",
+      "compatibility": "partial",
+      "engine": "AS3",
+      "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Wanna B Wonka Candy Maker",
+      "slug": "wanna-b-wonka-candy-maker",
+      "compatibility": "partial",
+      "engine": "AS1/AS2",
+      "notes": "Requires manual gameplay review for complete confidence."
+    }
+  ]
+}

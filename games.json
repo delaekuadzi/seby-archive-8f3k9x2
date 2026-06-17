@@ -1,53 +1,5 @@
 [
   {
-    "title": "The Last Stand",
-    "slug": "the-last-stand",
-    "category": "action",
-    "description": "The Last Stand is a preserved zombie survival Flash game prepared for Seby Games Retro with Ruffle-powered browser playback.",
-    "thumbnail": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand/thumbnail.jpg",
-    "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand/game.swf",
-    "controls": "Mouse, Keyboard",
-    "compatibility": "partial",
-    "engine": "AS1/AS2",
-    "tags": [
-      "Action",
-      "Zombie",
-      "Survival",
-      "Shooter",
-      "Flash",
-      "Ruffle",
-      "action",
-      "The Last Stand",
-      "Zombie Survival",
-      "AS1/AS2",
-      "retro",
-      "flash",
-      "jsdelivr"
-    ],
-    "subCategory": "Zombie Survival",
-    "franchise": "The Last Stand",
-    "sourceCollection": "other",
-    "sourceProvider": "github-jsdelivr",
-    "sourcePath": "the-last-stand_202302/the-last-stand-269.swf",
-    "gamePath": "games/action/the-last-stand/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand/thumbnail.jpg",
-    "assetDependencies": [],
-    "externalDependencies": [
-      "http://www.armorgames.com/"
-    ],
-    "seo": {
-      "slug": "the-last-stand",
-      "url": "https://sebygames.com/retro/the-last-stand",
-      "seoTitle": "The Last Stand - Play Retro Flash Game | Seby Games",
-      "metaDescription": "The Last Stand is a preserved zombie survival Flash game prepared for Seby Games Retro with Ruffle-powered browser playback.",
-      "canonicalUrl": "https://www.sebygames.com/retro/the-last-stand",
-      "openGraphImage": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand/thumbnail.jpg",
-      "genre": "action",
-      "franchise": "The Last Stand",
-      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand/game.swf"
-    }
-  },
-  {
     "title": "The Last Stand 2",
     "slug": "the-last-stand-2",
     "category": "action",
@@ -231,57 +183,6 @@
       "genre": "arcade",
       "franchise": "Canabalt",
       "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/canabalt/game.swf"
-    }
-  },
-  {
-    "title": "Upbeat",
-    "slug": "upbeat",
-    "category": "arcade",
-    "description": "Upbeat is a preserved Miniclip rhythm Flash game prepared for Seby Games Retro with browser playback through Ruffle.",
-    "thumbnail": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/thumbnail.jpg",
-    "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/game.swf",
-    "controls": "Keyboard",
-    "compatibility": "partial",
-    "engine": "AS1/AS2",
-    "tags": [
-      "Arcade",
-      "Music",
-      "Rhythm",
-      "Miniclip",
-      "Flash",
-      "Ruffle",
-      "arcade",
-      "Music Rhythm",
-      "AS1/AS2",
-      "retro",
-      "flash",
-      "jsdelivr"
-    ],
-    "subCategory": "Music Rhythm",
-    "franchise": "Miniclip",
-    "sourceCollection": "other",
-    "sourceProvider": "github-jsdelivr",
-    "sourcePath": "Upbeat (Web) - Miniclip/upbeat.swf",
-    "gamePath": "games/arcade/upbeat/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/thumbnail.jpg",
-    "assetDependencies": [],
-    "externalDependencies": [
-      "http://www.miniclip.com/",
-      "http://www.miniclip.com/swfcontent/push/didyouknow.swf?cacheBuster",
-      "http://www.miniclip.com/games/up-beat/en/webmaster.php",
-      "http://www.miniclip.com/games/",
-      "http://www.miniclip.com/swfcontent/highscore.swf?noCache="
-    ],
-    "seo": {
-      "slug": "upbeat",
-      "url": "https://sebygames.com/retro/upbeat",
-      "seoTitle": "Upbeat - Play Retro Flash Game | Seby Games",
-      "metaDescription": "Upbeat is a preserved Miniclip rhythm Flash game prepared for Seby Games Retro with browser playback through Ruffle.",
-      "canonicalUrl": "https://www.sebygames.com/retro/upbeat",
-      "openGraphImage": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/thumbnail.jpg",
-      "genre": "arcade",
-      "franchise": "Miniclip",
-      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/arcade/upbeat/game.swf"
     }
   },
   {
@@ -2689,86 +2590,6 @@
     }
   },
   {
-    "title": "Sweets Ahoy Cartoon Network New Media",
-    "slug": "sweets-ahoy-cartoon-network-new-media",
-    "category": "cartoon-network",
-    "description": "Sweets Ahoy Cartoon Network New Media is a preserved cartoon network browser game prepared for Seby Games Retro.",
-    "thumbnail": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/sweets-ahoy-cartoon-network-new-media/thumbnail.jpg",
-    "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/sweets-ahoy-cartoon-network-new-media/game.swf",
-    "controls": "Keyboard, Mouse",
-    "compatibility": "working",
-    "engine": "AS1/AS2",
-    "tags": [
-      "AS1/AS2",
-      "Cartoon Network",
-      "Cartoon Network Classics",
-      "cartoon-network",
-      "cn-games",
-      "flash",
-      "Independent Flash",
-      "jsdelivr",
-      "retro"
-    ],
-    "subCategory": "Cartoon Network Classics",
-    "franchise": "Independent Flash",
-    "sourceCollection": "cartoon-network",
-    "sourceProvider": "github-jsdelivr",
-    "gamePath": "games/cartoon-network/sweets-ahoy-cartoon-network-new-media/game.swf",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/sweets-ahoy-cartoon-network-new-media/thumbnail.jpg",
-    "assetDependencies": [
-      "assets/config/gameswfs/attackmode.swf",
-      "assets/config/gameswfs/bradleymode.swf",
-      "assets/config/gameswfs/data/gamedata.xml",
-      "assets/config/gameswfs/data/levels/levels.xml",
-      "assets/config/gameswfs/data/resources.xml",
-      "assets/config/gameswfs/data/sounds.xml",
-      "assets/config/gameswfs/defensemode.swf",
-      "assets/config/gameswfs/planemode.swf",
-      "assets/config/gameswfs/resources/screens/instructions.swf",
-      "assets/config/gameswfs/resources/screens/levelmap.swf",
-      "assets/config/gameswfs/resources/screens/opening.swf",
-      "assets/config/gameswfs/resources/screens/settings.swf",
-      "assets/config/gameswfs/resources/screens/story.swf",
-      "assets/config/gameswfs/resources/screens/titlecard.swf",
-      "assets/config/gameswfs/resources/screens/winscreen.swf"
-    ],
-    "externalDependencies": [],
-    "seo": {
-      "slug": "sweets-ahoy-cartoon-network-new-media",
-      "url": "https://sebygames.com/retro/sweets-ahoy-cartoon-network-new-media",
-      "seoTitle": "Sweets Ahoy Cartoon Network New Media - Play Retro Flash Game | Seby Games",
-      "metaDescription": "Sweets Ahoy Cartoon Network New Media is a preserved cartoon network browser game prepared for Seby Games Retro.",
-      "canonicalUrl": "https://www.sebygames.com/retro/sweets-ahoy-cartoon-network-new-media",
-      "openGraphImage": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/sweets-ahoy-cartoon-network-new-media/thumbnail.jpg",
-      "genre": "Cartoon Network",
-      "franchise": "Independent Flash",
-      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/sweets-ahoy-cartoon-network-new-media/game.swf",
-      "structuredData": {
-        "@context": "https://schema.org",
-        "@type": "VideoGame",
-        "name": "Sweets Ahoy Cartoon Network New Media",
-        "genre": "Cartoon Network",
-        "gamePlatform": [
-          "Web browser",
-          "Ruffle"
-        ],
-        "applicationCategory": "Game",
-        "url": "https://www.sebygames.com/retro/sweets-ahoy-cartoon-network-new-media",
-        "image": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/sweets-ahoy-cartoon-network-new-media/thumbnail.jpg",
-        "description": "Sweets Ahoy Cartoon Network New Media is a preserved cartoon network browser game prepared for Seby Games Retro."
-      },
-      "relatedTags": [
-        "retro",
-        "flash",
-        "cn-games",
-        "Cartoon Network",
-        "Cartoon Network Classics",
-        "Independent Flash",
-        "AS1/AS2"
-      ]
-    }
-  },
-  {
     "title": "Tag Team Titans Cartoon Network New Media",
     "slug": "tag-team-titans-cartoon-network-new-media",
     "category": "cartoon-network",
@@ -5143,7 +4964,7 @@
     "category": "other",
     "description": "Fancypants 201911 is a preserved arcade browser game prepared for Seby Games Retro.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/fancypants-201911/thumbnail.jpg",
-    "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/fancypants-201911/game.swf",
+    "swfUrl": "https://raw.githubusercontent.com/delaekuadzi/seby-archive-8f3k9x2/main/games/other/fancypants-201911/game.swf",
     "controls": "Mouse, Keyboard",
     "compatibility": "partial",
     "engine": "AS1/AS2",
@@ -5194,7 +5015,7 @@
       "openGraphImage": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/fancypants-201911/thumbnail.jpg",
       "genre": "Arcade",
       "franchise": "Independent Flash",
-      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/fancypants-201911/game.swf",
+      "swfUrl": "https://raw.githubusercontent.com/delaekuadzi/seby-archive-8f3k9x2/main/games/other/fancypants-201911/game.swf",
       "structuredData": {
         "@context": "https://schema.org",
         "@type": "VideoGame",
@@ -5218,6 +5039,10 @@
         "Independent Flash",
         "AS1/AS2"
       ]
+    },
+    "delivery": {
+      "preferred": "raw-github",
+      "reason": "jsDelivr returns 403 for this oversized SWF; raw GitHub is used as a stable playback fallback until R2 migration."
     }
   },
   {
@@ -6329,7 +6154,7 @@
     "category": "other",
     "description": "The Binding Of Isaac 202111 is a preserved arcade browser game prepared for Seby Games Retro.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/the-binding-of-isaac-202111/thumbnail.jpg",
-    "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/the-binding-of-isaac-202111/game.swf",
+    "swfUrl": "https://raw.githubusercontent.com/delaekuadzi/seby-archive-8f3k9x2/main/games/other/the-binding-of-isaac-202111/game.swf",
     "controls": "Mouse, Keyboard",
     "compatibility": "partial",
     "engine": "AS1/AS2",
@@ -6361,7 +6186,7 @@
       "openGraphImage": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/the-binding-of-isaac-202111/thumbnail.jpg",
       "genre": "Arcade",
       "franchise": "Independent Flash",
-      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/the-binding-of-isaac-202111/game.swf",
+      "swfUrl": "https://raw.githubusercontent.com/delaekuadzi/seby-archive-8f3k9x2/main/games/other/the-binding-of-isaac-202111/game.swf",
       "structuredData": {
         "@context": "https://schema.org",
         "@type": "VideoGame",
@@ -6385,6 +6210,10 @@
         "Independent Flash",
         "AS1/AS2"
       ]
+    },
+    "delivery": {
+      "preferred": "raw-github",
+      "reason": "jsDelivr returns 403 for this oversized SWF; raw GitHub is used as a stable playback fallback until R2 migration."
     }
   },
   {

@@ -1,1314 +1,504 @@
 {
-  "generatedAt": "2026-06-14T02:57:43.700Z",
-  "ok": true,
-  "records": [
+  "generatedAt": "2026-06-17T23:11:07.726Z",
+  "missingGamePaths": [],
+  "externalDependencies": [
     {
-      "slug": "1100-alien-hominid",
-      "severity": "warning",
-      "path": "http://www.synj.net",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "title": "The Last Stand 2",
+      "slug": "the-last-stand-2",
+      "externalDependencies": [
+        "http://server.cpmstar.com/adviewas2.swf?poolid=",
+        "http://www.armorgames.com/",
+        "http://ns.adobe.com/xap/1.0/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://ns.adobe.com/photoshop/1.0/",
+        "http://ns.adobe.com/xap/1.0/mm/",
+        "http://ns.adobe.com/tiff/1.0/",
+        "http://ns.adobe.com/exif/1.0/",
+        "http://www.evil-lives.com/",
+        "http://armorgames.com/tag/zombie/",
+        "http://armorgames.com/play/269/the-last-stand",
+        "http://www.con-artists-productions.com/",
+        "http://www.iec.ch/"
+      ]
     },
     {
-      "slug": "1100-alien-hominid",
-      "severity": "warning",
-      "path": "http://www.newgrounds.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "title": "The Last Stand Union City",
+      "slug": "the-last-stand-union-city",
+      "externalDependencies": [
+        "http://server.cpmstar.com/adviewas2.swf?contentspotid=",
+        "http://ns.adobe.com/xap/1.0/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://ns.adobe.com/xap/1.0/mm/",
+        "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
+        "http://armorgames.com/",
+        "http://www.facebook.com/pages/The-Last-Stand/120478611378231",
+        "http://twitter.com/#!/ArmorGames",
+        "http://feeds.armorgames.com/armorgames",
+        "http://conartistgames.com/",
+        "http://armorgames.com/guide/the-last-stand-union-city-video-guides",
+        "http://armorgames.com/play/269/the-last-stand",
+        "http://armorgames.com/play/1443/the-last-stand-2",
+        "http://twitter.com/armorgames/",
+        "http://facebook.com/armorgames/"
+      ]
     },
     {
-      "slug": "1100-alien-hominid",
-      "severity": "warning",
-      "path": "http://www.mp3.com/lhm",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "title": "Canabalt",
+      "slug": "canabalt",
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://purl.org/dc/elements/1.1",
+        "http://www.adobe.com/products/flex",
+        "http://www.adobe.com/2006/flex/mx/internal",
+        "http://adobe.com/AS3/2006/builtin",
+        "http://www.fatorcaos.com.br/",
+        "http://adamatomic.com/canabalt",
+        "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=",
+        "http://www.stumbleupon.com/submit?url=",
+        "http://digg.com/submit?url=",
+        "http://www.reddit.com/submit?url=",
+        "http://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url=",
+        "http://twitter.com/home?status=Playing",
+        "http://www.canabalt.com/",
+        "http://www.kongregate.com/flash/API_AS3_Local.swf",
+        "http://bit.ly/qz8HT",
+        "http://twitter.com/home?status="
+      ]
     },
     {
-      "slug": "3-foot-ninja",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/Homepage.htm",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "3-foot-ninja",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/signup.htm",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "3-foot-ninja",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/download_ninja.htm",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "3-foot-ninja-ii",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/Homepage.htm",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "3-foot-ninja-ii",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/signup2.htm",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "3-foot-ninja-ii",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/download_ninja2.htm",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "3-foot-ninja-ii",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/Flash/3fn2_wallpaper.zip",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "3-foot-ninja-ii",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "3-foot-ninja-ii",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/swfcontent/highscore.swf?",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "adobeflash-marioforeverflash",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "adobeflash-marioforeverflash",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "adobeflash-marioforeverflash",
-      "severity": "warning",
-      "path": "http://www.adobe.com/products/flex",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "adobeflash-marioforeverflash",
-      "severity": "warning",
-      "path": "http://www.boutons.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "adobeflash-marioforeverflash",
-      "severity": "warning",
-      "path": "http://www.adobe.com/2006/flex/mx/internal",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "adobeflash-marioforeverflash",
-      "severity": "warning",
-      "path": "http://www.softendo.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "adobeflash-marioforeverflash",
-      "severity": "warning",
-      "path": "http://adobe.com/AS3/2006/builtin",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "adobeflash-marioforeverflash",
-      "severity": "warning",
-      "path": "http://x.mochiads.com/srv/1/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "adobeflash-supermarioflash",
-      "severity": "warning",
-      "path": "http://pouetpu.pbwiki.com/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "adobeflash-supermarioflash",
-      "severity": "warning",
-      "path": "http://www.phpbb88.com/smfforum/index.php?mforum=smfforum",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/mm/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/photoshop/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/tiff/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/exif/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://www.iec.ch",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://www.garchis.com?src=angry-birds-go-crazy",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://g",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://www.garchis.com/category/games/cartoon-games?src=angry-birds-go-crazy",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://www.garchis.com/category/games?src=angry-birds-go-crazy",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://www.garchis.com/category/games/action-games?src=angry-birds-go-crazy",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://www.garchis.com/category/games/adventure-games?src=angry-birds-go-crazy",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://www.garchis.com/search/angry?src=angry-birds-go-crazy",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://www.daaams.fr.st,",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "angry-birds-go-crazy",
-      "severity": "warning",
-      "path": "http://www.garchis.com/angry-birds-bike-revenge?src=angry-birds-go-crazy",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "asteroids-swf",
-      "severity": "warning",
-      "path": "http://www.neave.com/games/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
+      "title": "Ben 10 Blockade Blitz Swf",
       "slug": "ben-10-blockade-blitz-swf",
-      "severity": "warning",
-      "path": "http://www.cartoonnetwork.com/games/arcade/ben10/blockadeblitz/tracker.swf?",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "externalDependencies": [
+        "http://www.cartoonnetwork.com/games/arcade/ben10/blockadeblitz/tracker.swf?"
+      ]
     },
     {
+      "title": "Ben 10 Savage Pursuit",
       "slug": "ben-10-savage-pursuit",
-      "severity": "warning",
-      "path": "http://www.cartoonnetwork.com/games/ben10/savagepursuit/tracker.swf?",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "externalDependencies": [
+        "http://www.cartoonnetwork.com/games/ben10/savagepursuit/tracker.swf?"
+      ]
     },
     {
-      "slug": "carnival-swf",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "carnival-swf",
-      "severity": "warning",
-      "path": "http://purl.org/dc/1.1/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "carnival-swf",
-      "severity": "warning",
-      "path": "http://members.aol.com/InterNuT85",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "carnival-swf",
-      "severity": "warning",
-      "path": "http://www.fontdiner.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
+      "title": "Cartoon Network Snowbrawl Fight",
       "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/mm/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/photoshop/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/sType/ResourceEvent#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/tiff/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/exif/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://www.iec.ch",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://adobe.com/AS3/2006/builtin",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://www.tweenlite.com.",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://www.TweenMax.com.",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "cartoon-network-snowbrawl-fight",
-      "severity": "warning",
-      "path": "http://www.apple.com/DTDs/PropertyList-1.0.dtd",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-2-battle-of-asia",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/swfcontent/components/gatekeeper_as2.swf",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-2-battle-of-asia",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/swfcontent/components/game_offsite_as2.swf",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-2-battle-of-asia",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/swfcontent/components/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-2-battle-of-asia",
-      "severity": "warning",
-      "path": "http://cms.miniclip.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-2-battle-of-asia",
-      "severity": "warning",
-      "path": "http://www.miniclip.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-2-battle-of-asia",
-      "severity": "warning",
-      "path": "http://developers.miniclip.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-2-battle-of-asia",
-      "severity": "warning",
-      "path": "http://miniclip.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-2-battle-of-asia",
-      "severity": "warning",
-      "path": "http://ads.miniclip.com/RealMedia/ads/adstream_sx.ads/miniclip.com/commando2_start/152645@x01?rnd=",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-3",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-3",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-3",
-      "severity": "warning",
-      "path": "http://www.adobe.com/products/flex",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-3",
-      "severity": "warning",
-      "path": "http://www.box2d.org/ns/b2internal",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-3",
-      "severity": "warning",
-      "path": "http://www.adobe.com/2006/flex/mx/internal",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-3",
-      "severity": "warning",
-      "path": "http://ads.miniclip.com/RealMedia/ads/adstream_sx.ads/miniclip.com/{id}/{random}@x01",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-3",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/players/en/resize.php?uid={id}&w={width}&h={height}&type={type}",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-3",
-      "severity": "warning",
-      "path": "http://adobe.com/AS3/2006/builtin",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-3",
-      "severity": "warning",
-      "path": "http://www.miniclip.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-3",
-      "severity": "warning",
-      "path": "http://www.miniclip.com/games/commando-3/en/webmaster.php",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-3",
-      "severity": "warning",
-      "path": "http://cms.miniclip.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "commando-3",
-      "severity": "warning",
-      "path": "http://devcms.miniclip.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://www.adobe.com/products/flex",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/photoshop/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/mm/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/sType/ResourceEvent#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://www.iec.ch",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://adobe.com/AS3/2006/builtin",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://www.4399.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://www.addictinggames.com*http://www.adobe.com/2006/flex/mx/internal1http://www.kongregate.com/flash/API_AS3_Local.swf,http://www.notdoppler.com/?ref=earntodie2012",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://core.mochibot.com/my/core.swf@http://i.notdoppler.com/php/external/earntodie2012_banner.swf?i=",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://core.mochibot.com/my/core.swf",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://facebook.com/earntodie",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://itunes.apple.com/us/app/earn-to-die-hd/id554941343?mt=8;http://itunes.apple.com/us/app/earn-to-die/id554937499?mt=8",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://twitter.com/notdoppler",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-2012",
-      "severity": "warning",
-      "path": "http://www.addictinggames.com,http://www.notdoppler.com/?ref=earntodie20129http://www.notdoppler.com/earntodie.php?ref=earntodie2012",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://www.adobe.com/products/flex",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/mm/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/sType/ResourceEvent#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/camera-raw-settings/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/photoshop/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://www.iec.ch",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://g",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://localhost/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://website.com/game/whatever?leaderboard=",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://adobe.com/AS3/2006/builtin$http://core.mochibot.com/my/core.swf1http://www.kongregate.com/flash/API_AS3_Local.swf(http://www.notdoppler.com/?ref=earntodie",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://adobe.com/AS3/2006/builtin",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "earn-to-die-not-doppler-dec",
-      "severity": "warning",
-      "path": "http://itunes.apple.com/us/app/earn-to-die-hd/id554941343?mt=8;http://itunes.apple.com/us/app/earn-to-die/id554937499?mt=8*http://www.adobe.com/2006/flex/mx/internal(http://www.notdoppler.com/?ref=earntodie",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "etp-20200826",
-      "severity": "warning",
-      "path": "http://www.stickpage.com/breakingthebank.shtml",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "etp-20200826",
-      "severity": "warning",
-      "path": "http://puffballsunited.newgrounds.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "etp-20200826",
-      "severity": "warning",
-      "path": "http://www.stickpage.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "etp-20200826",
-      "severity": "warning",
-      "path": "http://www.ngads.com/gateway_v2.php",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "etp-20200826",
-      "severity": "warning",
-      "path": "http://www.newgrounds.com/wiki/using-the-site/terms-of-use/flash-ads/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "etp-20200826",
-      "severity": "warning",
-      "path": "http://www.newgrounds.com/wiki/developer-resources/flash-api/commands/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "etp-20200826",
-      "severity": "warning",
-      "path": "http://www.newgrounds.com/audio/listen/21749",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "etp-20200826",
-      "severity": "warning",
-      "path": "http://www.newgrounds.com/audio/listen/280496",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "etp-20200826",
-      "severity": "warning",
-      "path": "http://www.newgrounds.com/audio/listen/141262",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "etp-20200826",
-      "severity": "warning",
-      "path": "http://www.stickpage.com/stickhumor.shtml",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/mm/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "http://www.bornegames.com/games/fpa-world-4/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "http://www.bornegames.com/games/fpa-world-1/remix/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "https://itunes.apple.com/us/app/fancy-pants-adventures/id477966895",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "http://marketplace.xbox.com/en-US/Product/The-Fancy-Pants-Adventures/66acd000-77fe-1000-9115-d80258410a9f",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "http://us.playstation.com/games/the-fancy-pants-adventures-ps3.html",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "http://www.facebook.com/thefancypantsadventures",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "http://twitter.com/RunFastRunFancy",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "http://www.bornegames.com/the-fancy-box/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fancypants-201911",
-      "severity": "warning",
-      "path": "http://www.bornegames.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "flash-alien-hominid",
-      "severity": "warning",
-      "path": "http://www.alienhominid.com/gamelink.html",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "flash-alien-hominid",
-      "severity": "warning",
-      "path": "http://www.synj.net",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "flash-alien-hominid",
-      "severity": "warning",
-      "path": "http://www.newgrounds.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "flash-alien-hominid",
-      "severity": "warning",
-      "path": "http://www.te-er.com/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fpa-1",
-      "severity": "warning",
-      "path": "http://www.armorgames.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fpa-1",
-      "severity": "warning",
-      "path": "http://www.grsites.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fpa-1",
-      "severity": "warning",
-      "path": "http://www.newgrounds.com/portal/view/187409",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fpa-1",
-      "severity": "warning",
-      "path": "http://www.shockwave.com/sw/content/snowblitz",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fpa-1",
-      "severity": "warning",
-      "path": "http://www.neptunecircle.com/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fpa-1",
-      "severity": "warning",
-      "path": "http://www.erikthejuiceman.com/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "fpa-1",
-      "severity": "warning",
-      "path": "http://animatedexcursion.com/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "infinite-mario",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "infinite-mario",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "infinite-mario",
-      "severity": "warning",
-      "path": "http://www.adobe.com/products/flex",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "infinite-mario",
-      "severity": "warning",
-      "path": "http://www.adobe.com/2006/flex/mx/internal",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "infinite-mario",
-      "severity": "warning",
-      "path": "http://adobe.com/AS3/2006/builtin",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "jnalien-invasion",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "jnalien-invasion",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "jnalien-invasion",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/iX/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "jnalien-invasion",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/mm/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "jnalien-invasion",
-      "severity": "warning",
-      "path": "http://welcome.to/ShyFonts)",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "mall-brawl",
-      "severity": "warning",
-      "path": "http://i84.photobucket.com/albums/k36/namzu_g/mallbrawl/totallyspiesLvl2_26.swf",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://ns.adobe.com/xap/1.0/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://ns.adobe.com/xap/1.0/mm/",
+        "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
+        "http://ns.adobe.com/photoshop/1.0/",
+        "http://ns.adobe.com/xap/1.0/sType/ResourceEvent#",
+        "http://ns.adobe.com/tiff/1.0/",
+        "http://ns.adobe.com/exif/1.0/",
+        "http://www.iec.ch/",
+        "http://www.tweenlite.com/",
+        "http://www.tweenmax.com/",
+        "http://www.apple.com/DTDs/PropertyList-1.0.dtd"
+      ]
+    },
+    {
+      "title": "Ppgpuppybots",
       "slug": "ppgpuppybots",
-      "severity": "warning",
-      "path": "http://www.cartoonnetwork.com/games/action/ppg/attackofthepuppybots/tracker.swf?",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "externalDependencies": [
+        "http://www.cartoonnetwork.com/games/action/ppg/attackofthepuppybots/tracker.swf?"
+      ]
     },
     {
-      "slug": "rainbow-monkey-rundown",
-      "severity": "warning",
-      "path": "http://www.cartoonnetwork.com/games/knd/rainbowmoneyrundown/tracker.swf?",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
+      "title": "Regular Show All Nighter",
       "slug": "regular-show-all-nighter",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://ns.adobe.com/xap/1.0/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://ns.adobe.com/xap/1.0/mm/",
+        "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
+        "http://www.box2d.org/ns/b2internal"
+      ]
     },
     {
-      "slug": "regular-show-all-nighter",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "regular-show-all-nighter",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "regular-show-all-nighter",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/mm/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "regular-show-all-nighter",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "regular-show-all-nighter",
-      "severity": "warning",
-      "path": "http://www.box2d.org/ns/b2internal",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "regular-show-all-nighter",
-      "severity": "warning",
-      "path": "http://adobe.com/AS3/2006/builtin",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
+      "title": "Samurai Jack",
       "slug": "samurai-jack",
-      "severity": "warning",
-      "path": "http://www.gamezhero.com/flash/gamezhero2.swf?x=35&y=300&from=samuraiJack&scale=100",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "externalDependencies": [
+        "http://www.gamezhero.com/flash/gamezhero2.swf?x=35&y=300&from=samuraiJack&scale=100"
+      ]
     },
     {
+      "title": "Scooby Doo Big Air Snow Show",
       "slug": "scooby-doo-big-air-snow-show",
-      "severity": "warning",
-      "path": "http://looneytunes2.warnerbros.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "externalDependencies": [
+        "http://looneytunes2.warnerbros.com/",
+        "http://ns.adobe.com/xap/1.0/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://ns.adobe.com/iX/1.0/",
+        "http://ns.adobe.com/xap/1.0/mm/"
+      ]
     },
     {
-      "slug": "scooby-doo-big-air-snow-show",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "title": "Scooby-Doo Castle Hassle",
+      "slug": "scooby-doo-castle-hassle",
+      "externalDependencies": [
+        "http://www.execpc.com/~diner"
+      ]
     },
     {
-      "slug": "scooby-doo-big-air-snow-show",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "title": "Goat Guardian",
+      "slug": "goat-guardian",
+      "externalDependencies": [
+        "http://www.tweenlite.com/",
+        "http://www.tweenmax.com/"
+      ]
     },
     {
-      "slug": "scooby-doo-big-air-snow-show",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/iX/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "title": "Sword Dancers",
+      "slug": "sword-dancers",
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://purl.org/dc/elements/1.1",
+        "http://www.adobe.com/products/flex"
+      ]
     },
     {
-      "slug": "scooby-doo-big-air-snow-show",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/mm/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "title": "Blind Fooled",
+      "slug": "blind-fooled",
+      "externalDependencies": [
+        "http://www.lilpodge.com/gumballgame/gumballdomains/domains.dat",
+        "http://fontforge.sf.net/"
+      ]
     },
     {
+      "title": "Hard Hat Hustle",
+      "slug": "hard-hat-hustle",
+      "externalDependencies": [
+        "http://g1.api.playtomic.com/playerlevels/thumb.aspx?swfid="
+      ]
+    },
+    {
+      "title": "1100 Alien Hominid",
+      "slug": "1100-alien-hominid",
+      "externalDependencies": [
+        "http://www.synj.net/",
+        "http://www.newgrounds.com/",
+        "http://www.mp3.com/lhm"
+      ]
+    },
+    {
+      "title": "3 Foot Ninja",
+      "slug": "3-foot-ninja",
+      "externalDependencies": [
+        "http://www.miniclip.com/Homepage.htm",
+        "http://www.miniclip.com/signup.htm",
+        "http://www.miniclip.com/download_ninja.htm"
+      ]
+    },
+    {
+      "title": "3 Foot Ninja Ii",
+      "slug": "3-foot-ninja-ii",
+      "externalDependencies": [
+        "http://www.miniclip.com/Homepage.htm",
+        "http://www.miniclip.com/signup2.htm",
+        "http://www.miniclip.com/download_ninja2.htm",
+        "http://www.miniclip.com/Flash/3fn2_wallpaper.zip",
+        "http://www.miniclip.com/",
+        "http://www.miniclip.com/swfcontent/highscore.swf?"
+      ]
+    },
+    {
+      "title": "Angry Birds Go Crazy",
+      "slug": "angry-birds-go-crazy",
+      "externalDependencies": [
+        "http://ns.adobe.com/xap/1.0/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://ns.adobe.com/xap/1.0/mm/",
+        "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
+        "http://ns.adobe.com/photoshop/1.0/",
+        "http://ns.adobe.com/tiff/1.0/",
+        "http://ns.adobe.com/exif/1.0/",
+        "http://www.iec.ch/",
+        "http://www.garchis.com/?src=angry-birds-go-crazy",
+        "http://www.garchis.com/category/games/cartoon-games?src=angry-birds-go-crazy",
+        "http://www.garchis.com/category/games?src=angry-birds-go-crazy",
+        "http://www.garchis.com/category/games/action-games?src=angry-birds-go-crazy",
+        "http://www.garchis.com/category/games/adventure-games?src=angry-birds-go-crazy",
+        "http://www.garchis.com/search/angry?src=angry-birds-go-crazy",
+        "http://www.daaams.fr.st/",
+        "http://www.garchis.com/angry-birds-bike-revenge?src=angry-birds-go-crazy"
+      ]
+    },
+    {
+      "title": "Asteroids Swf",
+      "slug": "asteroids-swf",
+      "externalDependencies": [
+        "http://www.neave.com/games/"
+      ]
+    },
+    {
+      "title": "Carnival Swf",
+      "slug": "carnival-swf",
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://purl.org/dc/1.1/",
+        "http://members.aol.com/InterNuT85",
+        "http://www.fontdiner.com/"
+      ]
+    },
+    {
+      "title": "Commando 2 Battle Of Asia",
+      "slug": "commando-2-battle-of-asia",
+      "externalDependencies": [
+        "http://www.miniclip.com/swfcontent/components/gatekeeper_as2.swf",
+        "http://www.miniclip.com/swfcontent/components/game_offsite_as2.swf",
+        "http://www.miniclip.com/swfcontent/components/",
+        "http://cms.miniclip.com/",
+        "http://www.miniclip.com/",
+        "http://developers.miniclip.com/",
+        "http://miniclip.com/",
+        "http://ads.miniclip.com/RealMedia/ads/adstream_sx.ads/miniclip.com/commando2_start/152645@x01?rnd="
+      ]
+    },
+    {
+      "title": "Commando 3",
+      "slug": "commando-3",
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://purl.org/dc/elements/1.1",
+        "http://www.adobe.com/products/flex",
+        "http://www.box2d.org/ns/b2internal",
+        "http://www.adobe.com/2006/flex/mx/internal",
+        "http://ads.miniclip.com/RealMedia/ads/adstream_sx.ads/miniclip.com/%7Bid%7D/%7Brandom%7D@x01",
+        "http://www.miniclip.com/players/en/resize.php?uid={id}&w={width}&h={height}&type={type}",
+        "http://www.miniclip.com/",
+        "http://www.miniclip.com/games/commando-3/en/webmaster.php",
+        "http://cms.miniclip.com/",
+        "http://devcms.miniclip.com/"
+      ]
+    },
+    {
+      "title": "Earn To Die 2012",
+      "slug": "earn-to-die-2012",
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://purl.org/dc/elements/1.1",
+        "http://www.adobe.com/products/flex",
+        "http://ns.adobe.com/xap/1.0/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://ns.adobe.com/photoshop/1.0/",
+        "http://ns.adobe.com/xap/1.0/mm/",
+        "http://ns.adobe.com/xap/1.0/sType/ResourceEvent#",
+        "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
+        "http://www.iec.ch/",
+        "http://www.4399.com/",
+        "http://www.addictinggames.com*http//www.adobe.com/2006/flex/mx/internal1http://www.kongregate.com/flash/API_AS3_Local.swf,http://www.notdoppler.com/?ref=earntodie2012",
+        "http://core.mochibot.com/my/core.swf@http://i.notdoppler.com/php/external/earntodie2012_banner.swf?i=",
+        "http://core.mochibot.com/my/core.swf",
+        "http://facebook.com/earntodie",
+        "http://itunes.apple.com/us/app/earn-to-die-hd/id554941343?mt=8;http://itunes.apple.com/us/app/earn-to-die/id554937499?mt=8",
+        "http://twitter.com/notdoppler",
+        "http://www.addictinggames.com,http//www.notdoppler.com/?ref=earntodie20129http://www.notdoppler.com/earntodie.php?ref=earntodie2012"
+      ]
+    },
+    {
+      "title": "Earn To Die Not Doppler Dec",
+      "slug": "earn-to-die-not-doppler-dec",
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://purl.org/dc/elements/1.1",
+        "http://www.adobe.com/products/flex",
+        "http://ns.adobe.com/xap/1.0/",
+        "http://ns.adobe.com/xap/1.0/mm/",
+        "http://ns.adobe.com/xap/1.0/sType/ResourceEvent#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://ns.adobe.com/camera-raw-settings/1.0/",
+        "http://ns.adobe.com/photoshop/1.0/",
+        "http://www.iec.ch/",
+        "http://itunes.apple.com/us/app/earn-to-die-hd/id554941343?mt=8;http://itunes.apple.com/us/app/earn-to-die/id554937499?mt=8*http://www.adobe.com/2006/flex/mx/internal(http://www.notdoppler.com/?ref=earntodie"
+      ]
+    },
+    {
+      "title": "Etp 20200826",
+      "slug": "etp-20200826",
+      "externalDependencies": [
+        "http://www.stickpage.com/breakingthebank.shtml",
+        "http://puffballsunited.newgrounds.com/",
+        "http://www.stickpage.com/",
+        "http://www.ngads.com/gateway_v2.php",
+        "http://www.newgrounds.com/wiki/using-the-site/terms-of-use/flash-ads/",
+        "http://www.newgrounds.com/wiki/developer-resources/flash-api/commands/",
+        "http://www.newgrounds.com/audio/listen/21749",
+        "http://www.newgrounds.com/audio/listen/280496",
+        "http://www.newgrounds.com/audio/listen/141262",
+        "http://www.stickpage.com/stickhumor.shtml"
+      ]
+    },
+    {
+      "title": "Fancypants 201911",
+      "slug": "fancypants-201911",
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://ns.adobe.com/xap/1.0/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://ns.adobe.com/xap/1.0/mm/",
+        "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
+        "http://www.bornegames.com/games/fpa-world-4/",
+        "http://www.bornegames.com/games/fpa-world-1/remix/",
+        "https://itunes.apple.com/us/app/fancy-pants-adventures/id477966895",
+        "http://marketplace.xbox.com/en-US/Product/The-Fancy-Pants-Adventures/66acd000-77fe-1000-9115-d80258410a9f",
+        "http://us.playstation.com/games/the-fancy-pants-adventures-ps3.html",
+        "http://www.facebook.com/thefancypantsadventures",
+        "http://twitter.com/RunFastRunFancy",
+        "http://www.bornegames.com/the-fancy-box/",
+        "http://www.bornegames.com/"
+      ]
+    },
+    {
+      "title": "Flash Alien Hominid",
+      "slug": "flash-alien-hominid",
+      "externalDependencies": [
+        "http://www.alienhominid.com/gamelink.html",
+        "http://www.synj.net/",
+        "http://www.newgrounds.com/",
+        "http://www.te-er.com/"
+      ]
+    },
+    {
+      "title": "FPA 1",
+      "slug": "fpa-1",
+      "externalDependencies": [
+        "http://www.armorgames.com/",
+        "http://www.grsites.com/",
+        "http://www.newgrounds.com/portal/view/187409",
+        "http://www.shockwave.com/sw/content/snowblitz",
+        "http://www.neptunecircle.com/",
+        "http://www.erikthejuiceman.com/",
+        "http://animatedexcursion.com/"
+      ]
+    },
+    {
+      "title": "Jnalien Invasion",
+      "slug": "jnalien-invasion",
+      "externalDependencies": [
+        "http://ns.adobe.com/xap/1.0/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://ns.adobe.com/iX/1.0/",
+        "http://ns.adobe.com/xap/1.0/mm/",
+        "http://welcome.to/ShyFonts"
+      ]
+    },
+    {
+      "title": "Mall Brawl",
+      "slug": "mall-brawl",
+      "externalDependencies": [
+        "http://i84.photobucket.com/albums/k36/namzu_g/mallbrawl/totallyspiesLvl2_26.swf"
+      ]
+    },
+    {
+      "title": "Rainbow Monkey Rundown",
+      "slug": "rainbow-monkey-rundown",
+      "externalDependencies": [
+        "http://www.cartoonnetwork.com/games/knd/rainbowmoneyrundown/tracker.swf?"
+      ]
+    },
+    {
+      "title": "Smoosh Swf",
       "slug": "smoosh-swf",
-      "severity": "warning",
-      "path": "http://files2.17173.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "externalDependencies": [
+        "http://files2.17173.com/",
+        "http://ns.adobe.com/xap/1.0/",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://ns.adobe.com/xap/1.0/mm/",
+        "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
+        "http://purl.org/dc/elements/1.1/",
+        "http://ns.adobe.com/photoshop/1.0/",
+        "http://ns.adobe.com/tiff/1.0/",
+        "http://ns.adobe.com/exif/1.0/"
+      ]
     },
     {
-      "slug": "smoosh-swf",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "smoosh-swf",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "smoosh-swf",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/mm/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "smoosh-swf",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "smoosh-swf",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "smoosh-swf",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/photoshop/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "smoosh-swf",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/tiff/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "smoosh-swf",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/exif/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "sonic-boom-link-n-smash",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "sonic-boom-link-n-smash",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "sonic-boom-link-n-smash",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "sonic-boom-link-n-smash",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/mm/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "sonic-boom-link-n-smash",
-      "severity": "warning",
-      "path": "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "sonic-boom-link-n-smash",
-      "severity": "warning",
-      "path": "http://adobe.com/AS3/2006/builtin",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "sonic-boom-link-n-smash",
-      "severity": "warning",
-      "path": "http://www.tweenlite.com.",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "sonic-boom-link-n-smash",
-      "severity": "warning",
-      "path": "http://www.TweenMax.com.",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
+      "title": "Stick Figure Penalty Chamber 2 202401",
       "slug": "stick-figure-penalty-chamber-2-202401",
-      "severity": "warning",
-      "path": "http://www.fingersticks.net",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "externalDependencies": [
+        "http://www.fingersticks.net/",
+        "http://www.jensu.com/"
+      ]
     },
     {
-      "slug": "stick-figure-penalty-chamber-2-202401",
-      "severity": "warning",
-      "path": "http://www.jensu.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
+      "title": "Strike Force Heros 3 V 20",
       "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "http://adobe.com/AS3/2006/builtin",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "externalDependencies": [
+        "http://www.box2d.org/ns/b2internal)Box2D.Collision:Features/incidentEdge/get)Box2D.Collision:Features/incidentEdge/set+Box2D.Collision:Features/incidentVertex/get+Box2D.Collision:Features/incidentVertex/set!Box2D.Collision:Features/flip/get!Box2D.Collision:Features/flip/set!Box2D.Collision:Features/Features/Box2D.Collision:b2SeparationFunction/Initialize",
+        "https://ssl.google-analytics.com/__utm.gif",
+        "http://www.google-analytics.com/__utm.gif",
+        "http://armorgames.com/play/13367/strike-force-heroes8http://www.notdoppler.com/strikeforceheroes.php?ref=sfh2",
+        "http://knightsquestgame.com/",
+        "http://www.sky9games.com/",
+        "http://armor.ag/MoreGames1http://www.notdoppler.com/?ref=strikeforceheroes3",
+        "https://twitter.com/sky9games%https://www.youtube.com/user/JouceTin)https://www.facebook.com/knightsquestgame8https://www.facebook.com/pages/Sky9Games/501553356589353+https://www.youtube.com/watch?v=l68IslwRe34",
+        "http://goo.gl/odr2a0",
+        "http://goo.gl/VH8Kcm6D:/Flash/MBFZ",
+        "http://agi.armorgames.com/assets/agi/AGI2.swf",
+        "http://www.google-analytics.com/ga.js",
+        "http://www.kongregate.com/flash/API_AS3_Local.swf?debug_level=4",
+        "http://www.sounddogs.com/"
+      ]
     },
     {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "http://www.box2d.org/ns/b2internal)Box2D.Collision:Features/incidentEdge/get)Box2D.Collision:Features/incidentEdge/set+Box2D.Collision:Features/incidentVertex/get+Box2D.Collision:Features/incidentVertex/set!Box2D.Collision:Features/flip/get!Box2D.Collision:Features/flip/set!Box2D.Collision:Features/Features/Box2D.Collision:b2SeparationFunction/Initialize",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "https://ssl.google-analytics.com/__utm.gif",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "http://www.google-analytics.com/__utm.gif",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "http://armorgames.com/play/13367/strike-force-heroes8http://www.notdoppler.com/strikeforceheroes.php?ref=sfh2",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "http://knightsquestgame.com/",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "http://www.sky9games.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "http://armor.ag/MoreGames1http://www.notdoppler.com/?ref=strikeforceheroes3",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "https://twitter.com/sky9games%https://www.youtube.com/user/JouceTin)https://www.facebook.com/knightsquestgame8https://www.facebook.com/pages/Sky9Games/501553356589353+https://www.youtube.com/watch?v=l68IslwRe34",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "http://goo.gl/odr2a0",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "http://goo.gl/VH8Kcm6D:\\Flash\\MBFZ",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "http://agi.armorgames.com/assets/agi/AGI2.swf",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "http://www.google-analytics.com/ga.js",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "http://www.kongregate.com/flash/API_AS3_Local.swf?debug_level=4",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "strike-force-heros-3-v-20",
-      "severity": "warning",
-      "path": "http://www.Sounddogs.com",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
+      "title": "Tawog Water Sons",
       "slug": "tawog-water-sons",
-      "severity": "warning",
-      "path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://purl.org/dc/elements/1.1",
+        "http://www.adobe.com/products/flex",
+        "http://www.box2d.org/ns/b2internal",
+        "http://www.tweenlite.com.;win/",
+        "http://www.adobe.com/2006/flex/mx/internal"
+      ]
     },
     {
-      "slug": "tawog-water-sons",
-      "severity": "warning",
-      "path": "http://purl.org/dc/elements/1.1",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "title": "Sonic Boom Link N Smash",
+      "slug": "sonic-boom-link-n-smash",
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://ns.adobe.com/xap/1.0/",
+        "http://purl.org/dc/elements/1.1/",
+        "http://ns.adobe.com/xap/1.0/mm/",
+        "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
+        "http://www.tweenlite.com/",
+        "http://www.tweenmax.com/"
+      ]
     },
     {
-      "slug": "tawog-water-sons",
-      "severity": "warning",
-      "path": "http://www.adobe.com/products/flex",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "title": "Adobeflash Marioforeverflash",
+      "slug": "adobeflash-marioforeverflash",
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://purl.org/dc/elements/1.1",
+        "http://www.adobe.com/products/flex",
+        "http://www.boutons.com/",
+        "http://www.adobe.com/2006/flex/mx/internal",
+        "http://www.softendo.com/",
+        "http://x.mochiads.com/srv/1/"
+      ]
     },
     {
-      "slug": "tawog-water-sons",
-      "severity": "warning",
-      "path": "http://adobe.com/AS3/2006/builtin",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "title": "Adobeflash Supermarioflash",
+      "slug": "adobeflash-supermarioflash",
+      "externalDependencies": [
+        "http://pouetpu.pbwiki.com/",
+        "http://www.phpbb88.com/smfforum/index.php?mforum=smfforum"
+      ]
     },
     {
-      "slug": "tawog-water-sons",
-      "severity": "warning",
-      "path": "http://www.box2d.org/ns/b2internal",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "tawog-water-sons",
-      "severity": "warning",
-      "path": "http://www.tweenlite.com.;Win",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
-    },
-    {
-      "slug": "tawog-water-sons",
-      "severity": "warning",
-      "path": "http://www.adobe.com/2006/flex/mx/internal",
-      "issue": "External URL referenced inside SWF/config; Ruffle may request provider/original host at runtime."
+      "title": "Infinite Mario",
+      "slug": "infinite-mario",
+      "externalDependencies": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "http://purl.org/dc/elements/1.1",
+        "http://www.adobe.com/products/flex",
+        "http://www.adobe.com/2006/flex/mx/internal"
+      ]
     }
   ]
 }

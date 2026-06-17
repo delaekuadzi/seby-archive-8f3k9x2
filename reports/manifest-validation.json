@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-14T02:57:43.698Z",
-  "ok": true,
-  "games": 75,
-  "copiedFiles": 1051,
-  "forbiddenFiles": [],
-  "records": []
+  "generatedAt": "2026-06-17T23:11:07.726Z",
+  "total": 87,
+  "duplicateSlugs": [],
+  "missingRequiredFields": [],
+  "orphanGameFolders": [],
+  "missingManifestFiles": []
 }
