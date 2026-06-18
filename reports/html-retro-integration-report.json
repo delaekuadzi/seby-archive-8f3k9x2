@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T02:04:27.988Z",
+  "generatedAt": "2026-06-18T02:16:37.372Z",
   "sourceRoot": "C:\\Users\\dela3\\Downloads\\retro",
   "archiveRoot": "C:\\Users\\dela3\\Desktop\\seby-archive-8f3k9x2",
   "sourceFiles": 3,
@@ -21,36 +21,36 @@
       "slug": "candy-crush-html5",
       "gameUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/candy-crush-html5/index.html",
       "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/candy-crush-html5/thumbnail.svg",
-      "compatibility": "working",
+      "compatibility": "unsupported",
       "originalSize": 4528176,
       "normalizedSize": 4528206,
       "bytesSaved": 0,
       "sha256": "f05931a5a8ebd056ea1507208bfe41db97161663036206d06626c7bc1fe80458",
-      "notes": "Single-file HTML game preserved with only safe metadata cleanup; embedded runtime code was not minified to avoid gameplay regressions."
+      "notes": "Archived but not public because jsDelivr serves HTML files as text/plain with nosniff; move to GitHub Pages, R2, or Vercel static hosting for playable iframe delivery."
     },
     {
       "title": "Retro Highway",
       "slug": "retro-highway",
       "gameUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/retro-highway/index.html",
       "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/retro-highway/thumbnail.svg",
-      "compatibility": "working",
+      "compatibility": "unsupported",
       "originalSize": 4962847,
       "normalizedSize": 4962922,
       "bytesSaved": 0,
       "sha256": "0e1edfed7141c8e7ea2cb2f4c34a5670dd534ad3f6eacfdc8f1656d29fd5e056",
-      "notes": "Single-file HTML game preserved with only safe metadata cleanup; embedded runtime code was not minified to avoid gameplay regressions."
+      "notes": "Archived but not public because jsDelivr serves HTML files as text/plain with nosniff; move to GitHub Pages, R2, or Vercel static hosting for playable iframe delivery."
     },
     {
       "title": "Subway Surfers San Francisco",
       "slug": "subway-surfers-san-francisco",
       "gameUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/subway-surfers-san-francisco/index.html",
       "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/subway-surfers-san-francisco/thumbnail.svg",
-      "compatibility": "partial",
+      "compatibility": "unsupported",
       "originalSize": 35307036,
       "normalizedSize": 35307126,
       "bytesSaved": 0,
       "sha256": "dd42b2f1a4d91c066aec6c103454c3265a4ddc329ef7fdb13878283c61c620f6",
-      "notes": "Large single-file HTML bundle. It is preserved unchanged to avoid breaking embedded asset loading."
+      "notes": "Large single-file HTML bundle. It is preserved unchanged to avoid breaking embedded asset loading. It is archived but not public because jsDelivr serves HTML files as text/plain with nosniff and rejects this bundle with 403."
     }
   ],
   "skipped": [],

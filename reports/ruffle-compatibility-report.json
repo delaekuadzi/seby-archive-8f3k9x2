@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-18T02:05:09.206Z",
+  "generatedAt": "2026-06-18T02:16:51.520Z",
   "total": 90,
   "counts": {
-    "partial": 56,
-    "working": 29,
-    "unsupported": 3,
+    "partial": 55,
+    "working": 27,
+    "unsupported": 6,
     "broken": 2
   },
   "games": [
@@ -333,21 +333,21 @@
     {
       "title": "Candy Crush HTML5",
       "slug": "candy-crush-html5",
-      "compatibility": "working",
+      "compatibility": "unsupported",
       "engine": "HTML5",
       "notes": "Manifest and CDN path are prepared for HTML5 iframe playback."
     },
     {
       "title": "Retro Highway",
       "slug": "retro-highway",
-      "compatibility": "working",
+      "compatibility": "unsupported",
       "engine": "HTML5",
       "notes": "Manifest and CDN path are prepared for HTML5 iframe playback."
     },
     {
       "title": "Subway Surfers San Francisco",
       "slug": "subway-surfers-san-francisco",
-      "compatibility": "partial",
+      "compatibility": "unsupported",
       "engine": "HTML5",
       "notes": "Manifest and CDN path are prepared for HTML5 iframe playback."
     },

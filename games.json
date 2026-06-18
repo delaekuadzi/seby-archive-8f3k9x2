@@ -3812,7 +3812,7 @@
     "gameUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/candy-crush-html5/index.html",
     "platform": "html5",
     "controls": "Mouse, Touch",
-    "compatibility": "working",
+    "compatibility": "unsupported",
     "engine": "HTML5",
     "tags": [
       "HTML5",
@@ -3871,7 +3871,7 @@
     "gameUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/retro-highway/index.html",
     "platform": "html5",
     "controls": "Keyboard, Touch",
-    "compatibility": "working",
+    "compatibility": "unsupported",
     "engine": "HTML5",
     "tags": [
       "HTML5",
@@ -3922,7 +3922,7 @@
     "gameUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/subway-surfers-san-francisco/index.html",
     "platform": "html5",
     "controls": "Keyboard, Touch",
-    "compatibility": "partial",
+    "compatibility": "unsupported",
     "engine": "HTML5",
     "tags": [
       "HTML5",
