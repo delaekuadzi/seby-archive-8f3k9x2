@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-17T23:11:07.726Z",
+  "generatedAt": "2026-06-18T02:05:09.206Z",
   "root": "games",
-  "fileCount": 1062,
-  "totalBytes": 422896075,
+  "fileCount": 1068,
+  "totalBytes": 467698668,
   "files": [
     {
       "key": "games/action/the-last-stand-2/game.swf",
@@ -3771,6 +3771,30 @@
     {
       "key": "games/cartoon-network/to-the-edstreme-cartoon-network-new-media/thumbnail.jpg",
       "bytes": 53836
+    },
+    {
+      "key": "games/html5/candy-crush-html5/index.html",
+      "bytes": 4528206
+    },
+    {
+      "key": "games/html5/candy-crush-html5/thumbnail.svg",
+      "bytes": 1442
+    },
+    {
+      "key": "games/html5/retro-highway/index.html",
+      "bytes": 4962922
+    },
+    {
+      "key": "games/html5/retro-highway/thumbnail.svg",
+      "bytes": 1437
+    },
+    {
+      "key": "games/html5/subway-surfers-san-francisco/index.html",
+      "bytes": 35307126
+    },
+    {
+      "key": "games/html5/subway-surfers-san-francisco/thumbnail.svg",
+      "bytes": 1460
     },
     {
       "key": "games/other/1100-alien-hominid/game.swf",

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-17T23:11:07.726Z",
-  "total": 87,
+  "generatedAt": "2026-06-18T02:05:09.206Z",
+  "total": 90,
   "counts": {
-    "partial": 55,
-    "working": 27,
+    "partial": 56,
+    "working": 29,
     "unsupported": 3,
     "broken": 2
   },
@@ -329,6 +329,27 @@
       "compatibility": "partial",
       "engine": "AS1/AS2",
       "notes": "Requires manual gameplay review for complete confidence."
+    },
+    {
+      "title": "Candy Crush HTML5",
+      "slug": "candy-crush-html5",
+      "compatibility": "working",
+      "engine": "HTML5",
+      "notes": "Manifest and CDN path are prepared for HTML5 iframe playback."
+    },
+    {
+      "title": "Retro Highway",
+      "slug": "retro-highway",
+      "compatibility": "working",
+      "engine": "HTML5",
+      "notes": "Manifest and CDN path are prepared for HTML5 iframe playback."
+    },
+    {
+      "title": "Subway Surfers San Francisco",
+      "slug": "subway-surfers-san-francisco",
+      "compatibility": "partial",
+      "engine": "HTML5",
+      "notes": "Manifest and CDN path are prepared for HTML5 iframe playback."
     },
     {
       "title": "1100 Alien Hominid",

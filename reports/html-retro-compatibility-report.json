@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-06-18T02:04:27.991Z",
+  "method": "HTML runtime marker inspection plus CDN/path validation. Full gameplay still requires browser playthrough because HTML5 games do not expose a universal headless pass/fail API.",
+  "gamesChecked": 3,
+  "rows": [
+    {
+      "title": "Candy Crush HTML5",
+      "slug": "candy-crush-html5",
+      "platform": "html5",
+      "engine": "HTML5",
+      "compatibility": "working",
+      "controls": "Mouse, Touch",
+      "notes": "HTML5 bundle imports successfully and is wired to the Seby Games iframe player."
+    },
+    {
+      "title": "Retro Highway",
+      "slug": "retro-highway",
+      "platform": "html5",
+      "engine": "HTML5",
+      "compatibility": "working",
+      "controls": "Keyboard, Touch",
+      "notes": "HTML5 bundle imports successfully and is wired to the Seby Games iframe player."
+    },
+    {
+      "title": "Subway Surfers San Francisco",
+      "slug": "subway-surfers-san-francisco",
+      "platform": "html5",
+      "engine": "HTML5",
+      "compatibility": "partial",
+      "controls": "Keyboard, Touch",
+      "notes": "Large single-file HTML bundle. It is preserved unchanged to avoid breaking embedded asset loading."
+    }
+  ]
+}

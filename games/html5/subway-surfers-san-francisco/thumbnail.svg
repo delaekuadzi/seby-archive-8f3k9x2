@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#090b18"/>
+      <stop offset="0.48" stop-color="#111827"/>
+      <stop offset="1" stop-color="#251034"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="25%" r="58%">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0.52"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <rect width="640" height="480" fill="url(#glow)"/>
+  <path d="M42 78h556l-22 22v302H64L42 380Z" fill="#050812" fill-opacity="0.58" stroke="#00a3ff" stroke-width="5"/>
+  <circle cx="510" cy="138" r="54" fill="#22c55e" fill-opacity="0.18" stroke="#22c55e" stroke-width="4"/>
+  <path d="M486 138l46-27v54Z" fill="#00a3ff"/>
+  <text x="70" y="128" fill="#00a3ff" font-family="Arial, sans-serif" font-size="24" font-weight="900" letter-spacing="4">SEBY GAMES RETRO</text>
+  <text x="70" y="232" fill="#ffffff" font-family="Arial, sans-serif" font-size="54" font-weight="900">Subway Surfers San Francisco</text>
+  <text x="70" y="292" fill="#d1d5db" font-family="Arial, sans-serif" font-size="26" font-weight="700">Endless Runner / HTML5</text>
+  <text x="70" y="352" fill="#22c55e" font-family="Arial, sans-serif" font-size="22" font-weight="900">PLAY IN BROWSER</text>
+</svg>
