@@ -371,28 +371,12 @@
       "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/ppg-zoorescue/thumbnail.jpg"
     },
     {
-      "title": "Candy Crush HTML5",
-      "slug": "candy-crush-html5",
-      "category": "html5",
-      "localPath": "games/html5/candy-crush-html5/index.html",
-      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/candy-crush-html5/index.html",
-      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/candy-crush-html5/thumbnail.svg"
-    },
-    {
       "title": "Retro Highway",
       "slug": "retro-highway",
       "category": "html5",
       "localPath": "games/html5/retro-highway/index.html",
       "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/retro-highway/index.html",
       "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/retro-highway/thumbnail.svg"
-    },
-    {
-      "title": "Subway Surfers San Francisco",
-      "slug": "subway-surfers-san-francisco",
-      "category": "html5",
-      "localPath": "games/html5/subway-surfers-san-francisco/index.html",
-      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/subway-surfers-san-francisco/index.html",
-      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/subway-surfers-san-francisco/thumbnail.svg"
     },
     {
       "title": "1100 Alien Hominid",

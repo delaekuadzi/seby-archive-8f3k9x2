@@ -4,15 +4,6 @@
   "gamesChecked": 3,
   "rows": [
     {
-      "title": "Candy Crush HTML5",
-      "slug": "candy-crush-html5",
-      "platform": "html5",
-      "engine": "HTML5",
-      "compatibility": "unsupported",
-      "controls": "Mouse, Touch",
-      "notes": "Archived but not public because jsDelivr serves HTML files as text/plain with nosniff; move to GitHub Pages, R2, or Vercel static hosting for playable iframe delivery."
-    },
-    {
       "title": "Retro Highway",
       "slug": "retro-highway",
       "platform": "html5",
@@ -20,15 +11,6 @@
       "compatibility": "unsupported",
       "controls": "Keyboard, Touch",
       "notes": "Archived but not public because jsDelivr serves HTML files as text/plain with nosniff; move to GitHub Pages, R2, or Vercel static hosting for playable iframe delivery."
-    },
-    {
-      "title": "Subway Surfers San Francisco",
-      "slug": "subway-surfers-san-francisco",
-      "platform": "html5",
-      "engine": "HTML5",
-      "compatibility": "unsupported",
-      "controls": "Keyboard, Touch",
-      "notes": "Large single-file HTML bundle. It is preserved unchanged to avoid breaking embedded asset loading. It is archived but not public because jsDelivr serves HTML files as text/plain with nosniff and rejects this bundle with 403."
     }
   ]
 }

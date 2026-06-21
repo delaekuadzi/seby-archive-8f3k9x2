@@ -3803,65 +3803,6 @@
     }
   },
   {
-    "title": "Candy Crush HTML5",
-    "slug": "candy-crush-html5",
-    "category": "html5",
-    "description": "Candy Crush HTML5 is a preserved browser puzzle game prepared for Seby Games Retro with instant iframe playback.",
-    "thumbnail": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/candy-crush-html5/thumbnail.svg",
-    "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/candy-crush-html5/index.html",
-    "gameUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/candy-crush-html5/index.html",
-    "platform": "html5",
-    "controls": "Mouse, Touch",
-    "compatibility": "unsupported",
-    "engine": "HTML5",
-    "tags": [
-      "HTML5",
-      "Puzzle",
-      "Match 3",
-      "Candy",
-      "Touch",
-      "Arcade",
-      "HTML5 Arcade Classics",
-      "retro",
-      "browser"
-    ],
-    "subCategory": "Match 3",
-    "franchise": "HTML5 Arcade Classics",
-    "sourceCollection": "html5",
-    "sourceProvider": "github-jsdelivr",
-    "sourcePath": "candycrush.html",
-    "gamePath": "games/html5/candy-crush-html5/index.html",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/candy-crush-html5/thumbnail.svg",
-    "assetDependencies": [],
-    "externalDependencies": [
-      "http://phaser.io",
-      "https://github.com/photonstorm/phaser-ce/issues/385",
-      "https://khanacademy.org/139890129-709153476852373754/files/assets/",
-      "https://khanacademy.org/139890129-709153476852373754/files/assets/sfx/",
-      "https://khanacademy.org/139890129-709153476852373754/files/assets/json/",
-      "http://stuartk.com/jszip",
-      "https://raw.github.com/Stuk/jszip/main/LICENSE.markdown",
-      "https://github.com/nodeca/pako/blob/main/LICENSE",
-      "https://stuk.github.io/jszip/documentation/howto/read_zip.html"
-    ],
-    "delivery": {
-      "preferred": "jsdelivr",
-      "reason": "Static HTML5 game bundle served from the Seby archive repository."
-    },
-    "seo": {
-      "slug": "candy-crush-html5",
-      "url": "https://sebygames.com/retro/candy-crush-html5",
-      "seoTitle": "Candy Crush HTML5 - Play HTML5 Retro Game | Seby Games",
-      "metaDescription": "Candy Crush HTML5 is a preserved browser puzzle game prepared for Seby Games Retro with instant iframe playback.",
-      "canonicalUrl": "https://www.sebygames.com/retro/candy-crush-html5",
-      "openGraphImage": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/candy-crush-html5/thumbnail.svg",
-      "genre": "html5",
-      "franchise": "HTML5 Arcade Classics",
-      "gameUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/candy-crush-html5/index.html",
-      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/candy-crush-html5/index.html"
-    }
-  },
-  {
     "title": "Retro Highway",
     "slug": "retro-highway",
     "category": "html5",
@@ -3910,58 +3851,6 @@
       "franchise": "HTML5 Arcade Classics",
       "gameUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/retro-highway/index.html",
       "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/retro-highway/index.html"
-    }
-  },
-  {
-    "title": "Subway Surfers San Francisco",
-    "slug": "subway-surfers-san-francisco",
-    "category": "html5",
-    "description": "Subway Surfers San Francisco is a preserved large-format HTML5 runner prepared for browser playback on Seby Games Retro.",
-    "thumbnail": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/subway-surfers-san-francisco/thumbnail.svg",
-    "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/subway-surfers-san-francisco/index.html",
-    "gameUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/subway-surfers-san-francisco/index.html",
-    "platform": "html5",
-    "controls": "Keyboard, Touch",
-    "compatibility": "unsupported",
-    "engine": "HTML5",
-    "tags": [
-      "HTML5",
-      "Runner",
-      "Arcade",
-      "Subway",
-      "Mobile",
-      "Touch",
-      "Endless Runner",
-      "HTML5 Arcade Classics",
-      "retro",
-      "browser"
-    ],
-    "subCategory": "Endless Runner",
-    "franchise": "HTML5 Arcade Classics",
-    "sourceCollection": "html5",
-    "sourceProvider": "github-jsdelivr",
-    "sourcePath": "subwaysurferssanfrancisco.html",
-    "gamePath": "games/html5/subway-surfers-san-francisco/index.html",
-    "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/subway-surfers-san-francisco/thumbnail.svg",
-    "assetDependencies": [],
-    "externalDependencies": [
-      "https://stuk.github.io/jszip/documentation/howto/read_zip.html"
-    ],
-    "delivery": {
-      "preferred": "jsdelivr",
-      "reason": "Static HTML5 game bundle served from the Seby archive repository."
-    },
-    "seo": {
-      "slug": "subway-surfers-san-francisco",
-      "url": "https://sebygames.com/retro/subway-surfers-san-francisco",
-      "seoTitle": "Subway Surfers San Francisco - Play HTML5 Retro Game | Seby Games",
-      "metaDescription": "Subway Surfers San Francisco is a preserved large-format HTML5 runner prepared for browser playback on Seby Games Retro.",
-      "canonicalUrl": "https://www.sebygames.com/retro/subway-surfers-san-francisco",
-      "openGraphImage": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/subway-surfers-san-francisco/thumbnail.svg",
-      "genre": "html5",
-      "franchise": "HTML5 Arcade Classics",
-      "gameUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/subway-surfers-san-francisco/index.html",
-      "swfUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/subway-surfers-san-francisco/index.html"
     }
   },
   {

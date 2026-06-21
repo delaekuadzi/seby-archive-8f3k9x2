@@ -176,30 +176,8 @@
       ]
     },
     {
-      "title": "Candy Crush HTML5",
-      "slug": "candy-crush-html5",
-      "externalDependencies": [
-        "http://phaser.io",
-        "https://github.com/photonstorm/phaser-ce/issues/385",
-        "https://khanacademy.org/139890129-709153476852373754/files/assets/",
-        "https://khanacademy.org/139890129-709153476852373754/files/assets/sfx/",
-        "https://khanacademy.org/139890129-709153476852373754/files/assets/json/",
-        "http://stuartk.com/jszip",
-        "https://raw.github.com/Stuk/jszip/main/LICENSE.markdown",
-        "https://github.com/nodeca/pako/blob/main/LICENSE",
-        "https://stuk.github.io/jszip/documentation/howto/read_zip.html"
-      ]
-    },
-    {
       "title": "Retro Highway",
       "slug": "retro-highway",
-      "externalDependencies": [
-        "https://stuk.github.io/jszip/documentation/howto/read_zip.html"
-      ]
-    },
-    {
-      "title": "Subway Surfers San Francisco",
-      "slug": "subway-surfers-san-francisco",
       "externalDependencies": [
         "https://stuk.github.io/jszip/documentation/howto/read_zip.html"
       ]

@@ -331,22 +331,8 @@
       "notes": "Requires manual gameplay review for complete confidence."
     },
     {
-      "title": "Candy Crush HTML5",
-      "slug": "candy-crush-html5",
-      "compatibility": "unsupported",
-      "engine": "HTML5",
-      "notes": "Manifest and CDN path are prepared for HTML5 iframe playback."
-    },
-    {
       "title": "Retro Highway",
       "slug": "retro-highway",
-      "compatibility": "unsupported",
-      "engine": "HTML5",
-      "notes": "Manifest and CDN path are prepared for HTML5 iframe playback."
-    },
-    {
-      "title": "Subway Surfers San Francisco",
-      "slug": "subway-surfers-san-francisco",
       "compatibility": "unsupported",
       "engine": "HTML5",
       "notes": "Manifest and CDN path are prepared for HTML5 iframe playback."
