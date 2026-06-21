@@ -135,13 +135,6 @@
       "notes": "Requires manual gameplay review for complete confidence."
     },
     {
-      "title": "Calling All Titans Cartoon Network New Media",
-      "slug": "calling-all-titans-cartoon-network-new-media",
-      "compatibility": "working",
-      "engine": "AS1/AS2",
-      "notes": "Manifest and CDN path are prepared for Ruffle playback."
-    },
-    {
       "title": "Cartoon Cove Cartoon Network New Media",
       "slug": "cartoon-cove-cartoon-network-new-media",
       "compatibility": "working",
@@ -161,13 +154,6 @@
       "compatibility": "working",
       "engine": "AS1/AS2",
       "notes": "Manifest and CDN path are prepared for Ruffle playback."
-    },
-    {
-      "title": "Fast And Flurrious Cartoon Network New Media",
-      "slug": "fast-and-flurrious-cartoon-network-new-media",
-      "compatibility": "partial",
-      "engine": "AS1/AS2",
-      "notes": "Requires manual gameplay review for complete confidence."
     },
     {
       "title": "Freaky Freezeday Cartoon Network New Media",
@@ -224,20 +210,6 @@
       "compatibility": "partial",
       "engine": "AS1/AS2",
       "notes": "Requires manual gameplay review for complete confidence."
-    },
-    {
-      "title": "Scooby Doo Instamatic Monsters 2 Flash",
-      "slug": "scooby-doo-instamatic-monsters-2-flash",
-      "compatibility": "partial",
-      "engine": "AS1/AS2",
-      "notes": "Requires manual gameplay review for complete confidence."
-    },
-    {
-      "title": "Scooby Snapshot Flash",
-      "slug": "scooby-snapshot-flash",
-      "compatibility": "working",
-      "engine": "AS1/AS2",
-      "notes": "Manifest and CDN path are prepared for Ruffle playback."
     },
     {
       "title": "Scooby-Doo Castle Hassle",
@@ -310,13 +282,6 @@
       "notes": "Requires manual gameplay review for complete confidence."
     },
     {
-      "title": "Ppg Zoorescue",
-      "slug": "ppg-zoorescue",
-      "compatibility": "partial",
-      "engine": "AS1/AS2",
-      "notes": "Requires manual gameplay review for complete confidence."
-    },
-    {
       "title": "1100 Alien Hominid",
       "slug": "1100-alien-hominid",
       "compatibility": "partial",
@@ -361,13 +326,6 @@
     {
       "title": "Ballet Parking",
       "slug": "ballet-parking",
-      "compatibility": "partial",
-      "engine": "AS1/AS2",
-      "notes": "Requires manual gameplay review for complete confidence."
-    },
-    {
-      "title": "Big Shot Checkers",
-      "slug": "big-shot-checkers",
       "compatibility": "partial",
       "engine": "AS1/AS2",
       "notes": "Requires manual gameplay review for complete confidence."
