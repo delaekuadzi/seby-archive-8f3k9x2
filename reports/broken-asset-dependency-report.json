@@ -3,26 +3,6 @@
   "missingGamePaths": [],
   "externalDependencies": [
     {
-      "title": "The Last Stand 2",
-      "slug": "the-last-stand-2",
-      "externalDependencies": [
-        "http://server.cpmstar.com/adviewas2.swf?poolid=",
-        "http://www.armorgames.com/",
-        "http://ns.adobe.com/xap/1.0/",
-        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "http://purl.org/dc/elements/1.1/",
-        "http://ns.adobe.com/photoshop/1.0/",
-        "http://ns.adobe.com/xap/1.0/mm/",
-        "http://ns.adobe.com/tiff/1.0/",
-        "http://ns.adobe.com/exif/1.0/",
-        "http://www.evil-lives.com/",
-        "http://armorgames.com/tag/zombie/",
-        "http://armorgames.com/play/269/the-last-stand",
-        "http://www.con-artists-productions.com/",
-        "http://www.iec.ch/"
-      ]
-    },
-    {
       "title": "The Last Stand Union City",
       "slug": "the-last-stand-union-city",
       "externalDependencies": [
@@ -38,7 +18,6 @@
         "http://conartistgames.com/",
         "http://armorgames.com/guide/the-last-stand-union-city-video-guides",
         "http://armorgames.com/play/269/the-last-stand",
-        "http://armorgames.com/play/1443/the-last-stand-2",
         "http://twitter.com/armorgames/",
         "http://facebook.com/armorgames/"
       ]
@@ -173,13 +152,6 @@
       "slug": "hard-hat-hustle",
       "externalDependencies": [
         "http://g1.api.playtomic.com/playerlevels/thumb.aspx?swfid="
-      ]
-    },
-    {
-      "title": "Retro Highway",
-      "slug": "retro-highway",
-      "externalDependencies": [
-        "https://stuk.github.io/jszip/documentation/howto/read_zip.html"
       ]
     },
     {
@@ -474,19 +446,6 @@
         "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
         "http://www.tweenlite.com/",
         "http://www.tweenmax.com/"
-      ]
-    },
-    {
-      "title": "Adobeflash Marioforeverflash",
-      "slug": "adobeflash-marioforeverflash",
-      "externalDependencies": [
-        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "http://purl.org/dc/elements/1.1",
-        "http://www.adobe.com/products/flex",
-        "http://www.boutons.com/",
-        "http://www.adobe.com/2006/flex/mx/internal",
-        "http://www.softendo.com/",
-        "http://x.mochiads.com/srv/1/"
       ]
     },
     {

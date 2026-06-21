@@ -3,14 +3,6 @@
   "total": 90,
   "entries": [
     {
-      "title": "The Last Stand 2",
-      "slug": "the-last-stand-2",
-      "category": "action",
-      "localPath": "games/action/the-last-stand-2/game.swf",
-      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand-2/game.swf",
-      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/action/the-last-stand-2/thumbnail.jpg"
-    },
-    {
       "title": "The Last Stand Union City",
       "slug": "the-last-stand-union-city",
       "category": "action",
@@ -219,14 +211,6 @@
       "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/ppgpuppybots/thumbnail.jpg"
     },
     {
-      "title": "Studio Shakedown Cartoon Network New Media",
-      "slug": "studio-shakedown-cartoon-network-new-media",
-      "category": "cartoon-network",
-      "localPath": "games/cartoon-network/studio-shakedown-cartoon-network-new-media/game.swf",
-      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/studio-shakedown-cartoon-network-new-media/game.swf",
-      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/studio-shakedown-cartoon-network-new-media/thumbnail.jpg"
-    },
-    {
       "title": "Tag Team Titans Cartoon Network New Media",
       "slug": "tag-team-titans-cartoon-network-new-media",
       "category": "cartoon-network",
@@ -369,14 +353,6 @@
       "localPath": "games/cartoon-network/ppg-zoorescue/game.swf",
       "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/cartoon-network/ppg-zoorescue/game.swf",
       "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/cartoon-network/ppg-zoorescue/thumbnail.jpg"
-    },
-    {
-      "title": "Retro Highway",
-      "slug": "retro-highway",
-      "category": "html5",
-      "localPath": "games/html5/retro-highway/index.html",
-      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/retro-highway/index.html",
-      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/retro-highway/thumbnail.svg"
     },
     {
       "title": "1100 Alien Hominid",
@@ -673,14 +649,6 @@
       "localPath": "games/other/sonic-boom-link-n-smash/game.swf",
       "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/sonic-boom-link-n-smash/game.swf",
       "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/sonic-boom-link-n-smash/thumbnail.jpg"
-    },
-    {
-      "title": "Adobeflash Marioforeverflash",
-      "slug": "adobeflash-marioforeverflash",
-      "category": "other",
-      "localPath": "games/other/adobeflash-marioforeverflash/game.swf",
-      "jsdelivrUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/other/adobeflash-marioforeverflash/game.swf",
-      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@966aa2a/games/other/adobeflash-marioforeverflash/thumbnail.jpg"
     },
     {
       "title": "Adobeflash Supermarioflash",

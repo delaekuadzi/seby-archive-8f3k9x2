@@ -15,20 +15,7 @@
   "normalizedHtmlBytes": 44798254,
   "htmlBytesSaved": 0,
   "finalManifestGames": 90,
-  "imported": [
-    {
-      "title": "Retro Highway",
-      "slug": "retro-highway",
-      "gameUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/retro-highway/index.html",
-      "thumbnailUrl": "https://cdn.jsdelivr.net/gh/delaekuadzi/seby-archive-8f3k9x2@main/games/html5/retro-highway/thumbnail.svg",
-      "compatibility": "unsupported",
-      "originalSize": 4962847,
-      "normalizedSize": 4962922,
-      "bytesSaved": 0,
-      "sha256": "0e1edfed7141c8e7ea2cb2f4c34a5670dd534ad3f6eacfdc8f1656d29fd5e056",
-      "notes": "Archived but not public because jsDelivr serves HTML files as text/plain with nosniff; move to GitHub Pages, R2, or Vercel static hosting for playable iframe delivery."
-    }
-  ],
+  "imported": [],
   "skipped": [],
   "excluded": []
 }

@@ -2,15 +2,5 @@
   "generatedAt": "2026-06-18T02:16:37.375Z",
   "method": "HTML runtime marker inspection plus CDN/path validation. Full gameplay still requires browser playthrough because HTML5 games do not expose a universal headless pass/fail API.",
   "gamesChecked": 3,
-  "rows": [
-    {
-      "title": "Retro Highway",
-      "slug": "retro-highway",
-      "platform": "html5",
-      "engine": "HTML5",
-      "compatibility": "unsupported",
-      "controls": "Keyboard, Touch",
-      "notes": "Archived but not public because jsDelivr serves HTML files as text/plain with nosniff; move to GitHub Pages, R2, or Vercel static hosting for playable iframe delivery."
-    }
-  ]
+  "rows": []
 }

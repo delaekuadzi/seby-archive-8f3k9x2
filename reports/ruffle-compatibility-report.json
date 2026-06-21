@@ -9,13 +9,6 @@
   },
   "games": [
     {
-      "title": "The Last Stand 2",
-      "slug": "the-last-stand-2",
-      "compatibility": "partial",
-      "engine": "AS1/AS2",
-      "notes": "Requires manual gameplay review for complete confidence."
-    },
-    {
       "title": "The Last Stand Union City",
       "slug": "the-last-stand-union-city",
       "compatibility": "partial",
@@ -198,13 +191,6 @@
       "notes": "Requires manual gameplay review for complete confidence."
     },
     {
-      "title": "Studio Shakedown Cartoon Network New Media",
-      "slug": "studio-shakedown-cartoon-network-new-media",
-      "compatibility": "partial",
-      "engine": "AS1/AS2",
-      "notes": "Requires manual gameplay review for complete confidence."
-    },
-    {
       "title": "Tag Team Titans Cartoon Network New Media",
       "slug": "tag-team-titans-cartoon-network-new-media",
       "compatibility": "working",
@@ -329,13 +315,6 @@
       "compatibility": "partial",
       "engine": "AS1/AS2",
       "notes": "Requires manual gameplay review for complete confidence."
-    },
-    {
-      "title": "Retro Highway",
-      "slug": "retro-highway",
-      "compatibility": "unsupported",
-      "engine": "HTML5",
-      "notes": "Manifest and CDN path are prepared for HTML5 iframe playback."
     },
     {
       "title": "1100 Alien Hominid",
@@ -592,13 +571,6 @@
     {
       "title": "Sonic Boom Link N Smash",
       "slug": "sonic-boom-link-n-smash",
-      "compatibility": "partial",
-      "engine": "AS3",
-      "notes": "Requires manual gameplay review for complete confidence."
-    },
-    {
-      "title": "Adobeflash Marioforeverflash",
-      "slug": "adobeflash-marioforeverflash",
       "compatibility": "partial",
       "engine": "AS3",
       "notes": "Requires manual gameplay review for complete confidence."
